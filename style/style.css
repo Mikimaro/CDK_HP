@@ -115,3 +115,35 @@ a{
 	margin-top: 20px;
 }
 
+#about{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.headline{
+	text-align: center;
+}
+
+#pageTitle{
+	padding-top: 50px;
+}
+
+/*== footer ==*/
+#footer{
+	width: 80%;
+	margin-left: 10%;
+	background-color: green;
+}
+
+#footer img{
+	width: 8%;
+	margin: 20px;
+}
+
+#footerImages{
+	float: left;
+}
+
+#footerLinks{
+	text-align: left;
+}

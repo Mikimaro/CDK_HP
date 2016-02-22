@@ -2,14 +2,24 @@
 	require_once 'header.php';
 ?>
 
-<div id="main">
-	<div id="about">
+<div id="pageTitle">
+
 	<br>
-		<img src="./image/dojoLogo.png" class="headerLogo">
+	<img src="./image/dojoLogo.png" class="headerLogo">
+	<h1 class="headline">CoderDojoとは</h1>
+
+</div>
+
+<div id="main">
+
+
+
+	<div id="about">
+
 
 		<div class="aboutCoderDojo">
 
-			<p class="title">CoderDojoとは？</p>
+			<p class="title">CoderDojoのはじまり</p>
 			<p class="text">
 				CoderDojoとは2011年にアイルランドから始まった小・中学生向けの無料プログラミングDojoです。<br>
 				現在では63カ国で875以上のDojoが開催されています。<br>
@@ -79,3 +89,7 @@
 
 	</div>
 </div>
+
+<?php
+	require_once 'footer.php';
+?>
