@@ -83,14 +83,10 @@ a{
 /*== main ==*/
 #main{
 	margin-top: 50px;
-<<<<<<< HEAD
 	width: 80%;
 	margin-left: 10%;
-=======
-	width: 90%;
 	background-color: #EEEEEE;
-	margin-left: 5%;
->>>>>>> e0b6c4f9f3ccea824ec68dfb8a6b201de8e9fb0b
+
 }
 
 .topImg{
@@ -114,7 +110,7 @@ a{
 /*== flexslider ==*/
 
 
-/*== headerDojoLogo ==*/
+/*== about ==*/
 
 .headerLogo{
 	top: 100px;
@@ -130,7 +126,7 @@ a{
 
 #about{
 	width: 90%;
-	margin-left: 5%;
+	margin: 5%;
 }
 
 .headline{
@@ -139,6 +135,12 @@ a{
 
 #pageTitle{
 	padding-top: 50px;
+}
+
+.imageFloatLeft{
+	float: left;
+	padding-right: 10px;
+
 }
 
 /*== footer ==*/
@@ -157,5 +159,12 @@ a{
 }
 
 #footerLinks{
+	margin-left: 500px;
 	text-align: left;
+}
+
+
+
+.fb-page{
+
 }
