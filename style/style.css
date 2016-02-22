@@ -88,4 +88,16 @@ a{
 	margin-left: 10%;
 }
 
+/*== sub ==*/
+#sub{
+	margin: 0 auto 0 auto;
+}
+
+#sub li{
+	margin: 0;
+}
+
+
 /*== flexslider ==*/
+
+
