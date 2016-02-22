@@ -83,8 +83,14 @@ a{
 /*== main ==*/
 #main{
 	margin-top: 50px;
+<<<<<<< HEAD
 	width: 80%;
 	margin-left: 10%;
+=======
+	width: 90%;
+	background-color: #EEEEEE;
+	margin-left: 5%;
+>>>>>>> e0b6c4f9f3ccea824ec68dfb8a6b201de8e9fb0b
 }
 
 .topImg{
@@ -108,3 +114,49 @@ a{
 /*== flexslider ==*/
 
 
+/*== headerDojoLogo ==*/
+
+.headerLogo{
+	top: 100px;
+	width: 10%;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.aboutCoderDojo{
+	margin-top: 20px;
+}
+
+#about{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.headline{
+	text-align: center;
+}
+
+#pageTitle{
+	padding-top: 50px;
+}
+
+/*== footer ==*/
+#footer{
+	width: 80%;
+	margin-left: 10%;
+	background-color: green;
+}
+
+#footer img{
+	width: 8%;
+	margin: 20px;
+}
+
+#footerImages{
+	float: left;
+}
+
+#footerLinks{
+	text-align: left;
+}
