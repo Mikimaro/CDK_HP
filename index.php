@@ -8,6 +8,10 @@
 
  -->
 
+ <!--
+ よねだよ！
+ -->
+
 <div id="main">
 	<div class="flexslider">
 		<ul class="slides">
