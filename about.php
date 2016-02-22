@@ -79,10 +79,14 @@
 		<div class="aboutCDK">
 
 			<p class="title">CoderDojo Kashiwa</p>
+			<img src="./image/firstDojo.jpg" width="50%" class="imageFloatLeft">
 			<p class="text">
 				CoderDojo Kashiwaは2013年5月5日に第１回を開催しました。<br>
-				<img src="./image/firstDojo.jpg" width="50%"><br>
-				参加者は４人でとてもこじんまりとした会でした。ですが会を重ねるにつれて子どもたちもメンターも増え、今では平均して15名以上が参加する大規模なDojoとなりました。
+				
+				参加者は４人でとてもこじんまりとした会でした。ですが会を重ねるにつれて子どもたちもメンターも増え、今では平均して15名以上が参加する大規模なDojoとなりました。<br><br>
+
+				また、CoderDojo Kashiwaの特徴は運営を学生が行っていることです。創設メンバーは小学生のときから友人である2名で、現在では高校3年生です。<br>
+				メンター（教える人）も多くは高校生ですが、プロのプログラマである大人も一緒に教えています。
 			</p>
 
 		</div>
