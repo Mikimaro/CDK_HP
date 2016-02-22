@@ -2,7 +2,11 @@
 	require_once './header.php';
 ?>
 
+<!--
 
+ こめんと
+
+ -->
 
 <div id="main">
 	<div class="flexslider">
