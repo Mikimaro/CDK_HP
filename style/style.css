@@ -84,19 +84,26 @@ a{
 #main{
 	margin-top: 50px;
 	width: 80%;
-	background-color: #EEEEEE;
 	margin-left: 10%;
+}
+
+.topImg{
+	width: 100%;
+	height: auto;
 }
 
 /*== sub ==*/
 #sub{
-	margin: 0 auto 0 auto;
+	width: 100%;
+	height: auto;
 }
 
-#sub li{
-	margin: 0;
+.subImg{
+	margin: 0px;
+	border-right: 2px solid #fff;
+	float: left;
+	list-style: none;
 }
-
 
 /*== flexslider ==*/
 
