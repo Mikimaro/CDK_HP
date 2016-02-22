@@ -1,17 +1,6 @@
 <?php
 	require_once './header.php';
 ?>
-
-<!--
-
-Slack導入テスト
-
- -->
-
- <!--
- よねだよ！
- -->
-
 <div id="main">
 	<div class="flexslider">
 		<ul class="slides">
