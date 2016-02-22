@@ -91,16 +91,10 @@ a{
 /*== main ==*/
 #main{
 	margin-top: 50px;
-<<<<<<< HEAD
+	width: 80%;
+	background-color: #EEEEEE;
+	margin-left: 10%;
 
-	width: 80%;
-	background-color: #EEEEEE;
-	margin-left: 10%;
-=======
-	width: 80%;
-	margin-left: 10%;
-	background-color: #EEEEEE;
->>>>>>> 59fa590dbc7b50cdac9a37ee8d95cd9002e39dd1
 
 }
 
