@@ -20,12 +20,12 @@
 <body>
 	<div id="menu">
 		<ul>
-			<a href="./index.php"><li></li></a>
-			<a href="./about.php"><li>CoderDojoとは</li></a>
-			<a href="./curriculum.php"><li>カリキュラム</li></a>
-			<a href="./join.php"><li>参加する</li></a>
-			<a href="./mentor.php"><li>メンター</li></a>			
-			<a href="./event.php"><li>イベント</li></a>
-			<a href="./blog.php"><li>ブログ</li></a>
+			<li><a href="./index.php"></a></li>
+			<li><a href="./about.php">CoderDojoとは</a></li>
+			<li><a href="./curriculum.php">参加する</a></li>
+			<li><a href="./join.php">メンター</a></li>
+			<li><a href="./mentor.php">イベント</a></li>	
+			<li><a href="./event.php">RTD</a></li>
+			<li><a href="./blog.php">活動報告</a></li>
 		</ul>
 	</div>
