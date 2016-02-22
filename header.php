@@ -31,7 +31,7 @@
 
 	<div id="menu">
 		<ul>
-			<li><a href="./index.php"></a></li>
+			<li ><a href="./index.php"><img src="./image/dojoLogo.png" class="homeLogo"></a></li>
 			<li><a href="./about.php">CoderDojoとは</a></li>
 			<li><a href="./curriculum.php">参加する</a></li>	
 			<li><a href="./event.php">RTD</a></li>

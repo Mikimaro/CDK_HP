@@ -15,8 +15,12 @@
 			<li class="subImg"><a href="#"><img src="./image/news.jpg"></a></li>
 			<!-- ポートフォリオ -->
 			<li class="subImg"><a href="#"><img src="./image/portfolio.jpg"></a></li>
+			<!-- SNS -->
+			<li class="subImg"><a href="#"><img src="./image/social.jpg"></a></li>
 		</ul>
 	</div>
 </div>
-</body>
-</html>
+
+<?php
+	require_once 'footer.php';
+?>
