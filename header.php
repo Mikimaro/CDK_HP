@@ -22,10 +22,10 @@
 		<ul>
 			<li><a href="./index.php"></a></li>
 			<li><a href="./about.php">CoderDojoとは</a></li>
-			<li><a href="./curriculum.php">参加する</a></li>
-			<li><a href="./join.php">メンター</a></li>
-			<li><a href="./mentor.php">イベント</a></li>	
+			<li><a href="./curriculum.php">参加する</a></li>	
 			<li><a href="./event.php">RTD</a></li>
+			<li><a href="./join.php">メンター</a></li>
+			<li><a href="./mentor.php">イベント</a></li>
 			<li><a href="./blog.php">活動報告</a></li>
 		</ul>
 	</div>
