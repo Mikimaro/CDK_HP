@@ -88,19 +88,15 @@ a{
 	text-align: center;
 }
 
-/*== main ==*/
-#main{
+/*== conteiner ==*/
+#conteiner{
 	margin-top: 50px;
 	width: 80%;
 	background-color: #EEEEEE;
 	margin-left: 10%;
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 86be1cb33919d1688ff6817e053570906edc17a1
 }
 
+/*== topImg ==*/
 .topImg{
 	width: 100%;
 	height: auto;

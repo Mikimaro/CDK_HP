@@ -1,12 +1,13 @@
 <?php
-	require_once './header.php';
+	require_once 'header.php';
 ?>
-<div>
-	<div id="main">	
-		<div id="top">
-			<img src="image/top01.png" class="topImg">
-		</div>
+
+<div id="conteiner">
+	<!-- top -->
+	<div id="top">
+		<img src="image/top01.png" class="topImg">
 	</div>
+	<!--sub-->
 	<div id="sub">
 		<ul>
 			<!-- Dojoの日程 -->
