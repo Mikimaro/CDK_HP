@@ -16,11 +16,12 @@ a{
 #menu{
 	top: 0;
 	left: 0;
+	margin: 0;
+	padding: 0;
 	position: fixed;
 	width: 100%;
 	background-color: #1E90FF;
 	opacity: 0.95;
-	min-width: 70%;
 	z-index: 100;
 }
 
@@ -48,21 +49,75 @@ a{
 	padding: 0;
 	margin: 0;
 	float: left;
-	list-style-type: none;
 	width: 12.5%;
 	height: 50px;
-	position: relative;
 	text-align: center;
 
 }
 
 .homeLogo{
-	width: 15%;
+	width: 35px;
 	height: auto;
-	margin-left: 50px;
+}
+
+@media only screen and (max-width: 480px){
+	#menu {
+		width: 25%;
+		border-bottom: 1px solid #1f57ff;
+	}
+
+	#menu li{
+		width: 100%;
+	}
+
+
+#toggle{
+	display: block;
+	position: relative;
+	width: 100%;
+	background-color: #1E90FF;
+}
+
+#toggle a{
+	display: block;
+	position: relative;
+	padding: 0 auto;
+	border-bottom: 1px solid #1f57ff;
+  	color: #fff;
+  	text-align: center;
+  text-decoration: none;
 }
 
 
+#toggle:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: #fff;
+  }
+
+  #toggle a:before, #toggle a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 4px;
+    background: #222;
+  }
+  #toggle a:before{
+    margin-top: -6px;
+  }
+  #toggle a:after{
+    margin-top: 2px;
+  }
+}
 
 /*== pタグ周り ==*/
 .title{
@@ -99,7 +154,7 @@ a{
 /*== index ==*/
 #contents{
 	width: 100%;
-	height: 1300px;
+	height: auto;
 }
 
 .topImg{
@@ -128,10 +183,14 @@ a{
 }
 
 #sub img{
-	width: 360px;
+	width: 275px;
 	height: auto;
 }
 /*== about ==*/
+#about{
+	width: 100%;
+	background-color: #EEEEEE;
+}
 
 .headerLogo{
 	top: 100px;
@@ -156,11 +215,6 @@ a{
 	margin-right: 1%;
 }
 
-#about{
-	width: 100%;
-	height: 2000px;
-	background-color: #EEEEEE;
-}
 
 .headline{
 	text-align: center;
