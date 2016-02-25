@@ -16,6 +16,7 @@
 
 	<div id="about">
 
+	<div class="individual">
 
 		<div class="aboutCoderDojo">
 
@@ -90,7 +91,7 @@
 			</p>
 
 		</div>
-
+	</div>
 	</div>
 </div>
 

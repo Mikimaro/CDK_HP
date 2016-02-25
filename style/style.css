@@ -90,46 +90,46 @@ a{
 
 /*== 共通容器 ==*/
 #conteiner{
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 50px;
 	width: 80%;
-	background-color: #EEEEEE;
-	margin-left: 10%;
 }
 
 /*== index ==*/
 #contents{
 	width: 100%;
-	height: 2000px;
-
+	height: 1300px;
 }
+
 .topImg{
 	width: 100%;
 	height: auto;
+	border-bottom: 10px solid #fff;
 }
 
 #sub{
-	height: 300px;
-	background-color: #5f4;
-	border-top: 5px solid #fff;
-	
-
+	margin: 0;
+	padding: 0;
 }
 
 #sub ul{
 	width: 100%;
+	text-align: center;
 	margin: 0;
 	padding: 0;
-	margin-left: -40px;
 }
 
 #sub li{
 	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
 	list-style-type: none;
-	float: left;
-	display: block;
+	display: inline;
 }
 
 #sub img{
+	width: 360px;
+	height: auto;
 }
 /*== about ==*/
 
@@ -141,14 +141,24 @@ a{
 	margin: 0 auto;
 }
 
+.individual{
+	margin-left: 3%;
+}
 .aboutCoderDojo{
-	margin-top: 20px;
+	margin-top: 5%;
+}
+
+.aboutCoderDojoJapan{
+
+}
+
+.aboutCDK{
+	margin-right: 1%;
 }
 
 #about{
-	width: 90%;
+	width: 100%;
 	height: 2000px;
-	margin: 5%;
 	background-color: #EEEEEE;
 }
 

@@ -19,7 +19,7 @@
 				<!-- ポートフォリオ -->
 				<li><a href="#"><img src="./image/portfolio.jpg"></a></li>
 				<!-- SNS -->
-				<li class="last"><a href="#"><img src="./image/social.jpg"></a></li>
+				<li><a href="#"><img src="./image/social.jpg"></a></li>
 			</ul>
 		</div>
 	</div>
