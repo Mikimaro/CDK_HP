@@ -14,23 +14,7 @@
 		});
 	</script>
 
-	<script type="text/javascript">
-		$(function(){
-  $("#toggle").click(function(){
-    $("#menu").slideToggle();
-    return false;
-  });
-  $(window).resize(function(){
-    var win = $(window).width();
-    var p = 480;
-    if(win > p){
-      $("#menu").show();
-    } else {
-      $("#menu").hide();
-    }
-  });
-});
-	</script>
+
 	<title>CoderDojo Kashiwa</title>
 
 </head>
@@ -48,7 +32,6 @@
 
 
 
-	<div id="toggle"><a href="#">MENU</a></div>
 	<div id="menu">
 		<ul>
 			<li><a href="./index.php"><img src="./image/dojoLogo.png" class="homeLogo"></a></li>
