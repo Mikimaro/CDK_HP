@@ -8,45 +8,94 @@
 
 
 	<div id="footerLinks">
+
 		<div class="linksLeft">
+
 			<div>
+
 				<ul>
+
 					<h1>CoderDojo</h1>
-					<li><a href="http://coderdojo-kashiwa.com">CoderDojo Kashiwa</a></li>
-					<li><a href="http://coderdojo-kashiwa.com/kashiwanoha">CoderDojo Kashiwa-no-ha</a></li>
-					<li><a href="http://onlinedojo.coderdojo-kashiwa.com">OnlineDojo(Kashiwa,Kashiwa-no-ha)</a></li>
-					<li><a href="http://www.coderdojo.jp/">CoderDojoJapan</a></li>
+
+					<?php
+
+						$CoderDojoName = array("CoderDojo Kashiwa-no-ha公式サイト","OnlineDojo (Kashwia, Kashiwa-no-ha) 公式サイト","CoderDojo Japan公式サイト");
+
+						$CoderDojoURL = array("http://coderdojo-kashiwa.com","http://coderdojo-kashiwa.com/kashiwanoha","http://onlinedojo.coderdojo-kashiwa.com","http://www.coderdojo.jp/");
+
+						for ($i= 0; $i < count($CoderDojoName); $i++) { 
+							print("<li><a href='{$CoderDojoURL[$i]}'>{$CoderDojoName[$i]}</a></li>");
+						}
+					?>
 
 				</ul>
 			</div>
+
 			<div>
+
 				<ul>
+
 					<h1>RTD</h1>
-					<li><a href="#">RTDの実績</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">FaceBook</a></li>
+
+					<?php
+
+						$RTDName = array("RTDの実績","公式Twitter","公式FaceBookページ");
+
+						$RTDURL = array("#","#","#");
+
+						for ($i= 0; $i < count($RTDName); $i++) { 
+							print("<li><a href='{$RTDURL[$i]}'>{$RTDName[$i]}</a></li>");
+						}
+					?>
 				</ul>
 			</div>
+
 			<div>
+
 				<ul>
+
 					<h1>メンター</h1>
-					<li><a href="#">メンターになる</a></li>
-					<li><a href="#">メンター紹介</a></li>
+
+					<?php
+
+						$Text = array("メンターとは","メンターになる","メンター紹介");
+
+						$URL = array("#","#","#");
+
+						for ($i= 0; $i < count($Text); $i++) { 
+							print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
+						}
+					?>
+
 				</ul>
 			</div>
 		</div>
+
 		<div class="linksRight">
+
 			<div>
+
 				<ul>
+
 					<h1>イベント</h1>
-					<li><a href="#">最新情報</a></li>
-					<li><a href="#">Special Presentation Day 2015</a></li>
-					<li><a href="#">JuneConference</a></li>
+					
+					<?php
+
+						$Text = array("最新情報");
+
+						$URL = array("#");
+
+						for ($i= 0; $i < count($Text); $i++) { 
+							print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
+						}
+					?>
+
 				</ul>
+
 			</div>
-		</div>
 		</div>
 	</div>
+</div>
 
 </div>
 </body>

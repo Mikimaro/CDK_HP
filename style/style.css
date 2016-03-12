@@ -125,7 +125,7 @@ a{
 }
 
 #sub img{
-	width: 275px;
+	width: 270px;
 	height: auto;
 }
 /*== about ==*/
@@ -170,12 +170,46 @@ a{
 	float: left;
 	padding-right: 10px;
 }
+/*== rtd ==*/
+
+#rtd{
+	width: 100%;
+	background-color: #EEEEEE;
+}
+
+.headerLogo{
+	top: 100px;
+	width: 10%;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.individual{
+	margin-left: 3%;
+}
+.aboutRTD{
+	margin-top: 5%;
+}
+
+.headline{
+	text-align: center;
+}
+
+#pageTitle{
+	padding-top: 50px;
+}
+
+.imageFloatLeft{
+	float: left;
+	padding-right: 10px;
+}
 
 /*== footer ==*/
 #footer{
 	margin: 0;
 	padding: 0;
-	width: 80%;
+	width: 100%;
 	min-width: 990px;
 	margin-left: auto;
 	margin-right: auto;
@@ -207,8 +241,9 @@ a{
 	margin-bottom: 0.5%;
 }
 
-#footerLinks a{
-	font-size: 15px;
+#footerLinks li{
+	margin: 0.5% 0; 
+	margin-left: 10px;
 }
 
 .linksLeft{
@@ -222,7 +257,7 @@ a{
 .fb-page{
 	margin: 0;
 	padding: 0;
-	margin-left: 14%;
+	margin-left: 10%;
 	float: left;
 	width: 300px;
 
