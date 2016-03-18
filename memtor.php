@@ -11,8 +11,6 @@
 ?>
 
 <div id="conteiner">
-	
-	<h1 class="text">メンター</h1>
 
 	<p class="text">
 		CoderDojo Kashiwa & Kashiwa-no-haのメンターを紹介します。
