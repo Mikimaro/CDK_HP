@@ -2,21 +2,21 @@
 	require_once 'header.php';
 ?>
 
-<div id="pageTitle">
-
-	<br>
-	<img src="image/rtdLogo.png" class="headerLogo" alt="ロゴ">
-	<h1 class="headline">RTDとは</h1>
-
-</div>
-
 <div id="conteiner">
+
+	<div id="pageTitle">
+
+		<br>
+		<img src="image/rtdLogo.png" class="headerLogo" alt="ロゴ">
+		<h1 class="headline">RTDとは</h1>
+
+	</div>
 
 		<div id="rtd">
 
 		<div class="individual">
 
-			<div class="aboutRTD">
+			<div class="aboutRTD title-of-top">
 
 				<p class="title">RTD</p>
 

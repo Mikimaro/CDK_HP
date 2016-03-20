@@ -2,23 +2,23 @@
 	require_once 'header.php';
 ?>
 
-<div id="pageTitle">
-
-	<br>
-	<img src="./image/dojoLogo.png" class="headerLogo">
-	<h1 class="headline">CoderDojoとは</h1>
-
-</div>
 
 <div id="conteiner">
 
 
+	<div id="pageTitle">
+
+		<br>
+		<img src="./image/dojoLogo.png" class="headerLogo">
+		<h1 class="headline">CoderDojoとは</h1>
+
+	</div>
 
 	<div id="about">
 
 		<div class="individual">
 
-			<div class="aboutCoderDojo">
+			<div class="aboutCoderDojo title-of-top">
 
 				<p class="title">CoderDojoのはじまり</p>
 				<p class="text">
