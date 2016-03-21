@@ -103,7 +103,7 @@ visibility: hidden;
 }
 
 /*== 共通容器 ==*/
-#conteiner{
+#container{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
@@ -178,6 +178,7 @@ visibility: hidden;
 /*== about ==*/
 #about{
 	width: 100%;
+	border-radius: 20px;
 	background-color: #EEEEEE;
 }
 
@@ -198,6 +199,7 @@ visibility: hidden;
 
 #rtd{
 	width: 100%;
+	border-radius: 20px;
 	background-color: #EEEEEE;
 }
 
@@ -212,8 +214,7 @@ visibility: hidden;
 
 .mentor-list{
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 5%;
 }
 
 .mentorListUL{
@@ -221,12 +222,12 @@ visibility: hidden;
 }
 
 .mentorList-L{
-	width: 550px;
+	width: 500px;
 	float: left;
 }
 
 .mentorList-R{
-	width: 550px;
+	width: 500px;
 	float: left;
 }
 
@@ -234,16 +235,15 @@ visibility: hidden;
 	background-color: rgba(230,230,230,0.6);
 	border-radius: 20px;
 	margin: 10% 0;
-	height: 160px;
+	height: 150px;
 }
 
 .mentorImg{
 	border-radius: 50%;
-	width: 160px;
+	width: 150px;
 }
 
 .montorProfile{
-
 	width: 300px;
 	float: right;
 }
@@ -255,7 +255,6 @@ visibility: hidden;
 
 .skil{
 	font-size: 15px;
-	background-color: yellow;
 }
 
 .belonging{
@@ -298,10 +297,11 @@ visibility: hidden;
 }
 /*== footer ==*/
 #footer{
+	left: 0;
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	min-width: 1000px
+	min-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
@@ -358,8 +358,7 @@ visibility: hidden;
 }
 
 #mere{
-	margin: 1% 0;
-	margin-left: 2%;
+	height: 100px;
 }
 
 #copyright{
@@ -369,7 +368,7 @@ visibility: hidden;
 }
 
 #aux{
-	padding: 1.2% 0;
+	padding: 25px 0;
 	font-size: 10px;
 	width: 300px;
 	float: left;

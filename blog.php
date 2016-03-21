@@ -2,7 +2,7 @@
 	require_once 'header.php';
 ?>
 
-<div id="conteiner">
+<div id="container">
 	
 	<h1 class="text">活動報告</h1>
 

@@ -2,7 +2,7 @@
 	require_once 'header.php';
 ?>
 
-<div id="conteiner">
+<div id="container">
 	<!-- contents -->
 	<div id="contents">
 		<!-- top -->

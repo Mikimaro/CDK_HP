@@ -3,7 +3,7 @@
 ?>
 
 
-<div id="conteiner">
+<div id="container">
 
 
 	<div id="pageTitle">
