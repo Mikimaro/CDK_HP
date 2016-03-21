@@ -2,18 +2,20 @@
 	$mentorData = array(
 		0 => array(
 			"name" => "宮島衣瑛",
+			"en" => "Miyajima Kirie",
 			"skil" => array(
-				"Scratch", "Swift", "HTML, CSS", "PHP"
+				"Scratch", "Swift", "Web", "PHP"
 			),
 			"dojo" =>array(
-				"Kashiwa", "Kashiwa-no-ha"
+				"Kashiwa / Kashiwa-no-ha"
 			)
 		),
 
 		1 => array(
 			"name" => "加藤遼",
+			"en" => "Katou Haruka",
 			"skil" => array(
-				"Scratch", "HTML, CSS"
+				"Scratch", "Web"
 			),
 			"dojo" => array(
 				"Kashiwa"
@@ -22,26 +24,29 @@
 
 		2 => array(
 			"name" => "鈴木貴也",
+			"en" => "Suzuki Takaya",
 			"skil" => array(
 				"Scratch"
 			),
 			"dojo" => array(
-				"Kashiwa", "Kashiwa-no-ha"
+				"Kashiwa / Kashiwa-no-ha"
 			)
 		),
 
 		3 => array(
 			"name" => "飯島巧",
+			"en" => "Iijima Takumi",
 			"skil" => array(
 				"Scratch"
 			),
 			"dojo" => array(
-				"Kashiwa", "Kashiwa-no-ha"
+				"Kashiwa / Kashiwa-no-ha"
 			)
 		),
 
 		4 => array(
 			"name" => "牧野翔",
+			"en" => "Makino Syou",
 			"skil" => array(
 				"Scratch"
 			),
@@ -52,6 +57,7 @@
 
 		5 => array(
 			"name" => "北原成貴",
+			"en" => "Kitahara Masaki",
 			"skil" => array(
 				"映像"
 			),
@@ -62,18 +68,20 @@
 
 		6 => array(
 			"name" => "米倉幹麿",
+			"en" => "Yonekura Mikimaro",
 			"skil" => array(
-				"映像", "Scratch", "HTML, CSS"
+				"映像", "Scratch", "Web"
 			),
 			"dojo" => array(
-				"Kashiwa", "Kashiwa-no-ha"
+				"Kashiwa / Kashiwa-no-ha"
 			)
 		),
 
 		7 => array(
-			"name" => "相良亮",
+			"name" => "成澤巧徒",
+			"en" => "Narisawa Takuto",
 			"skil" => array(
-				"Scratch"
+				"Scratch", "電子工作", "Java"
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
@@ -81,7 +89,8 @@
 		),
 
 		8 => array(
-			"name" => "竹内遥斗",
+			"name" => "相良亮",
+			"en" => "Sagara Ryou",
 			"skil" => array(
 				"Scratch"
 			),
@@ -91,27 +100,8 @@
 		),
 
 		9 => array(
-			"name" => "村脇光洋",
-			"skil" => array(
-				"Scratch", "Swift", "JavaScript"
-			),
-			"dojo" => array(
-				"Kashiwa-no-ha"
-			)
-		),
-
-		10 => array(
-			"name" => "福田敏史",
-			"skil" => array(
-				"Scratch", "Java"
-			),
-			"dojo" => array(
-				"Kashiwa-no-ha"
-			)
-		),
-
-		11 => array(
-			"name" => "梅田真妃留",
+			"name" => "竹内遥斗",
+			"en" => "Takeuchi Haruto",
 			"skil" => array(
 				"Scratch"
 			),
@@ -120,8 +110,31 @@
 			)
 		),
 
+		10 => array(
+			"name" => "村脇光洋",
+			"en" => "Murawaki Mitsuhiro",
+			"skil" => array(
+				"Scratch", "Swift", "JavaScript"
+			),
+			"dojo" => array(
+				"Kashiwa-no-ha"
+			)
+		),
+
+		11 => array(
+			"name" => "福田敏史",
+			"en" => "Hukuda Toshihumi",
+			"skil" => array(
+				"Scratch", "Java"
+			),
+			"dojo" => array(
+				"Kashiwa-no-ha"
+			)
+		),
+
 		12 => array(
-			"name" => "窪田碧唯",
+			"name" => "梅田真妃留",
+			"en" => "Umeda Mahiru",
 			"skil" => array(
 				"Scratch"
 			),
@@ -131,9 +144,10 @@
 		),
 
 		13 => array(
-			"name" => "成澤巧徒",
+			"name" => "窪田碧唯",
+			"en" => "Kubota Aoi",
 			"skil" => array(
-				"Scratch", "電子工作", "Java"
+				"Scratch"
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
@@ -150,7 +164,7 @@
 
 ?>
 
-<div id="conteiner">
+<div id="container">
 
 	<div id="mentor">
 
@@ -181,20 +195,20 @@
 								print("<img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'>");
 							}
 							
-							print("<div class='montorProfile'>");
+							print("<div class='mentorProfile'>");
 							print("<p class='name'>{$mentorData[$i]['name']}</p>");
+							print("<p class='en'>{$mentorData[$i]['en']}</p>");
 							for ($j=0; $j < count($mentorData[$i]['skil']); $j++) { 
-								print("<p class='skil'>{$mentorData[$i]['skil'][$j]}");
+								print("<p class='skil {$mentorData[$i]['skil'][$j]}'>{$mentorData[$i]['skil'][$j]}");
 							}
 							for ($j=0; $j < count($mentorData[$i]['dojo']); $j++) { 
 								print("<p class='belonging'>{$mentorData[$i]['dojo'][$j]}");
 							}
 							print("</div>");
 							print("</li>");	
-							
+
 						}
 					?>
-
 				</ul>
 			</div>
 
@@ -212,10 +226,11 @@
 								print("<img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'>");
 							}
 							
-							print("<div class='montorProfile'>");
+							print("<div class='mentorProfile'>");
 							print("<p class='name'>{$mentorData[$i]['name']}</p>");
+							print("<p class='en'>{$mentorData[$i]['en']}</p>");
 							for ($j=0; $j < count($mentorData[$i]['skil']); $j++) { 
-								print("<p class='skil'>{$mentorData[$i]['skil'][$j]}");
+								print("<p class='skil {$mentorData[$i]['skil'][$j]}'>{$mentorData[$i]['skil'][$j]}");
 							}
 							for ($j=0; $j < count($mentorData[$i]['dojo']); $j++) { 
 								print("<p class='belonging'>{$mentorData[$i]['dojo'][$j]}");
