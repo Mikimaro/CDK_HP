@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
 body{
-	font-family: 'HelveticaNeue-UltraLight';
+	font-family: 'Noto Sans Japanese';
+	font-weight: 200;
 	width: 100%
 	height: 100%;
 }
@@ -44,7 +47,7 @@ visibility: hidden;
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
-	font-family: 'HelveticaNeue-UltraLight';
+	font-family: 'Noto Sans Japanese';
 	font-weight: 100px;
 }
 
@@ -78,7 +81,7 @@ visibility: hidden;
 /*== pタグ周り ==*/
 .title{
 	font-size: 30px;
-	font-family: 'HelveticaNeue-UltraLight';
+	font-family: 'Noto Sans Japanese';
 	line-height: 1.5em;
 }
 
@@ -91,7 +94,7 @@ visibility: hidden;
 .text{
 	text-align: left;
 	font-size: 18px;
-	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック',sans-serif;
+	font-family: 'Noto Sans Japanese','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック',sans-serif;
 }
 
 #title{
@@ -202,11 +205,66 @@ visibility: hidden;
 	margin-top: 5%;
 }
 
+/*== mentor ==*/
+
+#mentor{
+}
+
+.mentor-list{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mentorListUL{
+	list-style: none;
+}
+
+.mentorList-L{
+	width: 550px;
+	float: left;
+}
+
+.mentorList-R{
+	width: 550px;
+	float: left;
+}
+
+.mentorListLI{
+	background-color: rgba(230,230,230,0.6);
+	border-radius: 20px;
+	margin: 10% 0;
+	height: 160px;
+}
+
+.mentorImg{
+	border-radius: 50%;
+	width: 160px;
+}
+
+.montorProfile{
+
+	width: 300px;
+	float: right;
+}
+
+.name{
+	font-size: 23px;
+	padding-bottom: 2%;
+}
+
+.skil{
+	font-size: 15px;
+	background-color: yellow;
+}
+
+.belonging{
+	font-size: 15px;
+}
 
 /*== event ==*/
 
 #event{
-	min-width: 
 }
 
 .past-events{
@@ -308,7 +366,6 @@ visibility: hidden;
 	font-size: 12px;
 	margin-right: 3%;
 	float: left;
-	background-color: #222;
 }
 
 #aux{
@@ -316,7 +373,6 @@ visibility: hidden;
 	font-size: 10px;
 	width: 300px;
 	float: left;
-	background-color: #444;
 }
 
 .aux-contents{
