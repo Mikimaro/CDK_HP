@@ -2,7 +2,7 @@
 	require_once 'header.php';
 ?>
 
-<div id="conteiner">
+<div id="container">
 	
 	<h1 class="text">参加する</h1>
 
