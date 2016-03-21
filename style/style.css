@@ -216,10 +216,7 @@ visibility: hidden;
 .event-list{
 }
 
-.eventImg{
-	width: 60%;
-	margin: 0 auto;
-	display: block;
+.party{
 }
 
 .mainArticle{
@@ -228,8 +225,18 @@ visibility: hidden;
 	float: left;
 }
 
+.eventImg{
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+}
+
 .eventText{
 	text-align: center;
+}
+
+.readMore{
+
 }
 /*== footer ==*/
 #footer{

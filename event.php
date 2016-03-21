@@ -25,10 +25,12 @@
 
 						$site = array('@KOILスタジオ','@NoblesseOblige','NoblesseOblige');
 
-						$comments = array('イノベーションラボ柏の葉KOILでのスペシャルイベント','コメント入力','コメント入力');
+						$comments = array('イノベーションラボ柏の葉KOILでの作品発表会','CoderDojo Kashiwaで初の技術的な発表会','CoderDojo Kashiwaで初の子供たちのための作品発表会');
+
+						$URL = array('#','#','#');
 
 						for ($i=0; $i < count($title); $i++) { 
-							print("<div>
+							print("<div class='party'>
 									<article class='mainArticle'>
 										<div>
 											<img src='{$img[$i]}' class='eventImg'>
@@ -37,6 +39,7 @@
 												<h3>{$day[$i]}</h3>
 												<h4>{$site[$i]}</h4>
 												<h5>{$comments[$i]}</h5>
+												<a href='{$URL[$i]}' class='readMore'>より詳しく</a>
 											</div>
 										</div>
 									</article>
@@ -48,6 +51,7 @@
 												<h3>{$day[$i]}</h3>
 												<h4>{$site[$i]}</h4>
 												<h5>{$comments[$i]}</h5>
+												<a href='{$URL[$i]}' class='readMore'>より詳しく</a>
 											</div>
 										</div>
 									</article>
