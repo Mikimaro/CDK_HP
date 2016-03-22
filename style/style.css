@@ -213,39 +213,39 @@ visibility: hidden;
 }
 
 .mentor-list{
-	width: 100%;
 	margin: 0 10%;
 }
 
 .mentorListUL{
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
 .mentorList-L{
-	width: 500px;
+	width: 50%;
 	float: left;
 }
 
 .mentorList-R{
-	width: 500px;
+	width: 50%;
 	float: left;
 }
 
 .mentorListLI{
+	margin: 10% 0;
+	margin-left: 3%;
 	background-color: rgba(230,230,230,0.6);
 	border-radius: 20px;
-	margin: 10% 0;
-	height: 150px;
 }
 
 .mentorImg{
 	border-radius: 50%;
-	width: 150px;
+	width: 35%;
 }
 
 .mentorProfile{
-	width: 300px;
-	height: 150px;
+	width: 60%;
 	float: right;
 }
 

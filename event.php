@@ -19,17 +19,17 @@
 				<div class="event-list clearfix"> 
 
 					<?php
-						$img = array('dummy','./image/eventLogos/spd2015.png','./image/eventLogos/jc2015.png','./image/eventLogos/spd2014.png');
+						$img = array('./image/eventLogos/spd2015.png','./image/eventLogos/jc2015.png','./image/eventLogos/spd2014.png');
 
-						$title = array('dummy event', 'Special Presentation Day 2015','June Conference 2015','Special Presentation Day 2014');
+						$title = array('Special Presentation Day 2015','June Conference 2015','Special Presentation Day 2014');
 
-						$day = array('dummy day', '2015.12.20','2015.06.07','2014.12.21');
+						$day = array('2015.12.20','2015.06.07','2014.12.21');
 
-						$site = array('dummy place', '@KOILスタジオ','@NoblesseOblige','NoblesseOblige');
+						$site = array('@KOILスタジオ','@NoblesseOblige','NoblesseOblige');
 
-						$comments = array('none comment','イノベーションラボ柏の葉KOILでの作品発表会','CoderDojo Kashiwaで初の技術的な発表会','CoderDojo Kashiwaで初の子供たちのための作品発表会');
+						$comments = array('イノベーションラボ柏の葉KOILでの作品発表会','CoderDojo Kashiwaで初の技術的な発表会','CoderDojo Kashiwaで初の子供たちのための作品発表会');
 
-						$URL = array('#','#','#','#');
+						$URL = array('#','#','#');
 
 						for ($i=0; $i < count($title); $i++) { 
 							print("<div class='party'>

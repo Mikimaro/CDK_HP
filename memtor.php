@@ -189,6 +189,7 @@
 							$imgNum = $i + 1;
 
 							print("<li class='mentorListLI'>");
+
 							if ($i == 1) {
 								print("<img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'>");
 							}else{
@@ -220,6 +221,7 @@
 							$imgNum = $i + 1;
 
 							print("<li class='mentorListLI'>");
+
 							if ($i == 1) {
 								print("<img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'>");
 							}else{
