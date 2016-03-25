@@ -1,7 +1,7 @@
 <?php
 	$mentorData = array(
 		0 => array(
-			"name" => "宮島衣瑛",
+			"name" => "宮島 衣瑛",
 			"en" => "Miyajima Kirie",
 			"skil" => array(
 				"Scratch", "Swift", "Web", "PHP"
@@ -12,7 +12,7 @@
 		),
 
 		1 => array(
-			"name" => "加藤遼",
+			"name" => "加藤 遼",
 			"en" => "Katou Haruka",
 			"skil" => array(
 				"Scratch", "Web"
@@ -23,7 +23,7 @@
 		),
 
 		2 => array(
-			"name" => "鈴木貴也",
+			"name" => "鈴木 貴也",
 			"en" => "Suzuki Takaya",
 			"skil" => array(
 				"Scratch"
@@ -34,7 +34,7 @@
 		),
 
 		3 => array(
-			"name" => "飯島巧",
+			"name" => "飯島 巧",
 			"en" => "Iijima Takumi",
 			"skil" => array(
 				"Scratch"
@@ -45,7 +45,7 @@
 		),
 
 		4 => array(
-			"name" => "牧野翔",
+			"name" => "牧野 翔",
 			"en" => "Makino Syou",
 			"skil" => array(
 				"Scratch"
@@ -56,10 +56,10 @@
 		),
 
 		5 => array(
-			"name" => "北原成貴",
+			"name" => "北原 成貴",
 			"en" => "Kitahara Masaki",
 			"skil" => array(
-				"映像"
+				"映像","Scratch"
 			),
 			"dojo" => array(
 				"Kashiwa"
@@ -67,7 +67,7 @@
 		),
 
 		6 => array(
-			"name" => "米倉幹麿",
+			"name" => "米倉 幹麿",
 			"en" => "Yonekura Mikimaro",
 			"skil" => array(
 				"映像", "Scratch", "Web"
@@ -78,7 +78,7 @@
 		),
 
 		7 => array(
-			"name" => "成澤巧徒",
+			"name" => "成澤 巧徒",
 			"en" => "Narisawa Takuto",
 			"skil" => array(
 				"Scratch", "電子工作", "Java"
@@ -89,7 +89,7 @@
 		),
 
 		8 => array(
-			"name" => "相良亮",
+			"name" => "相良 亮",
 			"en" => "Sagara Ryou",
 			"skil" => array(
 				"Scratch"
@@ -100,7 +100,7 @@
 		),
 
 		9 => array(
-			"name" => "竹内遥斗",
+			"name" => "竹内 遥斗",
 			"en" => "Takeuchi Haruto",
 			"skil" => array(
 				"Scratch"
@@ -111,7 +111,7 @@
 		),
 
 		10 => array(
-			"name" => "村脇光洋",
+			"name" => "村脇 光洋",
 			"en" => "Murawaki Mitsuhiro",
 			"skil" => array(
 				"Scratch", "Swift", "JavaScript"
@@ -122,7 +122,7 @@
 		),
 
 		11 => array(
-			"name" => "福田敏史",
+			"name" => "福田 敏史",
 			"en" => "Hukuda Toshihumi",
 			"skil" => array(
 				"Scratch", "Java"
@@ -133,7 +133,7 @@
 		),
 
 		12 => array(
-			"name" => "梅田真妃留",
+			"name" => "梅田 真妃留",
 			"en" => "Umeda Mahiru",
 			"skil" => array(
 				"Scratch"
@@ -144,7 +144,7 @@
 		),
 
 		13 => array(
-			"name" => "窪田碧唯",
+			"name" => "窪田 碧唯",
 			"en" => "Kubota Aoi",
 			"skil" => array(
 				"Scratch"
