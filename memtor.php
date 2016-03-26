@@ -84,7 +84,7 @@
 				"Scratch", "電子工作", "Java"
 			),
 			"dojo" => array(
-				"Kashiwa-no-ha"
+				"Kashiwa"
 			)
 		),
 

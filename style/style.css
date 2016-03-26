@@ -321,14 +321,44 @@ visibility: hidden;
 #event{
 }
 
-.past-events{
-
+.events{
+	margin: 5% 0;
 }
-
 .event-list{
 }
 
 .party{
+}
+
+.latestImg{
+	width: ;
+	height: ;
+	margin: 0 auto;
+	display: block;
+}
+
+.spd2015{
+	width: auto;
+	height: 300px;
+	margin: 0 auto;
+	display: block;
+}
+
+.jc2015{
+	width: auto;
+	height: 300px;
+	margin: 0 auto;
+	display: block;
+}
+
+.spd2014{
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+.latest-article{
+	width: 50%;
+	margin-bottom: 10%;
 }
 
 .mainArticle{
@@ -337,13 +367,9 @@ visibility: hidden;
 	float: left;
 }
 
-.eventImg{
-	width: 60%;
-	margin: 0 auto;
-	display: block;
-}
-
 .eventText{
+	margin: 0;
+	padding: 0;
 	text-align: center;
 }
 
