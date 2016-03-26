@@ -82,7 +82,7 @@
 
 							$Text = array("最新の情報","プレスリリース");
 
-							$URL = array("#","#");
+							$URL = array("#","news");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
