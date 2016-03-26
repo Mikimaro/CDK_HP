@@ -3,6 +3,7 @@
 body{
 	font-family: 'Noto Sans Japanese';
 	font-weight: 200;
+	min-width: 1395px;
 	width: 100%
 	height: 100%;
 }
@@ -217,6 +218,7 @@ visibility: hidden;
 /*== mentor ==*/
 
 #mentor{
+	width: 100%;
 
 }
 
@@ -330,13 +332,6 @@ visibility: hidden;
 .party{
 }
 
-.latestImg{
-	width: ;
-	height: ;
-	margin: 0 auto;
-	display: block;
-}
-
 .spd2015{
 	width: auto;
 	height: 300px;
@@ -352,8 +347,8 @@ visibility: hidden;
 }
 
 .spd2014{
-	width: 400px;
-	margin: 0 auto;
+	height: 150px;
+	margin: 85px auto;
 	display: block;
 }
 .latest-article{

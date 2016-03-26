@@ -20,7 +20,7 @@
 
 								$CoderDojoName = array("CoderDojo Kashiwa-no-ha公式サイト","OnlineDojo 公式サイト","CoderDojo Japan公式サイト");
 
-								$CoderDojoURL = array("http://coderdojo-kashiwa.com","http://coderdojo-kashiwa.com/kashiwanoha","http://onlinedojo.coderdojo-kashiwa.com","http://www.coderdojo.jp/");
+								$CoderDojoURL = array("http://coderdojo-kashiwa.com/kashiwanoha","http://onlinedojo.coderdojo-kashiwa.com","http://www.coderdojo.jp/");
 
 								for ($i= 0; $i < count($CoderDojoName); $i++) { 
 									print("<li><a href='{$CoderDojoURL[$i]}'>{$CoderDojoName[$i]}</a></li>");
@@ -73,6 +73,26 @@
 			<div class="linksRight">
 
 				<div>
+				
+					<ul>
+					
+						<h1>・ニュース</h1>
+
+						<?php
+
+							$Text = array("最新の情報","プレスリリース");
+
+							$URL = array("#","#");
+
+							for ($i= 0; $i < count($Text); $i++) { 
+								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
+							}
+
+						?>
+					</ul>
+				</div>
+
+				<div>
 
 					<ul>
 
@@ -80,7 +100,7 @@
 					
 						<?php
 
-							$Text = array("最新の情報");
+							$Text = array("最新の情報","過去のイベント");
 
 							$URL = array("#");
 
@@ -111,6 +131,7 @@
 						?>
 					</ul>
 				</div>
+
 			</div>
 
 			</nav>
