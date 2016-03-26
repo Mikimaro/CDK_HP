@@ -1,6 +1,3 @@
-
-
-
 <div id="footer">
 
 	<div id="footer-contents">
