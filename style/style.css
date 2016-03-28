@@ -223,7 +223,12 @@ visibility: hidden;
 
 }
 
-.mentor-list{
+.studentMentor-list{
+	margin: 5% 10%;
+	padding-left: 2%;
+}
+
+.adultMentor-list{
 	margin: 5% 10%;
 	padding-left: 2%;
 }
@@ -331,6 +336,7 @@ visibility: hidden;
 }
 
 .party{
+	margin: 5% 0;
 }
 
 .spd2015{
@@ -514,6 +520,53 @@ visibility: hidden;
 	display: inline-block;
 }
 
+/*== contact ==*/
+#contact{
+	text-align: center;
+
+}
+
+.contactContents{
+	margin: 5% 10%;
+}
+
+.snsContents{
+	margin: 5% 0;
+}
+
+.snsLogo{
+	margin: 0 3%;
+	width: 14%;
+}
+
+.snsImgAdj{
+	margin-bottom: 2%;
+	width: 10%;
+}
+
+.otherContents{
+	margin: 5% 0;
+}
+
+.generalImgAdj{
+	width: 12%;
+	border-radius: 50%;
+}
+
+.info{
+	margin: 1% 0;
+}
+
+.mail{
+	font-size: 17px;
+	color: #444;
+	border-bottom: 1px dotted #444;
+}
+
+.mailAttention{
+	font-size: 10px;
+	color: red;
+}
 /*== table ==*/
 
 table{
