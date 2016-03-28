@@ -332,6 +332,7 @@ visibility: hidden;
 .events{
 	margin: 5% 0;
 }
+
 .event-list{
 }
 
@@ -376,6 +377,7 @@ visibility: hidden;
 }
 
 .readMore{
+	text-decoration: none;
 
 }
 /*== footer ==*/

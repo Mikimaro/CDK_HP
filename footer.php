@@ -40,7 +40,7 @@
 
 								$RTDName = array("公式Twitter","公式FaceBookページ");
 
-								$RTDURL = array("#","#");
+								$RTDURL = array("http://twitter.com/c_d_kashiwa","http://facebook.com/CoderDojokashiwa");
 
 								for ($i= 0; $i < count($RTDName); $i++) { 
 									print("<li><a href='{$RTDURL[$i]}'>{$RTDName[$i]}</a></li>");
@@ -59,7 +59,7 @@
 
 							$Text = array("メンターについて","メンター紹介","メンター採用");
 
-							$URL = array("#","#","#");
+							$URL = array("#","mentor.php","#");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 							print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -102,8 +102,8 @@
 
 							$Text = array("最新の情報","過去のイベント");
 
-							$URL = array("#");
-
+							$URL = array("#","event.php#pastEvent");
+							
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
 							}

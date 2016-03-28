@@ -81,7 +81,7 @@
 		</div>
 
 		<div class="events">
-
+			<a name="pastEvent"></a>
 			<h3 class="headline">過去のイベントを紹介します。</h3>
 
 				<div class="event-list clearfix"> 
