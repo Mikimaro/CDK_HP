@@ -47,9 +47,7 @@
 
 	<div id="event">
 		
-		<div class="pageTitle">
-
-			<img src="#"  class="headerLogo" alt="">
+		<div class="pageTitle nonImg">
 
 			<h1 class="headline">Special Events</h1>
 

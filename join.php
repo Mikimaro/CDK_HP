@@ -4,7 +4,7 @@
 
 <div id="container">
 
-	<div class="pageTitle formfix">
+	<div class="pageTitle nonImg">
 
 		<h1 class="headline">参加申し込みフォーム</h1>
 

@@ -4,10 +4,8 @@
 
 <div id="container">
 
-	<div class="pageTitle">
+	<div class="pageTitle nonImg">
 
-		<br>
-		<img src="image/rtdLogo.png" class="headerLogo" alt="ロゴ">
 		<h1 class="headline">RTDとは</h1>
 
 	</div>
