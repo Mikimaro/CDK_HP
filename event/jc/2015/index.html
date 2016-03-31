@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>JuneConference</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<script src="script/jquery.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('a[href^=#]').click(function() {
+                var speed = 700;
+                var href= $(this).attr("href");
+               	var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top-50;
+                $('body,html').animate({scrollTop:position}, speed, 'swing');
+                	return false;
+                });
+            });
+	</script>
+</head>
+
+<body>
+	<div id="menu">
+		<ul>
+			<a href="#header"><li><img src="img/dojoLogo.png" width="40" height="40" class="menuImg"></li></a>
+			<a href="#contents"><li>内容</li></a>
+			<a href="#schedule"><li>タイムテーブル</li></a>
+			<a href="#guest"><li>ゲスト</li></a>
+			<a href="reflection.php"><li>振り返る</li></a>
+		</ul>
+	</div>
+
+	
+	<div id="header">
+		<img src="img/header.png" width="500" height="500">
+	</div>
+
+	<div id="main">
+
+	<p class="reflection"><a href="reflection.php">イベントを振り返る</a></p>
+
+		<div id="contents">
+			<p class="title">CoderDojo Kashiwaの1年間を振り返り、未来を考える会です</p>
+
+			<p class="text">
+				このカンファレンスはCoderDojo Kashiwaが始まって以来過去最大級のものになります。2014年5月に開催した1周年記念パーティーからはや1年が経過しました。
+				2014年、私たちはいろいろなことに挑戦してきました。それらの軌跡を振り返りつつ、次の1年間のビジョンなどをはなしあうカンファレンスになります。<br><br>
+				日時：2015年6月7日（日）13:00-16:00<br>
+				場所：<a href="http://www.nbob.jp">NoblesseOblige</a><br>
+				参加費：1000円（18歳以下無料）<br><br>
+				また、カンファレンス終了後には懇親会も予定しています。こちらもぜひご参加ください。
+			</p>
+		</div>
+
+		<br>
+
+		<div id="schedule">
+			<p class="title">タイムテーブル</p>
+			<p class="text">当日のタイムテーブルです。</p>
+			<table border="1">
+				<tr><td class="tdTime">12:45</td><td class="tdContents">受付開始</td></tr>
+				<tr><td class="tdTime">13:00</td><td class="tdContents">Session1 KeyNote<br>1年間の取り組みについて</td></tr>
+				<tr><td class="tdTime">13:20</td><td class="tdContents">Session2 <br>【2-1】ゲストを交えたトークセッション<br>【2-2】高校生メンター鈴木貴也のプレゼン<br>【2-3】高校生メンターたちのトークセッション</td></tr>
+				<tr><td class="tdTime">14:50</td><td class="tdContents">休憩・交流</td></tr>
+				<tr><td class="tdTime">15:20</td><td class="tdContents">Session3 「未来」について<br>・2015年のビジョン</td></tr>
+				<tr><td class="tdTime">16:00</td><td class="tdContents">閉会</td></tr>
+			</table>
+			<br>
+			<p class="text">
+				【Session１】 KeyNote<br>
+				2014年度の活動を報告します。<br>
+				<img src="img/katou.jpg" class="speaker">
+				<img src="img/miyajima.jpg" class="speaker">
+				<br><br>
+				
+
+				【Session2-1】<br>
+				ゲストを交えたトークセッションを行います。プログラミング業界や教育業界などで活躍されている方々は、CoderDojo Kashiwaとどのような関わりがあるのでしょう。<br>
+				登壇者：斉藤愛美 長井悠 CANVAS イトナブ 宮島衣瑛<br>
+				<img src="img/guest01.jpg" class="speaker">
+				<img src="img/guest02.jpg" class="speaker">
+				<img src="img/guest03.jpg" class="speaker">
+				<img src="img/guest04.jpg" class="speaker">
+				<img src="img/miyajima.jpg" class="speaker">
+				<br><br>
+
+				【Session2-2】<br>
+				高校生メンター兼DJの「すずこふ」こと鈴木貴也によるプレゼンです。Dojoに関わってほぼ１年。彼はどのような体験をしたのでしょう。<br>
+				登壇者：鈴木貴也<br>
+				<img src="img/suzukof.jpg" width="50" height="50" class="speaker">
+				<br><br>
+
+				【Session2-3】<br>
+				高校生メンター全員による座談会です。私たちはDojoを通じてどのようなものを得たのでしょうか。また、その経験はどのような場面で役に立っているのでしょう。普段言わないような本音を語るセッションです。<br>
+				登壇者：飯島巧 加藤遼 北原成貴 鈴木貴也 宮島衣瑛<br>
+				<img src="img/iijima.jpg" class="speaker">
+				<img src="img/katou.jpg" class="speaker">
+				<img src="img/kitahara.jpg" class="speaker">
+				<img src="img/suzukof.jpg" class="speaker">
+				<img src="img/miyajima.jpg" class="speaker">
+				<br><br>
+
+				【Session3】未来について<br>
+				2015年度は一体どのようなことに挑戦していくのでしょうか。新しい取り組みやプロジェクトのリリースなどを行います。<br>
+				<br><br>
+			</p>
+		</div>
+
+		<br>
+
+		<div id="guest">
+			<p class="title">ゲスト</p>
+			<p class="text">今回のカンファレンスでは、昨年度の挑戦に関わってくれた様々な人たちが参加します。皆プログラミングや教育についてのエキスパートたちです。当日はゲストを交えてトークセッションをします。<br>
+			ゲスト一覧
+			</p>
+			<table border="1" class="guestTable">
+				<tr><td class="guestPic"><br><img src="img/guest01.jpg" width="150px" height="150px"><br>斉藤愛美 様<br></td><td class="guestTeam"><a href="http://www.cloudot.co.jp/">クラウドット</a></td><td class="guestHistory">約一年前から長野県松本市を中心にスクラッチ定期イベント、iPhone・Webアプリ開発スクールや、夏合宿を開催するeducodeにて、スクラッチを担当。子供向けプログラミング教育について勉強しながら、月1〜2回スクラッチ定期イベントを運営。</td><td class="guestDojo">昨年8月長野でWSを開催</td></tr>
+				<tr><td class="center"><br><img src="img/guest02.jpg" width="150px" height="150px"><br>長井悠 様<br></td><td class="center"><a href="http://www.habataku.co.jp/">ハバタク</a></td><td>東京大学卒業。先攻は藝術学。IBMにてコンサルタントとして活動後、教育への問題意識を持ち、ハバタク株式会社を2010年に創業。国内外に5拠点を展開し、グローバル教育プログラムの開発・提供を行っている。</td><td>昨年7月からのOpenAquariumProjectなど協力</td></tr>
+				<tr><td class="center"><br><img src="img/guest03.jpg" width="150px" height="150px"><br>NPO法人CANVAS 様<br></td><td class="center"><a href="http://www.canvas.ws/">CANVAS</a></td><td>CANVASは2002年に設立されたこども向け創造・表現活動の普及を推進するNPO法人。<br>昨年はGoogleから支援をうけ、プログラミング学習普及プロジェクト「PEG」を主催。1年間で25000人の子どもたちにプログラミング学習の機会を提供。</td><td>ScratchDayをはじめPEGプロジェクトで協力</td></tr>
+				<tr><td class="center"><br><img src="img/guest04.jpg" width="150px" height="150px"><br>イトナブ石巻 様<br></td><td class="center"><a href="http://itnav.jp/">イトナブ石巻</a></td><td>準備中</td><td>昨年12月に開催されたイトナブ発表会で宮島が登壇</td></tr>
+			</table>
+		</div>
+
+		<br>
+
+		<p class="reflection"><a href="reflection.php">イベントを振り返る</a></p>
+
+
+		<div id="footer">
+			<hr>
+			<p>Copyright(C)2015 CoderDojo Kashiwa</p>
+		</div>
+
+	</div>
+</body>
+</html>

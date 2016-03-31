@@ -3,26 +3,95 @@
 ?>
 
 <div id="container">
-	<!-- contents -->
+
 	<div id="contents">
-		<!-- top -->
-		<div id="top">
-			<img src="image/top01.png" class="topImg">
+
+		<div class="flexslider">
+
+			<div class="slides slidefix">
+
+			<?php
+
+				$URL = array(
+
+
+						);
+
+				$headClass = array(
+						"head001",
+						"head002",
+						"head003",
+						"head004"
+					);
+
+				$commentClass = array(
+						"comment001",
+						"comment002",
+						"comment003",
+						"comment004"
+					);
+
+				$head = array(
+						"CoderDojo Kashiwa",
+						"参加しやすい環境",
+						"日本国内の最大勢力",
+						"スペシャルイベントのご案内"
+					);
+
+				$comment = array(
+						"小中学生向けのプログラミング教室",
+						"月2回、千葉県柏市のコワーキングスペース<br>
+						「Noblesse Oblige」にて開催",
+						"同じ市内に姉妹Dojoとして<br>
+						「CoderDojo Kashiwa-no-ha」をオープン",
+						"CoderDojo Kashiwaでは子供たちのための<br>発表の場を定期的に設けています"
+					);
+
+				for ($i=0; $i < 4; $i++) { 
+
+					$imgNum = $i + 1;
+					
+					print("<li class=''>
+
+							<a href='{$URL[$i]}'>
+
+							<img src='./image/slides/s{$imgNum}.jpg'>
+
+							<div class='inner'>
+
+								<h4 class='head {$headClass[$i]}'>{$head[$i]}</h4>
+
+								<h5 class='comment {$commentClass[$i]}'>{$comment[$i]}</h5>
+
+							</div>
+
+							</a>
+
+						</li>");
+				}
+			?>
+
+			</div>
+			
 		</div>
-		<!--sub-->
+		
 		<div id="sub">
 			<ul>
-				<!-- Dojoの日程 -->
-				<li><a href="#"><img src="./image/date.jpg"></a></li>
-				<!-- 最近のニュース -->
-				<li><a href="#"><img src="./image/news.jpg"></a></li>
-				<!-- ポートフォリオ -->
-				<li><a href="#"><img src="./image/portfolio.jpg"></a></li>
-				<!-- SNS -->
-				<li><a href="#"><img src="./image/social.jpg"></a></li>
+				
+				<li><a href="#"><img src="./image/sub/date.jpg"></a></li>
+
+				<li><a href="#"><img src="./image/sub/news.jpg"></a></li>
+				
+				<li><a href="#"><img src="./image/sub/portfolio.jpg"></a></li>
+				
+				<li><a href="#"><img src="./image/sub/social.jpg"></a></li>
+
 			</ul>
+
 		</div>
+
 	</div>
+
 </div>
 
 <?php

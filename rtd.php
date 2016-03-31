@@ -4,7 +4,7 @@
 
 <div id="container">
 
-	<div id="pageTitle">
+	<div class="pageTitle">
 
 		<br>
 		<img src="image/rtdLogo.png" class="headerLogo" alt="ロゴ">

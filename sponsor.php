@@ -38,7 +38,7 @@ $sponsorDataPerson = array(
 
 	<div id="container-plus">
 
-		<div id="pageTitle">
+		<div class="pageTitle">
 
 			<img src="#"  class="headerLogo" alt="">
 

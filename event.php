@@ -36,9 +36,9 @@
 								);
 
 							$URL = array(
-								'#',
-								'#',
-								'#'
+								'event/spd/2015',
+								'event/jc/2015',
+								'event/spd/2014'
 							);
 	require_once 'header.php';
 ?>
@@ -47,7 +47,7 @@
 
 	<div id="event">
 		
-		<div id="pageTitle">
+		<div class="pageTitle">
 
 			<img src="#"  class="headerLogo" alt="">
 
@@ -81,7 +81,7 @@
 		</div>
 
 		<div class="events">
-			<a name="pastEvent"></a>
+			<a id=x"pastEvent"></a>
 			<h3 class="headline">過去のイベントを紹介します。</h3>
 
 				<div class="event-list clearfix"> 

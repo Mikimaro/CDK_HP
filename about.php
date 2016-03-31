@@ -6,7 +6,7 @@
 <div id="container">
 
 
-	<div id="pageTitle">
+	<div class="pageTitle">
 
 		<br>
 		<img src="./image/dojoLogo.png" class="headerLogo">

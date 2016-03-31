@@ -14,6 +14,25 @@
 		});
 	</script>
 
+	<script language="javascript" type="text/javascript">
+
+ 	function Display(no){
+  
+     	if(no == "no1"){
+  
+        	 document.getElementById("studentMentor-list").style.display = "block";
+        	 document.getElementById("adultMentor-list").style.display = "none";
+  
+     	}else if(no == "no2"){
+  
+         	document.getElementById("studentMentor-list").style.display = "none";
+         	document.getElementById("adultMentor-list").style.display = "block";
+  
+     	}
+  
+	 }
+
+	 </script>
 
 	<title>CoderDojo Kashiwa</title>
 
@@ -38,7 +57,7 @@
 			<li><a href="./about.php">CoderDojoとは</a></li>
 			<li><a href="./join.php">参加する</a></li>	
 			<li><a href="./rtd.php">RTDとは</a></li>
-			<li><a href="./memtor.php">メンター</a></li>
+			<li><a href="./mentor.php">メンター</a></li>
 			<li><a href="./event.php">イベント</a></li>
 			<li><a href="./blog.php">活動報告</a></li>
 		</ul>

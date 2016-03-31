@@ -93,6 +93,7 @@ visibility: hidden;
 }
 
 .text{
+	padding-bottom: 1%;
 	text-align: left;
 	font-size: 18px;
 	font-family: 'Noto Sans Japanese','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック',sans-serif;
@@ -118,7 +119,7 @@ visibility: hidden;
 	width: 100%;
 }
 /*== 共通要素 ==*/
-#pageTitle{
+.pageTitle{
 	margin-top: 50px;
 }
 
@@ -153,12 +154,61 @@ visibility: hidden;
 	height: auto;
 }
 
-.topImg{
-	margin: 0;
-	padding: 0;
+#contents a{
+	color: black;
+}
+
+.inner{
+	top: 0;
+	left: 0;
 	width: 100%;
-	height: auto;
-	border-bottom: 10px solid #fff;
+	position: absolute;
+	background-color: rgba(10,10,10,0.2);
+}
+
+.head{
+	margin: 0;
+	font-size: 2em;
+}
+
+.comment{
+	margin: 0;
+	font-size: 1em
+}
+
+.head001{
+	margin: 1% 0;
+	margin-left: 15%;
+}
+
+.comment001{
+	margin-top: 1%;
+	margin-left: 15%;
+}
+
+.head002{
+
+}
+
+.comment002{
+
+}
+
+.head003{
+
+}
+
+.comment003{
+
+}
+
+.head004{
+	margin-top: 3%;
+	text-align: center;
+}
+
+.comment004{
+	text-align: center;
 }
 
 #sub{
@@ -220,17 +270,35 @@ visibility: hidden;
 
 #mentor{
 	width: 100%;
-
 }
 
-.studentMentor-list{
+.aboutMentor{
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 70%;
+	border-radius: 20px;
+	background-color: #EEEEEE;
+}
+
+#segment{
+	margin: 1% 0;
+	text-align: center;
+}
+
+.choose{
+	margin: 0 1%;
+	display: inline;
+}
+
+#studentMentor-list{
 	margin: 5% 10%;
 	padding-left: 2%;
 }
 
-.adultMentor-list{
+#adultMentor-list{
 	margin: 5% 10%;
 	padding-left: 2%;
+	display: none;
 }
 
 .mentorList-L{
@@ -377,7 +445,6 @@ visibility: hidden;
 }
 
 .readMore{
-	text-decoration: none;
 
 }
 /*== footer ==*/

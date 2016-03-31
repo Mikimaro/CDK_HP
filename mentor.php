@@ -292,50 +292,92 @@
 
 	<div id="mentor">
 
-		<div id="pageTitle">
+		<div class="pageTitle">
 
 			<img src="#"  class="headerLogo" alt="">
+
+			<h1 class="headline">メンターとは</h1>
+
+		</div>
+
+		<div class="aboutMentor">
+
+			<div class="individual">
+				
+				<p class="title">メンターとは</p>
+				<p class="text"> 
+
+					メンターとはCoderDojoでは子供たちにプログラミングを教える先生です。<br>
+					しかしメンターは教員免許を持っている訳でも、報酬をもらっている訳でもありません。<br>
+					（もうひと押しの言葉がほしい）
+					<br><br>
+					メンターになる方法は簡単です。<br>
+					詳しくは<a href="adopt.php">メンター採用</a>に書いてあります。
+
+
+				</p>
+
+			</div>
+
+		</div>
+
+
+		<div class="pageTitle">
 
 			<h1 class="headline">メンター紹介</h1>
 
 			<p class="headline">
+
 				CoderDojo Kashiwa & Kashiwa-no-haのメンターを紹介します。
+
 			</p>
 
 		</div>
 
-		<div class="studentMentor-list clearfix">
+		<div id="segment">
+			
+			<h5 class="choose"><a href="javascript:;" onclick="Display('no1')">学生メンター</a></h5>
 
-			<div class="mentorList-L">
-				<ul class="mentorListUL">
-					<?php
-						for ($i=0; $i < count($studentMentorData); $i+=2) { 
-							$imgNum = $i + 1;
+			<h5 class="choose"><a href="javascript:;" onclick="Display('no2')">一般メンター</a></h5>
 
-							print("<li class='mentorListLI'>");
+		</div>
 
-							if ($i == 1) {
-								print("<img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'>");
-							}else{
-								print("<img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'>");
-							}
+		<div>
+
+			<div id="studentMentor-list" class="clearfix">
+
+				<div class="mentorList-L">
+
+					<ul class="mentorListUL">
+
+						<?php
+							for ($i=0; $i < count($studentMentorData); $i+=2) { 
+								$imgNum = $i + 1;
+
+								print("<li class='mentorListLI'>");
+
+								if ($i == 1) {
+									print("<img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'>");
+								}else{
+									print("<img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'>");
+								}
 							
-							print("<div class='mentorProfile'>");
-							print("<p class='name'>{$studentMentorData[$i]['name']}</p>");
-							print("<p class='en'>{$studentMentorData[$i]['en']}</p>");
-							for ($j=0; $j < count($studentMentorData[$i]['skil']); $j++) { 
-								print("<p class='skil {$studentMentorData[$i]['skil'][$j]}'>{$studentMentorData[$i]['skil'][$j]}");
-							}
-							for ($j=0; $j < count($studentMentorData[$i]['dojo']); $j++) { 
-								print("<p class='belonging'>{$studentMentorData[$i]['dojo'][$j]}");
-							}
-							print("</div>");
-							print("</li>");	
+									print("<div class='mentorProfile'>");
+									print("<p class='name'>{$studentMentorData[$i]['name']}</p>");
+									print("<p class='en'>{$studentMentorData[$i]['en']}</p>");
+								for ($j=0; $j < count($studentMentorData[$i]['skil']); $j++) { 
+									print("<p class='skil {$studentMentorData[$i]['skil'][$j]}'>{$studentMentorData[$i]['skil'][$j]}");
+								}
+								for ($j=0; $j < count($studentMentorData[$i]['dojo']); $j++) { 
+									print("<p class='belonging'>{$studentMentorData[$i]['dojo'][$j]}");
+								}
+								print("</div>");
+								print("</li>");	
 
-						}
-					?>
-				</ul>
-			</div>
+							}
+						?>
+					</ul>
+				</div>
 
 
 			<div class="mentorList-R">
@@ -370,9 +412,9 @@
 				</ul>
 			</div>
 
-		</div>
+			</div>
 
-		<div class="adultMentor-list clearfix">
+			<div id="adultMentor-list" class="clearfix">
 
 			<div class="mentorList-L">
 				<ul class="mentorListUL">
@@ -430,8 +472,12 @@
 				</ul>
 			</div>
 
+			</div>
+
 		</div>
+
 	</div>
+
 </div>
 
 <?php

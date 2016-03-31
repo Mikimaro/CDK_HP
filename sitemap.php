@@ -6,7 +6,7 @@
 
 	<div id="sitemap">
 		
-		<div id="pageTitle">
+		<div class="pageTitle">
 
 			<img src="#"  class="headerLogo" alt="">
 
