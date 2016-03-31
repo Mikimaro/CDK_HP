@@ -60,7 +60,7 @@
 								<h4 class='head {$headClass[$i]}'>{$head[$i]}</h4>
 
 								<h5 class='comment {$commentClass[$i]}'>{$comment[$i]}</h5>
-					
+
 							</div>
 
 							</a>
@@ -78,11 +78,11 @@
 				
 				<li><a href="#"><img src="./image/sub/date.jpg"></a></li>
 
-				<li><a href="#"><img src="./image/sub/news.jpg"></a></li>
+				<li><a href="news"><img src="./image/sub/news.jpg"></a></li>
 				
 				<li><a href="#"><img src="./image/sub/portfolio.jpg"></a></li>
 				
-				<li><a href="#"><img src="./image/sub/social.jpg"></a></li>
+				<li><a href="sns.php"><img src="./image/sub/social.jpg"></a></li>
 
 			</ul>
 

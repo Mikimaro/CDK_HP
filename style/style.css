@@ -157,10 +157,11 @@ visibility: hidden;
 	font-size: 20px;
 }
 
-.submit{
+.space{
 	margin-bottom: 1%;
 	padding-bottom: 1%;
 }
+
 /*== index ==*/
 #contents{
 	width: 100%;
@@ -300,7 +301,7 @@ visibility: hidden;
 .aboutMentor{
 	margin: 0 auto;
 	margin-top: 5%;
-	width: 70%;
+	width: 75%;
 	border-radius: 20px;
 	background-color: #EEEEEE;
 }
@@ -417,6 +418,30 @@ visibility: hidden;
 	/*background-color: yellow;*/
 }
 
+
+/*== adopt ==*/
+#adopt{
+
+}
+
+.mentorRequirement{
+	width: 100%;
+	border-radius: 20px;
+	background-color: #EEEEEE;
+}
+
+.mentorContine{
+	background-color: white;
+	text-align: center;
+}
+
+/*== adoptForm ==*/
+#adoptForm{
+	margin: 0 auto;
+	width: 75%;
+	border-radius: 20px;
+	background-color: #EEEEEE;
+}
 /*== event ==*/
 
 #event{

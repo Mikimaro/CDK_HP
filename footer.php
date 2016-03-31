@@ -50,9 +50,9 @@
 
 							<?php
 
-								$RTDName = array("公式Twitter","公式FaceBookページ");
+								$RTDName = array("公式サイト","公式YouTube");
 
-								$RTDURL = array("http://twitter.com/c_d_kashiwa","http://facebook.com/CoderDojokashiwa");
+								$RTDURL = array("rtd","http://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA/videos");
 
 								for ($i= 0; $i < count($RTDName); $i++) { 
 									print("<li><a href='{$RTDURL[$i]}'>{$RTDName[$i]}</a></li>");
@@ -69,9 +69,9 @@
 
 						<?php
 
-							$Text = array("メンターについて","メンター紹介","メンター採用");
+							$Text = array("メンターについて","メンター募集");
 
-							$URL = array("mentor.php","mentor.php","adopt.php");
+							$URL = array("mentor.php","adopt.php");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 							print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");

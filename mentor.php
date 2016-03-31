@@ -294,11 +294,11 @@
 
 		<div class="pageTitle nonImg">
 
-			<h1 class="headline">メンターとは</h1>
+			<h1 class="headline">メンター</h1>
 
 		</div>
 
-		<div class="aboutMentor">
+		<div class="aboutMentor title-of-top">
 
 			<div class="individual">
 				
@@ -310,7 +310,7 @@
 					（もうひと押しの言葉がほしい）
 					<br><br>
 					メンターになる方法は簡単です。<br>
-					詳しくは<a href="adopt.php">メンター採用</a>に書いてあります。
+					詳しくは<a href="adopt.php">メンター募集</a>に書いてあります。
 
 
 				</p>
