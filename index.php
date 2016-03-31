@@ -12,11 +12,6 @@
 
 			<?php
 
-				$URL = array(
-
-
-						);
-
 				$headClass = array(
 						"head001",
 						"head002",
@@ -51,18 +46,21 @@
 
 					$imgNum = $i + 1;
 					
-					print("<li class=''>
+					print("<li>");
 
-							<a href='{$URL[$i]}'>
+					if ($i == 3) {
 
-							<img src='./image/slides/s{$imgNum}.jpg'>
+						print("<a href='event.php'>");
+					}
+					
+					print("<img src='./image/slides/s{$imgNum}.jpg'>
 
 							<div class='inner'>
 
 								<h4 class='head {$headClass[$i]}'>{$head[$i]}</h4>
 
 								<h5 class='comment {$commentClass[$i]}'>{$comment[$i]}</h5>
-
+					
 							</div>
 
 							</a>
