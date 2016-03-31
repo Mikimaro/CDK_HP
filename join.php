@@ -1,5 +1,31 @@
 <?php
-	require_once 'header.php';
+
+	$flag = $_POST['flag'];
+
+	if ($flag == 1) {
+
+		$name = htmlspecialchars($_POST['userName']);
+		$kana = htmlspecialchars($_POST['kana']);
+		$grade = htmlspecialchars($_POST['grade']);
+		$schoolName = htmlspecialchars($_POST['schoolName']);
+		$parentName = htmlspecialchars($_POST['parentName']);
+		$mail = htmlspecialchars($_POST['mail']);
+		$pcRent = htmlspecialchars($_POST['pcRent']);
+		$joined = htmlspecialchars($_POST['joined']);
+		$why = htmlspecialchars($_POST['why']);
+		$option = htmlspecialchars($_POST['option']);
+
+		$error = array();
+
+		if (empty($name)) {
+			
+		}
+		
+	}else{
+		require_once 'header.php';
+	}
+	
+
 ?>
 
 <div id="container">
@@ -53,8 +79,9 @@
 				<input type="radio" name="why" value="すでに参加している">すでに参加している<br>
 				<input type="radio" name="why" value="その他">その他
 			<p>備考（あらかじめ伝えておきたいこと）</p>
-				<textarea cols="50" rows="10"></textarea>
+				<textarea cols="50" rows="10" name="option"></textarea>
 
+				<input type="hidden" name="flag" value="1">
 				<input type="submit" value="申し込む">
 		</form>
 
