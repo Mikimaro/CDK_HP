@@ -48,7 +48,7 @@
 
 			<p class="formTitle">保護者氏名</p>
 				<input type="text" name="parentName" class="textBox">
-			<p class="formTitle">メールアドレス></p>
+			<p class="formTitle">メールアドレス</p>
 				<input type="text" name="mail" class="textBox">
 			<p class="formTitle">ノートパソコンの貸出を希望しますか？</p>
 				<input type="radio" name="pcRent" value="はい" checked="">はい
@@ -67,7 +67,7 @@
 				<textarea cols="50" rows="10"></textarea>
 
 				<div class="submit"><input type="submit" value="申し込む"></div>
-				
+
 			</div>
 		</form>
 
