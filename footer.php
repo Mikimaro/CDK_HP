@@ -4,13 +4,7 @@
 
 		<div id="footerLinks" class="clearfix">
 
-			<div class="fb-page" data-href="https://www.facebook.com/CoderDojokashiwa/" data-tabs="timeline" data-width="80%" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-				<div class="fb-xfbml-parse-ignore">
-					<blockquote cite="https://www.facebook.com/CoderDojokashiwa/">
-						<a href="https://www.facebook.com/CoderDojokashiwa/">CoderDojo Kashiwa</a>
-					</blockquote>
-				</div>
-			</div>
+			<div class="fb-page" data-href="https://www.facebook.com/CoderDojokashiwa/" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/CoderDojokashiwa/"><a href="https://www.facebook.com/CoderDojokashiwa/">Coder Dojo柏</a></blockquote></div></div>
 
 			<nav class="footerNav">
 
@@ -30,8 +24,8 @@
 									"CoderDojo Japan公式サイト");
 
 								$CoderDojoURL = array(
-									"http://coderdojo-kashiwa.com/kashiwanoha",
-									"http://onlinedojo.coderdojo-kashiwa.com",
+									"./kashiwanoha",
+									"http://www.coderdojo-kashiwa.com/onlinedojo/",
 									"http://www.coderdojo.jp/");
 
 								for ($i= 0; $i < count($CoderDojoName); $i++) { 
@@ -92,9 +86,9 @@
 
 						<?php
 
-							$Text = array("最新の情報","プレスリリース");
+							$Text = array("プレスリリース");
 
-							$URL = array("#","news");
+							$URL = array("news");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -114,7 +108,7 @@
 
 							$Text = array("最新の情報","過去のイベント");
 
-							$URL = array("#","event.php");
+							$URL = array("http://www.coderdojo-kashiwa.com/ScratchDay/","event.php");
 							
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");

@@ -16,7 +16,7 @@
 
 		</div>
 
-		<div id="contact">
+		<div id="sns">
 			
 			<div class="contactContents">
 

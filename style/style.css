@@ -110,6 +110,7 @@ visibility: hidden;
 	margin-right: auto;
 	margin-top: 50px;
 	width: 80%;
+	max-width: 1395px;
 }
 
 #container-plus{
@@ -215,7 +216,7 @@ visibility: hidden;
 
 .head004{
 	margin: 1% 0;
-	margin-top: 4%;
+	margin-top: 4.5%;
 }
 
 .comment004{
@@ -264,6 +265,11 @@ visibility: hidden;
 	float: left;
 	padding-right: 10px;
 }
+
+.aboutOnlinedojo{
+
+}
+
 /*== join ==*/
 #join{
 	width: 100%;
@@ -316,58 +322,49 @@ visibility: hidden;
 	display: inline;
 }
 
+#mentorList{
+	width: 100%;
+	margin: 0 auto;
+}
+
 #studentMentor-list{
-	margin: 5% 10%;
-	padding-left: 2%;
+
 }
 
 #adultMentor-list{
-	margin: 5% 10%;
-	padding-left: 2%;
 	display: none;
-}
-
-.mentorList-L{
-	width: 430px;
-	float: left;
-}
-
-.mentorList-R{
-	width: 430px;
-	float: left;
 }
 
 .mentorListUL{
 	margin: 0 5%;
 	padding: 0;
 	list-style: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 
 }
 
 .mentorListLI{
-	margin: 10px 0;
-	height: 151px;
+	margin: 10px;
+	width: 350px;
 	margin-bottom: 5%;
 	border-radius: 15px;
 	background-color: rgba(230,230,230,0.6);
+	text-align: center;
 
 }
 
 .mentorImg{
-	margin: 0;
+	margin: 1% 0;
 	padding: 0;
 	width: 150px;
 	border-radius: 50%;
-	float: left;
 
 }
 
 .mentorProfile{
-	margin-top: 5%;
-	margin-left: 5%;
-	width: 55%;
-	float: left;
-
+	margin: 1% 0;
 }
 
 .name{
@@ -458,6 +455,13 @@ visibility: hidden;
 	margin: 5% 0;
 }
 
+.sdk2016{
+	width: auto;
+	height: 150px;
+	margin: 0 auto;
+	display: block;
+}
+
 .spd2015{
 	width: auto;
 	height: 300px;
@@ -503,9 +507,7 @@ visibility: hidden;
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	min-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+	min-width: 1395px;
 	position: absolute;
 	background-color: rgba(30,144,255,0.5);
 	color: white;
@@ -537,9 +539,8 @@ visibility: hidden;
 }
 
 #footer-contents{
-	width: 65%;
+	width: 80%;
 	margin: 0 auto;
-	padding: 0 2%;
 }
 
 .footerNav{
@@ -549,13 +550,12 @@ visibility: hidden;
 }
 
 .linksLeft{
-	width: 330px;
+	width: 340px;
 	float: left;
-	margin-left: 3%;
 }
 
 .linksRight{
-	width: 210px;
+	width: 330px;
 	float: left;
 	margin-left: 3%;
 }
@@ -584,7 +584,7 @@ visibility: hidden;
 }
 
 .fb-page{
-	margin: 0;
+	margin: 0 5%;
 	margin-top: 1%;
 	padding: 0;
 	width: 300px;
@@ -641,6 +641,7 @@ visibility: hidden;
 
 /*== contact ==*/
 #contact{
+	width: 100%;
 	text-align: center;
 
 }
@@ -649,21 +650,7 @@ visibility: hidden;
 	margin: 5% 10%;
 }
 
-.snsContents{
-	margin: 5% 0;
-}
-
-.snsLogo{
-	margin: 0 3%;
-	width: 14%;
-}
-
-.snsImgAdj{
-	margin-bottom: 2%;
-	width: 10%;
-}
-
-.otherContents{
+.mailContent{
 	margin: 5% 0;
 }
 
@@ -685,6 +672,26 @@ visibility: hidden;
 .mailAttention{
 	font-size: 10px;
 	color: red;
+}
+
+/*== sns ==*/
+#sns{
+	width: 100%;
+	text-align: center;
+}
+
+.snsContents{
+	margin: 5% 0;
+}
+
+.snsLogo{
+	margin: 0 3%;
+	width: 14%;
+}
+
+.snsImgAdj{
+	margin-bottom: 2%;
+	width: 10%;
 }
 /*== table ==*/
 
