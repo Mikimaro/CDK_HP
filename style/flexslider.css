@@ -50,7 +50,7 @@
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 75%;
+  width: 80%;
   display: block;
   margin: 0 auto;
 }
@@ -75,9 +75,8 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 60px;
+  margin: 0 0 50px;
   background: #ffffff;
-  border: 4px solid #ffffff;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;

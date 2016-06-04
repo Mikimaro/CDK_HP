@@ -180,6 +180,17 @@
 		),
 
 		1 => array(
+			"name" => "遠藤 貴士",
+			"en" => "Endou Takashi",
+			"skil" => array(
+				"Scratch"
+			),
+			"dojo" => array(
+				"Kashiwa"
+			)
+		),
+
+		2 => array(
 			"name" => "小野寺 宣裕",
 			"en" => "Onodera Nobuhiro",
 			"skil" => array(
@@ -190,7 +201,7 @@
 			)
 		),
 
-		2 => array(
+		3 => array(
 			"name" => "鎌田 泰行",
 			"en" => "Kamata Yasuyuki",
 			"skil" => array(
@@ -201,7 +212,7 @@
 			)
 		),
 
-		3 => array(
+		4 => array(
 			"name" => "坂田 健一",
 			"en" => "Sakata Kenchi",
 			"skil" => array(
@@ -212,7 +223,7 @@
 			)
 		),
 
-		4 => array(
+		5 => array(
 			"name" => "櫻庭 敬之",
 			"en" => "Sakuraba Noriyuki",
 			"skil" => array(
@@ -223,7 +234,7 @@
 			)
 		),
 
-		5 => array(
+		6 => array(
 			"name" => "澤 孝治",
 			"en" => "Sawa Takaharu",
 			"skil" => array(
@@ -234,7 +245,7 @@
 			)
 		),
 
-		6 => array(
+		7 => array(
 			"name" => "高松 基広",
 			"en" => "Takamatsu Motohiro",
 			"skil" => array(
@@ -245,7 +256,7 @@
 			)
 		),
 
-		7 => array(
+		8 => array(
 			"name" => "辻 雄一郎",
 			"en" => "Tsuji Yuuichirou",
 			"skil" => array(
@@ -256,7 +267,7 @@
 			)
 		),
 
-		8 => array(
+		9 => array(
 			"name" => "西村 三千代",
 			"en" => "Nishimura Sachiyo",
 			"skil" => array(
@@ -267,7 +278,7 @@
 			)
 		),
 
-		9 => array(
+		10 => array(
 			"name" => "間下 知紀",
 			"en" => "Mashimo Tomonori",
 			"skil" => array(
@@ -292,15 +303,13 @@
 
 	<div id="mentor">
 
-		<div class="pageTitle">
+		<div class="pageTitle nonImg">
 
-			<img src="#"  class="headerLogo" alt="">
-
-			<h1 class="headline">メンターとは</h1>
+			<h1 class="headline">メンター</h1>
 
 		</div>
 
-		<div class="aboutMentor">
+		<div class="aboutMentor title-of-top">
 
 			<div class="individual">
 				
@@ -312,7 +321,7 @@
 					（もうひと押しの言葉がほしい）
 					<br><br>
 					メンターになる方法は簡単です。<br>
-					詳しくは<a href="adopt.php">メンター採用</a>に書いてあります。
+					詳しくは<a href="adopt.php">メンター募集</a>に書いてあります。
 
 
 				</p>
@@ -342,7 +351,7 @@
 
 		</div>
 
-		<div>
+		<div id="mentorList">
 
 			<div id="studentMentor-list" class="clearfix">
 

@@ -30,7 +30,7 @@
 
 <div id="container">
 
-	<div class="pageTitle formfix">
+	<div class="pageTitle nonImg">
 
 		<h1 class="headline">参加申し込みフォーム</h1>
 
@@ -93,7 +93,7 @@
 			<p class="formTitle">備考（あらかじめ伝えておきたいこと）</p>
 				<textarea cols="50" rows="10"></textarea>
 
-				<div class="submit"><input type="submit" value="申し込む"></div>
+				<div class="space"><input type="submit" value="申し込む"></div>
 
 			</div>
 		</form>

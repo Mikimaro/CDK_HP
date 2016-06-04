@@ -1,0 +1,129 @@
+body{
+	font-family: Meiryo, Verdana, 'ヒラギノ角ゴ ProN W3';
+}
+
+table{
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.h1{
+	font-size: 24px;
+}
+
+.h3{
+	font-size: 20px;
+}
+
+#header{
+	text-align: center;
+}
+
+#menuBar{
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#logo{
+
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#menu{
+	vertical-align: middle;
+
+}
+
+#menu ul{
+	list-style-type: none;
+}
+
+#menu li{
+	font-size: 20px;
+	float: left;
+	width: 20%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 40px;
+}
+
+#menu li:hover{
+	background-color: gray;
+}
+
+#first{
+	margin-top: 80px;
+}
+
+#feature{
+	margin-top: 40px;
+}
+
+#condition{
+	margin-top: 40px;
+}
+
+#main{
+	margin-top: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#container{
+	width: 70%;
+	height: 70%;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+
+#container h1{
+	font-size: 24px;
+}
+
+#imgClass{
+	margin-top: 100px;
+}
+
+#header{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+}
+
+#err{
+	color: red;
+}
+
+#forgotPass{
+	margin-top: 100px;
+}
+
+#how{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#how a{
+	color: red;
+}
+
+#footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	bottom: 0px;
+	width: 100%;
+	bottom: 0;
+}
+
+
+

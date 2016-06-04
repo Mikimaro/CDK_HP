@@ -1,41 +1,48 @@
 <?php
 							$class = array(
+								'sdk2016',
 								'spd2015',
 								'jc2015',
 								'spd2014'
 
 								);
 							$img = array(
+								'./image/eventLogos/sdk2016.png',
 								'./image/eventLogos/spd2015.png',
 								'./image/eventLogos/jc2015.png',
 								'./image/eventLogos/spd2014.png'
 								);
 
 							$title = array(
+								'ScratchDay 2016 in Kashiwa',
 								'Special Presentation Day 2015',
 								'June Conference 2015',
 								'Special Presentation Day 2014'
 								);
 
 							$day = array(
+								'2016.05.14',
 								'2015.12.20',
 								'2015.06.07',
 								'2014.12.21'
 								);
 
 							$site = array(
+								'@東京大学柏の葉キャンパス',
 								'@KOILスタジオ',
 								'@NoblesseOblige',
-								'NoblesseOblige'
+								'@NoblesseOblige'
 								);
 
 							$comments = array(
+								'ScratchDay初の柏開催。',
 								'イノベーションラボ柏の葉KOILでの子供たちのための作品発表会',
 								'CoderDojo Kashiwaで初の技術的な発表会',
 								'CoderDojo Kashiwaで初の子供たちのための作品発表会'
 								);
 
 							$URL = array(
+								'http://www.coderdojo-kashiwa.com/ScratchDay/',
 								'event/spd/2015',
 								'event/jc/2015',
 								'event/spd/2014'
@@ -47,9 +54,7 @@
 
 	<div id="event">
 		
-		<div class="pageTitle">
-
-			<img src="#"  class="headerLogo" alt="">
+		<div class="pageTitle nonImg">
 
 			<h1 class="headline">Special Events</h1>
 

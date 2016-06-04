@@ -36,7 +36,8 @@
 				$comment = array(
 						"小中学生向けのプログラミング教室",
 						"月2回、千葉県柏市のコワーキングスペース<br>
-						「Noblesse Oblige」にて開催",
+						「Noblesse Oblige」にて開催<br>
+						もちろん参加費は無料です",
 						"同じ市内に姉妹Dojoとして<br>
 						「CoderDojo Kashiwa-no-ha」をオープン",
 						"CoderDojo Kashiwaでは子供たちのための<br>発表の場を定期的に設けています"
@@ -60,7 +61,7 @@
 								<h4 class='head {$headClass[$i]}'>{$head[$i]}</h4>
 
 								<h5 class='comment {$commentClass[$i]}'>{$comment[$i]}</h5>
-					
+
 							</div>
 
 							</a>
@@ -76,13 +77,13 @@
 		<div id="sub">
 			<ul>
 				
-				<li><a href="#"><img src="./image/sub/date.jpg"></a></li>
+				<li><a href="./schedule"><img src="./image/sub/date.jpg"></a></li>
 
-				<li><a href="#"><img src="./image/sub/news.jpg"></a></li>
+				<li><a href="news"><img src="./image/sub/news.jpg"></a></li>
 				
 				<li><a href="#"><img src="./image/sub/portfolio.jpg"></a></li>
 				
-				<li><a href="#"><img src="./image/sub/social.jpg"></a></li>
+				<li><a href="sns.php"><img src="./image/sub/social.jpg"></a></li>
 
 			</ul>
 

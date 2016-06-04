@@ -6,9 +6,7 @@
 
 	<div id="privacy">
 		
-		<div class="pageTitle">
-
-			<img src="#"  class="headerLogo" alt="">
+		<div class="pageTitle nonImg">
 
 			<h1 class="headline">プライバシーポリシー</h1>
 

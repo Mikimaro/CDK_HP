@@ -1,0 +1,315 @@
+body {
+	font-size: 14px;
+	font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
+	background-color: #ccccd1;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+	line-height: 1.8;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+ 	color: white;
+}
+
+h1{
+	font-size: 32px;
+}
+
+#login {
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: right;
+	float: right;
+}
+	#login a {
+		text-decoration: none;
+		color: white;
+	}
+
+#header {
+	width: 100%;
+	border-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	background-color: black;
+}
+
+#header a{
+	color: white;
+}
+
+	#header h1 {	
+			margin-left: 10px; 
+	}
+
+#main {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 960px;
+	height: 70%;
+}
+
+.container {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#navi{
+
+}
+
+	.menu {
+		position: relative;
+		text-align: center;
+		background-color: black;
+		font-size: 12px;
+		list-style: none;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	.menu >li {
+		float: left;
+		width: 120px;
+		text-align: center;
+	}
+
+	.menu a {
+		padding: 10px 0;
+		color: white;
+		display: block;
+	}
+
+	.menu a:hover {
+		color: white;
+		background-color: red;
+	}
+
+	.leftLi {
+		margin-left: 0px;
+	}
+
+#left-line {
+	width: 1%;
+	background-color: black;
+	float: left;
+}
+
+#post {
+	width:100%;
+	clear: right;
+	float: left;
+	margin-top: 10px;
+	background-color: white;
+}
+
+#post >img {
+		padding-right: 20px;
+		padding-bottom: 300px;
+		float: left;
+}
+
+		.posts {
+
+		}
+
+		.reload {
+			list-style: disc;
+		}
+
+	.subject img {
+		padding: 15px;
+		-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+	
+}
+
+	.subject img:hover {
+		-webkit-filter: blur(5px);
+	}
+
+	.form {
+		overflow: hidden;
+		padding-left: 10px;
+	}
+
+	.scratch {
+		list-style: disc;
+	}
+
+		.scratch>h2 {
+			font-size: 16px;
+		}
+
+	.return {
+		margin-top: 100px;
+		margin-bottom: 30px;
+		padding: 0;
+		float: center;
+		background-color: white;
+		overflow: hidden;
+		list-style: none;
+		width: 150px;
+		height: 30px;
+		font-size: 12px;
+		text-align: center;
+		display: block;
+	}
+
+
+	.return li:hover {
+		background-color: gray;
+	}
+
+	.info {
+		margin: 20px;
+	}
+
+	.my-name {
+		text-align: right;
+	}
+
+
+
+#footer {
+	clear: both;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 10px;
+}
+
+#footerContent{
+	text-align: center;
+	background-color: black;
+	font-size: 10px;
+	color: white;
+}
+
+#footerContent a{
+	text-decoration: none;
+	color: white;
+}
+
+#footerContent a:hover{
+	color: red;
+}
+
+#footer ul{
+	list-style: none;
+}
+
+#redLine{
+	background-color: red;
+	width: 960px;
+	height: 0.1px;
+}
+
+.form{
+
+}
+
+#modal-overlay{
+	z-index: 1;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120%;
+	background-color: rgba(0,0,0,0.75);
+}
+
+#modal-content{
+	width: 50%;
+	margin: 0;
+	padding: 10px 20px;
+	border: 2px solid #aaa;
+	background: #fff;
+	position: fixed;
+	display: none;
+	z-index: 2;
+}
+
+#bbs{
+	float: left;
+	margin-right: 20px;
+}
+	
+	.button-link{
+		color: #00f;
+		text-decoration: underline;
+	}
+
+	.button-link:hover{
+		cursor: pointer;
+		color: #f00;
+	}
+
+	.bbsName{
+		width: 80px;
+	}
+
+	.bbsCon{
+		width: 360px;
+	}
+
+	.bbsDate{
+		width: 150px;
+	}
+
+tr{
+	height: 24px;
+}
+
+.error{
+	color: red;
+}
+
+.tableDate{
+	width: 200px;
+}
+
+.tableCont{
+	width: 500px;
+}
+
+.answerTable{
+	width: 60%;
+}
+
+.tdLeft{
+	width: 40%;
+	height: 50px;
+	text-align: center;
+}
+
+.tdRight{
+	width: 60%;
+}
+
+.releaceTable{
+	padding-left: none;
+	width: 75%;
+}
+
+.trainingSheet td{
+	width: 70px;
+	text-align: center;
+}

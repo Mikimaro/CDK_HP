@@ -4,13 +4,7 @@
 
 		<div id="footerLinks" class="clearfix">
 
-			<div class="fb-page" data-href="https://www.facebook.com/CoderDojokashiwa/" data-tabs="timeline" data-width="80%" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-				<div class="fb-xfbml-parse-ignore">
-					<blockquote cite="https://www.facebook.com/CoderDojokashiwa/">
-						<a href="https://www.facebook.com/CoderDojokashiwa/">CoderDojo Kashiwa</a>
-					</blockquote>
-				</div>
-			</div>
+			<div class="fb-page" data-href="https://www.facebook.com/CoderDojokashiwa/" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/CoderDojokashiwa/"><a href="https://www.facebook.com/CoderDojokashiwa/">Coder Dojo柏</a></blockquote></div></div>
 
 			<nav class="footerNav">
 
@@ -50,9 +44,9 @@
 
 							<?php
 
-								$RTDName = array("公式Twitter","公式FaceBookページ");
+								$RTDName = array("公式サイト","公式YouTube");
 
-								$RTDURL = array("http://twitter.com/c_d_kashiwa","http://facebook.com/CoderDojokashiwa");
+								$RTDURL = array("rtd","http://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA/videos");
 
 								for ($i= 0; $i < count($RTDName); $i++) { 
 									print("<li><a href='{$RTDURL[$i]}'>{$RTDName[$i]}</a></li>");
@@ -69,9 +63,9 @@
 
 						<?php
 
-							$Text = array("メンターについて","メンター紹介","メンター採用");
+							$Text = array("メンターについて","メンター募集");
 
-							$URL = array("mentor.php","mentor.php","adopt.php");
+							$URL = array("mentor.php","adopt.php");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 							print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -114,7 +108,7 @@
 
 							$Text = array("最新の情報","過去のイベント");
 
-							$URL = array("#","event.php");
+							$URL = array("http://www.coderdojo-kashiwa.com/ScratchDay/","event.php");
 							
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -163,7 +157,7 @@
 			<div id="aux">
 
 				<?php
-					$Name = array('サイトマップ','プライバシーポリシー','スポンサー','連絡先');
+					$Name = array('サイトマップ','プライバシーポリシー','運営について','スポンサー','連絡先');
 
 					$URL = array('sitemap.php','privacy.php','sponsor.php','contact.php');
 
