@@ -24,8 +24,8 @@
 									"CoderDojo Japan公式サイト");
 
 								$CoderDojoURL = array(
-									"http://coderdojo-kashiwa.com/kashiwanoha",
-									"http://onlinedojo.coderdojo-kashiwa.com",
+									"./kashiwanoha",
+									"http://www.coderdojo-kashiwa.com/onlinedojo/",
 									"http://www.coderdojo.jp/");
 
 								for ($i= 0; $i < count($CoderDojoName); $i++) { 
@@ -86,9 +86,9 @@
 
 						<?php
 
-							$Text = array("最新の情報","プレスリリース");
+							$Text = array("プレスリリース");
 
-							$URL = array("#","news");
+							$URL = array("news");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");

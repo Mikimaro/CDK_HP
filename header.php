@@ -14,7 +14,6 @@
 				slideshowSpeed: 5000,
 				animationSpeed: 1500,
 				directionNav: false,
-
 				});
 		});
 	</script>
