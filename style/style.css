@@ -272,9 +272,12 @@ visibility: hidden;
 
 /*== join ==*/
 #join{
-	width: 100%;
+	width: 80%;
 	border-radius: 20px;
 	background-color: #EEEEEE;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .formAttention{
@@ -284,8 +287,22 @@ visibility: hidden;
 }
 
 .formTitle{
-
+	text-align: center;
 }
+
+.textBox{
+	width: 40%;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	color: gray;
+}
+
+.errorMsg{
+	font-size: 10px;
+	color: red;
+}
+
 /*== rtd ==*/
 
 #rtd{
