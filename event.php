@@ -58,6 +58,8 @@
 
 			<h1 class="headline">Special Events</h1>
 
+			<p class="headline">CoderDojo Kashiwaのイベントを紹介します。</p>
+
 		</div>
 
 		<div class="events">
@@ -70,7 +72,7 @@
 									<article class='latest-Article'>
 										<div>
 											<img src='{$img[$i]}' class='{$class[$i]}'>
-											<div class='eventText'>
+											<div class='eventText lastest'>
 												<h2>{$title[$i]}</h2>
 												<h3>{$day[$i]}</h3>
 												<h4>{$site[$i]}</h4>

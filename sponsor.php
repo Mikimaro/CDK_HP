@@ -22,6 +22,13 @@ $sponsorDataConpany = array(
 		"type" => array("会場提供"),
 		"dojo" => array("Kashiwa-no-ha")
 	),
+
+	3 => array(
+		"name" => "Oak Leaf Project様",
+		"url" => "",
+		"type" => array("活動サポート"),
+		"dojo" => array("Kashiwa")
+		)
 );
 
 $sponsorDataPerson = array(
