@@ -264,24 +264,19 @@ visibility: hidden;
 
 /*== join ==*/
 #join{
-<<<<<<< .merge_file_RrAgWU
-=======
+
 	margin: 0 auto;
->>>>>>> .merge_file_SMD8sq
 	width: 80%;
 	border-radius: 20px;
 	background-color: #EEEEEE;
 	text-align: center;
-<<<<<<< .merge_file_RrAgWU
 	margin-left: 10%;
 	margin-right: 10%;
-=======
 }
 
 #join input {
 	font-size: 1.3em;
 	text-align: center;
->>>>>>> .merge_file_SMD8sq
 }
 
 .formAttention{
@@ -291,7 +286,6 @@ visibility: hidden;
 }
 
 .formTitle{
-<<<<<<< .merge_file_RrAgWU
 	text-align: center;
 }
 
@@ -306,10 +300,8 @@ visibility: hidden;
 .errorMsg{
 	font-size: 10px;
 	color: red;
-=======
 	font-size: 1.2em;
 	text-align: center;
->>>>>>> .merge_file_SMD8sq
 }
 
 /*== rtd ==*/

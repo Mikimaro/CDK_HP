@@ -16,6 +16,48 @@
 		$pcRent = $_SESSION['pc'];
 		$option = $_SESSION['comment'];
 
+
+		//メール送信の処理
+		define('DOJO_MAIL', 'join@coderdojo-kashiwa.com');
+		define('DOJO_GMAIL', 'coderdojo.kashiwa@gmail.com');
+		
+		$date = date(n)."月".date(j)."日".date(G)."時".date(s)."分";
+
+		$sendMessage = "
+			この度はCoderDojo Kashiwaにお申し込み頂きまして、誠にありがとうございます。\n
+			以下の情報でお申し込みを承りました。\n
+			お名前：{$childName}\n
+			よみがな：{$kana}\n
+			学年：{$grade}\n
+			保護者様お名前：{$parentName}\n
+			メールアドレス：{$mail}\n
+			学校名：{$schoolName}\n
+			参加区分：{$joined}\n
+			コンピュータの貸出希望：{$pcRent}\n
+			Dojoをどこで知ったか：{$place}\n
+			備考：{$option}\n\n
+
+			それでは、当日お会いできることを楽しみにしています。
+
+		";
+		//参加者へのリマインドメール
+		mail($mail, "CoderDojo Kashiwa 申し込み確認メール", $sendMessage, "From:".DOJO_MAIL);
+
+		$sendMessageForDojo = "
+			お名前：{$childName}\n
+			よみがな：{$kana}\n
+			学年：{$grade}\n
+			保護者様お名前：{$parentName}\n
+			メールアドレス：{$mail}\n
+			学校名：{$schoolName}\n
+			参加区分：{$joined}\n
+			コンピュータの貸出希望：{$pcRent}\n
+			Dojoをどこで知ったか：{$place}\n
+			備考：{$option}\n\n
+		";
+
+		mail(DOJO_GMAIL, "【新規申し込みがあります】", $sendMessageForDojo, "From".DOJO_MAIL);
+
 		require_once 'header.php';
 
 	}else{
