@@ -75,17 +75,16 @@
 		</div>
 		
 		<div id="sub">
-			<ul>
-				
-				<li><a href="./schedule"><img src="./image/sub/date.jpg"></a></li>
 
-				<li><a href="news"><img src="./image/sub/news.jpg"></a></li>
+			<div class="subContents">
 				
-				<li><a href="#"><img src="./image/sub/portfolio.jpg"></a></li>
-				
-				<li><a href="sns.php"><img src="./image/sub/social.jpg"></a></li>
+				<div><a href="./schedule"><img src="./image/sub/date.jpg"></a></div>
 
-			</ul>
+				<div><a href="news"><img src="./image/sub/news.jpg"></a></div>
+				
+				<div><a href="sns.php"><img src="./image/sub/social.jpg"></a></div>
+
+			</div>
 
 		</div>
 

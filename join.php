@@ -55,6 +55,7 @@
 
 			<p class="formTitle">ふりがな</p>
 				<input type="text" name="kana" class="textBox">
+
 			<p class="formTitle">学年</p>
 				<select name="grade">
 					<?php
@@ -74,14 +75,18 @@
 
 			<p class="formTitle">保護者氏名</p>
 				<input type="text" name="parentName" class="textBox">
+
 			<p class="formTitle">メールアドレス</p>
 				<input type="text" name="mail" class="textBox">
+
 			<p class="formTitle">ノートパソコンの貸出を希望しますか？</p>
 				<input type="radio" name="pcRent" value="はい" checked="">はい
 				<input type="radio" name="pcRent" value="いいえ">いいえ
+			
 			<p class="formTitle">CoderDojo Kashiwaに参加されるのは初めてですか？</p>
 				<input type="radio" name="joined" value="はい" checked="">はい
 				<input type="radio" name="joined" value="いいえ">いいえ
+			
 			<p class="formTitle">当Dojoをどこでお知りになりましたか？</p>
 				<input type="radio" name="why" value="Webページ">Webページ<br>
 				<input type="radio" name="why" value="SNS">SNS<br>
@@ -91,7 +96,7 @@
 				<input type="radio" name="why" value="その他">その他
 			
 			<p class="formTitle">備考（あらかじめ伝えておきたいこと）</p>
-				<textarea cols="50" rows="10"></textarea>
+				<textarea cols="80" rows="10"></textarea>
 
 				<div class="space"><input type="submit" value="申し込む"></div>
 

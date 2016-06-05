@@ -166,7 +166,6 @@ visibility: hidden;
 /*== index ==*/
 #contents{
 	width: 100%;
-	height: auto;
 }
 
 #contents a{
@@ -200,7 +199,7 @@ visibility: hidden;
 
 .head002{
 	margin: 1% 0;
-	margin-top: 3zzz%;
+	margin-top: 3%;
 }
 
 .comment002{
@@ -223,27 +222,20 @@ visibility: hidden;
 }
 
 #sub{
-	margin: 1% 0;
-	padding: 0;
-}
-
-#sub ul{
+	margin: 1% auto;
 	width: 100%;
-	text-align: center;
-	margin: 0;
-	padding: 0;
 }
 
-#sub li{
-	border-right: 2px solid #fff;
-	border-left: 2px solid #fff;
-	list-style-type: none;
-	display: inline;
+.subContents{
+	display: flex;
+}
+
+.subContents div{
+	text-align: center;
 }
 
 #sub img{
-	width: 270px;
-	height: auto;
+	width: 75%;
 }
 /*== about ==*/
 #about{
@@ -272,9 +264,16 @@ visibility: hidden;
 
 /*== join ==*/
 #join{
-	width: 100%;
+	margin: 0 auto;
+	width: 80%;
 	border-radius: 20px;
 	background-color: #EEEEEE;
+	text-align: center;
+}
+
+#join input {
+	font-size: 1.3em;
+	text-align: center;
 }
 
 .formAttention{
@@ -284,7 +283,8 @@ visibility: hidden;
 }
 
 .formTitle{
-
+	font-size: 1.2em;
+	text-align: center;
 }
 /*== rtd ==*/
 
