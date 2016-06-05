@@ -166,7 +166,6 @@ visibility: hidden;
 /*== index ==*/
 #contents{
 	width: 100%;
-	height: auto;
 }
 
 #contents a{
@@ -200,7 +199,7 @@ visibility: hidden;
 
 .head002{
 	margin: 1% 0;
-	margin-top: 3zzz%;
+	margin-top: 3%;
 }
 
 .comment002{
@@ -223,27 +222,20 @@ visibility: hidden;
 }
 
 #sub{
-	margin: 1% 0;
-	padding: 0;
-}
-
-#sub ul{
+	margin: 1% auto;
 	width: 100%;
-	text-align: center;
-	margin: 0;
-	padding: 0;
 }
 
-#sub li{
-	border-right: 2px solid #fff;
-	border-left: 2px solid #fff;
-	list-style-type: none;
-	display: inline;
+.subContents{
+	display: flex;
+}
+
+.subContents div{
+	text-align: center;
 }
 
 #sub img{
-	width: 270px;
-	height: auto;
+	width: 75%;
 }
 /*== about ==*/
 #about{
@@ -272,12 +264,24 @@ visibility: hidden;
 
 /*== join ==*/
 #join{
+<<<<<<< .merge_file_RrAgWU
+=======
+	margin: 0 auto;
+>>>>>>> .merge_file_SMD8sq
 	width: 80%;
 	border-radius: 20px;
 	background-color: #EEEEEE;
 	text-align: center;
+<<<<<<< .merge_file_RrAgWU
 	margin-left: 10%;
 	margin-right: 10%;
+=======
+}
+
+#join input {
+	font-size: 1.3em;
+	text-align: center;
+>>>>>>> .merge_file_SMD8sq
 }
 
 .formAttention{
@@ -287,6 +291,7 @@ visibility: hidden;
 }
 
 .formTitle{
+<<<<<<< .merge_file_RrAgWU
 	text-align: center;
 }
 
@@ -301,6 +306,10 @@ visibility: hidden;
 .errorMsg{
 	font-size: 10px;
 	color: red;
+=======
+	font-size: 1.2em;
+	text-align: center;
+>>>>>>> .merge_file_SMD8sq
 }
 
 /*== rtd ==*/
@@ -709,6 +718,67 @@ visibility: hidden;
 .snsImgAdj{
 	margin-bottom: 2%;
 	width: 10%;
+}
+
+/*== founder ==*/
+#founder{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#mjk{
+	margin: 5% 0; 
+}
+
+.mjkPro{
+	margin: 1% 0;
+}
+
+.position{
+	margin: 0;
+	padding: 0;
+}
+
+.founderImage{
+	text-align: center;
+}
+
+.founderImage img{
+	width: 25%;
+	border-radius: 50%;
+}
+
+.founderName{
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+.founderProfile{
+	margin: 2% auto;
+	margin-bottom: 2%;
+	width: 95%;
+}
+
+.news{
+	margin: 5% auto;
+	width: 80%;
+
+}
+
+.newsArticle{
+	padding: 2% 0;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.last-newsArticle{
+	padding: 2% 0;
+	border-bottom: 1px solid #999;
+}
+
+.newsHead{
+	font-size: 20px;
 }
 /*== table ==*/
 
