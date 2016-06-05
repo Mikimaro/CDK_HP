@@ -693,6 +693,67 @@ visibility: hidden;
 	margin-bottom: 2%;
 	width: 10%;
 }
+
+/*== founder ==*/
+#founder{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#mjk{
+	margin: 5% 0; 
+}
+
+.mjkPro{
+	margin: 1% 0;
+}
+
+.position{
+	margin: 0;
+	padding: 0;
+}
+
+.founderImage{
+	text-align: center;
+}
+
+.founderImage img{
+	width: 25%;
+	border-radius: 50%;
+}
+
+.founderName{
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+.founderProfile{
+	margin: 2% auto;
+	margin-bottom: 2%;
+	width: 95%;
+}
+
+.news{
+	margin: 5% auto;
+	width: 80%;
+
+}
+
+.newsArticle{
+	padding: 2% 0;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.last-newsArticle{
+	padding: 2% 0;
+	border-bottom: 1px solid #999;
+}
+
+.newsHead{
+	font-size: 20px;
+}
 /*== table ==*/
 
 table{
