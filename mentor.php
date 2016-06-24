@@ -303,9 +303,10 @@
 
 	<div id="mentor">
 
-		<div class="pageTitle nonImg">
-
+		<div class="pageTitle">
+			<img src="./image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">メンター</h1>
+			<p class="headline">子どもたちひとりひとりと向き合う、CoderDojo Kashiwaのエキスパートたちを紹介します</p>
 
 		</div>
 
@@ -314,22 +315,20 @@
 			<div class="individual">
 				
 				<p class="title">メンターとは</p>
-				<p class="text"> 
-
-					メンターとはCoderDojoでは子供たちにプログラミングを教える先生です。<br>
-					しかしメンターは教員免許を持っている訳でも、報酬をもらっている訳でもありません。<br>
-					（もうひと押しの言葉がほしい）
-					<br><br>
+				<p class="text"> 	
+					CoderDojo Kashiwaでは、先生のことをメンターと呼んでいます。これには"共に考え、共に学ぶ"という意味が込められています。<br>
+					子どもたち１人１人と向き合い、丁寧かつ繊細なサポートができる。これこそがCoderDojo Kashiwaの強みです。<br>
 					メンターになる方法は簡単です。<br>
-					詳しくは<a href="adopt.php">メンター募集</a>に書いてあります。
-
-
+					詳しくは<a href="adopt.php">メンター募集</a>をご覧ください。
 				</p>
+
+				<br>
 
 			</div>
 
 		</div>
 
+<!--
 
 		<div class="pageTitle">
 
@@ -342,6 +341,8 @@
 			</p>
 
 		</div>
+
+-->
 
 		<div id="segment">
 			

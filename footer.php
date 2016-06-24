@@ -86,9 +86,9 @@
 
 						<?php
 
-							$Text = array("プレスリリース");
+							$Text = array("プレスリリース", "メディア掲載情報");
 
-							$URL = array("news");
+							$URL = array("pressRelease.php", "media.php");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");

@@ -3,13 +3,14 @@
 ?>
 
 <div id="container">
-	<div class="pageTitle nonImg">
+	<div class="pageTitle">
+		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">
 			CoderDojo Kashiwaに参加する
 		</h1>
 
 		<p class="headline">
-			CoderDojo Kashiwaに参加するには、こちらのフォームからのお申し込みが必要です。<br>
+			プログラミングという世界の扉を開きましょう
 		</p>
 
 		<div id="formSelectButton">

@@ -5,7 +5,7 @@
 <div id="container">
 
 		<div class="pageTitle nonImg">
-
+			<img src="./image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">CoderDojo Kashiwa公式SNSアカウント</h1>
 
 			<p class="headline">

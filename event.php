@@ -35,10 +35,10 @@
 								);
 
 							$comments = array(
-								'ScratchDay初の柏開催。',
-								'イノベーションラボ柏の葉KOILでの子供たちのための作品発表会',
-								'CoderDojo Kashiwaで初の技術的な発表会',
-								'CoderDojo Kashiwaで初の子供たちのための作品発表会'
+								'MITメディアラボが開発したScratchのお祭りを柏で初めて開催',
+								'柏の葉オープンイノベーションラボKOILでの子どもたちによる作品発表会',
+								'新しい受付システムの導入、家庭での学習を促進するOnlineDojo、ホームページのリニューアル、Kashiwa-no-haDojoの設立を発表',
+								'CoderDojo Kashiwaで初の子どもたちによる作品発表会'
 								);
 
 							$URL = array(
@@ -54,42 +54,42 @@
 
 	<div id="event">
 		
-		<div class="pageTitle nonImg">
-
+		<div class="pageTitle">
+			<img src="./image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">Special Events</h1>
 
-			<p class="headline">CoderDojo Kashiwaのイベントを紹介します。</p>
+			<p class="headline">CoderDojo Kashiwaのイベントを紹介します</p>
 
 		</div>
 
 		<div class="events">
 
-			<h3 class="headline">最新のイベントを紹介します。</h3>
+			<h3 class="headline">最新のイベント</h3>
 
 			<?php
-			for ($i=0; $i < 1; $i++) { 
-							print("<div class='party'>
-									<article class='latest-Article'>
-										<div>
-											<img src='{$img[$i]}' class='{$class[$i]}'>
-											<div class='eventText lastest'>
-												<h2>{$title[$i]}</h2>
-												<h3>{$day[$i]}</h3>
-												<h4>{$site[$i]}</h4>
-												<h5>{$comments[$i]}</h5>
-												<a href='{$URL[$i]}' class='readMore'>より詳しく</a>
-											</div>
-										</div>
-									</article>
-									</div>");
-						}
-					?>
+				for ($i=0; $i < 1; $i++) { 
+					print("<div class='party'>
+							<article class='latest-Article'>
+								<div>
+									<img src='{$img[$i]}' class='{$class[$i]}'>
+									<div class='eventText lastest'>
+										<h2>{$title[$i]}</h2>
+										<h3>{$day[$i]}</h3>
+										<h4>{$site[$i]}</h4>
+										<h5>{$comments[$i]}</h5>
+										<a href='{$URL[$i]}' class='readMore'>さらに詳しく</a>
+									</div>
+								</div>
+							</article>
+							</div>");
+				}
+			?>
 
 		</div>
 
 		<div class="events">
 			<a id=x"pastEvent"></a>
-			<h3 class="headline">過去のイベントを紹介します。</h3>
+			<h3 class="headline">過去のイベント</h3>
 
 				<div class="event-list clearfix"> 
 
@@ -105,7 +105,7 @@
 												<h3>{$day[$i]}</h3>
 												<h4>{$site[$i]}</h4>
 												<h5>{$comments[$i]}</h5>
-												<a href='{$URL[$i]}' class='readMore'>より詳しく</a>
+												<a href='{$URL[$i]}' class='readMore'>さらに詳しく</a>
 											</div>
 										</div>
 									</article>

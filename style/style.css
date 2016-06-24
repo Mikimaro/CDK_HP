@@ -804,3 +804,50 @@ table{
 .tdR{
 	width: 30%;
 }
+
+/* media */
+
+#media{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.mTitle{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.mContents{
+	background-color: #EEEEEE;
+	border-radius: 20px;
+}
+
+.mText{
+	margin: 20px;
+	margin-bottom: 40px;
+}
+
+/*== pressRelease ==*/
+
+#pressRelease{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.pContents{
+	background-color: #EEEEEE;
+	border-radius: 20px;
+}
+
+
+
+.pTitle{
+	font-size: 20px;
+}
+
+.pText{
+	margin: 20px;
+}
+

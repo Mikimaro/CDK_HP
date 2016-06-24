@@ -4,9 +4,10 @@
 
 <div id="container">
 
-	<div class="pageTitle nonImg">
-
-		<h1 class="headline">RTDとは</h1>
+	<div class="pageTitle">
+		<img src="./image/dojoLogo.png" class="headerLogo">
+		<h1 class="headline">Real Time Documentation</h1>
+		<p class="headline">大切な出来事はみんなで共有</p>
 
 	</div>
 

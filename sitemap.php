@@ -7,7 +7,7 @@
 	<div id="sitemap">
 		
 		<div class="pageTitle nonImg">
-
+			<img src="./image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">サイトマップ</h1>
 
 		</div>

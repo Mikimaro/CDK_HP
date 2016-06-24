@@ -46,7 +46,7 @@ $sponsorDataPerson = array(
 	<div id="container-plus">
 
 		<div class="pageTitle nonImg">
-
+			<img src="./image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">スポンサー</h1>
 
 			<p class="headline">CoderDojo Kashiwaは以下の企業・個人の協力により運営されています。</p>
