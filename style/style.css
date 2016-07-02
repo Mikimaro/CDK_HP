@@ -851,3 +851,13 @@ table{
 	margin: 20px;
 }
 
+#fullUp{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	background-color: #EEEEEE;
+	font-size: 18px;
+
+}
+
