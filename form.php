@@ -1,6 +1,8 @@
 <?php
 	$flag = $_POST['flag'];
 
+			
+
 	if ($flag == 1) {
 
 		$name = htmlspecialchars($_POST['childName']);
