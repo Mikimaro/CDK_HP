@@ -10,7 +10,7 @@
 		</h1>
 
 		<p class="headline">
-			プログラミングという世界の扉を開きましょう
+			あたらしい世界の扉を開きましょう
 		</p>
 
 		<div id="formSelectButton">
