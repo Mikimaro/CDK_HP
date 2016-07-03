@@ -856,3 +856,23 @@ table{
 	margin: 20px;
 }
 
+#fullUp{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	background-color: #EEEEEE;
+	font-size: 18px;
+}
+
+.kashiwanoha{
+	width: 100%;
+	background-color: #EEEEEE;
+	border-radius: 20px;	
+
+}
+
+.iframeCenter{
+	text-align: center;
+	margin: 0 auto;
+}
