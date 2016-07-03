@@ -45,8 +45,22 @@
 
 			<div class="news">
 
-
 				<div class="newsArticle">
+
+					<div>
+
+						<p class="date">2016年6月7日</p>
+
+					</div>
+
+					<h2 class="newsHead">自分のレールは自分で敷いていく――10代実業家対談（後編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談</h2>
+
+					<a href="http://workmill.jp/20160607_teen2.html">対談記事を見る</a>
+
+				</div>
+
+
+				<div class="last-newsArticle">
 
 					<div>
 

@@ -5,6 +5,7 @@
 <div id="container">
 
 	<div class="pageTitle">
+
 		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">Real Time Documentation</h1>
 		<p class="headline">大切な出来事はみんなで共有</p>
@@ -50,16 +51,12 @@
 			<br>
 
 			<div>
-				<p class="title">経験と実績に勝るものはありません</p>
+				<p class="title">CoderDojo Kashiwa/Kashiwa-no-haでの活動</p>
 
 				<p class="text">
 					私達の活動は2014年から始まりました。<br><br>
+					
 
-					立ち上げ当初は技術も稚拙でしたが、2年間の間に10を超えるワークショップやイベントに参加し培った技術は確かなものです。<br>
-
-					("ScratchDay 2014/2015 in Tokyo"，"女子中高生のための情報・メディア工房2014"など様々なワークショップやイベントに参加)<br>
-
-					今年は前年の1.5倍盛りで活動をしていきたいと考えています。
 				</p>
 			</div>
 		</div>

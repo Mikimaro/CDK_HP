@@ -78,9 +78,19 @@
 
 			<div class="subContents">
 				
-				<div><a href="./schedule"><img src="./image/sub/date.jpg"></a></div>
+				<div><a href="./schedule"><img src="./image/sub/date.png" width="300px"></a></div>
 
-				<div><a href="news"><img src="./image/sub/news.jpg"></a></div>
+				<div>
+
+					<a href="news"><img src="./image/sub/news.png" width="80%"></a>
+
+						<div class="Sub-inner">
+
+							<h5>ニュース</h5>
+
+						</div>
+
+				</div>
 				
 				<div><a href="sns.php"><img src="./image/sub/social.jpg"></a></div>
 

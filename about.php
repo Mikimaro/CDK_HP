@@ -8,7 +8,6 @@
 
 	<div class="pageTitle">
 
-		<br>
 		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">CoderDojoとは</h1>
 		<p class="headline">地域におけるプログラミング教育の最先端です</p>

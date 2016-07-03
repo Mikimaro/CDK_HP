@@ -244,6 +244,11 @@ visibility: hidden;
 }
 
 #sub img{
+	opacity: 0.7;
+}
+
+.Sub-inner{
+	text-align: center;
 }
 /*== about ==*/
 #about{
