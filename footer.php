@@ -118,26 +118,6 @@
 					</ul>
 				</div>
 
-				<div>
-				
-					<ul>
-					
-						<h1>・活動報告</h1>
-
-						<?php
-
-							$Text = array("最新の情報");
-
-							$URL = array("#");
-
-							for ($i= 0; $i < count($Text); $i++) { 
-								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
-							}
-
-						?>
-					</ul>
-				</div>
-
 			</div>
 
 			</nav>

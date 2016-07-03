@@ -45,7 +45,7 @@ $sponsorDataPerson = array(
 
 	<div id="container-plus">
 
-		<div class="pageTitle nonImg">
+		<div class="pageTitle">
 			<img src="./image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">スポンサー</h1>
 

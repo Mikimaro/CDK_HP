@@ -2,11 +2,18 @@
 	require_once 'header.php';
 
 	$date = array(
+		"2016.07.03",
 		"2016.03.27"
 	);
 
 	$title = array(
+		"ホームページをリニューアル",
 		"2016年度を迎えるにあたってのお知らせ"
+	);
+
+	$text = array(
+		"CoderDojo Kashiwaのホームページをリニューアルしました。",
+		"2016年度よりCoderDojo Kashiwaの運営体制を変更します。詳しくは、<a href='./news'>こちら</a>をご覧ください"
 	);
 
 ?>
@@ -28,6 +35,7 @@
 						<div class='pText'>
 							<p class='pDate'>{$date[$i]}発表</p>
 							<p class='pTitle'>{$title[$i]}</p>
+							<p class='text'>{$text[$i]}</p>
 						</div>
 					</div>
 				");
