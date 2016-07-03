@@ -92,7 +92,7 @@
 				
 				<div>
 
-					<a href="sns.php"><img src="./image/sub/social.png"></a>
+					<a href="./kashiwanoha"><img src="./image/sub/kashiwa-no-ha.png"></a>
 
 				</div>
 

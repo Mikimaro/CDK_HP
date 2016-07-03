@@ -244,12 +244,9 @@ visibility: hidden;
 }
 
 #sub img{
-	opacity: 0.7;
+	width: 100%;
 }
 
-.Sub-inner{
-	text-align: center;
-}
 /*== about ==*/
 #about{
 	width: 100%;
