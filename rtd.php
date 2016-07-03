@@ -22,7 +22,7 @@
 				<p class="text">
 					RTD(Real Time Documentation)とは、ワークショップやイベントの出来事を映像で記録し、それらの終了時に編集・保存されたメディアとして公開できるパーソナルメディア活動です。<br>
 
-					RTDには3つの表現方法が存在します。<br>
+					RTDには3つの表現方法があります。<br>
 				</p>
 
 				<ul>
@@ -39,7 +39,7 @@
 				<br>
 
 				<p class="text">
-					詳しくは以下のサイトにアクセス<br>
+					詳しくは以下のサイトで紹介しています。<br>
 
 					・<a href="http://coderdojo-kashiwa.com/rtd/" target="blank_">RTD公式サイト</a>
 

@@ -11,8 +11,7 @@
 		<br>
 		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">CoderDojoとは</h1>
-		<p class="headline">地域におけるプログラミング教育の最先端です</p>
-
+		<p class="headline">地域におけるプログラミング教育の最先端事例です</p>
 	</div>
 
 	<div id="about">
@@ -81,18 +80,17 @@
 			<div class="aboutCDK">
 
 				<p class="title">CoderDojo Kashiwa</p>
-				<img src="./image/firstDojo.jpg" width="50%" class="imageFloatLeft">
 				<p class="text">
 					CoderDojo Kashiwaは2013年5月5日に第１回を開催しました。<br>
 				
-					参加者は４人でとてもこじんまりとした会でした。ですが会を重ねるにつれて子どもたちもメンターも増え、今では平均して15名以上が参加する大規模なDojoとなりました。<br><br>
+					参加者は４人でとてもこじんまりとした会でした。ですが会を重ねるにつれて子どもたちもメンターも増え、今では平均して18名以上が参加する大規模なDojoとなりました。<br><br>
 
-					また、CoderDojo Kashiwaの特徴は運営を学生が行っていることです。創設メンバーは小学生のときから友人である2名で、現在では高校3年生です。<br>
+					また、CoderDojo Kashiwaの特徴は運営を学生が行っていることです。創設メンバーは小学生のときから友人である2名です。<br>
 					メンター（教える人）も多くは高校生ですが、プロのプログラマである大人も一緒に教えています。<br><br>
 
-					現在、様々な協力があり、50回以上開催してきました。そして、姉妹Dojoの<a href="www.coderdojo-kashiwa.com/kashiwanoha/">CoderDojo Kashiwa-no-ha</a>が2015年6月に柏の葉に誕生しました。<br><br>
+					現在、様々な協力があり、60回以上開催してきました。そして、姉妹Dojoの<a href="www.coderdojo-kashiwa.com/kashiwanoha/">CoderDojo Kashiwa-no-ha</a>が2015年6月に柏の葉に誕生しました。<br><br>
 
-					そしてCoderDojo Kashiwaは2016年5月で3年を迎えました。その記念すべき年に、私たちは「<a href="http://www.coderdojo-kashiwa.com/ScratchDay/">ScratchDay in Kashiwa</a>」をここ柏の地で開催します。
+					そしてCoderDojo Kashiwaは2016年5月で3年を迎えました。その記念すべき年に、私たちは「<a href="http://www.coderdojo-kashiwa.com/ScratchDay/">ScratchDay in Kashiwa</a>」を開催しました。ScratchDayとは、アメリカのマサチューセッツ工科大学（MIT）メディアラボが開発した教育用プログラミングツール”Scratch”の誕生を祝うお祭りです。
 				</p>
 
 			</div>
@@ -101,11 +99,11 @@
 
 				<p class="title">OnlineDojo</p>
 				<p class="text">
-					CoderDojo Kashiwaでは子供たちによりプログラミングに触れてもらえる環境を提供しています。<br><br>
+					CoderDojo Kashiwaでは子どもたちによりプログラミングに触れてもらえる環境を提供しています。<br><br>
 				
-					その名も"OnlineDojo"というサービスです。<br><br>
+					"OnlineDojo"という学習用SNSを開発しています。<br><br>
 
-					このサービスはCoderDojo Kashiwa及びKashiwa-no-haに参加している子供たちに、Dojo以外の場所（例えば自宅や学校）でもDojoのメンターに質問をしたり、作品作りの続きができる画期的なサービスです。
+					このサービスはCoderDojo Kashiwa及びKashiwa-no-haに参加している子供たちに、Dojo以外の場所（例えば自宅や学校）でもDojoのメンターに質問をしたり、作品作りの続きができる画期的なシステムです。
 					<br><br>
 
 					ログインページは<a href="www.coderdojo-kashiwa.com/onlinedojo/">こちら</a><br>
