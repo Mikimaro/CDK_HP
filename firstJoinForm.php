@@ -6,6 +6,7 @@
 	//2:定員オーバークローズ
 	
 	$pageShowFlag = 1;
+	
 	$flag = $_POST['flag'];
 
 	if ($flag == 1) {

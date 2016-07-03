@@ -43,7 +43,7 @@
 						"CoderDojo Kashiwaでは子供たちのための<br>発表の場を定期的に設けています"
 					);
 
-				for ($i=0; $i < 4; $i++) { 
+				for ($i=0; $i < 7; $i++) { 
 
 					$imgNum = $i + 1;
 					

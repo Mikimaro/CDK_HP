@@ -5,6 +5,7 @@
 	$flag = $_SESSION['flag'];
 
 	if ($flag == 1) {
+		
 		$childName = $_SESSION['childName'];
 	    $kana = $_SESSION['kana'];
 	    $grade = $_SESSION['age'];
