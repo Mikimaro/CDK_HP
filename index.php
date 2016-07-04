@@ -28,19 +28,16 @@
 
 				$head = array(
 						"CoderDojo Kashiwa",
-						"参加しやすい環境",
-						"日本国内の最大勢力",
-						"スペシャルイベントのご案内"
+						"",
+						"",
+						""
 					);
 
 				$comment = array(
-						"小中学生向けのプログラミング教室",
-						"月2回、千葉県柏市のコワーキングスペース<br>
-						「Noblesse Oblige」にて開催<br>
-						もちろん参加費は無料です",
-						"同じ市内に姉妹Dojoとして<br>
-						「CoderDojo Kashiwa-no-ha」をオープン",
-						"CoderDojo Kashiwaでは子供たちのための<br>発表の場を定期的に設けています"
+						"こんにちは、CoderDojo Kashiwaの公式サイトにようこそ",
+						"",
+						"",
+						""
 					);
 
 				for ($i=0; $i < 7; $i++) { 
@@ -48,11 +45,6 @@
 					$imgNum = $i + 1;
 					
 					print("<li>");
-
-					if ($i == 3) {
-
-						print("<a href='event.php'>");
-					}
 					
 					print("<img src='./image/slides/s{$imgNum}.jpg'>
 
