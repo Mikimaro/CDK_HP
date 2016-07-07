@@ -29,18 +29,18 @@
 				$head = array(
 						"CoderDojo Kashiwa",
 						"",
-						"",
+						"CoderDojo Kashiwa-no-ha",
 						""
 					);
 
 				$comment = array(
 						"こんにちは、CoderDojo Kashiwaの公式サイトにようこそ",
 						"",
-						"",
+						"柏の葉にあるCoderDojo Kashiwaの姉妹Dojoです",
 						""
 					);
 
-				for ($i=0; $i < 7; $i++) { 
+				for ($i=0; $i < 5; $i++) { 
 
 					$imgNum = $i + 1;
 					

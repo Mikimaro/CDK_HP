@@ -217,9 +217,12 @@ visibility: hidden;
 }
 
 .head003{
+	width: 45%;
 }
 
 .comment003{
+	margin: 0 auto;
+	width: 50%;
 }
 
 .head004{
@@ -235,11 +238,11 @@ visibility: hidden;
 
 .subContents{
 	display: flex;
-	justify-content: center;
 }
 
 .subContents div{
-	padding: 1%;
+	margin: 0;
+	padding: 0 1%;
 	
 }
 
