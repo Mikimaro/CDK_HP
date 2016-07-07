@@ -4,8 +4,17 @@
 	//0:申し込みフォームオープン
 	//1:〜1週間前クローズ
 	//2:定員オーバークローズ
-	
-	$pageShowFlag = 1;
+
+	require_once 'functions.php';
+
+	$dbh = dbCon();
+
+	$sql = "SELECT * from webControll where id = 1";
+	$stmt = $dbh -> prepare($sql);
+	$stmt->execute(array(":userID"=>$userID));
+	$result = $stmt->fetchAll();
+
+	$pageShowFlag = $result[0]['firstFormStatus'];
 	
 	$flag = $_POST['flag'];
 
