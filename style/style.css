@@ -3,9 +3,10 @@
 body{
 	font-family: 'Noto Sans Japanese';
 	font-weight: 200;
-	min-width: 1395px;
-	width: 100%
+	margin: 0;
+	width: 100%;
 	height: 100%;
+	min-width: 1400px;
 }
 
 a{
@@ -33,45 +34,31 @@ visibility: hidden;
 /*== MENU ==*/
 
 #menu{
-	top: 0;
-	left: 0;
 	margin: 0;
-	padding: 0;
-	position: fixed;
 	width: 100%;
-	min-width: 1395px;
+	min-width: 960px;
 	background-color: #1E90FF;
-	opacity: 0.95;
-	z-index: 100;
-}
-
-#menu a{
-	text-decoration: none;
-	color: white;
-	font-size: 20px;
-	font-family: 'Noto Sans Japanese';
-	font-weight: 100px;
 }
 
 #menu ul{
-	top: 7px;
-	width: 100%;
-	height: 15px;
-	text-align: center;
-	list-style-type: none;
-	position: relative;
-	margin: 0 5%;
-	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
 }
 
-#menu li{
-	padding: 0;
-	margin: 0;
-	float: left;
-	width: 12.5%;
-	height: 50px;
-	text-align: center;
 
+#menu li{
+	margin-top: 0.5%;
+	flex: auto; 
+	text-align: center;
+}
+
+#menu a{
+	font-size: 20px;
+	font-family: 'Noto Sans Japanese';
+	font-weight: 100px;
+	color: white;
 }
 
 .homeLogo{
@@ -113,11 +100,9 @@ visibility: hidden;
 
 /*== 共通容器 ==*/
 #container{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
+	margin: 0 auto;
 	width: 80%;
-	max-width: 1395px;
+	height: 100%;
 }
 
 #container-plus{
@@ -172,7 +157,9 @@ visibility: hidden;
 
 /*== index ==*/
 #contents{
+	margin: 0;
 	width: 100%;
+
 }
 
 #contents a{
@@ -547,8 +534,6 @@ visibility: hidden;
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	min-width: 1395px;
-	position: absolute;
 	background-color: rgba(30,144,255,0.5);
 	color: white;
 }
@@ -865,10 +850,13 @@ table{
 	font-size: 18px;
 }
 
-.kashiwanoha{
+/*== Kashiwa-no-ha ==*/
+#kashiwanoha{
 	width: 100%;
 	background-color: #EEEEEE;
 	border-radius: 20px;	
+}
+.aboutCDKH{
 
 }
 

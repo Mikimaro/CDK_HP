@@ -27,16 +27,16 @@
 					);
 
 				$head = array(
-						"CoderDojo Kashiwa",
 						"",
-						"CoderDojo Kashiwa-no-ha",
+						"",
+						"",
 						""
 					);
 
 				$comment = array(
-						"こんにちは、CoderDojo Kashiwaの公式サイトにようこそ",
 						"",
-						"柏の葉にあるCoderDojo Kashiwaの姉妹Dojoです",
+						"",
+						"",
 						""
 					);
 

@@ -3,17 +3,21 @@
 ?>
 
 <div id="container">
+
 	<div class="pageTitle">
-		<img src="./image/dojoLogo.png" class="headerLogo">
+
+		<img src="./image/kashiwanohalogo.png" class="headerLogo">
 		<h1 class="headline">CoderDojo Kashiwa-no-ha</h1>
 		<p class="headline">市内2つ目の学びの場所へようこそ。</p>
+		
 	</div>
 
-	<div class="kashiwanoha">
+		<div id="kashiwanoha">
 
 		<div class="individual">
 
-			<div class="title-of-top">
+			<div class="aboutCDKH title-of-top">
+
 				<p class="title">CoderDojo Kashiwa-no-ha</p>
 				<p class="text">
 					CoderDojo Kashiwa-no-haは2015年6月に市内2つ目の拠点として設立されました。<br>
@@ -26,15 +30,17 @@
 				<p class="title">お申し込み</p>
 				<p class="text">
 					こちらの公式サイトからお申し込みできます。
-				</p>
 
-				<a href="./kashiwanoha">CoderDojo Kashiwa-no-ha公式サイト</a>
+					<br>
+
+					<a href="./kashiwanoha">CoderDojo Kashiwa-no-ha公式サイト</a>
+				</p>
 
 			</div>
 
 		</div>
 
-	</div>
+		</div>
 
 </div>
 

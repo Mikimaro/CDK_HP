@@ -41,11 +41,14 @@
  * BASE STYLES
  * ====================================================================================================================*/
 .slides{
+  margin: 0 auto;
+  width: 100%;
 }
 
 .flexslider {
   margin: 0;
   padding: 0;
+  width: 100%;
 
 }
 .flexslider .slides > li {
@@ -78,7 +81,7 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 50px;
+  margin-bottom: 50px;
   background: #ffffff;
   position: relative;
   zoom: 1;
