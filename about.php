@@ -31,6 +31,12 @@
 			<div class="aboutCoderDojoJapan">
 
 				<p class="title">CoderDojo Japan</p>
+
+				<!-- Twitter -->
+				<div>
+					<a href="https://twitter.com/CoderDojoJapan" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false" data-dnt="true">Follow</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+				</div>
 				<p class="text">
 					日本でCoderDojoが初めて開催されたのは2012年4月のことです。<br>
 					以降、全国各地でDojoが開催され、現在では24箇所で開かれてます。
@@ -79,6 +85,13 @@
 			<div class="aboutCDK">
 
 				<p class="title">CoderDojo Kashiwa</p>
+
+				<!-- Twitter -->
+				<div>
+					<a href="https://twitter.com/C_D_Kashiwa" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false" data-dnt="true">Follow</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+				</div>
+
 				<p class="text">
 					CoderDojo Kashiwaは2013年5月5日に第１回を開催しました。<br>
 				
