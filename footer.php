@@ -4,9 +4,15 @@
 
 		<div id="footerLinks" class="clearfix">
 
-			<div class="fb-page" data-href="https://www.facebook.com/CoderDojokashiwa/" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/CoderDojokashiwa/"><a href="https://www.facebook.com/CoderDojokashiwa/">Coder Dojo柏</a></blockquote></div></div>
 
-			<nav class="footerNav">
+			<div class="fb-page" data-href="https://www.facebook.com/CoderDojokashiwa/" data-tabs="timeline" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+				<div class="fb-xfbml-parse-ignore">
+					<blockquote cite="https://www.facebook.com/CoderDojokashiwa/">	<a href="https://www.facebook.com/CoderDojokashiwa/">Coder Dojo柏</a>
+					</blockquote>
+				</div>
+			</div>
+
+			<div class="footerNav">
 
 				<div class="linksLeft">
 
@@ -19,13 +25,13 @@
 							<?php
 
 								$CoderDojoName = array(
-									"CoderDojo Kashiwa-no-ha公式サイト",
-									"OnlineDojo 公式サイト",
-									"CoderDojo Japan公式サイト");
+									"CoderDojo Kashiwa-no-haの公式サイト",
+									"OnlineDojoの公式サイト",
+									"CoderDojo Japanの公式サイト");
 
 								$CoderDojoURL = array(
-									"./kashiwanoha",
-									"http://www.coderdojo-kashiwa.com/onlinedojo/",
+									"kashiwanoha",
+									"onlinedojo",
 									"http://www.coderdojo.jp/");
 
 								for ($i= 0; $i < count($CoderDojoName); $i++) { 
@@ -106,9 +112,9 @@
 					
 						<?php
 
-							$Text = array("最新の情報","過去のイベント");
+							$Text = array("最新の情報","イベント一覧");
 
-							$URL = array("http://www.coderdojo-kashiwa.com/ScratchDay/","event.php");
+							$URL = array("event/ScratchDay","event.php");
 							
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -120,7 +126,7 @@
 
 			</div>
 
-			</nav>
+			</div>
 
 		</div>
 
@@ -139,7 +145,7 @@
 				<?php
 					$Name = array('プライバシーポリシー','運営について','スポンサー','連絡先');
 
-					$URL = array('./privacy','founder.php','sponsor.php','contact.php');
+					$URL = array('privacy','founder.php','sponsor.php','contact.php');
 
 					for ($i= 0; $i < count($Name); $i++) { 
 						print("<a href='{$URL[$i]}' class='aux-contents'>$Name[$i]</a>");

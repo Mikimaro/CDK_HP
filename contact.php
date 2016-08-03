@@ -6,7 +6,7 @@
 
 		<div class="pageTitle nonImg">
 
-			<h1 class="headline">連絡先</h1>
+			<h1 class="headline">お問い合わせ</h1>
 
 		</div>
 

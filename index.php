@@ -72,7 +72,7 @@
 				
 				<div>
 
-					<a href="./schedule"><img src="./image/sub/date.png"></a>
+					<a href="schedule"><img src="./image/sub/date.png"></a>
 
 				</div>
 
@@ -84,7 +84,7 @@
 				
 				<div>
 
-					<a href="./kashiwanoha"><img src="./image/sub/kashiwa-no-ha.png"></a>
+					<a href="kashiwanoha"><img src="./image/sub/kashiwa-no-ha.png"></a>
 
 				</div>
 

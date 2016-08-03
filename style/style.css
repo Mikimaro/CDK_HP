@@ -167,58 +167,6 @@ visibility: hidden;
 	color: black;
 }
 
-.inner{
-	top: 0;
-	left: 0;
-	width: 100%;
-	position: absolute;
-	text-align: center;
-}
-
-.head{
-	margin: 5% auto 0 auto;
-	font-size: 2.5em;
-	font-weight: 200;
-	background-color: rgba(220,220,220,0.7);
-}
-
-.comment{
-	font-size: 1.5em;
-	font-weight: 200;
-	background-color: rgba(220,220,220,0.7);
-}
-
-.head001{
-	width: 35%;
-}
-
-.comment001{
-	margin: 0 auto;
-	width: 60%;
-}
-
-.head002{
-	width: 65%;
-}
-
-.comment002{
-}
-
-.head003{
-	width: 45%;
-}
-
-.comment003{
-	margin: 0 auto;
-	width: 50%;
-}
-
-.head004{
-}
-
-.comment004{
-}
-
 #sub{
 	margin: 1% auto;
 	width: 100%;
@@ -531,9 +479,6 @@ visibility: hidden;
 }
 /*== footer ==*/
 #footer{
-	left: 0;
-	margin: 0;
-	padding: 0;
 	width: 100%;
 	background-color: rgba(30,144,255,0.5);
 	color: white;
@@ -543,60 +488,86 @@ visibility: hidden;
 	color: white;
 }
 
+#footer-contents{
+	width: 100%;
+}
+
 #footerLinks{
-	margin: 0;
-	padding: 0;
-}
-
-#footerLinks ul{
-	list-style: none;
-}
-
-#footerLinks li{
-	margin: 0.5% 0; 
-	margin-left: 5%;
+	margin-left: 12%;
+	padding: 1%;
+	display: flex;
 }
 
 #footerLinks h1{
 	margin: 0;
-	padding: 0;
-	font-size: 18px;
-	margin-bottom: 0.5%;
+	font-size: 1.5em;
 }
 
-#footer-contents{
-	width: 80%;
-	margin: 0 auto;
+.fb-page{
+	margin: 0;
+	margin-right: 5%;
+	padding: 0;
+	width: 300px;
+	height: 400px;
 }
+
 
 .footerNav{
-	margin: 0;
-	padding: 0;
-	background-color:#aaa;
+	width: 70%;
+	display: flex;
+}
+
+.footerNav ul{
+	list-style: none;
+
+}
+
+.footerNav li{
+	margin-left: 10%;
 }
 
 .linksLeft{
-	width: 340px;
-	float: left;
+	width: 50%;
+	padding-right: 5%;
+}
+
+.linksLeft div{
+	margin: 5% 0;
+}
+
+.linksLeft div:first-child{
+	margin: 0;
+	margin-bottom: 5%;
 }
 
 .linksRight{
-	width: 330px;
-	float: left;
-	margin-left: 3%;
+	width: 50%;
+}
+
+.linksRight div{
+	margin: 5% 0;
+}
+
+.linksRight div:first-child{
+	margin: 0;
+	margin-bottom: 5%;
 }
 
 #mere{
-	height: 100px;
+	margin-top: 1%;
+	margin-right: 1%;
+	height: 110px;
 	text-align: right;
 }
 
 #copyright{
-	font-size: 11px;
+	font-size: 12px;
+
 }
 
 #aux{
-	font-size: 8px;
+	font-size: 12px;
+
 }
 
 .aux-contents{
@@ -608,16 +579,6 @@ visibility: hidden;
 .aux-contents:last-child{
 	border: none;
 }
-
-.fb-page{
-	margin: 0 5%;
-	margin-top: 1%;
-	padding: 0;
-	width: 300px;
-	float: left;
-
-}
-
 /*== sponsor ==*/
 
 #sponsor{

@@ -1,0 +1,42 @@
+body{
+	width: 100%;
+	text-align: center;
+}
+
+img{
+	width: 400px;
+}
+
+a{
+	color: #1E90FF;
+	text-decoration: none;
+}
+
+.header{
+
+}
+
+#top{
+	font-size: 2em;
+
+}
+
+.container{
+	margin: 0 auto;
+	padding-bottom: 1%;
+	width: 70%;
+	border-radius: 20px;
+	background-color: #EEEEEE;
+
+}
+
+.main{
+	font-size: 1.2em;
+
+}
+
+.txt{
+
+
+}
+

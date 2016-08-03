@@ -23,10 +23,12 @@
 			<div class="individual">
 
 				<p class="title">メンターについて</p>
+				
 				<p class="text">
 					メンターとは、CoderDojo Kashiwaの先生です。これには"共に考え助ける"という意味合いがあり、ただ自分の知識を子どもたちに一方的に共有するような"先生"とは違うという意味でこの言葉を使っています。<br>
 					CoderDojo Kashiwaには様々なメンターがいます。学生メンターはもちろん、仕事でプログラムしている大人もたくさんいます。<br>
 					私たちの活動は完全なボランティアで、メンターたちは無給で教えています。また、活動が月2回あることもあり少しハードルが高いように思えてしまうかもしれません。しかし、CoderDojoという場所はなにかに縛られながら活動するわけではありません。自分の都合がつくときにだけでもメンターとして参加してくださるだけで構わないのです。あなたの力をCoderDojo Kashiwaで発揮してみませんか。
+				</p>
 				
 				<p class="title">メンターとしての素質</p>
 				<p class="text">私たちは以下のような方にメンターになっていただきたいと考えています。
@@ -42,7 +44,7 @@
 
 				<p class="title">活動概要</p>
 				<p class="text">CoderDojo Kashiwa及びKashiwa-no-haでの活動概要です。</p>
-				<p class="text">【Kashiwa】
+				<p class="text">【Kashiwa】</p>
 				<ul>
 					<li>活動日時：毎月第2・4日曜日　10:00-12:00</li>
 					<li>活動場所：<a href="http://nbob.jp">NoblesseOblige</a></li>
@@ -67,7 +69,9 @@
 			<div class="space"><button><a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" target="_blank">応募する</a></button></div>
 			
 		</div>
-	
+
+	</div>
+
 </div>
 
 <?php

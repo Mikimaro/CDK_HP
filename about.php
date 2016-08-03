@@ -100,9 +100,9 @@
 					また、CoderDojo Kashiwaの特徴は運営を学生が行っていることです。創設メンバーは小学生のときから友人である2名です。<br>
 					メンター（教える人）も多くは高校生ですが、プロのプログラマである大人も一緒に教えています。<br><br>
 
-					現在、様々な協力があり、60回以上開催してきました。そして、姉妹Dojoの<a href="www.coderdojo-kashiwa.com/kashiwanoha/">CoderDojo Kashiwa-no-ha</a>が2015年6月に柏の葉に誕生しました。<br><br>
+					現在、様々な協力があり、60回以上開催してきました。そして、姉妹Dojoの<a href="kashiwanoha">CoderDojo Kashiwa-no-ha</a>が2015年6月に柏の葉に誕生しました。<br><br>
 
-					そしてCoderDojo Kashiwaは2016年5月で3年を迎えました。その記念すべき年に、私たちは「<a href="http://www.coderdojo-kashiwa.com/ScratchDay/">ScratchDay in Kashiwa</a>」を開催しました。ScratchDayとは、アメリカのマサチューセッツ工科大学（MIT）メディアラボが開発した教育用プログラミングツール”Scratch”の誕生を祝うお祭りです。
+					そしてCoderDojo Kashiwaは2016年5月で3年を迎えました。その記念すべき年に、私たちは「<a href="event/ScratchDay">ScratchDay in Kashiwa</a>」を開催しました。ScratchDayとは、アメリカのマサチューセッツ工科大学（MIT）メディアラボが開発した教育用プログラミングツール”Scratch”の誕生を祝うお祭りです。
 				</p>
 
 			</div>
@@ -118,7 +118,7 @@
 					このサービスはCoderDojo Kashiwa及びKashiwa-no-haに参加している子供たちに、Dojo以外の場所（例えば自宅や学校）でもDojoのメンターに質問をしたり、作品作りの続きができる画期的なシステムです。
 					<br><br>
 
-					ログインページは<a href="www.coderdojo-kashiwa.com/onlinedojo/">こちら</a><br>
+					ログインページは<a href="onlinedojo">こちら</a><br>
 					※本サービスの利用にはCoderDojo Kashiwa及びKashiwa-no-haの会場で個人に発行しているID並びにパスワードが必要です。
 				</p>
 
