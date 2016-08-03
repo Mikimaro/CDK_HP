@@ -42,7 +42,7 @@
 								);
 
 							$URL = array(
-								'http://www.coderdojo-kashiwa.com/ScratchDay/',
+								'event/ScratchDay/',
 								'event/spd/2015',
 								'event/jc/2015',
 								'event/spd/2014'

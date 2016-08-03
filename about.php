@@ -31,6 +31,12 @@
 			<div class="aboutCoderDojoJapan">
 
 				<p class="title">CoderDojo Japan</p>
+
+				<!-- Twitter -->
+				<div>
+					<a href="https://twitter.com/CoderDojoJapan" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false" data-dnt="true">Follow</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+				</div>
 				<p class="text">
 					日本でCoderDojoが初めて開催されたのは2012年4月のことです。<br>
 					以降、全国各地でDojoが開催され、現在では24箇所で開かれてます。
@@ -79,6 +85,13 @@
 			<div class="aboutCDK">
 
 				<p class="title">CoderDojo Kashiwa</p>
+
+				<!-- Twitter -->
+				<div>
+					<a href="https://twitter.com/C_D_Kashiwa" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false" data-dnt="true">Follow</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+				</div>
+
 				<p class="text">
 					CoderDojo Kashiwaは2013年5月5日に第１回を開催しました。<br>
 				
@@ -87,9 +100,9 @@
 					また、CoderDojo Kashiwaの特徴は運営を学生が行っていることです。創設メンバーは小学生のときから友人である2名です。<br>
 					メンター（教える人）も多くは高校生ですが、プロのプログラマである大人も一緒に教えています。<br><br>
 
-					現在、様々な協力があり、60回以上開催してきました。そして、姉妹Dojoの<a href="www.coderdojo-kashiwa.com/kashiwanoha/">CoderDojo Kashiwa-no-ha</a>が2015年6月に柏の葉に誕生しました。<br><br>
+					現在、様々な協力があり、60回以上開催してきました。そして、姉妹Dojoの<a href="kashiwanoha">CoderDojo Kashiwa-no-ha</a>が2015年6月に柏の葉に誕生しました。<br><br>
 
-					そしてCoderDojo Kashiwaは2016年5月で3年を迎えました。その記念すべき年に、私たちは「<a href="http://www.coderdojo-kashiwa.com/ScratchDay/">ScratchDay in Kashiwa</a>」を開催しました。ScratchDayとは、アメリカのマサチューセッツ工科大学（MIT）メディアラボが開発した教育用プログラミングツール”Scratch”の誕生を祝うお祭りです。
+					そしてCoderDojo Kashiwaは2016年5月で3年を迎えました。その記念すべき年に、私たちは「<a href="event/ScratchDay">ScratchDay in Kashiwa</a>」を開催しました。ScratchDayとは、アメリカのマサチューセッツ工科大学（MIT）メディアラボが開発した教育用プログラミングツール”Scratch”の誕生を祝うお祭りです。
 				</p>
 
 			</div>
@@ -105,7 +118,7 @@
 					このサービスはCoderDojo Kashiwa及びKashiwa-no-haに参加している子供たちに、Dojo以外の場所（例えば自宅や学校）でもDojoのメンターに質問をしたり、作品作りの続きができる画期的なシステムです。
 					<br><br>
 
-					ログインページは<a href="www.coderdojo-kashiwa.com/onlinedojo/">こちら</a><br>
+					ログインページは<a href="onlinedojo">こちら</a><br>
 					※本サービスの利用にはCoderDojo Kashiwa及びKashiwa-no-haの会場で個人に発行しているID並びにパスワードが必要です。
 				</p>
 

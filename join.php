@@ -3,7 +3,9 @@
 ?>
 
 <div id="container">
+
 	<div class="pageTitle">
+
 		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">
 			CoderDojo Kashiwaに参加する
@@ -13,19 +15,19 @@
 			あたらしい世界への扉を開きましょう
 		</p>
 
-		<div id="formSelectButton">
+	</div>
 
-			<a href="firstJoinForm.php" class="formBlockF"><img src="image/form/firstJoinButton.png"></a>
+	<div id="formSelectButton">
+
+		<a href="firstJoinForm.php" class="formBlockF"><img src="image/form/firstJoinButton.png"></a>
 
 			<br><br>
 
-			<a href="form.php" class="formBlockM"><img src="image/form/multiJoinButton.png"></a>
+		<a href="form.php" class="formBlockM"><img src="image/form/multiJoinButton.png"></a>
 
 			<br><br>
 
 		</div>
-
-	</div>
 </div>
 
 <?php
