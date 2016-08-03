@@ -872,7 +872,19 @@ table{
 
 }
 
+.kashiwanohaHeader{
+	width: 20%;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
 .iframeCenter{
 	text-align: center;
 	margin: 0 auto;
+}
+
+.formBig{
+	font-size: 30px;
+	text-align: center;
 }

@@ -137,9 +137,9 @@
 			<div id="aux">
 
 				<?php
-					$Name = array('サイトマップ','プライバシーポリシー','運営について','スポンサー','連絡先');
+					$Name = array('プライバシーポリシー','運営について','スポンサー','連絡先');
 
-					$URL = array('sitemap.php','./privacy','founder.php','sponsor.php','contact.php');
+					$URL = array('./privacy','founder.php','sponsor.php','contact.php');
 
 					for ($i= 0; $i < count($Name); $i++) { 
 						print("<a href='{$URL[$i]}' class='aux-contents'>$Name[$i]</a>");

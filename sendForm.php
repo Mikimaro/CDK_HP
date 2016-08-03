@@ -33,6 +33,14 @@
 		//DojoGmailへのリマインドメール
 		mail(DOJO_GMAIL, "【新規申し込みがあります】", $sendMessageForDojo, "From:".DOJO_MAIL);
 
+		$joined = "yes";
+
+		if ($pcRent == "希望する") {
+			$pcRent = "yes";
+		}else{
+			$pcRent = "no";
+		}
+
 
 		//データベースに登録する処理
 		require_once 'functions.php';
@@ -41,6 +49,15 @@
 		$sql = "INSERT INTO setData(setDate, childName, kana, age, schoolName, parentName, mail, bygone, pc, place, comment) values (now(), ?,?,?,?,?,?,?,?,?,?)";
 		$stmt = $dbh->prepare($sql);
 		$flag = $stmt->execute(array($childName, $kana, $grade, $schoolName, $parentName, $mail, $joined, $pcRent, $place, $option)); 
+
+		$joined = "リピーター";
+
+		if ($$pcRent == "yes") {
+			$pcRent = "希望する";
+		}else{
+			$pcRent = "希望しない";
+		}
+
 
 		require_once 'header.php';
 

@@ -4,7 +4,7 @@
 
 <div id="container">
 	<div class="pageTitle">
-		<img src="./image/dojoLogo.png" class="headerLogo">
+		<img src="./image/kashiwanohalogo.png" class="kashiwanohaHeader">
 		<h1 class="headline">CoderDojo Kashiwa-no-ha</h1>
 		<p class="headline">市内2つ目の学びの場所へようこそ。</p>
 	</div>
@@ -30,6 +30,8 @@
 
 				<a href="./kashiwanoha">CoderDojo Kashiwa-no-ha公式サイト</a>
 
+				<br><br>
+
 			</div>
 
 		</div>
@@ -37,6 +39,8 @@
 	</div>
 
 </div>
+
+<br>
 
 <?php
 	require_once 'footer.php';

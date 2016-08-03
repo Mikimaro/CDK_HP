@@ -33,6 +33,14 @@
 		//DojoGmailへのリマインドメール
 		mail(DOJO_GMAIL, "【新規申し込みがあります】", $sendMessageForDojo, "From:".DOJO_MAIL);
 
+		$joined = "no";
+
+		if ($pcRent == "希望する") {
+			$pcRent = "yes";
+		}else{
+			$pcRent = "no";
+		}
+
 		require_once 'functions.php';
 
 		$dbh = dbCon(); 
@@ -40,6 +48,14 @@
 		$sql = "INSERT INTO setData(setDate, childName, kana, age, schoolName, parentName, mail, bygone, pc, place, comment) values (now(), ?,?,?,?,?,?,?,?,?,?)";
 		$stmt = $dbh->prepare($sql);
 		$flag = $stmt->execute(array($childName, $kana, $grade, $schoolName, $parentName, $mail, $joined, $pcRent, $place, $option)); 
+
+		$joined = "初参加";
+
+		if ($pcRent == "yes") {
+			$pcRent = "希望する";
+		}else{
+			$pcRent = "希望しない";
+		}
 
 
 		require_once 'header.php';
@@ -57,7 +73,7 @@
 			以下の情報でお申し込みを承りました。当日お会いできるのを楽しみにしております。
 		</p>
 
-		<table border="1">
+		<table border="1" class="resultTable">
 			<tr><td>お名前</td><td><?php echo($childName);?></td></tr>
 			<tr><td>ふりがな</td><td><?php echo($kana); ?></td></tr>
 			<tr><td>学年</td><td><?php echo($grade); ?></td></tr>

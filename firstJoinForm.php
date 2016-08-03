@@ -81,7 +81,7 @@
 		    $_SESSION['pc'] = $pcRent;
 		    $_SESSION['comment'] = $option;
 
-		    header('Location: sendForm.php');
+		    header('Location: firstSendForm.php');
 			
 		}
 		
@@ -111,14 +111,24 @@
 
 	if ($pageShowFlag == 0) {
 		//申し込みフォームオープン
+
+		$day = $result[0]['nextDojoDate'];
+		$num = $result[0]['nextDojoNumber'];
+
 		
 print<<<EOF
+
+	<p class='formBig'>
+			{$day} #{$num}
+	</p>
 	
 	<div id='join'>
 
-		<form action=' method='POST'>
+		<form action='' method='POST'>
 
 			<div class='individual title-of-top'>
+
+			
 
 			<p class='formTitle'>お名前</p>
 				<p class='errorMsg'>{$error['childName']}</p>
@@ -162,7 +172,7 @@ print<<<EOF
 
 			<p class='formTitle'>ノートパソコンの貸出を希望しますか？</p>
 				<p class='errorMsg'>{$error['pcRent']}</p>
-				<input type='radio' name='pcRent' value='希望する' checked='>希望する
+				<input type='radio' name='pcRent' value='希望する' checked=''>希望する
 				<input type='radio' name='pcRent' value='希望しない'>希望しない
 
 			<p class='formTitle'>当Dojoをどこでお知りになりましたか？</p>

@@ -50,7 +50,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meat charset="UTF-8">
+	<meta charset="UTF-8">
 	<title>CDKWebサイトコントロールパネル</title>
 	<link rel="stylesheet" type="text/css" href="style/conpane.css">
 </head>
@@ -62,7 +62,7 @@
 	
 	<div id="main">
 
-		<p><?php print($dbResult[0]['lastUpdate']);?></p>
+		<p>Last update: <?php print($dbResult[0]['lastUpdate']);?></p>
 
 		<form action="" method="POST">
 

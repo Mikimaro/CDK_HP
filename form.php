@@ -91,8 +91,16 @@
 	</div>
 
 <?php
+
+	$day = $result[0]['nextDojoDate'];
+	$num = $result[0]['nextDojoNumber'];
+
 	if ($pageShowFlag == 0) {
 print<<<EOF
+	
+	<p class='formBig'>
+			{$day} #{$num}
+	</p>
 
 	<div id='join'>
 
