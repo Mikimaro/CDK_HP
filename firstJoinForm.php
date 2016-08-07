@@ -105,6 +105,8 @@
 			
 		</p>
 
+
+
 	</div>
 
 <?php
@@ -130,16 +132,16 @@ print<<<EOF
 
 			
 
-			<p class='formTitle'>お名前</p>
-				<p class='errorMsg'>{$error['childName']}</p>
-				<input type='text' name='childName' class='textBox'>
+				<p class='formTitle'>お名前</p>
+					<p class='errorMsg'>{$error['childName']}</p>
+					<input type='text' name='childName' class='textBox'>
 
-			<p class='formTitle'>ふりがな</p>
-				<p class='errorMsg'>{$error['kana']}</p>
-				<input type='text' name='kana' class='textBox'>
-			<p class='formTitle'>学年</p>
-				<p class='errorMsg'>{$error['grade']}</p>
-				<select name='grade'>
+				<p class='formTitle'>ふりがな</p>
+					<p class='errorMsg'>{$error['kana']}</p>
+					<input type='text' name='kana' class='textBox'>
+				<p class='formTitle'>学年</p>
+					<p class='errorMsg'>{$error['grade']}</p>
+					<select name='grade'>
 EOF;
 
 
@@ -158,36 +160,36 @@ print<<<EOF
 					<option value='その他'>その他</option>
 				</select>
 
-			<p class='formTitle'>学校名</p>
-				<p class='errorMsg'>{$error['schoolName']}</p>
-				<input type='text' name='schoolName' class='textBox'>
+				<p class='formTitle'>学校名</p>
+					<p class='errorMsg'>{$error['schoolName']}</p>
+					<input type='text' name='schoolName' class='textBox'>
 
-			<p class='formTitle'>保護者氏名</p>
-				<p class='errorMsg'>{$error['parentName']}</p>
-				<input type='text' name='parentName' class='textBox'>
+				<p class='formTitle'>保護者氏名</p>
+					<p class='errorMsg'>{$error['parentName']}</p>
+					<input type='text' name='parentName' class='textBox'>
 
-			<p class='formTitle'>メールアドレス</p>
-				<p class='errorMsg'>{$error['mail']}</p>
-				<input type='text' name='mail' class='textBox'>
+				<p class='formTitle'>メールアドレス</p>
+					<p class='errorMsg'>{$error['mail']}</p>
+					<input type='text' name='mail' class='textBox'>
 
-			<p class='formTitle'>ノートパソコンの貸出を希望しますか？</p>
-				<p class='errorMsg'>{$error['pcRent']}</p>
-				<input type='radio' name='pcRent' value='希望する' checked=''>希望する
-				<input type='radio' name='pcRent' value='希望しない'>希望しない
+				<p class='formTitle'>ノートパソコンの貸出を希望しますか？</p>
+					<p class='errorMsg'>{$error['pcRent']}</p>
+					<input type='radio' name='pcRent' value='希望する' checked=''>希望する
+					<input type='radio' name='pcRent' value='希望しない'>希望しない
 
-			<p class='formTitle'>当Dojoをどこでお知りになりましたか？</p>
-				<p class='errorMsg'>{$error['why']}</p>
-				<input type='radio' name='why' value='Webページ'>Webページ<br>
-				<input type='radio' name='why' value='SNS'>SNS<br>
-				<input type='radio' name='why' value='知人・友人からの紹介'>知人・友人からの紹介<br>
-				<input type='radio' name='why' value='メディア'>メディア<br>
-				<input type='radio' name='why' value='すでに参加している'>すでに参加している<br>
-				<input type='radio' name='why' value='その他'>その他
-			
-			<p class='formTitle'>備考（あらかじめ伝えておきたいこと）</p>
-				<textarea cols='50' rows='10' name='option'></textarea>
+				<p class='formTitle'>当Dojoをどこでお知りになりましたか？</p>
+					<p class='errorMsg'>{$error['why']}</p>
+					<input type='radio' name='why' value='Webページ'>Webページ<br>
+					<input type='radio' name='why' value='SNS'>SNS<br>
+					<input type='radio' name='why' value='知人・友人からの紹介'>知人・友人からの紹介<br>
+					<input type='radio' name='why' value='メディア'>メディア<br>
+					<input type='radio' name='why' value='すでに参加している'>すでに参加している<br>
+					<input type='radio' name='why' value='その他'>その他
+				
+				<p class='formTitle'>備考（あらかじめ伝えておきたいこと）</p>
+					<textarea cols='50' rows='10' name='option'></textarea>
 
-				<input type='hidden' name='flag' value='1'>
+					<input type='hidden' name='flag' value='1'>
 
 				<div class='space'><input type='submit' value='申し込む'></div>
 

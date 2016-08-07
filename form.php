@@ -104,7 +104,7 @@ print<<<EOF
 
 	<div id='join'>
 
-		<form action=' method='POST'>
+		<form action='' method='POST'>
 
 			<div class='individual title-of-top'>
 
@@ -134,7 +134,7 @@ print<<<EOF
 
 			<p class='formTitle'>ノートパソコンの貸出を希望しますか？</p>
 				<p class='errorMsg'>{$error['pcRent']}</p>
-				<input type='radio' name='pcRent' value='希望する' checked='>希望する
+				<input type='radio' name='pcRent' value='希望する' checked=''>希望する
 				<input type='radio' name='pcRent' value='希望しない'>希望しない
 
 			<p class='formTitle'>備考（あらかじめ伝えておきたいこと）</p>
