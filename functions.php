@@ -2,7 +2,7 @@
 	function dbCon() {
 
 		//0:本番 1:ローカル
-		$debugFlag = 1;
+		$debugFlag = 0;
 
 		if ($debugFlag == 0) {
 			
