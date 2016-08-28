@@ -56,7 +56,7 @@
 
 								for ($i= 0; $i < count($RTDName); $i++) { 
 									print("<li><a href='{$RTDURL[$i]}'>{$RTDName[$i]}</a></li>");
-							}
+								}
 						?>
 					</ul>
 				</div>
@@ -145,11 +145,8 @@
 				<?php
 					$Name = array('プライバシーポリシー','運営について','スポンサー','連絡先');
 
-<<<<<<< HEAD
+
 					$URL = array('./privacy','founder.php','sponsor.php','contact.php');
-=======
-					$URL = array('privacy','founder.php','sponsor.php','contact.php');
->>>>>>> 0ef08b51dd688e93a05308bb9e11533269cea5f8
 
 					for ($i= 0; $i < count($Name); $i++) { 
 						print("<a href='{$URL[$i]}' class='aux-contents'>$Name[$i]</a>");

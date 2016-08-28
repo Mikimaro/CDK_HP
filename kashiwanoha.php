@@ -5,12 +5,9 @@
 <div id="container">
 
 	<div class="pageTitle">
-<<<<<<< HEAD
-		<img src="./image/kashiwanohalogo.png" class="kashiwanohaHeader">
-=======
 
-		<img src="./image/kashiwanohalogo.png" class="headerLogo">
->>>>>>> 0ef08b51dd688e93a05308bb9e11533269cea5f8
+		<img src="./image/kashiwanohalogo.png" class="kashiwanohaHeader">
+
 		<h1 class="headline">CoderDojo Kashiwa-no-ha</h1>
 		<p class="headline">市内2つ目の学びの場所へようこそ。</p>
 		
