@@ -3,27 +3,34 @@
 $sponsorDataConpany = array(
 
 	0 => array(
+		"name" => "InnovationPower様",
+		"url" => "",
+		"type" => array("運営サポート", "活動サポート"),
+		"dojo" => array("Kashiwa, Kashiwa-no-ha")
+	),
+
+	1 => array(
 		"name" => "Noblesse Oblige様",
 		"url" => "http://nbob.jp/",
 		"type" => array("会場提供"),
 		"dojo" => array("Kashiwa")
 	), 
 
-	1 => array(
+	2 => array(
 		"name" => "Syun様",
 		"url" => "http://syun.com/",
 		"type" => array("活動サポート"),
 		"dojo" => array("Kashiwa"),
 	),
 
-	2 => array(
+	3 => array(
 		"name" => "KOIL様",
 		"url" => "http://www.31ventures.jp/ventureoffice/31ventures-koil/",
 		"type" => array("会場提供"),
 		"dojo" => array("Kashiwa-no-ha")
 	),
 
-	3 => array(
+	4 => array(
 		"name" => "Oak Leaf Project様",
 		"url" => "",
 		"type" => array("活動サポート"),
@@ -65,7 +72,7 @@ $sponsorDataPerson = array(
 
 							print("<li class='sponsorListLI'>");
 
-							if ($i == 1) {
+							if ($i == 2) {
 								print("<a href='{$sponsorDataConpany[$i]['url']}'><img src='image/sponsorImage/s{$imgNum}.gif' class='sponsorImg'></a>");
 							}else{
 								print("<a href='{$sponsorDataConpany[$i]['url']}'><img src='image/sponsorImage/s{$imgNum}.png' class='sponsorImg'></a>");

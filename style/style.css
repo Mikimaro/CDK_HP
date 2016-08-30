@@ -921,3 +921,36 @@ table{
 	font-size: 30px;
 	text-align: center;
 }
+
+/* kashiwaDojo */
+
+#studentMentor{
+	background-image: url(../image/slides/s2.jpg);
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
+}
+
+#localDojo{
+	background-image: url(../image/backgroundImage/bg2.jpg);
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.kDContentsBackground{
+	width: 100%;
+	height: 110vh;
+	opacity: 0.5;
+	background-color: white;
+}
+
+.kDContents{
+	width: 80%;
+	height: 100vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 100px;
+
+}
