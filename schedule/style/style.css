@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body{
+	width: 100%;
+	font-family: 'Noto Sans Japanese';
+	font-weight: 200;
+	text-align: center;
+}
+
+table{
+	width: 80%;
+	margin: 0 auto;
+}
+
+tr{
+	height: 80px;
+}
+
+td{
+	font-size: 20px;
+}
+
+img{
+	width: 50%;
+}
+
+/*== head要素 ==*/
+
+#header{
+}
+
+.header{
+	font-size: 1.8em;
+}
+
+
+/*== main要素 ==*/
+
+#main{
+}
+
+#head{
+	height: 100%;
+}
+.imgLogo{
+	margin-top: 1%;
+}
+
+.detainls{
+	font-size: 16px;
+}
+
+.month{
+}
+
+.kashiwa{
+}
+
+.kashiwanoha{
+}
+
+.caution{
+	color: red;
+}
+
+/*== footer要素 ==*/
+#footer{
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+
+

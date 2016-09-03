@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+
+h1{
+	text-align: left;
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+h2{
+	font-family: 'Noto Sans Japanese', sans-serif;
+	font-weight: 300;
+}
+
+body{
+    padding: 0px;
+    margin: 0px
+}
+
+a {
+	text-decoration: none;
+	color: #4FC912;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+a:hover {
+	color: white;
+}
+#content p{
+	font-family: 'Noto Sans Japanese', sans-serif;
+	text-align: left;
+	margin-left: 30%;
+}
+
+
+#header {
+	width: 100%;
+	z-index: 5;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	padding: 0px;
+	display: -moz-box;
+	display: -webkit-box;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	box-orient: horizontal;
+	background-color: #fff;
+	opacity: 0.8;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	position: fixed;
+}
+
+#header:hover{
+	opacity: 0.9;
+}
+
+#link {
+	text-align: center;
+}
+
+#icon {
+	width: 100px;
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+}
+
+#icon > img {
+	text-align: left;
+	padding-top: 20px;
+	width: 90%;
+	height: 90%;
+}
+
+#slider{
+	width: 70%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#menu {
+	width: 65%;
+	padding-top: 20px;
+	padding-left: 0px;
+	-webkit-font-size-adjust: 0.8;
+	-moz-font-size-adjust: 0.5;
+	-webkit-box-ordinal-group: 3;
+	-moz-box-ordinal-group: 3;
+}
+
+#menu:link{
+	color: fff;
+}
+
+#menu li{
+	list-style: none;
+	display: inline;
+	font-size: 150%;
+	border-left: inset;
+	border-width: 2px;
+	padding-left: 3%;
+	padding-right: 3%;
+	-moz-transition-duration: 0.6s;
+	-webkit-transition-duration: 0.6s; 
+	transition-duration: 0.6s;
+}
+
+#menu li:hover{
+	background-color: #3DABDB
+}
+#menu li:visited {
+	color: #ff00ff;
+  	text-decoration: none  
+}
+
+.menuli{
+	width: 2000px;
+}
+
+#header h1{
+	width: 23%;
+	-webkit-box-ordinal-group: 2;
+	-moz-box-ordinal-group: 2;	
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+#content {
+	padding-top: 120px;
+}
+
+#footer{
+	text-align: center;
+	margin: 30px;
+	display: -moz-box;
+	display: -webkit-box;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	box-orient: horizontal;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+}
+
+#footer p{
+	text-align: left;
+}
+
+#footer h2{
+	border-bottom:inset;
+	border-color: #9AFC27;
+}
+
+#supporter {
+	width: 50%;
+	-webkit-box-ordinal-group: 2;
+	-moz-box-ordinal-group: 2;
+}
+
+#fb {
+	width: 50%;
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+}
+
+@-moz-document url-prefix() {
+  #menu {
+    width: 700px;
+  }
+  #header{
+  	margin: 0;
+  	width: 100%;
+  	height: 120px;
+  	position: static;
+    }  
+    #fb {
+    	padding-right: 50px;
+    }
+	#supporter {
+		padding-left: 50px;
+		width: 550px;
+	}
+}

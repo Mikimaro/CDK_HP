@@ -1,0 +1,56 @@
+body{
+	text-align: center;
+	font-family: Meiryo, Verdana, 'ヒラギノ角ゴ ProN W3';
+}
+
+table{
+	margin: 0 auto;
+}
+
+#container{
+	width: 70%;
+	height: 70%;
+	margin: 0 auto;
+	/*background-color: gray; */
+
+}
+
+#header{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+}
+
+#err{
+	color: red;
+}
+
+#forgotPass{
+	margin-top: 50px;
+}
+
+#forgotPass a{
+	color: black;
+	text-decoration: none;
+}
+#forgotPass a:hover{
+	color: red;
+}
+
+#footer{
+	position: absolute;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	width: 100%;
+	bottom: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: red;
+}

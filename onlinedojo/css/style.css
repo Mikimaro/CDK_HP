@@ -1,0 +1,168 @@
+body {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+	line-height: 1.8;
+	font-family: Meiryo, Verdana, 'ヒラギノ角ゴ ProN W3';
+}
+
+.container {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.error_message {
+	color: red;
+	font-size: 15px;
+}
+
+.error {
+	color: red;
+	font-size: 15px;
+}
+
+
+#header {
+	border-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	background-color: black;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+#navi{
+
+}
+
+	.menu {
+		background-color: black;
+		font-size: 12px;
+		list-style: none;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	.menu >li {
+		float: left;
+		width: 120px;
+		text-align: center;
+	}
+
+	.menu a {
+		padding: 10px 0;
+		color: gray;
+		display: block;
+	}
+
+	.menu a:hover {
+		color: white;
+		background-color: red;
+	}
+
+#post {
+	width:90%;
+	clear: right;
+	float: left;
+	margin-top: 10px;
+}
+
+#post >img {
+		padding-right: 20px;
+		padding-bottom: 200px;
+		float: left;
+}
+
+		.posts {
+
+		}
+
+		.reload {
+			list-style: disc;
+		}
+
+	.subject img {
+		padding: 15px;
+		-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+
+}
+
+	.subject img:hover {
+		-webkit-filter: blur(5px);
+	}
+
+	.form {
+		overflow: hidden;
+		padding-left: 10px;
+	}
+
+	.scratch {
+		list-style: disc;
+	}
+
+		.scratch>h2 {
+			font-size: 16px;
+		}
+
+	.return {
+		margin-top: 100px;
+		margin-bottom: 30px;
+		padding: 0;
+		float: center;
+		background-color: white;
+		overflow: hidden;
+		list-style: none;
+		width: 150px;
+		height: 30px;
+		font-size: 12px;
+		text-align: center;
+		display: block;
+	}
+
+
+	.return li:hover {
+		background-color: gray;
+	}
+
+	.info {
+		margin: 20px;
+	}
+
+	.my-name {
+		text-align: right;
+	}
+
+#login {
+	background-color: black;
+	color: white;
+	text-align: center;
+	float: right;
+	padding-left;
+	width: 10%;
+	height : 312px;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+}
+
+#footerContent{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+}
