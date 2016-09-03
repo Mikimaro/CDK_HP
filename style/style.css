@@ -465,7 +465,6 @@ table.nextDojoTable th:after {
 	/*background-color: yellow;*/
 }
 
-
 /*== adopt ==*/
 #adopt{
 
@@ -811,19 +810,24 @@ table.nextDojoTable th:after {
 
 }
 
-.newsArticle{
+.latest-newsArticle{
 	padding: 2% 0;
 	border-top: 1px solid #999;
 	border-bottom: 1px solid #999;
 }
 
-.last-newsArticle{
+.newsArticle{
 	padding: 2% 0;
 	border-bottom: 1px solid #999;
 }
 
+.newsTitle{
+	font-size: 22px;
+}
+
 .newsHead{
-	font-size: 20px;
+	font-size: 18px;
+	font-weight: 80;
 }
 /*== table ==*/
 

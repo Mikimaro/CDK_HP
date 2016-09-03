@@ -37,25 +37,64 @@
 
 	<div id="media">
 
+		<div class="news">
+
 	<?php
 		for ($i=0; $i < count($title); $i++) { 
-			print("
-				<div class='mContents'>
-					<div class='mText'>
-						<h1 class='mTitle'>{$title[$i]}（{$date[$i]}）</h1>
-						<p class='mDescription'>{$description[$i]}</p>
-						<a href='{$links[$i]}' class='mLink' target='_blank'>記事を見る</a>
-					</div>
+
+
+			if ($i == 0) {
+				print("
+
+			<div class='latest-newsArticle'>
+
+				<div>
+
+					<p class='date'>{$date[$i]}</p>
+
 				</div>
-			");
+
+				<h1 class='newsTitle'>{$title[$i]}</h1>
+
+				<h2 class='newsHead'>{$description[$i]}</h2>
+
+				<a href='{$links[$i]}'>記事を見る</a>
+
+			</div>
+
+				");
+			} else {
+				print("
+
+			<div class='newsArticle'>
+
+				<div>
+
+					<p class='date'>{$date[$i]}</p>
+
+				</div>
+
+				<h1 class='newsTitle'>{$title[$i]}</h1>
+
+				<h2 class='newsHead'>{$description[$i]}</h2>
+
+				<a href='{$links[$i]}'>記事を見る</a>
+
+			</div>
+
+				");
+			}
+			
 		}
 	?>
 
-		
+		</div>
+
 	</div>
+
 
 </div>
 
 <?php
 	require_once 'footer.php';
-
+?>
