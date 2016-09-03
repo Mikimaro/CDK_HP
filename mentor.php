@@ -8,7 +8,8 @@
 			),
 			"dojo" =>array(
 				"Kashiwa / Kashiwa-no-ha"
-			)
+			),
+			"comment" => "コメント準備中"
 		),
 
 		1 => array(
@@ -19,7 +20,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		2 => array(
@@ -30,7 +32,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		3 => array(
@@ -41,7 +44,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		4 => array(
@@ -52,7 +56,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		5 => array(
@@ -63,7 +68,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		6 => array(
@@ -74,7 +80,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		7 => array(
@@ -85,7 +92,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		8 => array(
@@ -96,7 +104,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		9 => array(
@@ -107,7 +116,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		10 => array(
@@ -118,7 +128,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		11 => array(
@@ -129,7 +140,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		12 => array(
@@ -140,7 +152,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		13 => array(
@@ -151,7 +164,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		14 => array(
@@ -162,7 +176,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		)
 
 	);
@@ -328,22 +343,6 @@
 
 		</div>
 
-<!--
-
-		<div class="pageTitle">
-
-			<h1 class="headline">メンター紹介</h1>
-
-			<p class="headline">
-
-				CoderDojo Kashiwa & Kashiwa-no-haのメンターを紹介します。
-
-			</p>
-
-		</div>
-
--->
-
 		<div id="segment">
 			
 			<h5 class="choose"><a href="javascript:;" onclick="Display('no1')">学生メンター</a></h5>
@@ -367,9 +366,9 @@
 								print("<li class='mentorListLI'>");
 
 								if ($i == 1) {
-									print("<img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'>");
+									print("<a data-target='modalStudent{$imgNum}' class='modal-open'><img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'></a>");
 								}else{
-									print("<img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'>");
+									print("<a data-target='modalStudent{$imgNum}' class='modal-open'><img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'></a>");
 								}
 							
 									print("<div class='mentorProfile'>");
@@ -399,9 +398,9 @@
 							print("<li class='mentorListLI'>");
 
 							if ($i == 1) {
-								print("<img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'>");
+								print("<a data-target='modalStudent{$imgNum}' class='modal-open'><img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'></a>");
 							}else{
-								print("<img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'>");
+								print("<a data-target='modalStudent{$imgNum}' class='modal-open'><img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'></a>");
 							}
 							
 							print("<div class='mentorProfile'>");
@@ -489,6 +488,29 @@
 	</div>
 
 </div>
+
+		<?php
+
+			for ($i=0; $i < count($studentMentorData); $i+=1) { 
+				$imgNum = $i + 1;
+
+			print("<div id='modalStudent{$imgNum}' class='modal-content'>");
+
+				print("<h1>{$studentMentorData[$i]['name']}</h1>");
+
+				print("<img src='image/mentorImage/s{$imgNum}.jpg'>");
+
+				print("<p>{$studentMentorData[$i]['comment']}</p>");
+
+				print("<a class='modal-close'>×</a>");
+	
+			print("</div>");
+
+			}
+
+		?>
+
+
 
 <?php
 	require_once 'footer.php';
