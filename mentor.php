@@ -232,18 +232,6 @@
 			"comment" => "準備中"
 		),
 
-		18 => array(
-			"name" => "齊藤 開斗",
-			"en" => "Saito Kaito",
-			"skil" => array(
-				
-			),
-			"dojo" => array(
-				"Kashiwa-no-ha"
-			),
-			"comment" => "準備中"
-		),
-
 
 	);
 
