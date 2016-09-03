@@ -1,5 +1,12 @@
 <?php
 
+function FunctionName($value='')
+{
+	# code...
+}
+
+func()
+
 $sponsorDataConpany = array(
 
 	0 => array(

@@ -16,6 +16,7 @@
 		$place = $_SESSION['place'];
 		$pcRent = $_SESSION['pc'];
 		$option = $_SESSION['comment'];
+		$times = $_SESSION['num'];
 
 
 		//メール送信の処理
@@ -46,9 +47,9 @@
 		require_once 'functions.php';
 		
 		$dbh = dbCon();
-		$sql = "INSERT INTO setData(setDate, childName, kana, age, schoolName, parentName, mail, bygone, pc, place, comment) values (now(), ?,?,?,?,?,?,?,?,?,?)";
+		$sql = "INSERT INTO setData(setDate, childName, kana, age, schoolName, parentName, mail, bygone, pc, place, comment, times) values (now(), ?,?,?,?,?,?,?,?,?,?,?)";
 		$stmt = $dbh->prepare($sql);
-		$flag = $stmt->execute(array($childName, $kana, $grade, $schoolName, $parentName, $mail, $joined, $pcRent, $place, $option)); 
+		$flag = $stmt->execute(array($childName, $kana, $grade, $schoolName, $parentName, $mail, $joined, $pcRent, $place, $option, $times)); 
 
 		$joined = "リピーター";
 

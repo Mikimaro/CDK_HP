@@ -5,6 +5,13 @@
 	$flag = $_SESSION['flag'];
 
 	if ($flag == 1) {
+
+		//DBからもってくる
+
+		require_once 'functions.php';
+
+		$dbh = dbCon(); 
+
 		$childName = $_SESSION['childName'];
 	    $kana = $_SESSION['kana'];
 	    $grade = $_SESSION['age'];
@@ -15,7 +22,7 @@
 		$place = $_SESSION['place'];
 		$pcRent = $_SESSION['pc'];
 		$option = $_SESSION['comment'];
-
+		$times = $_SESSION['num'];
 
 		//メール送信の処理
 		define('DOJO_MAIL', 'join@coderdojo-kashiwa.com');
@@ -41,13 +48,11 @@
 			$pcRent = "no";
 		}
 
-		require_once 'functions.php';
+		
 
-		$dbh = dbCon(); 
-
-		$sql = "INSERT INTO setData(setDate, childName, kana, age, schoolName, parentName, mail, bygone, pc, place, comment) values (now(), ?,?,?,?,?,?,?,?,?,?)";
+		$sql = "INSERT INTO setData(setDate, childName, kana, age, schoolName, parentName, mail, bygone, pc, place, comment, times) values (now(), ?,?,?,?,?,?,?,?,?,?,?)";
 		$stmt = $dbh->prepare($sql);
-		$flag = $stmt->execute(array($childName, $kana, $grade, $schoolName, $parentName, $mail, $joined, $pcRent, $place, $option)); 
+		$flag = $stmt->execute(array($childName, $kana, $grade, $schoolName, $parentName, $mail, $joined, $pcRent, $place, $option, $times)); 
 
 		$joined = "初参加";
 

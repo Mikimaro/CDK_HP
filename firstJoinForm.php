@@ -14,6 +14,8 @@
 	$stmt->execute(array(":userID"=>$userID));
 	$result = $stmt->fetchAll();
 
+	$times = $result[0]['nextDojoNumber'];
+
 	$pageShowFlag = $result[0]['firstFormStatus'];
 	
 	$flag = $_POST['flag'];
@@ -80,6 +82,7 @@
 		    $_SESSION['place'] = $why;
 		    $_SESSION['pc'] = $pcRent;
 		    $_SESSION['comment'] = $option;
+		    $_SESSION['num'] = $times;
 
 		    header('Location: firstSendForm.php');
 			

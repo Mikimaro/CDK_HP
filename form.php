@@ -15,6 +15,8 @@
 	$stmt->execute(array(":userID"=>$userID));
 	$result = $stmt->fetchAll();
 
+	$times = $result[0]['nextDojoNumber'];
+
 	$pageShowFlag = $result[0]['repeaterFormStatus'];
 
 	if ($flag == 1) {
@@ -63,6 +65,7 @@
 		    $_SESSION['place'] = $why;
 		    $_SESSION['pc'] = $pcRent;
 		    $_SESSION['comment'] = $option;
+		   	$_SESSION['num'] = $times;
 
 		    header('Location: sendForm.php');
 			
