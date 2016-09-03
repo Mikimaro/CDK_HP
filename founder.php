@@ -1,8 +1,38 @@
 <?php
 	require_once 'header.php';
+
+	$title = array(
+		"",
+		"",
+		""
+	);
+
+	$date = array(
+		"2016年6月7日",
+		"2016年5月31日",
+		"2014年11月30日"
+	);
+
+	$description = array(
+		"自分のレールは自分で敷いていく――10代実業家対談（後編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談",
+		"これからの社会を担う若者にとっての「はたらく」とは――10代実業家対談（前編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談",
+		"TEDxKids@Chiyodaにて「地域貢献型イノベーター」としてスピーチ"
+	);
+
+	$links = array(
+		"http://workmill.jp/20160607_teen2.html",
+		"http://workmill.jp/20160531_teen1.html",
+		"https://www.youtube.com/watch?v=pvEbHI3estc"
+	);
+
+	$link_comment =array(
+		"対談記事を見る",
+		"対談記事を見る",
+		"TEDxKids@Chiyoda2014の映像を見る"
+	);
 ?>
 
-<div id="container">
+	<div id="container">
 
 		<div id="founder">
 
@@ -32,7 +62,8 @@
 
 					<p class="position">Co-Founder</p>
 
-					<a href="https://twitter.com/mjk_0513" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<a href="https://twitter.com/mjk_0513" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow
+					</a> 
 
 					<p class="founderProfile">
 						1997年5月13日生まれ<br>
@@ -46,55 +77,56 @@
 
 			<div class="news">
 
-				<div class="newsArticle">
+			<?php
+				for ($i=0; $i < count($title); $i++) { 
+					if ($i == 0) {
+						print("
+				<div class='latest-newsArticle'>
 
 					<div>
 
-						<p class="date">2016年6月7日</p>
+						<p class='date'>{$date[$i]}</p>
 
 					</div>
 
-					<h2 class="newsHead">自分のレールは自分で敷いていく――10代実業家対談（後編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談</h2>
+					<h1 class='newsTitle'>{$title[$i]}</h1>
 
-					<a href="http://workmill.jp/20160607_teen2.html">対談記事を見る</a>
+					<h2 class='newsHead'>{$description[$i]}</h2>
+
+					<a href='{$links[$i]}'>{$link_comment[$i]}</a>
 
 				</div>
 
-
-				<div class="last-newsArticle">
+						");
+					} else {
+						print("
+				<div class='newsArticle'>
 
 					<div>
 
-						<p class="date">2016年5月31日</p>
+						<p class='date'>{$date[$i]}</p>
 
 					</div>
 
-					<h2 class="newsHead">これからの社会を担う若者にとっての「はたらく」とは――10代実業家対談（前編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談</h2>
+					<h1 class='newsTitle'>{$title[$i]}</h1>
 
-					<a href="http://workmill.jp/20160531_teen1.html">対談記事を見る</a>
+					<h2 class='newsHead'>{$description[$i]}</h2>
 
-				</div>
-
-				<div class="last-newsArticle">
-
-					<div>
-
-						<p class="date">2014年11月30日</p>
-
-					</div>
-
-					<h2 class="newsHead">TEDxKids@Chiyodaにて「地域貢献型イノベーター」としてスピーチ</h2>
-
-					<a href="https://www.youtube.com/watch?v=pvEbHI3estc">TEDxKids@Chiyoda2014の映像を見る</a>
-
+					<a href='{$links[$i]}'>{$link_comment[$i]}</a>
 
 				</div>
+
+						");
+					}
+					
+				}
+			?>
 
 			</div>
 
 		</div>
 
-</div>
+	</div>
 
 <?php
 	require_once 'footer.php';

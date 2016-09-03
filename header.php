@@ -6,7 +6,61 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="style/formStyle.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/modal.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<script>
+	!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+	</script>
+
+	<script>
+	$(function(){
+	    // 「.modal-open」をクリック
+	    $('.modal-open').click(function(){
+	        // オーバーレイ用の要素を追加
+	        $('body').append('<div class="modal-overlay"></div>');
+	        // オーバーレイをフェードイン
+	        $('.modal-overlay').fadeIn('slow');
+
+	        // モーダルコンテンツのIDを取得
+	        var modal = '#' + $(this).attr('data-target');
+	        // モーダルコンテンツの表示位置を設定
+	        modalResize();
+	         // モーダルコンテンツフェードイン
+	        $(modal).fadeIn('slow');
+
+	        // 「.modal-overlay」あるいは「.modal-close」をクリック
+	        $('.modal-overlay, .modal-close').off().click(function(){
+	            // モーダルコンテンツとオーバーレイをフェードアウト
+	            $(modal).fadeOut('slow');
+	            $('.modal-overlay').fadeOut('slow',function(){
+	                // オーバーレイを削除
+	                $('.modal-overlay').remove();
+	            });
+	        });
+
+	        // リサイズしたら表示位置を再取得
+	        $(window).on('resize', function(){
+	            modalResize();
+	        });
+
+	        // モーダルコンテンツの表示位置を設定する関数
+	        function modalResize(){
+	            // ウィンドウの横幅、高さを取得
+	            var w = $(window).width();
+	            var h = $(window).height();
+
+	            // モーダルコンテンツの表示位置を取得
+	            var x = (w - $(modal).outerWidth(true)) / 2;
+	            var y = (h - $(modal).outerHeight(true)) / 2;
+
+	            // モーダルコンテンツの表示位置を設定
+	            $(modal).css({'left': x + 'px','top': y + 'px'});
+	        }
+
+	    });
+	});
+	</script>
 	<script src="./script/jquery.flexslider.js"></script>
 	
 
@@ -41,7 +95,6 @@
 
 	 </script>
 
-
 	<title>CoderDojo Kashiwa</title>
 
 </head>
@@ -49,13 +102,17 @@
 <body>
 
 	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+		<script>
+		
+		(function(d, s, id) {
+			 var js, fjs = d.getElementsByTagName(s)[0];
+			 if (d.getElementById(id)) return;
+			 js = d.createElement(s); js.id = id;
+			 js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+			 fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		</script>
 
 
 
