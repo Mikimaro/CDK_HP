@@ -28,19 +28,25 @@ a.modal-open:hover {cursor:pointer} /*カーソルをポインタに*/
 }
 
 .modal-content h1 {
+    margin: 1em 0 0 0;
     font-size:120%;
-    margin-bottom:0.5em
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: unset;
 }
 
 .modal-content p {
 }
 
-a.modal-close { /*クローズボタンは何でも好きなスタイルでOK*/
+a.modal-close {
     position:absolute;
-    top:0;
-    right:10px;
-    color:#b29c33;
-    font-size:35px;
+    top: 1em;
+    right: 1em;
+    color: #b29c33;
+    font-size: 1.2em;
     line-height:1;
     font-weight:bold;
     text-decoration:none}

@@ -9,7 +9,8 @@
 			"dojo" =>array(
 				"Kashiwa / Kashiwa-no-ha"
 			),
-			"comment" => "コメント準備中"
+			"comment" => "コメント準備中",
+			"positon" => "CoderDojo柏代表"
 		),
 
 		1 => array(
@@ -21,7 +22,8 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => "準備中",
+			"positon" => "CoderDojo柏代表"
 		),
 
 		2 => array(
@@ -69,7 +71,8 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => "準備中",
+			"positon" => "広報"
 		),
 
 		6 => array(
@@ -165,7 +168,8 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => "準備中",
+			"positon" => "CoderDojo柏の葉代表"
 		),
 
 		14 => array(
@@ -178,7 +182,68 @@
 				"Kashiwa"
 			),
 			"comment" => "準備中"
-		)
+		),
+
+		15 => array(
+			"name" => "柄澤 匠",
+			"en" => "Karasawa Takumi",
+			"skil" => array(
+				
+			),
+			"dojo" => array(
+				"Kashiwa-no-ha"
+			),
+			"comment" => "準備中"
+		),
+
+		16 => array(
+			"name" => "秋谷 拓弥",
+			"en" => "Akitani Takuya",
+			"skil" => array(
+
+			),
+			"dojo" => array(
+				"Kashiwa-no-ha"
+			),
+			"comment" => "準備中"
+		),
+
+		17 => array(
+			"name" => "王子 怜",
+			"en" => "Oji Rei",
+			"skil" => array(
+				
+			),
+			"dojo" => array(
+				"Kashiwa-no-ha"
+			),
+			"comment" => "準備中"
+		),
+
+		18 => array(
+			"name" => "齊藤 開斗",
+			"en" => "Saito Kaito",
+			"skil" => array(
+				
+			),
+			"dojo" => array(
+				"Kashiwa-no-ha"
+			),
+			"comment" => "準備中"
+		),
+
+		18 => array(
+			"name" => "齊藤 開斗",
+			"en" => "Saito Kaito",
+			"skil" => array(
+				
+			),
+			"dojo" => array(
+				"Kashiwa-no-ha"
+			),
+			"comment" => "準備中"
+		),
+
 
 	);
 
@@ -365,11 +430,7 @@
 
 								print("<li class='mentorListLI'>");
 
-								if ($i == 1) {
-									print("<a data-target='modalStudent{$imgNum}' class='modal-open'><img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'></a>");
-								}else{
 									print("<a data-target='modalStudent{$imgNum}' class='modal-open'><img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'></a>");
-								}
 							
 									print("<div class='mentorProfile'>");
 									print("<p class='name'>{$studentMentorData[$i]['name']}</p>");
@@ -380,7 +441,7 @@
 								for ($j=0; $j < count($studentMentorData[$i]['dojo']); $j++) { 
 									print("<p class='belonging'>{$studentMentorData[$i]['dojo'][$j]}");
 								}
-								print("</div>");
+									print("</div>");
 								print("</li>");	
 
 							}
@@ -397,22 +458,18 @@
 
 							print("<li class='mentorListLI'>");
 
-							if ($i == 1) {
-								print("<a data-target='modalStudent{$imgNum}' class='modal-open'><img src='image/mentorImage/s{$imgNum}.png' class='mentorImg'></a>");
-							}else{
 								print("<a data-target='modalStudent{$imgNum}' class='modal-open'><img src='image/mentorImage/s{$imgNum}.jpg' class='mentorImg'></a>");
-							}
-							
-							print("<div class='mentorProfile'>");
-							print("<p class='name'>{$studentMentorData[$i]['name']}</p>");
-							print("<p class='en'>{$studentMentorData[$i]['en']}</p>");
+														
+								print("<div class='mentorProfile'>");
+								print("<p class='name'>{$studentMentorData[$i]['name']}</p>");
+								print("<p class='en'>{$studentMentorData[$i]['en']}</p>");
 							for ($j=0; $j < count($studentMentorData[$i]['skil']); $j++) { 
 								print("<p class='skil {$studentMentorData[$i]['skil'][$j]}'>{$studentMentorData[$i]['skil'][$j]}");
 							}
 							for ($j=0; $j < count($studentMentorData[$i]['dojo']); $j++) { 
 								print("<p class='belonging'>{$studentMentorData[$i]['dojo'][$j]}");
 							}
-							print("</div>");
+								print("</div>");
 							print("</li>");	
 
 						}
@@ -497,6 +554,8 @@
 			print("<div id='modalStudent{$imgNum}' class='modal-content'>");
 
 				print("<h1>{$studentMentorData[$i]['name']}</h1>");
+
+				print("<h2>{$studentMentorData[$i]['positon']}</h2>");
 
 				print("<img src='image/mentorImage/s{$imgNum}.jpg'>");
 
