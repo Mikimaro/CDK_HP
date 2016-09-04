@@ -71,7 +71,9 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中",
+			"comment" => "Dojoで写真や映像を撮ったりしています。<br>
+			普段は美術大学に通い、多種多様な芸術分野について学んでいます。<br>
+			何かわからない事があれば聞いてください。",
 			"positon" => "広報"
 		),
 
@@ -244,7 +246,8 @@
 			),
 			"dojo" =>array(
 				"Kashiwa / Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		1 => array(
@@ -255,7 +258,11 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "いつもはモノづくりの会社向けにプログラムを作っています。<br>
+			作ったプログラムが思ったとおりに動かないときは、「なんでだろう？」と考えながら何回もためしてみてください。<br>
+			だんだん思いに近づいてくるのが楽しくなります。<br>
+			プログラミングを楽しみながら「あきらめない人」をめざしましょう。おうえんします！"
 		),
 
 		2 => array(
@@ -266,7 +273,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		3 => array(
@@ -277,18 +285,27 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		4 => array(
 			"name" => "坂田 健一",
 			"en" => "Sakata Kenchi",
 			"skil" => array(
-				"Scratch","ActionScript"
+				"Scratch","ActionScript","PHP","C"
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "〈心掛けていること〉 <br>
+			・Coder Dojo を通じてプログラミングでコンピューターをコントロールする楽しさを体験してもらう<br>
+			・子供同士のコミュニケーションから年齢を越えた人同士のやりとりから学校では得づらい経験をしてもらう  
+			<br><br>
+			〈参加される方へ〉<br>
+			プログラミングをやってみたいなぁと思っている方はもちろん、どんなものかよくわからないけど、<br>
+			最近聞いたことあるなぁと思っている方、試しに来てみてください。<br>
+			その後、おもしろそうなら、また来てください"
 		),
 
 		5 => array(
@@ -299,7 +316,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		6 => array(
@@ -310,7 +328,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		7 => array(
@@ -321,7 +340,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		8 => array(
@@ -332,7 +352,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		9 => array(
@@ -343,7 +364,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa"
-			)
+			),
+			"comment" => "準備中"
 		),
 
 		10 => array(
@@ -354,7 +376,8 @@
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
-			)
+			),
+			"comment" => "準備中"
 		)
 		
 	);
@@ -478,7 +501,7 @@
 
 							print("<li class='mentorListLI'>");
 
-							print("<img src='image/mentorImage/a{$imgNum}.jpg' class='mentorImg'>");
+							print("<a data-target='modalAdult{$imgNum}' class='modal-open'><img src='image/mentorImage/a{$imgNum}.jpg' class='mentorImg'></a>");
 
 							print("<div class='mentorProfile'>");
 							print("<p class='name'>{$adultMentorData[$i]['name']}</p>");
@@ -506,7 +529,7 @@
 
 							print("<li class='mentorListLI'>");
 
-							print("<img src='image/mentorImage/a{$imgNum}.jpg' class='mentorImg'>");
+							print("<a data-target='modalAdult{$imgNum}' class='modal-open'><img src='image/mentorImage/a{$imgNum}.jpg' class='mentorImg'></a>");
 							
 							print("<div class='mentorProfile'>");
 							print("<p class='name'>{$adultMentorData[$i]['name']}</p>");
@@ -548,6 +571,25 @@
 				print("<img src='image/mentorImage/s{$imgNum}.jpg'>");
 
 				print("<p>{$studentMentorData[$i]['comment']}</p>");
+
+				print("<a class='modal-close'>×</a>");
+	
+			print("</div>");
+
+			}
+
+			for ($i=0; $i < count($adultMentorData); $i+=1) { 
+				$imgNum = $i + 1;
+
+			print("<div id='modalAdult{$imgNum}' class='modal-content'>");
+
+				print("<h1>{$adultMentorData[$i]['name']}</h1>");
+
+				print("<h2>{$adultMentorData[$i]['positon']}</h2>");
+
+				print("<img src='image/mentorImage/a{$imgNum}.jpg'>");
+
+				print("<p>{$adultMentorData[$i]['comment']}</p>");
 
 				print("<a class='modal-close'>×</a>");
 	
