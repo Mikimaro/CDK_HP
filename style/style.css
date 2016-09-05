@@ -805,11 +805,6 @@ table.nextDojoTable th:after {
 	width: 95%;
 }
 
-.news{
-	margin: 5% auto;
-	width: 80%;
-
-}
 
 .latest-newsArticle{
 	padding: 2% 0;
@@ -822,10 +817,19 @@ table.nextDojoTable th:after {
 	border-bottom: 1px solid #999;
 }
 
-
 .newsHead{
 	font-size: 20px;
+	font-weight: normal;
 }
+
+.summary{
+	margin-left: 1%;	
+}
+
+.news-Text{
+	margin: 0 3%;
+}
+
 /*== table ==*/
 
 table{
@@ -848,19 +852,11 @@ table{
 	margin: 5% auto;
 }
 
-.mTitle{
-	font-size: 20px;
-	font-weight: normal;
-}
+
 
 .mContents{
 	background-color: #EEEEEE;
 	border-radius: 20px;
-}
-
-.mText{
-	margin: 20px;
-	margin-bottom: 40px;
 }
 
 /*== pressRelease ==*/

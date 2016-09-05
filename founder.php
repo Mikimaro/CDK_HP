@@ -13,10 +13,22 @@
 		"TEDxKids@Chiyodaにて「地域貢献型イノベーター」としてスピーチ"
 	);
 
+	$summary = array(
+		"「やりたいことを自分で仕事にしていく」という意識の有無で、進路に対する考え方にはかなり差異が出てくると思います...",
+		"今や、仕事や起業は「大人だけができること」ではありません。大学生が在学中に起業することは珍しくなく、それが世界的な大企業に成長する事例も存在します。...",
+		"",
+	);	
+
 	$links = array(
 		"http://workmill.jp/20160607_teen2.html",
 		"http://workmill.jp/20160531_teen1.html",
 		"https://www.youtube.com/watch?v=pvEbHI3estc"
+	);
+
+	$show = array(
+		"記事",
+		"記事",
+		"動画"
 	);
 
 
@@ -64,7 +76,7 @@
 
 			</div>
 
-			<div class="news">
+		<div id="media">
 
 
 		<?php
@@ -72,15 +84,19 @@
 				print("
 					<div class='latest-newsArticle'>
 
-						<div>
-
+						<div class='news-Text'>
+						
 							<p class='date'>{$date[$i]}</p>
+
+
+							<h2 class='newsHead'>{$title[$i]}</h2>
+
+							<p class='summary'>{$summary[$i]}</p>
+
+							<a href='{$links[$i]}' target='_blank'>記事を見る</a>
 
 						</div>
 
-							<h2 class='newsHead'>{$title[$i]}</p>
-
-							<a href='{$links[$i]}' target='_blank'>記事を見る</a>
 
 					</div>
 				");
@@ -90,15 +106,18 @@
 				print("
 					<div class='newsArticle'>
 
-						<div>
+						<div class='news-Text'>
 
 							<p class='date'>{$date[$i]}</p>
 
-						</div>
 
-							<h2 class='newsHead'>{$title[$i]}</p>
+							<h2 class='newsHead'>{$title[$i]}</h2>
+
+							<p class='summary'>{$summary[$i]}</p>
 
 							<a href='{$links[$i]}' target='_blank'>記事を見る</a>
+
+						</div>
 
 					</div>
 				");

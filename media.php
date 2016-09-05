@@ -45,11 +45,11 @@
 				print("
 					<div class='latest-newsArticle'>
 
-						<div class='mText'>
+						<div class='news-Text'>
 
-							<h1 class='mTitle'>{$title[$i]}（{$date[$i]}）</h1>
+							<h1 class='newsHead'>{$title[$i]}（{$date[$i]}）</h1>
 
-							<p class='mDescription'>{$description[$i]}</p>
+							<p class='summary'>{$description[$i]}</p>
 
 							<a href='{$links[$i]}' class='mLink' target='_blank'>記事を見る</a>
 
@@ -64,11 +64,11 @@
 				print("
 					<div class='newsArticle'>
 
-						<div class='mText'>
+						<div class='news-Text'>
 
-							<h1 class='mTitle'>{$title[$i]}（{$date[$i]}）</h1>
+							<h1 class='newsHead'>{$title[$i]}（{$date[$i]}）</h1>
 
-							<p class='mDescription'>{$description[$i]}</p>
+							<p class='summary'>{$description[$i]}</p>
 
 							<a href='{$links[$i]}' class='mLink' target='_blank'>記事を見る</a>
 
