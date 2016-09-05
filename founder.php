@@ -1,5 +1,25 @@
 <?php
 	require_once 'header.php';
+
+	$date = array(
+		"2016年6月7日",
+		"2016年5月31日",
+		"2014年11月30日"
+	);
+
+	$title = array(
+		"自分のレールは自分で敷いていく――10代実業家対談（後編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談",
+		"これからの社会を担う若者にとっての「はたらく」とは――10代実業家対談（前編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談",
+		"TEDxKids@Chiyodaにて「地域貢献型イノベーター」としてスピーチ"
+	);
+
+	$links = array(
+		"http://workmill.jp/20160607_teen2.html",
+		"http://workmill.jp/20160531_teen1.html",
+		"https://www.youtube.com/watch?v=pvEbHI3estc"
+	);
+
+
 ?>
 
 <div id="container">
@@ -46,49 +66,45 @@
 
 			<div class="news">
 
-				<div class="newsArticle">
 
-					<div>
+		<?php
+			for ($i=0; $i < 1; $i++) { 
+				print("
+					<div class='latest-newsArticle'>
 
-						<p class="date">2016年6月7日</p>
+						<div>
 
-					</div>
+							<p class='date'>{$date[$i]}</p>
 
-					<h2 class="newsHead">自分のレールは自分で敷いていく――10代実業家対談（後編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談</h2>
+						</div>
 
-					<a href="http://workmill.jp/20160607_teen2.html">対談記事を見る</a>
+							<h2 class='newsHead'>{$title[$i]}</p>
 
-				</div>
-
-
-				<div class="last-newsArticle">
-
-					<div>
-
-						<p class="date">2016年5月31日</p>
+							<a href='{$links[$i]}' target='_blank'>記事を見る</a>
 
 					</div>
+				");
+			}
 
-					<h2 class="newsHead">これからの社会を担う若者にとっての「はたらく」とは――10代実業家対談（前編） | WORK MILLにて椎木里佳(株式会社「AMF」代表取締役社長)と対談</h2>
+			for ($i=1; $i < count($date); $i++) { 
+				print("
+					<div class='newsArticle'>
 
-					<a href="http://workmill.jp/20160531_teen1.html">対談記事を見る</a>
+						<div>
 
-				</div>
+							<p class='date'>{$date[$i]}</p>
 
-				<div class="last-newsArticle">
+						</div>
 
-					<div>
+							<h2 class='newsHead'>{$title[$i]}</p>
 
-						<p class="date">2014年11月30日</p>
+							<a href='{$links[$i]}' target='_blank'>記事を見る</a>
 
 					</div>
+				");
+			}
+		?>
 
-					<h2 class="newsHead">TEDxKids@Chiyodaにて「地域貢献型イノベーター」としてスピーチ</h2>
-
-					<a href="https://www.youtube.com/watch?v=pvEbHI3estc">TEDxKids@Chiyoda2014の映像を見る</a>
-
-
-				</div>
 
 			</div>
 

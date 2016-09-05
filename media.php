@@ -29,6 +29,7 @@
 ?>
 
 <div id="container">
+
 	<div class="pageTitle">
 		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">メディア掲載情報</h1>
@@ -37,19 +38,49 @@
 
 	<div id="media">
 
-	<?php
-		for ($i=0; $i < count($title); $i++) { 
-			print("
-				<div class='mContents'>
-					<div class='mText'>
-						<h1 class='mTitle'>{$title[$i]}（{$date[$i]}）</h1>
-						<p class='mDescription'>{$description[$i]}</p>
-						<a href='{$links[$i]}' class='mLink' target='_blank'>記事を見る</a>
+		<div>
+
+		<?php
+			for ($i=0; $i < 1; $i++) { 
+				print("
+					<div class='latest-newsArticle'>
+
+						<div class='mText'>
+
+							<h1 class='mTitle'>{$title[$i]}（{$date[$i]}）</h1>
+
+							<p class='mDescription'>{$description[$i]}</p>
+
+							<a href='{$links[$i]}' class='mLink' target='_blank'>記事を見る</a>
+
+						</div>
+
 					</div>
-				</div>
-			");
-		}
-	?>
+				");
+
+			}
+
+			for ($i=1; $i < count($title); $i++) { 
+				print("
+					<div class='newsArticle'>
+
+						<div class='mText'>
+
+							<h1 class='mTitle'>{$title[$i]}（{$date[$i]}）</h1>
+
+							<p class='mDescription'>{$description[$i]}</p>
+
+							<a href='{$links[$i]}' class='mLink' target='_blank'>記事を見る</a>
+
+						</div>
+
+					</div>
+				");
+			}
+			
+		?>
+
+		</div>
 
 		
 	</div>
@@ -58,4 +89,4 @@
 
 <?php
 	require_once 'footer.php';
-
+?>

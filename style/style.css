@@ -811,16 +811,17 @@ table.nextDojoTable th:after {
 
 }
 
-.newsArticle{
+.latest-newsArticle{
 	padding: 2% 0;
 	border-top: 1px solid #999;
 	border-bottom: 1px solid #999;
 }
 
-.last-newsArticle{
+.newsArticle{
 	padding: 2% 0;
 	border-bottom: 1px solid #999;
 }
+
 
 .newsHead{
 	font-size: 20px;
@@ -844,8 +845,7 @@ table{
 
 #media{
 	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin: 5% auto;
 }
 
 .mTitle{
