@@ -51,13 +51,21 @@
 		$stmt = $dbh->prepare($sql);
 		$flag = $stmt->execute(array($childName, $kana, $grade, $schoolName, $parentName, $mail, $joined, $pcRent, $place, $option, $times)); 
 
-		$joined = "リピーター";
-
-		if ($$pcRent == "yes") {
-			$pcRent = "希望する";
+		//slckの処理
+		if ($pcRent == "yes") {
+			$pcRentSlack = "PC貸出希望";
 		}else{
-			$pcRent = "希望しない";
+			$pcRentSlack = "PC持参";
 		}
+
+		$joinedSlack = "リピーター";
+
+		//Slackに投げる処理	
+		$slackApiKey = 'xoxp-16884381670-16884222903-76227069687-48b28abeeb';
+		$text = "第{$times}回 - {$childName} / {$grade} / {$joinedSlack} / {$pcRentSlack} /  ";
+		$text = urlencode($text);
+		$url = "https://slack.com/api/chat.postMessage?token=${slackApiKey}&channel=%23new_register&text=${text}&as_user=false";
+		file_get_contents($url);
 
 
 		require_once 'header.php';
