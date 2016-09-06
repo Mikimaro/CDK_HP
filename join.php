@@ -135,7 +135,7 @@ EOF;
 						egmap_image_layout_type = 1;
 					</script>
 					
-					<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+					<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyAXFxshAxuAoq_yaoktjJc-6U-2M8sc_dY"></script>
 					<script type="text/javascript" src="http://www.egmap.jp/amc.js" charset="utf-8"></script>
 					<p class="egmap_copyright" style="width: 500px;">powered by <a href="http://www.egmap.jp/" target="_blank">egmap.jp</a></p>
 
