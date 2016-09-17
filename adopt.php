@@ -60,13 +60,15 @@
 					<li>研修：有り。適宜実施致します。</li>
 				</ul>
 				<br><br>
+				<p>※応募用フォームはGogleフォームにリンクしています。</p>
+				<br>
 			</div>
 
 		</div>
 
 		<div class="mentorContine">
 
-			<div class="space"><button><a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" target="_blank">応募する</a></button></div>
+			<div><button class="btn"><a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" target="_blank" style="color: #fff;">応募する</a></button></div>
 			
 		</div>
 

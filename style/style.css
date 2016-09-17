@@ -482,12 +482,16 @@ table.nextDojoTable th:after {
 	text-align: center;
 }
 
-/*== adoptForm ==*/
-#adoptForm{
-	margin: 0 auto;
-	width: 75%;
-	border-radius: 20px;
-	background-color: #EEEEEE;
+.btn{
+	margin: 5% 0;
+	font-size: 1.5em;
+	background-color: rgb(30,144,255);
+	border-radius: 5px;
+	border-style: none;
+}
+
+.btn:hover{
+	background-color: rgba(30,144,255,0.8);
 }
 /*== event ==*/
 
