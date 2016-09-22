@@ -41,14 +41,11 @@
  * BASE STYLES
  * ====================================================================================================================*/
 .slides{
-  margin: 0 auto;
-  width: 100%;
+
 }
 
 .flexslider {
-  margin: 0;
-  padding: 0;
-  width: 100%;
+ 
 
 }
 .flexslider .slides > li {
@@ -56,9 +53,8 @@
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 95%;
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
 .flexslider .slides:after {
   content: "\0020";
@@ -96,8 +92,8 @@ html[xmlns] .flexslider .slides {
 .flexslider .slides {
   zoom: 1;
 }
-.flexslider .slides img {
-  height: auto;
+.slides img {
+  width: 100%;
   -moz-user-select: none;
 }
 .flex-viewport {

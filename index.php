@@ -2,7 +2,7 @@
 	require_once 'header.php';
 ?>
 
-<div id="container">
+<div id="index-container">
 
 	<div id="contents">
 
@@ -12,53 +12,19 @@
 
 			<?php
 
-				$headClass = array(
-						"head001",
-						"head002",
-						"head003",
-						"head004"
-					);
-
-				$commentClass = array(
-						"comment001",
-						"comment002",
-						"comment003",
-						"comment004"
-					);
-
-				$head = array(
-						"",
-						"",
-						"",
-						""
-					);
-
-				$comment = array(
-						"",
-						"",
-						"",
-						""
-					);
-
 				for ($i=0; $i < 5; $i++) { 
 
 					$imgNum = $i + 1;
 					
-					print("<li>");
-					
-					print("<img src='./image/slides/s{$imgNum}.jpg'>
+					print(
 
-							<div class='inner'>
+						"<li>
 
-								<h4 class='head {$headClass[$i]}'>{$head[$i]}</h4>
+							<img src='./image/slides/s{$imgNum}.jpg'>
 
-								<h5 class='comment {$commentClass[$i]}'>{$comment[$i]}</h5>
+						</li>"
 
-							</div>
-
-							</a>
-
-						</li>");
+						);
 				}
 			?>
 
@@ -70,21 +36,61 @@
 
 			<div class="subContents">
 				
-				<div>
+				<div class="inner">
 
-					<a href="schedule"><img src="./image/sub/date.png"></a>
+					<a href="schedule">
+
+						<div class="subCon-inner">
+
+							<p>
+								CoderDojo Kashiwa/Kashiwa-no-ha<br>
+								スケジュール	
+							</p>
+
+
+							<img src="image/sub/schedule.png">
+
+						</div>
+
+					</a>
 
 				</div>
 
-				<div>
+				<div class="inner">
 
-					<a href="news"><img src="./image/sub/news.png"></a>
+					<a href="news">
+
+						<div class="subCon-inner">
+
+							<p>CoderDojo Kashiwaからのおしらせ</p>
+
+
+							<img src="image/sub/news.png">
+
+						</div>
+
+					</a>
 
 				</div>
-				
-				<div>
 
-					<a href="kashiwanoha"><img src="./image/sub/kashiwa-no-ha.png"></a>
+
+				<div class="inner">
+
+					<a href="kashiwanoha">
+
+						<div class="subCon-inner">
+
+							<p>
+								CoderDojo Kashiwa-no-ha<br>
+								公式サイト
+							</p>
+
+
+							<img src="image/kashiwanohalogo.png">
+
+						</div>
+
+					</a>
 
 				</div>
 
