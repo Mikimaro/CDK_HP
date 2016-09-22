@@ -25,9 +25,9 @@
 							<?php
 
 								$CoderDojoName = array(
-									"CoderDojo Kashiwa-no-haの公式サイト",
+									"柏の葉の公式サイト",
 									"OnlineDojoの公式サイト",
-									"CoderDojo Japanの公式サイト");
+									"Japanの公式サイト");
 
 								$CoderDojoURL = array(
 									"kashiwanoha",

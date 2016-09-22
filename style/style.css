@@ -5,7 +5,7 @@ body{
 	font-weight: 200;
 	margin: auto;
 	width: 100%;
-	min-width: 1300px;
+	min-width: 1024px;
 
 
 }
@@ -41,7 +41,6 @@ visibility: hidden;
 	height: 50px;
 	min-width: 960px;
 	background-color: #1E90FF;
-	position: fixed;
 	z-index: 999;
 }
 
@@ -177,7 +176,8 @@ visibility: hidden;
 }
 
 #sub{
-	margin: 1% auto;
+	margin: 0 auto;
+	margin-bottom: 1%;
 	width: 100%;
 }
 
@@ -191,21 +191,27 @@ visibility: hidden;
 	width: 30%;
 	border: 2px solid #999;
 	border-radius: 15px;
-}
-
-.subCon-inner{
 	text-align: center;
-
 }
 
-.subCon-inner p{
-	height: 2.5em;
+.inner div{
+	height: 275px;
+	position: relative;
+}
+
+.inner p{
+	margin: 0;
+	margin-top: 5%;
 	font-size: 1.4em;
 }
 
 #sub img{
-	margin: 0 10%;
-	width: 60%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	height: 65%;
+	bottom: 5%;
+	position: absolute;
 }
 
 /*== about ==*/
