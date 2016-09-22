@@ -64,6 +64,7 @@
 
 		//Slackに投げる処理	
 		$slackApiKey = 'xoxp-16884381670-16884222903-76227069687-48b28abeeb';
+		
 		$text = "第{$times}回 - {$childName} / {$grade} / {$joinedSlack} / {$pcRentSlack} /  ";
 		$text = urlencode($text);
 		$url = "https://slack.com/api/chat.postMessage?token=${slackApiKey}&channel=%23new_register&text=${text}&as_user=false";

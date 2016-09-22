@@ -506,6 +506,13 @@ table.nextDojoTable th:after {
 	margin: 5% 0;
 }
 
+.spd2016{
+	width: auto;
+	height: 500px;
+	margin: 0 auto;
+	display: block;
+}
+
 .sdk2016{
 	width: auto;
 	height: 150px;

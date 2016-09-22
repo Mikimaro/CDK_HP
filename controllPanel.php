@@ -6,6 +6,7 @@
 		$nextNumber = $_POST['nextDojoNumber'];
 		$firstJoinFormStatus = $_POST['firstJoinFormStatus'];
 		$repeaterFormStatus = $_POST['repeaterFormStatus'];
+		
 		$id = 1;
 
 		$error = array();
@@ -30,7 +31,6 @@
 			$sql = "UPDATE webControll SET nextDojoDate = ?, nextDojoNumber = ?, firstFormStatus = ?, repeaterFormStatus = ? where id = ?";
   			$stmt = $dbh->prepare($sql);		
 			$result = $stmt->execute(array($nextDate, $nextNumber, $firstJoinFormStatus, $repeaterFormStatus, $id));
-
 
 		}
 
