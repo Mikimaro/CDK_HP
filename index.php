@@ -16,15 +16,36 @@
 
 					$imgNum = $i + 1;
 					
-					print(
+					print("<li>");
 
-						"<li>
+						if ($i == 0) {
+							print("
 
-							<img src='./image/slides/s{$imgNum}.jpg'>
+							<div class='slideInner'>
+								<img src='./image/text/white/nameKashiwa.png'>
+							 	<img src='./image/text/white/catchKashiwa.png' class='catch'>
+							</div>
 
-						</li>"
+							");
 
-						);
+						}else if ($i == 3) {
+							print("
+
+							<div class='slideInner'>
+								<img src='./image/text/black/nameKashiwanoha.png'>
+								<img src='./image/text/black/catchKashiwanoha.png'class='catch'>
+							</div>
+							");
+						}
+				
+
+							
+					print("
+
+						<img src='./image/slides/s{$imgNum}.jpg'>
+
+						</li>
+					");
 				}
 			?>
 

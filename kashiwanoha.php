@@ -13,7 +13,7 @@
 		
 	</div>
 
-		<div id="kashiwanoha">
+	<div id="kashiwanoha">
 
 		<div class="individual">
 
@@ -26,6 +26,7 @@
 				</p>
 
 				<iframe width="80%" height="480" src="https://www.youtube.com/embed/utpWMhnVuAk" frameborder="0" allowfullscreen class="iframeCenter" ></iframe>
+
 				<br>
 
 				<p class="title">お申し込み</p>
@@ -35,19 +36,14 @@
 					<br>
 
 					<a href="./kashiwanoha">CoderDojo Kashiwa-no-ha公式サイト</a>
+
+					<br><br>
 				</p>
 
-				<br><br>
-
 			</div>
-
 		</div>
-
-		</div>
-
+	</div>
 </div>
-
-<br>
 
 <?php
 	require_once 'footer.php';

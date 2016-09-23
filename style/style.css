@@ -175,6 +175,17 @@ visibility: hidden;
 	color: black;
 }
 
+.slideInner{
+	width: 45%;
+	margin: auto;
+	top: 50px;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+.catch{
+}
+
 #sub{
 	margin: 0 auto;
 	margin-bottom: 1%;

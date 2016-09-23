@@ -62,10 +62,10 @@
 	<script type="text/javascript" charset="utf-8">
 		$(window).load(function() {
 			$('.flexslider').flexslider({
-        animation: "slide",
+        animation: "fade",
 				slideshowSpeed: 4500,
 				animationSpeed: 1000,
-        directionNav: false,
+        directionNav: true,
 				});
 		});
 	</script>
