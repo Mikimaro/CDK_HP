@@ -36,6 +36,14 @@
 								<img src='./image/text/black/catchKashiwanoha.png'class='catch'>
 							</div>
 							");
+						}else if ($i == 3) {
+							print("
+
+							<div class='slideInner'>
+								<img src='./image/text/black/nameKashiwanoha.png'>
+								<img src='./image/text/black/catchKashiwanoha.png'class='catch'>
+							</div>
+							");
 						}
 				
 
