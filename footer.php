@@ -124,6 +124,31 @@
 					</ul>
 				</div>
 
+				<div>
+
+					<ul>
+
+						<h1>・リンク</h1>
+					
+						<?php
+
+							$Text = array("Facebook", "Twitter", "YouTube", "GitHub");
+
+							$URL = array(
+								"https://www.facebook.com/CoderDojokashiwa/",
+								"https://twitter.com/C_D_Kashiwa",
+								"https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA",
+								"https://github.com/CoderDojoKashiwa");
+							
+							for ($i= 0; $i < count($Text); $i++) { 
+								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
+							}
+						?>
+
+					</ul>
+				</div>
+
+
 			</div>
 
 			</div>
