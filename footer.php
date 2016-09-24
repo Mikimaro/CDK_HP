@@ -114,7 +114,7 @@
 
 							$Text = array("最新の情報","イベント一覧");
 
-							$URL = array("event/ScratchDay","event.php");
+							$URL = array("event/spd/2016","event.php");
 							
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");

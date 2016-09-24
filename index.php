@@ -19,7 +19,7 @@
 
 					print("<li>");
 
-					/*
+					
 
 						if ($i == 0) {
 							print("
@@ -31,24 +31,40 @@
 
 							");
 
+						}else if ($i == 1) {
+							print("
+
+							<div class='slideInner'>
+								<a href='event/spd/2016'>
+									<img src='./image/text/black/spd2016.png'>
+									<img src='./image/text/black/spd2016c.png'>
+								
+							</div>
+
+							");
+
 						}else if ($i == 3) {
 							print("
 
 							<div class='slideInner'>
-								<img src='./image/text/black/nameKashiwanoha.png'>
-								<img src='./image/text/black/catchKashiwanoha.png'>
+								<a href='kashiwanoha'>
+									<img src='./image/text/black/nameKashiwanoha.png'>
+									<img src='./image/text/black/catchKashiwanoha.png'>
 							</div>
-							");
 
+							");
 						}	
 
-						*/
-					print("
+					
+					print("<img src='./image/slides/s{$imgNum}.jpg'>");
 
-						<img src='./image/slides/s{$imgNum}.jpg'>
+						if ($i == 1) {
+							print("</a>");
+						}else if ($i == 3) {
+							print("</a>");
+						}
 
-						</li>
-					");
+					print("</li>");
 				}
 			?>
 
