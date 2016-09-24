@@ -62,10 +62,17 @@
 	<script type="text/javascript" charset="utf-8">
 		$(window).load(function() {
 			$('.flexslider').flexslider({
+<<<<<<< HEAD
         animation: "slide",
 				slideshowSpeed: 4500,
 				animationSpeed: 1000,
         directionNav: false,
+=======
+        animation: "fade",
+				slideshowSpeed: 4500,
+				animationSpeed: 1000,
+        directionNav: true,
+>>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
 				});
 		});
 	</script>
