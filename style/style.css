@@ -559,8 +559,8 @@ table.nextDojoTable th:after {
 
 .sdk2016{
 	width: auto;
-	height: 100px;
-	margin: 110px auto;
+	height: 125px;
+	margin: 0 auto;
 	display: block;
 }
 
@@ -581,7 +581,7 @@ table.nextDojoTable th:after {
 .spd2014{
 	width: auto;
 	height: 150px;
-	margin: 85px auto;
+	margin: 0 auto;
 	display: block;
 }
 
