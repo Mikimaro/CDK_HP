@@ -95,7 +95,6 @@
 		</div>
 
 		<div class="events">
-			<a id=x"pastEvent"></a>
 			<h3 class="headline">過去のイベント</h3>
 
 				<div class="event-list clearfix"> 

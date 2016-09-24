@@ -69,8 +69,8 @@
         directionNav: false,
 =======
         animation: "fade",
-				slideshowSpeed: 4500,
-				animationSpeed: 1000,
+				slideshowSpeed: 5000,
+				animationSpeed: 1500,
         directionNav: true,
 >>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
 				});
@@ -120,10 +120,14 @@
 		<ul>
 			<li><a href="./index.php"><img src="./image/dojoLogo.png" class="homeLogo"></a></li>
 			<li><a href="./about.php">CoderDojoとは</a></li>
+<<<<<<< HEAD
+=======
       <li><a href="./kashiwanoha.php">柏の葉Dojo</a></li>
 			<li><a href="./kashiwaDojo.php">柏の取り組み</a></li>
+>>>>>>> c74daabd1bcc80cc6f294affb88c60dbc7ecdb56
 			<li><a href="./kashiwanoha.php">柏の葉Dojo</a></li>
-			<li><a href="./join.php">参加する</a></li>	
+			<li><a href="./join.php">参加する</a></li>
+			<li><a href="./rtd.php">RTDとは</a></li>	
 			<li><a href="./mentor.php">メンター</a></li>
 			<li><a href="./event/">イベント</a></li>
 		</ul>

@@ -17,6 +17,9 @@
 					$imgNum = $i + 1;
 					
 <<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
 					print(
 
 						"<li>
@@ -27,14 +30,29 @@
 
 						);
 =======
+>>>>>>> c74daabd1bcc80cc6f294affb88c60dbc7ecdb56
 					print("<li>");
+
+					
 
 						if ($i == 0) {
 							print("
 
 							<div class='slideInner'>
 								<img src='./image/text/white/nameKashiwa.png'>
-							 	<img src='./image/text/white/catchKashiwa.png' class='catch'>
+							 	<img src='./image/text/white/catchKashiwa.png'>
+							</div>
+
+							");
+
+						}else if ($i == 1) {
+							print("
+
+							<div class='slideInner'>
+								<a href='event/spd/2016'>
+									<img src='./image/text/black/spd2016.png'>
+									<img src='./image/text/black/spd2016c.png'>
+								
 							</div>
 
 							");
@@ -43,29 +61,30 @@
 							print("
 
 							<div class='slideInner'>
-								<img src='./image/text/black/nameKashiwanoha.png'>
-								<img src='./image/text/black/catchKashiwanoha.png'class='catch'>
+								<a href='kashiwanoha'>
+									<img src='./image/text/black/nameKashiwanoha.png'>
+									<img src='./image/text/black/catchKashiwanoha.png'>
 							</div>
-							");
-						}else if ($i == 3) {
-							print("
 
-							<div class='slideInner'>
-								<img src='./image/text/black/nameKashiwanoha.png'>
-								<img src='./image/text/black/catchKashiwanoha.png'class='catch'>
-							</div>
 							");
+						}	
+
+					
+					print("<img src='./image/slides/s{$imgNum}.jpg'>");
+
+						if ($i == 1) {
+							print("</a>");
+						}else if ($i == 3) {
+							print("</a>");
 						}
-				
 
-							
-					print("
-
-						<img src='./image/slides/s{$imgNum}.jpg'>
-
+<<<<<<< HEAD
+					print("</li>");
+=======
 						</li>
 					");
 >>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
+>>>>>>> c74daabd1bcc80cc6f294affb88c60dbc7ecdb56
 				}
 			?>
 
