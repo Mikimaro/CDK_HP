@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="keywords" content="CoderDojo,CoderDojo Kashiwa,こーだーどーじょー,千葉,柏,プログラミング教室,小学生,中学生,プログラミング">
-	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<link rel="stylesheet" type="text/css" href="style/flexslider.css">
-	<link rel="stylesheet" type="text/css" href="style/formStyle.css">
-	<link rel="stylesheet" type="text/css" href="style/modal.css">
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="../style/formStyle.css">
+	<link rel="stylesheet" type="text/css" href="s../tyle/modal.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="./script/jquery.flexslider.js"></script>
+	<script src="../script/jquery.flexslider.js"></script>
 	<script>
 	$(function(){
     // 「.modal-open」をクリック
@@ -94,6 +94,15 @@
 
 	<title>CoderDojo Kashiwa</title>
 
+  <style type="text/css">
+    .spd2016{
+      width: auto;
+      height: 500px;
+      margin: 0 auto;
+      display: block;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -111,14 +120,13 @@
 
 	<div id="menu">
 		<ul>
-			<li><a href="./index.php"><img src="./image/dojoLogo.png" class="homeLogo"></a></li>
-			<li><a href="./about.php">CoderDojoとは</a></li>
-      <li><a href="./kashiwanoha.php">柏の葉Dojo</a></li>
-			<li><a href="./kashiwaDojo.php">柏の取り組み</a></li>
-			<li><a href="./kashiwanoha.php">柏の葉Dojo</a></li>
-			<li><a href="./join.php">参加する</a></li>	
-			<li><a href="./mentor.php">メンター</a></li>
-			<li><a href="./event/">イベント</a></li>
+			<li><a href="../index.php"><img src="../image/dojoLogo.png" class="homeLogo"></a></li>
+			<li><a href="../about.php">CoderDojoとは</a></li>
+			<li><a href="../kashiwaDojo.php">柏の取り組み</a></li>
+			<li><a href="../kashiwanoha.php">柏の葉Dojo</a></li>
+			<li><a href="../join.php">参加する</a></li>	
+			<li><a href="../mentor.php">メンター</a></li>
+			<li><a href="./">イベント</a></li>
 		</ul>
 	</div>
 

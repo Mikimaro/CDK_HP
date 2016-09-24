@@ -9,7 +9,7 @@
 			"dojo" =>array(
 				"Kashiwa / Kashiwa-no-ha"
 			),
-			"comment" => "コメント準備中",
+			"comment" => "",
 			"positon" => "CoderDojo柏代表"
 		),
 
@@ -22,7 +22,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中",
+			"comment" => "",
 			"positon" => "CoderDojo柏代表"
 		),
 
@@ -35,7 +35,7 @@
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		3 => array(
@@ -47,7 +47,7 @@
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		4 => array(
@@ -59,7 +59,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		5 => array(
@@ -72,7 +72,7 @@
 				"Kashiwa"
 			),
 			"comment" => "Dojoで写真や映像を撮ったりしています。<br>
-			普段は美術大学に通い、多種多様な芸術分野について学んでいます。<br>
+			現在、美術大学に通い、多種多様な芸術分野について学んでいます。<br>
 			何かわからない事があれば聞いてください。",
 			"positon" => "広報"
 		),
@@ -86,7 +86,9 @@
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => "CoderDojoKashiwaでは、写真や映像を撮っています。<br>
+			メンター＜カメラマンというパワーバランスで活動しています。<br>",
+			"positon" => "カメラマン"
 		),
 
 		7 => array(
@@ -98,7 +100,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		8 => array(
@@ -110,7 +112,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		9 => array(
@@ -122,7 +124,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		10 => array(
@@ -134,7 +136,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		11 => array(
@@ -146,7 +148,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		12 => array(
@@ -158,7 +160,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		13 => array(
@@ -170,7 +172,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中",
+			"comment" => "",
 			"positon" => "CoderDojo柏の葉代表"
 		),
 
@@ -183,7 +185,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		15 => array(
@@ -195,7 +197,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		16 => array(
@@ -207,7 +209,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		17 => array(
@@ -219,7 +221,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		18 => array(
@@ -231,7 +233,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 
@@ -247,7 +249,7 @@
 			"dojo" =>array(
 				"Kashiwa / Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		1 => array(
@@ -274,7 +276,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		3 => array(
@@ -286,7 +288,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		4 => array(
@@ -317,7 +319,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		6 => array(
@@ -329,7 +331,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		7 => array(
@@ -341,7 +343,7 @@
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		8 => array(
@@ -353,7 +355,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		9 => array(
@@ -365,7 +367,7 @@
 			"dojo" => array(
 				"Kashiwa"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		),
 
 		10 => array(
@@ -377,7 +379,7 @@
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => "準備中"
+			"comment" => ""
 		)
 		
 	);

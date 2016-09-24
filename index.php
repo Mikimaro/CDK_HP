@@ -2,7 +2,7 @@
 	require_once 'header.php';
 ?>
 
-<div id="container">
+<div id="index-container">
 
 	<div id="contents">
 
@@ -12,53 +12,19 @@
 
 			<?php
 
-				$headClass = array(
-						"head001",
-						"head002",
-						"head003",
-						"head004"
-					);
-
-				$commentClass = array(
-						"comment001",
-						"comment002",
-						"comment003",
-						"comment004"
-					);
-
-				$head = array(
-						"",
-						"",
-						"",
-						""
-					);
-
-				$comment = array(
-						"",
-						"",
-						"",
-						""
-					);
-
-				for ($i=0; $i < 5; $i++) { 
+				for ($i=0; $i < 6; $i++) { 
 
 					$imgNum = $i + 1;
 					
-					print("<li>");
-					
-					print("<img src='./image/slides/s{$imgNum}.jpg'>
+					print(
 
-							<div class='inner'>
+						"<li>
 
-								<h4 class='head {$headClass[$i]}'>{$head[$i]}</h4>
+							<img src='./image/slides/s{$imgNum}.jpg'>
 
-								<h5 class='comment {$commentClass[$i]}'>{$comment[$i]}</h5>
+						</li>"
 
-							</div>
-
-							</a>
-
-						</li>");
+						);
 				}
 			?>
 
@@ -69,24 +35,50 @@
 		<div id="sub">
 
 			<div class="subContents">
-				
-				<div>
 
-					<a href="schedule"><img src="./image/sub/date.png"></a>
 
-				</div>
+				<?php
 
-				<div>
+				$href = array("schedule","news","kashiwanoha");
 
-					<a href="news"><img src="./image/sub/news.png"></a>
+				$comment = array("Kashiwa / Kashiwa-no-ha<br>
+									スケジュール",
+								 "CoderDojo Kashiwaからの<br>
+								 おしらせ",
+								 "CoderDojo Kashiwa-no-ha<br>
+									公式サイト"
+					);
 
-				</div>
-				
-				<div>
+				$imgSrc = array("image/sub/schedule.png",
+								"image/sub/news.png",
+								"image/kashiwanohalogo.png"
+					);
 
-					<a href="kashiwanoha"><img src="./image/sub/kashiwa-no-ha.png"></a>
 
-				</div>
+
+				for ($i=0; $i < count($href); $i++) { 
+					print("
+						<div class='inner'>
+
+							<a href='{$href[$i]}'>
+
+								<div>
+
+									<p>
+										{$comment[$i]}	
+									</p>
+
+
+									<img src='$imgSrc[$i]'>
+
+								</div>
+
+							</a>
+
+						</div>");
+				}
+
+				?>
 
 			</div>
 

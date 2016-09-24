@@ -25,7 +25,7 @@
 					31VenturesKOIL内のKOILスタジオにて、毎月第3日曜日に開催しています。
 				</p>
 
-				<iframe width="853" height="480" src="https://www.youtube.com/embed/utpWMhnVuAk" frameborder="0" allowfullscreen class="iframeCenter"></iframe>
+				<iframe width="80%" height="480" src="https://www.youtube.com/embed/utpWMhnVuAk" frameborder="0" allowfullscreen class="iframeCenter" ></iframe>
 				<br>
 
 				<p class="title">お申し込み</p>

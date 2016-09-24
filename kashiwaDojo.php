@@ -4,8 +4,9 @@
 
 ?>
 
+<div id="container">
 
-	<div id="pageTitle">
+	<div class="pageTitle">
 		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">
 			柏Dojoの取り組み
@@ -82,6 +83,7 @@
 		</div>
 
 	</div>
+</div>
 
 
 <?php

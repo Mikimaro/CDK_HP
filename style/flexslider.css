@@ -1,5 +1,5 @@
 /*
- * jQuery FlexSlider v2.6.0
+ * jQuery FlexSlider v2.6.3
  * http://www.woothemes.com/flexslider/
  *
  * Copyright 2012 WooThemes
@@ -40,28 +40,20 @@
 /* ====================================================================================================================
  * BASE STYLES
  * ====================================================================================================================*/
-.slides{
-  margin: 0 auto;
-  width: 100%;
-}
-
 .flexslider {
   margin: 0;
   padding: 0;
-  width: 100%;
-
 }
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 95%;
+  width: 100%;
   display: block;
-  margin: 0 auto;
 }
 .flexslider .slides:after {
-  content: "\0020";
+  content: ;
   display: block;
   clear: both;
   visibility: hidden;
@@ -81,8 +73,8 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin-bottom: 50px;
-  background: #ffffff;
+  margin: 0 0 50px;
+  background: #fff;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -102,7 +94,6 @@ html[xmlns] .flexslider .slides {
 }
 .flex-viewport {
   max-height: 2000px;
-  object-fit: cover;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -121,12 +112,12 @@ html[xmlns] .flexslider .slides {
 .flex-direction-nav a {
   text-decoration: none;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   margin: -20px 0 0;
   position: absolute;
   top: 50%;
-  z-index: 10;
+  z-index: 1000;
   overflow: hidden;
   opacity: 0;
   cursor: pointer;
@@ -142,17 +133,19 @@ html[xmlns] .flexslider .slides {
   font-family: "flexslider-icon";
   font-size: 40px;
   display: inline-block;
-  content: '\f001';
+  content:;
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+  content:;
 }
 .flex-direction-nav .flex-prev {
+  background-image: url(/image/arrow2.png);
   left: -50px;
 }
 .flex-direction-nav .flex-next {
+  background-image: url(/image/arrow1.png);
   right: -50px;
   text-align: right;
 }
