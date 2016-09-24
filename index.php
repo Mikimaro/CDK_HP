@@ -16,35 +16,7 @@
 
 					$imgNum = $i + 1;
 					
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
-					print(
-
-						"<li>
-
-							<img src='./image/slides/s{$imgNum}.jpg'>
-
-						</li>"
-
-						);
-=======
->>>>>>> c74daabd1bcc80cc6f294affb88c60dbc7ecdb56
-<<<<<<< HEAD
->>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
-=======
->>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
->>>>>>> 85528a92d7605fbb8796f30b327af18a9763ce2c
 					print("<li>");
 
 					
@@ -92,27 +64,7 @@
 							print("</a>");
 						}
 
-<<<<<<< HEAD
 					print("</li>");
-=======
-<<<<<<< HEAD
-					print("</li>");
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-					print("</li>");
-=======
-=======
->>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
-						</li>
-					");
->>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
->>>>>>> c74daabd1bcc80cc6f294affb88c60dbc7ecdb56
-<<<<<<< HEAD
->>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
-=======
->>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
->>>>>>> 85528a92d7605fbb8796f30b327af18a9763ce2c
 				}
 			?>
 
@@ -126,7 +78,6 @@
 
 
 				<?php
-<<<<<<< HEAD
 
 				$href = array("schedule","news","kashiwanoha");
 
@@ -167,48 +118,6 @@
 						</div>");
 				}
 
-=======
-
-				$href = array("schedule","news","kashiwanoha");
-
-				$comment = array("Kashiwa / Kashiwa-no-ha<br>
-									スケジュール",
-								 "CoderDojo Kashiwaからの<br>
-								 おしらせ",
-								 "CoderDojo Kashiwa-no-ha<br>
-									公式サイト"
-					);
-
-				$imgSrc = array("image/sub/schedule.png",
-								"image/sub/news.png",
-								"image/kashiwanohalogo.png"
-					);
-
-
-
-				for ($i=0; $i < count($href); $i++) { 
-					print("
-						<div class='inner'>
-
-							<a href='{$href[$i]}'>
-
-								<div>
-
-									<p>
-										{$comment[$i]}	
-									</p>
-
-
-									<img src='$imgSrc[$i]'>
-
-								</div>
-
-							</a>
-
-						</div>");
-				}
-
->>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
 				?>
 
 			</div>

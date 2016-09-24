@@ -53,11 +53,7 @@
   display: block;
 }
 .flexslider .slides:after {
-<<<<<<< HEAD
-  content: ;
-=======
   content:'';
->>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
   display: block;
   clear: both;
   visibility: hidden;
@@ -137,25 +133,11 @@ html[xmlns] .flexslider .slides {
   font-family: "flexslider-icon";
   font-size: 40px;
   display: inline-block;
-<<<<<<< HEAD
-  content:;
-=======
   content:'';
->>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .flex-direction-nav a.flex-next:before {
-<<<<<<< HEAD
-  content:;
-}
-.flex-direction-nav .flex-prev {
-  background-image: url(/image/arrow2.png);
-  left: -50px;
-}
-.flex-direction-nav .flex-next {
-  background-image: url(/image/arrow1.png);
-=======
   content:'';
 }
 .flex-direction-nav .flex-prev {
@@ -168,7 +150,6 @@ html[xmlns] .flexslider .slides {
   background-image: url(../image/slides/arrowRight.png);
   width: 84px;
   height: 83px;
->>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
   right: -50px;
   text-align: right;
 }
