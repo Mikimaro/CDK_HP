@@ -45,12 +45,21 @@ body{
 	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", ".HiraKakuInterface-W1";
 }
 
-.headerImage{
-	width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
+#container{
+	width: 80%;
+	margin: 0 auto;
 }
 
+#header{
+	margin-top: 10%;
+
+}
+
+.headerImage{
+	width: 60%;
+	margin: 0 20%;
+
+}
 
 .headerTitle{
 	text-align: center;
@@ -59,8 +68,7 @@ body{
 }
 
 #main{
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	width: 80%;
+	margin: 0 10%;
 	text-align: center;
 }
