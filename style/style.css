@@ -176,14 +176,12 @@ visibility: hidden;
 }
 
 .slideInner{
-	width: 45%;
+	width: 50%;
 	margin: auto;
 	top: 30px;
 	left: 0;
 	right: 0;
 	position: absolute;
-}
-.catch{
 }
 
 #sub{
@@ -252,7 +250,6 @@ visibility: hidden;
 
 /*== join ==*/
 #join{
-
 	margin: 0 auto;
 	width: 80%;
 	border-radius: 20px;
@@ -535,6 +532,7 @@ table.nextDojoTable th:after {
 /*== event ==*/
 
 #event{
+	min-width: 
 }
 
 .events{
@@ -542,17 +540,49 @@ table.nextDojoTable th:after {
 }
 
 .event-list{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .party{
-
 	margin: 5% 0;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+
+.spd2016{
+=======
+=======
+>>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
+}
+
+.spd2016{
+<<<<<<< HEAD
+=======
+	width: auto;
+	height: 500px;
+	margin: 0 auto;
+	display: block;
+}
+
+.sdk2016{
+>>>>>>> c74daabd1bcc80cc6f294affb88c60dbc7ecdb56
+<<<<<<< HEAD
+>>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
+=======
+>>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
+	width: auto;
+	height: 300px;
+	margin: 0 auto;
+	display: block;
 }
 
 .sdk2016{
 	width: auto;
-	height: 150px;
-	margin: 0 auto;
+	height: 100px;
+	margin: 110px auto;
 	display: block;
 }
 
@@ -571,25 +601,26 @@ table.nextDojoTable th:after {
 }
 
 .spd2014{
+	width: auto;
 	height: 150px;
 	margin: 85px auto;
 	display: block;
 }
+
 .latest-article{
 	width: 50%;
 	margin-bottom: 10%;
 }
 
 .mainArticle{
-	width: 50%;
-	margin-bottom: 10%;
-	float: left;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .eventText{
 	margin: 0 auto;
 	padding: 0 0 1% 0;
-	width: 80%;
+	width: 400px;
 	background-color: #EEEEEE;
 	border-radius: 20px;
 	text-align: center;

@@ -1,5 +1,6 @@
 <?php
 							$class = array(
+								'spd2016',
 								'sdk2016',
 								'spd2015',
 								'jc2015',
@@ -7,6 +8,7 @@
 
 								);
 							$img = array(
+								'./image/eventLogos/spd2016.png',
 								'./image/eventLogos/sdk2016.png',
 								'./image/eventLogos/spd2015.png',
 								'./image/eventLogos/jc2015.png',
@@ -14,6 +16,7 @@
 								);
 
 							$title = array(
+								'Special Presentation Day 2016',
 								'ScratchDay 2016 in Kashiwa',
 								'Special Presentation Day 2015',
 								'June Conference 2015',
@@ -21,6 +24,7 @@
 								);
 
 							$day = array(
+								'2016.12.24',
 								'2016.05.14',
 								'2015.12.20',
 								'2015.06.07',
@@ -28,6 +32,7 @@
 								);
 
 							$site = array(
+								'@KOILスタジオ',
 								'@東京大学柏の葉キャンパス',
 								'@KOILスタジオ',
 								'@NoblesseOblige',
@@ -35,6 +40,7 @@
 								);
 
 							$comments = array(
+								'作品発表会',
 								'MITメディアラボが開発したScratchのお祭りを柏で初めて開催',
 								'柏の葉オープンイノベーションラボKOILでの子どもたちによる作品発表会',
 								'新しい受付システムの導入、家庭での学習を促進するOnlineDojo、ホームページのリニューアル、Kashiwa-no-haDojoの設立を発表',
@@ -42,6 +48,7 @@
 								);
 
 							$URL = array(
+								'event/spd/2016',
 								'event/ScratchDay/',
 								'event/spd/2015',
 								'event/jc/2015',
@@ -88,7 +95,6 @@
 		</div>
 
 		<div class="events">
-			<a id=x"pastEvent"></a>
 			<h3 class="headline">過去のイベント</h3>
 
 				<div class="event-list clearfix"> 
