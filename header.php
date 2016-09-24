@@ -62,10 +62,29 @@
 	<script type="text/javascript" charset="utf-8">
 		$(window).load(function() {
 			$('.flexslider').flexslider({
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
+        animation: "slide",
+				slideshowSpeed: 4500,
+				animationSpeed: 1000,
+        directionNav: false,
+=======
+<<<<<<< HEAD
+>>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
+=======
+>>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
+>>>>>>> 85528a92d7605fbb8796f30b327af18a9763ce2c
         animation: "fade",
 				slideshowSpeed: 5000,
 				animationSpeed: 1500,
         directionNav: true,
+>>>>>>> 94d4d09534239137ad93f1b85b9c14a4ea821a13
 				});
 		});
 	</script>
@@ -113,11 +132,28 @@
 		<ul>
 			<li><a href="./index.php"><img src="./image/dojoLogo.png" class="homeLogo"></a></li>
 			<li><a href="./about.php">CoderDojoとは</a></li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <li><a href="./kashiwanoha.php">柏の葉Dojo</a></li>
+			<li><a href="./kashiwaDojo.php">柏の取り組み</a></li>
+>>>>>>> c74daabd1bcc80cc6f294affb88c60dbc7ecdb56
+>>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
+=======
+      <li><a href="./kashiwanoha.php">柏の葉Dojo</a></li>
+			<li><a href="./kashiwaDojo.php">柏の取り組み</a></li>
+>>>>>>> c74daabd1bcc80cc6f294affb88c60dbc7ecdb56
+>>>>>>> 4e2e5e38c9071d5f2c4e517fce4c8fe69e402dfc
+>>>>>>> 85528a92d7605fbb8796f30b327af18a9763ce2c
 			<li><a href="./kashiwanoha.php">柏の葉Dojo</a></li>
 			<li><a href="./join.php">参加する</a></li>
 			<li><a href="./rtd.php">RTDとは</a></li>	
 			<li><a href="./mentor.php">メンター</a></li>
-			<li><a href="./event.php">イベント</a></li>
+			<li><a href="./event/">イベント</a></li>
 		</ul>
 	</div>
 
