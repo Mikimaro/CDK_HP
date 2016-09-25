@@ -43,7 +43,7 @@
 								'作品発表会',
 								'MITメディアラボが開発したScratchのお祭りを柏で初めて開催',
 								'柏の葉オープンイノベーションラボKOILでの子どもたちによる作品発表会',
-								'新しい受付システムの導入、家庭での学習を促進するOnlineDojo、ホームページのリニューアル、Kashiwa-no-haDojoの設立を発表',
+								'新しい受付システム、家庭での学習を促進するOnlineDojo、ホームページリニューアル、柏の葉Dojoの設立を発表',
 								'CoderDojo Kashiwaで初の子どもたちによる作品発表会'
 								);
 
@@ -73,54 +73,68 @@
 
 			<h3 class="headline">最新のイベント</h3>
 
+			<section class="latest-event">
+
 			<?php
 				for ($i=0; $i < 1; $i++) { 
-					print("<div class='party'>
-							<article class='latest-Article'>
-								<div>
-									<img src='{$img[$i]}' class='{$class[$i]}'>
-									<div class='eventText lastest'>
-										<h2>{$title[$i]}</h2>
-										<h3>{$day[$i]}</h3>
-										<h4>{$site[$i]}</h4>
-										<h5>{$comments[$i]}</h5>
-										<a href='{$URL[$i]}' class='readMore'>さらに詳しく</a>
-									</div>
-								</div>
-							</article>
-							</div>");
+					print("
+
+				<article>
+
+					<img src='{$img[$i]}' class='{$class[$i]}'>
+
+					<section class='latest-eventText'>
+
+						<h2>{$title[$i]}</h2>
+						<h3>{$day[$i]}</h3>
+						<h4>{$site[$i]}</h4>
+						<h5>{$comments[$i]}</h5>
+						<a href='{$URL[$i]}' class='readMore'>さらに詳しく</a>
+
+					</section>
+
+				</article>
+					");
 				}
 			?>
 
-		</div>
+			</section>
 
-		<div class="events">
 			<h3 class="headline">過去のイベント</h3>
 
-				<div class="event-list clearfix"> 
+			<section class="event-list">
 
-					<?php
 
-						for ($i=1; $i < count($title); $i++) { 
-							print("<div class='party'>
-									<article class='mainArticle'>
-										<div>
-											<img src='{$img[$i]}' class='{$class[$i]}'>
-											<div class='eventText'>
-												<h2>{$title[$i]}</h2>
-												<h3>{$day[$i]}</h3>
-												<h4>{$site[$i]}</h4>
-												<h5>{$comments[$i]}</h5>
-												<a href='{$URL[$i]}' class='readMore'>さらに詳しく</a>
-											</div>
-										</div>
-									</article>
-									</div>");
-						}
+			<?php
 
-					?>
-					
-				</div>
+				for ($i=1; $i < count($title); $i++) { 
+						print("
+
+				<article>
+
+					<div>
+
+						<img src='{$img[$i]}' class='{$class[$i]}'>
+
+					</div>
+
+					<section class='eventText'>
+
+						<h2>{$title[$i]}</h2>
+						<h3>{$day[$i]}</h3>
+						<h4>{$site[$i]}</h4>
+						<h5>{$comments[$i]}</h5>
+						<a href='{$URL[$i]}' class='readMore'>さらに詳しく</a>
+
+					</section>
+
+				</article>
+						");
+					}
+
+				?>
+
+			</section>
 			
 		</div>
 

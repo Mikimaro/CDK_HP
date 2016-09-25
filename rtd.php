@@ -41,7 +41,7 @@
 
 			<article>
 
-				<iframe width="853" height="480" src="https://www.youtube.com/embed/Ct8EKh8xXWQ" frameborder="0" allowfullscreen></iframe>
+				<iframe width="736" height="414" src="https://www.youtube.com/embed/Ct8EKh8xXWQ" frameborder="0" allowfullscreen></iframe>
 
 				<section>
 
@@ -60,7 +60,7 @@
 
 		<section class="movielist">
 
-		<article>
+			<article>
 
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/XyOeJ7Uo9zA" frameborder="0" allowfullscreen></iframe>
 

@@ -390,6 +390,11 @@ table.nextDojoTable th:after {
 	text-align: center;
 }
 
+.trdmovie iframe{
+	width: 100%;
+
+}
+
 .rtdmovie p{
 	text-align: center;
 }
@@ -400,12 +405,6 @@ table.nextDojoTable th:after {
 }
 
 .movielist article{
-	margin: 2% 0;
-	padding: 0 2.5%;
-	width: 45%;
-}
-
-.movielist article:last-child{
 	margin: 2% 0;
 	padding: 0 2.5%;
 	width: 45%;
@@ -571,86 +570,72 @@ table.nextDojoTable th:after {
 /*== event ==*/
 
 #event{
-	min-width: 
 }
 
 .events{
 	margin: 5% 0;
 }
 
-.event-list{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-.party{
-	margin: 5% 0;
-
-}
-
-.spd2016{
-	width: auto;
-	height: 325px;
-	margin: 0 auto;
-	display: block;
-}
-
-.sdk2016{
-	width: auto;
-	height: 100px;
-	margin: 0 auto;
-	display: block;
-}
-
-.spd2015{
-	width: auto;
-	height: 250px;
-	margin: 0 auto;
-	display: block;
-}
-
-.jc2015{
-	width: auto;
-	height: 300px;
-	margin: 0 auto;
-	display: block;
-}
-
-.spd2014{
-	width: auto;
-	height: 150px;
-	margin: 0 auto;
-	display: block;
-}
-
-.latest-article{
-	width: 50%;
-	margin-bottom: 10%;
-}
-
-.mainArticle{
-	width: 100%;
-	margin: 0 auto;
+.latest-eventText{
+	margin: 0 10%;
+	width: 80%;
 }
 
 .eventText{
-	margin: 0 auto;
-	padding: 0 0 1% 0;
-	width: 400px;
-	background-color: #EEEEEE;
+	width: 100%;
+}
+
+.latest-event{
+	margin: 5% 0;
+	text-align: center;
+
+}
+
+.latest-event article{
+	margin: 0 10%;
+	width: 80%;
+}
+
+.event-list{
+	margin: 5% 0;
+	width: 100%;
 	border-radius: 20px;
+	background-color: #EEEEEE;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.event-list article{
+	margin: 2.5% 2.5%;
+	width: 45%;
 	text-align: center;
 }
 
-.lastest{
-	width: 50%;
+.spd2016{
+	height: 400px;
 }
 
+.sdk2016{
+	margin: 80px 0;
+	height: 90px;
+}
 
-.readMore{
+.spd2015{
+	height: 250px; 
+}
+
+.jc2015{
+	
+	height: 250px; 
 
 }
+
+.spd2014{
+	margin: 70px 0;
+	height: 110px; 
+	
+}
+
 /*== footer ==*/
 #footer{
 	width: 100%;
