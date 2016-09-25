@@ -168,10 +168,10 @@
 			<div id="aux">
 
 				<?php
-					$Name = array('プライバシーポリシー','運営について','スポンサー','連絡先');
+					$Name = array('プライバシーポリシー','スポンサー','代表紹介','連絡先');
 
 
-					$URL = array('./privacy','founder.php','sponsor.php','contact.php');
+					$URL = array('./privacy','sponsor.php','founder.php','contact.php');
 
 					for ($i= 0; $i < count($Name); $i++) { 
 						print("<a href='{$URL[$i]}' class='aux-contents'>$Name[$i]</a>");
