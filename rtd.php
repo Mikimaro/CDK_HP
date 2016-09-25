@@ -12,7 +12,7 @@
 
 	</div>
 
-		<div id="rtd">
+	<div id="rtd">
 
 		<div class="individual">
 
@@ -41,11 +41,11 @@
 
 			<article>
 
-				<iframe width="853" height="480" src="https://www.youtube.com/embed/XyOeJ7Uo9zA" frameborder="0" allowfullscreen></iframe>
+				<iframe width="853" height="480" src="https://www.youtube.com/embed/Ct8EKh8xXWQ" frameborder="0" allowfullscreen></iframe>
 
 				<section>
 
-					<p class="movieTitle">Happy birthday CoderDojo! from CoderDojo Kashiwa</p>
+					<p class="movieTitle"> #65 CoderDojo Kashiwa</p>
 
 					<p class="date">2016年8月28日</p>
 
@@ -59,19 +59,19 @@
 		</section>
 
 		<section class="movielist">
-			
-			<article>
 
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/Ct8EKh8xXWQ" frameborder="0" allowfullscreen></iframe>
+		<article>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/XyOeJ7Uo9zA" frameborder="0" allowfullscreen></iframe>
 
 				<section>
 
-					<p class="movieTitle"> #65 CoderDojo Kashiwa</p>
+					<p class="movieTitle">Happy birthday CoderDojo! from CoderDojo Kashiwa</p>
 
-					<p class="date">2016年8月28日</p>
+					<p class="date">2016年9月18日</p>
 
 
-					<p class="text">第65回CoderDojo Kashiwaが開催されました。</p>
+					<p class="text">CoderDojoの誕生を祝いました。</p>
 
 				</section>
 
@@ -131,6 +131,7 @@
 		</section>
 
 	</div>
+	<br>
 </div>
 
 <?php
