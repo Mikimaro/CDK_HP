@@ -384,6 +384,45 @@ table.nextDojoTable th:after {
 	margin-top: 5%;
 }
 
+.rtdmovie{
+	margin: 5% 0 10% 0;
+	width: 100%;
+	text-align: center;
+}
+
+.rtdmovie p{
+	text-align: center;
+}
+
+.movielist{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.movielist article{
+	margin: 2% 0;
+	padding: 0 2.5%;
+	width: 45%;
+}
+
+.movielist article:last-child{
+	margin: 2% 0;
+	padding: 0 2.5%;
+	width: 45%;
+}
+
+.movielist iframe{
+	width: 100%;
+
+}
+
+.movielist section{
+}
+
+.movieTitle{
+	font-size: 1.5em;
+	font-weight: normal;
+}
 /*== mentor ==*/
 
 #mentor{
