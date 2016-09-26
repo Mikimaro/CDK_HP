@@ -576,6 +576,24 @@ table.nextDojoTable th:after {
 	margin: 5% 0;
 }
 
+.events h2{
+	font-size: 1.4em;
+}
+
+.events h3{
+	font-size: 1em;
+}
+
+.events h4{
+	font-size: 1.2em;
+}
+
+.events h5{
+	font-size: 0.8em;
+}
+
+
+
 .latest-eventText{
 	margin: 0 10%;
 	width: 80%;
@@ -600,14 +618,16 @@ table.nextDojoTable th:after {
 	margin: 5% 0;
 	width: 100%;
 	border-radius: 20px;
-	background-color: #EEEEEE;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .event-list article{
-	margin: 2.5% 2.5%;
+	margin: 1.5% 1%;
+	padding: 1.0%;
 	width: 45%;
+	border: 3px solid #EEEEEE;
+	border-radius: 15px;
 	text-align: center;
 }
 

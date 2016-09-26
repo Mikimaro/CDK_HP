@@ -71,7 +71,7 @@
 
 		<div class="events">
 
-			<h3 class="headline">最新のイベント</h3>
+			<h2 class="headline">最新のイベント</h2>
 
 			<section class="latest-event">
 
@@ -100,7 +100,7 @@
 
 			</section>
 
-			<h3 class="headline">過去のイベント</h3>
+			<h2 class="headline">過去のイベント</h2>
 
 			<section class="event-list">
 
