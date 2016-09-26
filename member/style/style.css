@@ -1,0 +1,210 @@
+ /*@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+*/
+body{
+	font-family: 'Noto Sans Japanese', sans-serif;
+	font-size: 100%;
+	color: black;
+	top: 0;
+	left: 0;
+
+}
+
+#header{
+	background-color: #1E90FF;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	position: absolute;
+}
+
+.headerImage{
+	padding-top: 1%;
+	width: 125px;
+	display: block;
+	margin: 0 auto;
+}
+
+.headerTitle{
+	line-height: 0.2em;
+	font-size: 52px;
+	font-weight: 100;
+	text-align: center;
+	color: white;
+}
+
+.headerText{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+
+}
+
+.headerSubTitle{
+	font-size: 24px;
+	text-align: center;
+	color: white;
+}
+
+
+
+
+#main{
+	width: 80%;
+	margin: 500px 10% 0 10%;
+	height: auto;3
+}
+
+#lost{
+	width: 45%;
+	margin-left: 2.5%;
+	background-color: gray;
+	float: left;
+	margin-bottom: 100px;
+}
+
+#lost:hover{
+	background-color:RGB(30, 144, 255)
+}
+
+#message{
+	width: 45%;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	margin-bottom: 100px;
+	background-color: gray;
+	float: left;
+
+}
+
+#message:hover{
+	background-color:RGB(30, 144, 255)
+}
+
+#code{
+	width: 45%;
+	margin-left: 2.5%;
+	margin-bottom: 100px;
+	background-color: gray;
+	float: left;
+}
+
+#code:hover{
+	background-color:RGB(30, 144, 255)
+}
+
+#file{
+	width: 45%;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	margin-bottom: 100px;
+	background-color: gray;
+	float: left;
+
+}
+
+#file:hover{
+	background-color:RGB(30, 144, 255)
+}
+
+
+.dateText{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+.mainTitle{
+	font-size: 24px;
+	text-align: center;
+	line-height: 0.1em;
+}
+
+.mainText{
+	text-align: center;
+	font-size: 18px;
+}
+
+.mainImg{
+	width: 150px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.contentsLink{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+/* lost.php */
+
+#lostTable table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.lostTd1{
+	width: 10%;
+}
+
+.lostTd2{
+	width: 30%;
+}
+
+.lostTd3{
+	width: 20%;
+}
+
+.lostTd4{
+	width: 40%;
+}
+
+/* message.php */
+
+#messageTable table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.messageTd1{
+	width:5%; 
+}
+
+.messageTd2{
+	width: 10%;
+}
+
+.messageTd3{
+	width: 65%;
+}
+
+.messageTd4{
+	width: 20%;
+}
+
+/* file.php */
+
+#fileTable table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.fileTd1{
+	width: 15%;
+}
+
+.fileTd2{
+	width: 35%;
+}
+
+.fileTd3{
+	width: 50%;
+}
+
