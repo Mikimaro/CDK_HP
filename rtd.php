@@ -60,76 +60,69 @@
 
 		<section class="movielist">
 
-			<article>
 
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/XyOeJ7Uo9zA" frameborder="0" allowfullscreen></iframe>
+			<?php
 
-				<section>
+					$URL = array(
+						'https://www.youtube.com/embed/XyOeJ7Uo9zA',
+						'https://www.youtube.com/embed/gUJqUK6oTwY',
+						'https://www.youtube.com/embed/ScEu7O4y6cY',
+						'https://www.youtube.com/embed/wmG1D5AnHno',
+						);
 
-					<p class="movieTitle">Happy birthday CoderDojo! from CoderDojo Kashiwa</p>
+					$title = array(
+						'Happy birthday CoderDojo! from CoderDojo Kashiwa',
+						'ScratchDay in Kashiwa 2016',
+						'Special Presentation Day 2015',
+						'CoderDojo Kahsiwa-no-ha Opening',
+						);
 
-					<p class="date">2016年9月18日</p>
+					$date = array(
+						'2016年9月18日',
+						'2016年5月14日',
+						'2015年12月20日',
+						'2015年6月7日',
+						);
 
-
-					<p class="text">CoderDojoの誕生を祝いました。</p>
-
-				</section>
-
-			</article>
-
-			<article>
-
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/gUJqUK6oTwY" frameborder="0" allowfullscreen></iframe>
-
-				<section>
-
-					<p class="movieTitle">ScratchDay in Kashiwa 2016</p>
-
-					<p class="date">2016年5月14日</p>
-
-
-					<p class="text">千葉県で初のScratchDay in Kashiwaが開催されました。</p>
-
-				</section>
-
-			</article>
-
-			<article>
-
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ScEu7O4y6cY" frameborder="0" allowfullscreen></iframe>
-
-				<section>
-
-					<p class="movieTitle">Special Presentation Day 2015</p>
-
-					<p class="date">2015年12月20日</p>
+					$text = array(
+						'CoderDojoの誕生を祝いました。',
+						'千葉県で初のScratchDay in Kashiwaが開催されました。',
+						'年に1度の子供たちによる、作品発表会が開催されました。',
+						'CoderDojo Kashiwaに姉妹Dojoが誕生しました。',
+						);
 
 
-					<p class="text">年に1度の子供たちによる、作品発表会が開催されました。</p>
+					for ($i=0; $i < count($URL); $i++) { 
+						print("
 
-				</section>
+				<article>
 
-			</article>
+					<iframe width='560' height='315' src='{$URL[$i]}' frameborder='0' allowfullscreen></iframe>
 
-			<article>
+					<section>
 
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/wmG1D5AnHno" frameborder="0" allowfullscreen></iframe>
+						<p class='movieTitle'>{$title[$i]}</p>
 
-				<section>
-
-					<p class="movieTitle">CoderDojo Kahsiwa-no-ha Opening</p>
-
-					<p class="date">2015年6月7日</p>
+						<p class='date'>{$date[$i]}</p>
 
 
-					<p class="text">CoderDojo Kashiwaに姉妹Dojoが誕生しました。</p>
+						<p class='text'>{$text[$i]}</p>
 
-				</section>
+					</section>
+					
+				</article>
 
-			</article>
+						");
+					}
+				?>
 
 		</section>
 
+		<p class="youtubelink">
+
+		<a href="https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA"> CoderDojo Kashiwaのすべての動画を見る > </a>
+
+		</p>
 	</div>
 	<br>
 </div>
