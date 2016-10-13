@@ -104,7 +104,6 @@ html[xmlns] .flexslider .slides {
   max-height: 300px;
 }
 .carousel li {
-  margin-right: 5px;
 }
 .flex-direction-nav {
   *height: 0;
@@ -268,13 +267,14 @@ html[xmlns] .flexslider .slides {
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
+
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
-    opacity: 1;
-    left: 10px;
+    background-image: none;
+
   }
   .flex-direction-nav .flex-next {
-    opacity: 1;
-    right: 10px;
+    background-image: none;
+    right: 0;
   }
 }

@@ -67,28 +67,28 @@
 						'https://www.youtube.com/embed/XyOeJ7Uo9zA',
 						'https://www.youtube.com/embed/gUJqUK6oTwY',
 						'https://www.youtube.com/embed/ScEu7O4y6cY',
-						'https://www.youtube.com/embed/wmG1D5AnHno',
+						'https://www.youtube.com/embed/Eoh7vvCJORc',
 						);
 
 					$title = array(
 						'Happy birthday CoderDojo! from CoderDojo Kashiwa',
 						'ScratchDay in Kashiwa 2016',
 						'Special Presentation Day 2015',
-						'CoderDojo Kahsiwa-no-ha Opening',
+						'柏の葉で学ぼう。',
 						);
 
 					$date = array(
 						'2016年9月18日',
 						'2016年5月14日',
 						'2015年12月20日',
-						'2015年6月7日',
+						'2016年10月',
 						);
 
 					$text = array(
 						'CoderDojoの誕生を祝いました。',
 						'千葉県で初のScratchDay in Kashiwaが開催されました。',
 						'年に1度の子供たちによる、作品発表会が開催されました。',
-						'CoderDojo Kashiwaに姉妹Dojoが誕生しました。',
+						'CoderDojo Kashiwa-no-haのPR映像が公開されました。',
 						);
 
 
@@ -120,7 +120,7 @@
 
 		<p class="youtubelink">
 
-		<a href="https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA"> CoderDojo Kashiwaのすべての動画を見る > </a>
+		<a href="https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA/videos"> CoderDojo Kashiwaのすべての動画を見る > </a>
 
 		</p>
 	</div>

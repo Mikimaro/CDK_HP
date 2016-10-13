@@ -15,23 +15,6 @@ a{
 	text-decoration: none;
 }
 
-.clearfix:after {
-content: ".";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;
-}
-
-/*== float解除 ==*/
-.clearfix {display: inline-table;}
-
-/* Hides from IE-mac \*/
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
-/* End hide from IE-mac */
-
-
 /*== MENU ==*/
 
 #menu{
@@ -112,6 +95,7 @@ visibility: hidden;
 #index-container{
 	margin: 0 auto;
 	width: 100%;
+	height: 100%;
 }
 
 #container-plus{
@@ -166,13 +150,17 @@ visibility: hidden;
 
 /*== index ==*/
 #contents{
-	margin: 0;
 	width: 100%;
 
 }
 
 #contents a{
 	color: black;
+}
+
+.slidesiframe{
+	width: 100%;
+
 }
 
 .slideInner{
@@ -1006,16 +994,22 @@ table{
 
 }
 
+.aboutCDKH section{
+	margin-left: -1%;
+	margin-right: 1%;
+	padding: 0;
+	text-align: center;
+}
+
+.aboutCDKH iframe{
+	width: 100%;
+}
+
 .kashiwanohaHeader{
 	width: 20%;
 	text-align: center;
 	margin: 0 auto;
 	display: block;
-}
-
-.iframeCenter{
-	text-align: center;
-	margin: 0 auto;
 }
 
 .formBig{
