@@ -27,6 +27,15 @@
 			require_once './functions.php';
 			$dbh = dbCon();
 
+
+
+
+
+
+
+
+
++
 			//アップデート処理
 			$sql = "UPDATE webControll SET nextDojoDate = ?, nextDojoNumber = ?, firstFormStatus = ?, repeaterFormStatus = ? where id = ?";
   			$stmt = $dbh->prepare($sql);		
