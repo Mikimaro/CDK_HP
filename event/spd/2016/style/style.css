@@ -44,7 +44,6 @@ body{
 	color: black;
 	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", ".HiraKakuInterface-W1";
 }
-
 a{
 	color: RGB(255, 39, 201);
 	text-decoration: none;
@@ -62,11 +61,24 @@ canvas{
 	position: fixed;
 }
 
+.movie {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.movie iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
 #container{
 	position: absolute;
 	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin: 0 15%;
 	background-color: white;
 	z-index: 100;
 }
@@ -103,8 +115,7 @@ canvas{
 
 #main{
 	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin: 0 10%;
 	text-align: center;
 }
 

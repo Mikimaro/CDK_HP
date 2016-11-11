@@ -387,20 +387,20 @@ table.nextDojoTable th:after {
 	text-align: center;
 }
 
-.movielist{
-	display: flex;
-	flex-wrap: wrap;
+.movielist {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  display: flex;
+flex-wrap: wrap;
 }
 
-.movielist article{
-	margin: 2% 0;
-	padding: 0 2.5%;
-	width: 45%;
-}
-
-.movielist iframe{
-	width: 100%;
-
+.movielist article {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .movielist section{
