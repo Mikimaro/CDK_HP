@@ -31,7 +31,7 @@
 		$date = date(n)."月".date(j)."日".date(G)."時".date(s)."分";
 
 		$sendMessage = "
-			この度はCoderDojo Kashiwaにお申し込み頂きまして、誠にありがとうございます。\n以下の情報でお申し込みを承りました。\nお名前：{$childName}\nよみがな：{$kana}\n学年：{$grade}\n保護者様お名前：{$parentName}\nメールアドレス：{$mail}\n学校名：{$schoolName}\n参加区分：{$joined}\nコンピュータの貸出希望：{$pcRent}\nDojoをどこで知ったか：{$place}\n備考：{$option}\n\nまた、当日までにキャンセルされる場合は、 cancel@coderdojo-kashiwa.com までご一報ください。\nそれでは、当日お会いできることを楽しみにしています。";
+			この度はCoderDojo Kashiwaにお申し込み頂きまして、誠にありがとうございます。\n以下の情報でお申し込みを承りました。\nお名前：{$childName}\nよみがな：{$kana}\n学年：{$grade}\n保護者様お名前：{$parentName}\nメールアドレス：{$mail}\n学校名：{$schoolName}\n参加区分：{$joined}\nコンピュータの貸出希望：{$pcRent}\nDojoをどこで知ったか：{$place}\n備考：{$option}\n\n会場は柏駅東口のNoblesseObligeというコワーキングスペースです。\nhttp://nbob.jp\n\nまた、当日までにキャンセルされる場合は、 cancel@coderdojo-kashiwa.com までご一報ください。\nそれでは、当日お会いできることを楽しみにしています。";
 		//参加者へのリマインドメール
 		mail($mail, "CoderDojo Kashiwa 申し込み確認メール", $sendMessage, "From:".DOJO_MAIL);
 
