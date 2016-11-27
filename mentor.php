@@ -152,22 +152,10 @@
 		),
 
 		12 => array(
-			"name" => "梅田 真妃留",
-			"en" => "Umeda Mahiru",
-			"skil" => array(
-				"Scratch"
-			),
-			"dojo" => array(
-				"Kashiwa-no-ha"
-			),
-			"comment" => ""
-		),
-
-		13 => array(
 			"name" => "窪田 碧唯",
 			"en" => "Kubota Aoi",
 			"skil" => array(
-				"Scratch"
+				"Scratch","デザイン"
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
@@ -176,7 +164,7 @@
 			"positon" => "CoderDojo柏の葉代表"
 		),
 
-		14 => array(
+		13 => array(
 			"name" => "大熊 謙輔",
 			"en" => "Ookura Kensuke",
 			"skil" => array(
@@ -188,47 +176,24 @@
 			"comment" => ""
 		),
 
-		15 => array(
+		14 => array(
 			"name" => "柄澤 匠",
 			"en" => "Karasawa Takumi",
 			"skil" => array(
-				
+				"Scratch","Web","Phyton"
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
 			),
-			"comment" => ""
+			"comment" => "",
+			"positon" => "CoderDojo柏の葉代表"
 		),
 
-		16 => array(
-			"name" => "秋谷 拓弥",
-			"en" => "Akitani Takuya",
-			"skil" => array(
-
-			),
-			"dojo" => array(
-				"Kashiwa-no-ha"
-			),
-			"comment" => ""
-		),
-
-		17 => array(
-			"name" => "齊藤 開斗",
-			"en" => "Saito Kaito",
-			"skil" => array(
-				
-			),
-			"dojo" => array(
-				"Kashiwa-no-ha"
-			),
-			"comment" => ""
-		),
-
-		18 => array(
+		15 => array(
 			"name" => "若山 広大",
 			"en" => "Wakayama Kouta",
 			"skil" => array(
-				
+				"JavaScript"
 			),
 			"dojo" => array(
 				"Kashiwa-no-ha"
@@ -335,18 +300,6 @@
 		),
 
 		7 => array(
-			"name" => "高松 基広",
-			"en" => "Takamatsu Motohiro",
-			"skil" => array(
-				"映像", "Scratch"
-			),
-			"dojo" => array(
-				"Kashiwa / Kashiwa-no-ha"
-			),
-			"comment" => ""
-		),
-
-		8 => array(
 			"name" => "辻 雄一郎",
 			"en" => "Tsuji Yuuichirou",
 			"skil" => array(
@@ -358,7 +311,7 @@
 			"comment" => ""
 		),
 
-		9 => array(
+		8 => array(
 			"name" => "西村 三千代",
 			"en" => "Nishimura Sachiyo",
 			"skil" => array(
@@ -370,7 +323,7 @@
 			"comment" => ""
 		),
 
-		10 => array(
+		9 => array(
 			"name" => "間下 知紀",
 			"en" => "Mashimo Tomonori",
 			"skil" => array(
