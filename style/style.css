@@ -620,7 +620,7 @@ table.nextDojoTable th:after {
 }
 
 .latest-event article{
-	margin: 0 10%;
+	margin: 0 auto;
 	width: 80%;
 }
 
@@ -633,7 +633,7 @@ table.nextDojoTable th:after {
 }
 
 .event-list article{
-	margin: 1.5% 1%;
+	margin: 1.5% auto;
 	padding: 1.0%;
 	width: 45%;
 	border: 3px solid #EEEEEE;
@@ -1073,7 +1073,7 @@ table{
 }
 
 .dojo-list article{
-	margin: 1.5% 1.2%;
+	margin: 1.5% auto;
 	padding: 1.0%;
 	width: 45%;
 	border: 3px solid #EEEEEE;
@@ -1088,7 +1088,7 @@ table{
 }
 
 .Ndojo-list article{
-	margin: 1.5% 25.5%;
+	margin: 1.5% auto;
 	padding: 1.0%;
 	width: 45%;
 	border: 3px solid #EEEEEE;

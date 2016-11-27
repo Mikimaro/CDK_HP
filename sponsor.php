@@ -25,7 +25,7 @@ $sponsorDataConpany = array(
 
 	3 => array(
 		"name" => "KOIL様",
-		"url" => "http://www.31ventures.jp/ventureoffice/31ventures-koil/",
+		"url" => "http://www.31ventures.jp/ventureoffice/koil/",
 		"type" => array("会場提供"),
 		"dojo" => array("Kashiwa-no-ha")
 	),

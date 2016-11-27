@@ -61,6 +61,10 @@ canvas{
 	position: fixed;
 }
 
+.small{
+	font-size: 8px;
+}
+
 .movie {
   position: relative;
   width: 100%;

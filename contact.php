@@ -4,17 +4,21 @@
 
 <div id="container">
 
-		<div class="pageTitle nonImg">
+		<div class="pageTitle">
 
 			<h1 class="headline">お問い合わせ</h1>
+
+			<p class="headline">
+
+				CoderDojo Kashiwaに関するお問合わせ先を紹介します。
+
+			</p>
 
 		</div>
 
 		<div id="contact">
 
 			<div class="contactContents">
-
-				<h4 class="headline">CoderDojo Kashiwaに関するお問合わせ先を紹介します。</h4>
 
 				<div class="mailContent">
 

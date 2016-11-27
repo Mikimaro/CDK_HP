@@ -46,7 +46,11 @@
 			<img src="../image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">近くのCoderDojo</h1>
 
-			<p class="headline">お近くのCoderDojoを紹介します。</p>
+			<p class="headline">
+
+				お近くにあるCoderDojoを紹介します。
+
+			</p>
 
 		</div>
 
