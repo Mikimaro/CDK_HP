@@ -12,7 +12,7 @@
 
 			<?php
 
-				for ($i=0; $i < 6; $i++) { 
+				for ($i=0; $i < 5; $i++) { 
 
 					$imgNum = $i + 1;
 					
@@ -65,7 +65,7 @@
 								<a href='kashiwanoha'>
 
 									<img src='./image/text/black/nameKashiwanoha.png'>
-									
+
 									<img src='./image/text/black/catchKashiwanoha.png'>
 
 								</a>
