@@ -15,6 +15,10 @@ a{
 	text-decoration: none;
 }
 
+.black{
+	color: #000;
+}
+
 /*== MENU ==*/
 
 #menu{
@@ -1057,4 +1061,49 @@ table{
 	margin-right: 10%;
 	margin-top: 100px;
 
+}
+/* dojo */
+
+.dojo-list{
+	margin: 5% 0;
+	width: 100%;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dojo-list article{
+	margin: 1.5% 1.2%;
+	padding: 1.0%;
+	width: 45%;
+	border: 3px solid #EEEEEE;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.Ndojo-list{
+	margin: 5% 0;
+	text-align: center;
+
+}
+
+.Ndojo-list article{
+	margin: 1.5% 25.5%;
+	padding: 1.0%;
+	width: 45%;
+	border: 3px solid #EEEEEE;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.kashiwadojo{
+	height: 250px; 
+}
+
+.kashiwanohadojo{
+	height: 250px;
+}
+
+.nagareyamadojo{
+	height: 250px;
 }

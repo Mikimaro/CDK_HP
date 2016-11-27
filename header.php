@@ -113,7 +113,7 @@
 		<ul>
 			<li><a href="./index.php"><img src="./image/dojoLogo.png" class="homeLogo"></a></li>
 			<li><a href="./about.php">CoderDojoとは</a></li>
-			<li><a href="./kashiwanoha.php">柏の葉Dojo</a></li>
+			<li><a href="./dojo/index.php">近くのDojo</a></li>
 			<li><a href="./join.php">参加する</a></li>
 			<li><a href="./rtd.php">RTDとは</a></li>	
 			<li><a href="./mentor.php">メンター</a></li>
