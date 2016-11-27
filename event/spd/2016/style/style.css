@@ -144,6 +144,19 @@ canvas{
 	margin: 0 auto;
 }
 
+#timetable{
+	margin: 0 10%;
+}
+
+.time{
+	width: 100px;
+}
+
+.section{
+	width: 500px;
+}
+
+
 #footer{
 	padding-top: 200px;
 }

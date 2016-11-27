@@ -213,8 +213,8 @@
 		),
 
 		17 => array(
-			"name" => "王子 怜",
-			"en" => "Oji Rei",
+			"name" => "齊藤 開斗",
+			"en" => "Saito Kaito",
 			"skil" => array(
 				
 			),
@@ -225,8 +225,8 @@
 		),
 
 		18 => array(
-			"name" => "齊藤 開斗",
-			"en" => "Saito Kaito",
+			"name" => "若山 広大",
+			"en" => "Wakayama Kouta",
 			"skil" => array(
 				
 			),

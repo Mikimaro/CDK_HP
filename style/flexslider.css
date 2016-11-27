@@ -136,36 +136,7 @@ html[xmlns] .flexslider .slides {
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
-.flex-direction-nav a.flex-next:before {
-  content:'';
-}
-.flex-direction-nav .flex-prev {
-  background-image: url(../image/slides/arrowLeft.png);
-  width: 84px;
-  height: 83px;
-  left: -50px;
-}
-.flex-direction-nav .flex-next {
-  background-image: url(../image/slides/arrowRight.png);
-  width: 84px;
-  height: 83px;
-  right: -50px;
-  text-align: right;
-}
-.flexslider:hover .flex-direction-nav .flex-prev {
-  opacity: 0.3;
-  left: 10px;
-}
-.flexslider:hover .flex-direction-nav .flex-prev:hover {
-  opacity: 0.5;
-}
-.flexslider:hover .flex-direction-nav .flex-next {
-  opacity: 0.3;
-  right: 10px;
-}
-.flexslider:hover .flex-direction-nav .flex-next:hover {
-  opacity: 0.5;
-}
+
 .flex-direction-nav .flex-disabled {
   opacity: 0!important;
   filter: alpha(opacity=0);

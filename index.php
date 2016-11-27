@@ -35,10 +35,24 @@
 							print("
 
 							<div class='slideInner'>
+
 								<a href='event/spd/2016'>
+
 									<img src='./image/text/black/spd2016.png'>
 									<img src='./image/text/black/spd2016c.png'>
+								</a>
+
 								
+							</div>
+
+							<div class='slideInnerPlus'>
+
+								<a href='event/spd/2016/#join'>
+
+								<img src='./image/text/black/invite.png'>
+
+								</a>
+
 							</div>
 
 							");
@@ -47,22 +61,22 @@
 							print("
 
 							<div class='slideInner'>
+
 								<a href='kashiwanoha'>
+
 									<img src='./image/text/black/nameKashiwanoha.png'>
+									
 									<img src='./image/text/black/catchKashiwanoha.png'>
+
+								</a>
+
 							</div>
 
 							");
-						}	
+						}
 
 					
 					print("<img src='./image/slides/s{$imgNum}.jpg'>");
-
-						if ($i == 1) {
-							print("</a>");
-						}else if ($i == 3) {
-							print("</a>");
-						}
 
 					print("</li>");
 				}

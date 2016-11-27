@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="style/formStyle.css">
 	<link rel="stylesheet" type="text/css" href="style/modal.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="./script/jquery.flexslider.js"></script>
 	<script>
@@ -59,13 +60,12 @@
 </script>
 
 
-	<script type="text/javascript" charset="utf-8">
+	<script>
 		$(window).load(function() {
 			$('.flexslider').flexslider({
         animation: "fade",
 				slideshowSpeed: 5000,
 				animationSpeed: 1500,
-        directionNav: true,
 				});
 		});
 	</script>

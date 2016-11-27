@@ -1,7 +1,7 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 body{
-	font-family: 'Noto Sans Japanese';
+	font-family: 'Noto Sans', 'sans-serif';
 	font-weight: 200;
 	margin: auto;
 	width: 100%;
@@ -169,6 +169,15 @@ a{
 	top: 30px;
 	left: 0;
 	right: 0;
+	position: absolute;
+}
+
+.slideInnerPlus{
+	width: 20%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 85%;
 	position: absolute;
 }
 
@@ -387,20 +396,20 @@ table.nextDojoTable th:after {
 	text-align: center;
 }
 
-.movielist {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
-  display: flex;
-flex-wrap: wrap;
+.movielist{
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.movielist article {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100% !important;
-  height: 100% !important;
+.movielist article{
+	margin: 2% 0;
+	padding: 0 2.5%;
+	width: 45%;
+}
+
+.movielist iframe{
+	width: 100%;
+
 }
 
 .movielist section{
@@ -795,7 +804,7 @@ flex-wrap: wrap;
 
 .type{
 	margin: 0;
-	padding: 0 1%;
+	padding: 1px 5px;
 	font-size: 12px;
 	background-color: rgba(30,144,255,0.4);
 	border-radius: 5px;
