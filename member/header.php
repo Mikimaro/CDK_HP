@@ -26,7 +26,7 @@
 					$date = $result[0]["nextDojoDate"];
 					$times = $result[0]["nextDojoNumber"];
 
-					echo("<p class='dateText'>次回のDojo：{$date}( #{$times} )</p>");
+					//echo("<p class='dateText'>次回のDojo：{$date}( #{$times} )</p>");
 
 				}else{
 					echo("<p class='headerSubTitle'>【{$pageTitle}】</p>");

@@ -10,6 +10,8 @@
 
 	<div id="main">
 
+	<!--
+
 		<div id="lost">
 			<a href="./lost.php" class="contentsLink">
 				<img src="./image/lost.png" class="mainImg">
@@ -42,7 +44,26 @@
 			</a>
 		</div>
 
+		-->
+
+		<p class="center">ログイン</p>
+
+		<div id="login">
+			<form action="" method="POST">
+				<input type="text" name="userID" placeholder="ユーザID" class="textbox">
+				<br>
+				<input type="password" name="userPassword" placeholder="パスワード" class="textbox">
+				<br>
+				<input type="hidden" name="flag" value="1">
+				<input type="submit" value="ログイン">
+			</form>
+		</div>
 
 	</div>
+
+	<div id="newRegesiter">
+		<a href="./signup.php" class="signupA">【新規ユーザー登録】</a>
+	</div>
+
 
 <?php require_once 'footer.php'; ?>
