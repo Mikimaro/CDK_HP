@@ -40,7 +40,6 @@
 
 <div id="container">
 
-	<div id="event">
 		
 		<div class="pageTitle">
 			<img src="../image/dojoLogo.png" class="headerLogo">
@@ -54,11 +53,13 @@
 
 		</div>
 
+		<div id="event">
+
 		<div class="events">
 
 			<h2 class="headline">柏市</h2>
 
-			<section class="dojo-list">
+			<section class="Kdojo-list">
 
 
 			<?php

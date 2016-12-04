@@ -347,14 +347,14 @@
 
 <div id="container">
 
-	<div id="mentor">
-
 		<div class="pageTitle">
 			<img src="./image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">メンター</h1>
 			<p class="headline">子どもたちひとりひとりと向き合う、CoderDojo Kashiwaのエキスパートたちを紹介します</p>
 
 		</div>
+
+		<div id="mentor">
 
 		<div class="aboutMentor title-of-top">
 

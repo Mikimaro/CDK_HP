@@ -50,7 +50,7 @@ $sponsorDataPerson = array(
 ?>
 
 
-	<div id="container-plus">
+	<div id="container">
 
 		<div class="pageTitle">
 			<img src="./image/dojoLogo.png" class="headerLogo">

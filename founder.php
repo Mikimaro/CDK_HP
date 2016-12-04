@@ -36,11 +36,12 @@
 
 <div id="container">
 
-		<div id="founder">
 
-			<div class="pageTitle nonImg">
+			<div class="pageTitle">
 
-				<h1 class="headline">運営について</h1>
+				<img src="./image/dojoLogo.png" class="headerLogo">
+
+				<h1 class="headline">CoderDojo Kashiwaの運営について</h1>
 
 				<p class="headline">
 
@@ -50,6 +51,8 @@
 
 			</div>
 
+			<div id="founder">
+
 			<div id="mjk">
 
 				<div class="founderImage">
@@ -58,7 +61,9 @@
 
 				</div>
 
-				<div class="mjkPro">
+				<section class="mjkPro">
+
+					<div class="nameLabel">
 
 					<p class="founderName">宮島 衣瑛 / Kirie Miyajima</p>
 
@@ -66,13 +71,15 @@
 
 					<a href="https://twitter.com/mjk_0513" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+					</div>
+
 					<p class="founderProfile">
 						1997年5月13日生まれ<br>
 						学習院大学文学部教育学科<br>
 						高校1年生の春から地元である千葉県柏市でCoderDojo Kashiwaという小中学生向けのプログラミングDojoを主催・運営。 3年間で60回を超えるワークショップを開催しており、現在でも様々な場所で教えている。これらの経験を基にTEDxKids@Chiyoda2014に登壇し、自身の考えを発表した。2016年4月からは学習院大学文学部教育学科に進学し、より専門的に教育について学んでいる。
 					</p>
 
-				</div>
+				</section>
 
 			</div>
 
@@ -82,7 +89,7 @@
 		<?php
 			for ($i=0; $i < 1; $i++) { 
 				print("
-					<div class='latest-newsArticle'>
+					<section class='latest-newsArticle'>
 
 						<div class='news-Text'>
 						
@@ -98,13 +105,13 @@
 						</div>
 
 
-					</div>
+					</section>
 				");
 			}
 
 			for ($i=1; $i < count($date); $i++) { 
 				print("
-					<div class='newsArticle'>
+					<section class='newsArticle'>
 
 						<div class='news-Text'>
 
@@ -119,7 +126,7 @@
 
 						</div>
 
-					</div>
+					</section>
 				");
 			}
 		?>

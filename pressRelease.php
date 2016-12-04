@@ -23,7 +23,7 @@
 
 <div id="container">
 
-	<div id="pageTitle">
+	<div class="pageTitle">
 		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">プレスリリース</h1>
 		<p class="headline">CoderDojo Kashiwaから皆様への重要なお知らせです</p>
