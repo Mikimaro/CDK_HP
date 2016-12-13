@@ -12,7 +12,7 @@
 	        
 	    }elseif ($debugFlag == 1) {
 		    
-			$dsn = 'mysql:dbname=coderdojo;host=localhost';
+			$dsn = 'mysql:dbname=new_onlinedojo;host=localhost';
 	    	$user = 'root';
 	    	$password = 'root';
 
@@ -25,4 +25,12 @@
  		// DBサーバーへコネクト
     	$dbh = new PDO($dsn, $user, $password, $connOpt);
     	return $dbh;
+	}
+
+	function getUser($userID, $password, $dbh){
+		$sql = "SELECT * from userData where user_id = :userID and user_password = :password limit 1";
+		$stmt = $dbh -> prepare($sql);
+		$stmt->execute(array(":userID"=>$userID, ":password" => $password));
+		$user = $stmt->fetch();
+		return $user ? $user : false;
 	}

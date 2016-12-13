@@ -2,45 +2,103 @@
 	$pageTitle = " 新規ユーザ登録 ";
 	$pageDescription = "新しくユーザ登録をしてください。";
 
-	require_once 'header.php';
+	//各種ファイル読み込み
+	require_once 'UserDataClass.php';
 
 	$flag = $_POST['flag'];
 
 	if ($flag == 1) {
-		//$dbCon = dbCon();
-
+		require_once "function.php";
+		$dbh = dbCon();
+		
 		$userName = $_POST['userName'];
 		$userPassword = $_POST['userPassword'];
 		$userPasswordRe = $_POST['userPasswordRe'];
 		$userDojoName = $_POST['userDojoName'];
 		$userMail = $_POST['userMail'];
+		$userBirthday = $_POST['userBirthday'];
 
-		
+
+		//入力チェックはrequired属性にて行う
+		//パスワードのチェック
+		$error = array();
+
+		if ($userPassword != $userPasswordRe) {
+			$error['notMatchUserEnterPassword'] = "入力されたパスワードが一致しません";
+		}
+
+		//latestNumberを取得
+
+		$userData = new UserData();
+		$number = $userData->getLatestNumber($userDojoName);
+
+		$numberLength = strlen($number);
+
+		//0を追加する処理
+		if($numberLength == 1){
+			$userId = $userDojoName."000".$number;
+		}elseif($numberLength ==2){
+			$userId = $userDojoName."00".$number;
+		}elseif($numberLength == 3){
+			$userId = $userDojoName."0".$number;
+		}elseif($numberLength == 4){
+			$userId = $userDojoName.$number;
+		}
+
+
+		//エラーがすべて消えた時の処理
+
+		if(count($error) == 0){
+
+			session_start();
+
+			$_SESSION['userName'] = $userName;
+			$_SESSION['userId'] = $userId;
+			$_SESSION['userPassword'] = $userPassword;
+			$_SESSION['userDojoName'] = $userDojoName;
+			$_SESSION['userMail'] = $userMail;
+			$_SESSION['userBirthday'] = $userBirthday;
+			$_SESSION['flag'] = 1;
+			
+			header('Location: check.php');
+
+
+		}
+
 
 	}
+
+	require_once 'header.php';
 
 ?>
 
 <div id="main">
 	<div id="signup">
 		<form action="" method="POST">
-			<p class="center">ユーザ名</p>
-			<input type="text" name="userName" class="textbox" placeholder="ユーザ名">
+			<p class="center">お名前</p>
+			<input type="text" name="userName" class="textbox" placeholder="自分の名前" required value='<?php print($userName); ?>'>
 			<br>
 			<p class="center">パスワード</p>
-			<input type="password" name="userPassword" class="textbox" placeholder="パスワード">
+			<p class="errorP"><?php print($error["notMatchUserEnterPassword"]); ?></p>
+			<input type="password" name="userPassword" class="textbox" placeholder="パスワード" required>
 			<br>
 			<p class="center">パスワードを再入力</p>
-			<input type="password" name="userPasswordRe" class="textbox" placeholder="パスワードを再入力">
+			<input type="password" name="userPasswordRe" class="textbox" placeholder="パスワードを再入力" required>
 			<br>
+			<p class="center">誕生日</p>
+			<input type="date" name="userBirthday" class="dateBox" required>
+			<br><br>
 			<p class="center">普段来ているDojo</p>
 			<select name="userDojoName">
-				<option value="CoderDojo Kashiwa">CoderDojo Kashiwa</option>
-				<option value="CoderDojo Kashiwa-no-ha">CoderDojo Kashiwa-no-ha</option>
-				<option value="CoderDojo Nagareyama">CoderDojo Nagareyama</option>
+				<option value="CDKS">CoderDojo Kashiwa</option>
+				<option value="CDKH">CoderDojo Kashiwa-no-ha</option>
+				<option value="CDNS">CoderDojo Nagareyama</option>
+				<option value="CDOS">その他のDojo</option>
+				<option value="CDKM">メンターとして参加</option>
 			</select>
+			<br><br>
 			<p class="center">メールアドレス</p>
-			<input type="text" name="userMail" class="textbox" placeholder="メールアドレス">
+				<input type="text" name="userMail" class="textbox" placeholder="メールアドレス" required value='<?php print($userMail); ?>'>
 			<br>
 			<input type="hidden" name="flag" value="1">
 			<input type="submit" value="登録する">

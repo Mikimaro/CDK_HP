@@ -10,8 +10,8 @@
 	<div id="header">
 		<img src="./image/logo.png" class="headerImage">
 
-		<p class="headerTitle">CDK Members.</p>
-	
+		<p class="headerTitle">OnlineDojo 2.0</p>
+		
 			<?php
 
 				if ($dateFlag) {

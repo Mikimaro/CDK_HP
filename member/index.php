@@ -4,61 +4,72 @@
 	$pageDescription = "CoderDojo Kashiwa メンバーのためのページです。";
 
 	$dateFlag = true;
+	$flag = $_POST['flag'];
+
+	if($flag == 1){
+
+		//ログイン処理
+
+		require "LoginClass.php";
+		require "function.php";
+
+		$dbh = dbCon();		
+
+		$userId = $_POST['userId'];
+		$userPassword = sha1($_POST['userPassword']);
+
+		$loginManager = new Login();
+		$loginStatusFlag = $loginManager->getUser($userId, $userPassword, $dbh);
+
+		if($loginStatusFlag){
+			//ログイン処理の成功
+			
+			session_start();
+			$_SESSION['loginStatus'] = true;
+			$_SESSION['userId'] = $userId;
+
+			
+			if(substr($userId, 0, 4) == "CDKM"){
+				header("Location: ./mentor/index.php");
+			}else{
+				header("Location: ./contents/index.php");
+			}
+
+			
+
+		}else{
+			//失敗
+
+			$error['notmatch'] = "ユーザ名とパスワードの組み合わせが違います。";
+
+		}
+
+
+	}
+
 
 	require_once 'header.php';
+
+
 ?>
 
 	<div id="main">
-
-	<!--
-
-		<div id="lost">
-			<a href="./lost.php" class="contentsLink">
-				<img src="./image/lost.png" class="mainImg">
-				<p class="mainTitle">忘れ物</p>
-				<p class="mainText">Dojoに忘れ物をした方はこちらから一覧を確認してください。</p>
-			</a>
-		</div>
-
-		<div id="message">
-			<a href="./message.php" class="contentsLink">
-				<img src="./image/message.png" class="mainImg">
-				<p class="mainTitle">お知らせ</p>
-				<p class="mainText">CoderDojo Kashiwaより参加者の皆さんへのお知らせです。</p>
-			</a>
-		</div>
-
-		<div id="code">
-			<a href="./code.php" class="contentsLink">
-				<img src="./image/code.png" class="mainImg">
-				<p class="mainTitle">プログラム</p>
-				<p class="mainText">Dojoで保管しているプログラムは、こちらからダウンロードできます</p>
-			</a>
-		</div>
-
-		<div id="file">
-			<a href="./file.php" class="contentsLink">
-				<img src="./image/clip.png" class="mainImg">
-				<p class="mainTitle">配布ファイル</p>
-				<p class="mainText">Dojoでお伝えした配布ファイルのダウンロードはこちらから</p>
-			</a>
-		</div>
-
-		-->
 
 		<p class="center">ログイン</p>
 
 		<div id="login">
 			<form action="" method="POST">
-				<input type="text" name="userID" placeholder="ユーザID" class="textbox">
+
+				<p class="error"><?php print($error['notmatch']); ?></p>
+
+				<input type="text" name="userId" placeholder="ユーザID" class="textbox" required value="<?php print($userId);?>">
 				<br>
-				<input type="password" name="userPassword" placeholder="パスワード" class="textbox">
+				<input type="password" name="userPassword" placeholder="パスワード" class="textbox" required>
 				<br>
 				<input type="hidden" name="flag" value="1">
 				<input type="submit" value="ログイン">
 			</form>
 		</div>
-
 	</div>
 
 	<div id="newRegesiter">

@@ -68,9 +68,6 @@
 			$dbh = dbCon();
 			
 			//USER DATAを登録
-			$sql = "UPDATE userData SET name = ?, mail = ?, password = ?, sex = ?, birthday = ?, grade = ?, joinDojo = ?, setupDate = now() where userID = ?";
-  			$stmt = $dbh->prepare($sql);		
-			$result = $stmt->execute(array($userName, $mail, $password, $userSex, $userBirthday, $userGrade, $joinDojo, $userID));
 
 			//トレーニングシートにユーザ名を登録
 			$sql = "INSERT INTO training_sheet(userID) VALUES (?)";

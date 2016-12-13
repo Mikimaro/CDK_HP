@@ -1,0 +1,37 @@
+#menu{
+    width: 100%;
+
+}
+
+#menu li{
+    list-style: none;
+}
+
+
+.menuUl{
+    width: 100%;
+}
+
+.conMenuL{
+    width: 40%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    text-align: center;
+    background-color: gray;
+}
+
+.conMenuR{
+    width: 40%;
+    height: 200px;
+    margin-left: 5%;
+    /*margin-right: 5%;*/
+    float: left;
+    text-align: center;
+    background-color: gray; 
+}
+
+.menuImg{
+    width: 30%;
+}
