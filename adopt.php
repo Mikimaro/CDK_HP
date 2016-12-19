@@ -56,7 +56,7 @@
 				<ul>
 					<li>活動日時：毎月第3日曜日 10:00-12:00</li>
 					<li>活動場所：<a href="http://www.31ventures.jp/ventureoffice/koil/">KOIL</a></li>
-					<li>活動内容：同様</li>
+					<li>活動内容：CoderDojo Kashiwaの内容に同様</li>
 					<li>研修：有り。適宜実施致します。</li>
 				</ul>
 				<br><br>

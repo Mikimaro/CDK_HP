@@ -44,6 +44,7 @@ body{
 	color: black;
 	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", ".HiraKakuInterface-W1";
 }
+
 a{
 	color: RGB(255, 39, 201);
 	text-decoration: none;
@@ -59,6 +60,10 @@ li{
 
 canvas{
 	position: fixed;
+}
+
+.small{
+	font-size: 8px;
 }
 
 .movie {

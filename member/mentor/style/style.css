@@ -1,0 +1,31 @@
+#addProgress{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#removeProgress{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+
+.textbox{
+	border:0;
+	padding:10px;
+	font-size:1.3em;
+	font-family:Arial, sans-serif;
+	color:black;
+	border:solid 1px #ccc;
+	margin:0 0 20px;
+	width:300px;
+	text-align: center;
+}
+
+.message{
+	color: blue;
+	text-align: center;
+}

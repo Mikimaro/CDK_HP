@@ -1,2 +1,2 @@
 <?php
-	header("Location: ./2015/");
+	header("Location: ./2016/");

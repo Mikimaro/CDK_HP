@@ -58,8 +58,6 @@
 ?>
 
 <div id="container">
-
-	<div id="event">
 		
 		<div class="pageTitle">
 			<img src="./image/dojoLogo.png" class="headerLogo">
@@ -68,6 +66,8 @@
 			<p class="headline">CoderDojo Kashiwaのイベントを紹介します</p>
 
 		</div>
+		
+		<div id="event">
 
 		<div class="events">
 

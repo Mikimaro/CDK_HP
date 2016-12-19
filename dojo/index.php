@@ -40,21 +40,26 @@
 
 <div id="container">
 
-	<div id="event">
 		
 		<div class="pageTitle">
 			<img src="../image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">近くのCoderDojo</h1>
 
-			<p class="headline">お近くのCoderDojoを紹介します。</p>
+			<p class="headline">
+
+				お近くにあるCoderDojoを紹介します。
+
+			</p>
 
 		</div>
+
+		<div id="event">
 
 		<div class="events">
 
 			<h2 class="headline">柏市</h2>
 
-			<section class="dojo-list">
+			<section class="Kdojo-list">
 
 
 			<?php
