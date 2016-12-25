@@ -45,15 +45,6 @@
 								
 							</div>
 
-							<div class='slideInnerPlus'>
-
-								<a href='event/spd/2016/#join'>
-
-								<img src='./image/text/black/invite.png'>
-
-								</a>
-
-							</div>
 
 							");
 

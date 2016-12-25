@@ -30,7 +30,7 @@
 			"name" => "鈴木 貴也",
 			"en" => "Suzuki Takaya",
 			"skil" => array(
-				"Scratch"
+				"Scratch","音響"
 			),
 			"dojo" => array(
 				"Kashiwa / Kashiwa-no-ha"
@@ -54,7 +54,7 @@
 			"name" => "牧野 翔",
 			"en" => "Makino Syou",
 			"skil" => array(
-				"Scratch"
+				"Scratch","音響"
 			),
 			"dojo" => array(
 				"Kashiwa"

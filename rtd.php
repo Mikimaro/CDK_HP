@@ -64,31 +64,31 @@
 			<?php
 
 					$URL = array(
+						'https://www.youtube.com/embed/f--DQWnmeSY',
 						'https://www.youtube.com/embed/XyOeJ7Uo9zA',
 						'https://www.youtube.com/embed/gUJqUK6oTwY',
 						'https://www.youtube.com/embed/ScEu7O4y6cY',
-						'https://www.youtube.com/embed/Eoh7vvCJORc',
 						);
 
 					$title = array(
+						'あなたがDojoに来る理由は何ですか？',
 						'Happy birthday CoderDojo! from CoderDojo Kashiwa',
 						'ScratchDay in Kashiwa 2016',
 						'Special Presentation Day 2015',
-						'柏の葉で学ぼう。',
 						);
 
 					$date = array(
+						'2016年12月24日',
 						'2016年9月18日',
 						'2016年5月14日',
 						'2015年12月20日',
-						'2016年10月',
 						);
 
 					$text = array(
+						'CoderDojoに参加する理由を聞きました。',
 						'CoderDojoの誕生を祝いました。',
 						'千葉県で初のScratchDay in Kashiwaが開催されました。',
 						'年に1度の子供たちによる、作品発表会が開催されました。',
-						'CoderDojo Kashiwa-no-haのPR映像が公開されました。',
 						);
 
 
