@@ -41,16 +41,16 @@
 
 			<article>
 
-				<iframe width="736" height="414" src="https://www.youtube.com/embed/Ct8EKh8xXWQ" frameborder="0" allowfullscreen></iframe>
+				<iframe width="736" height="414" src="https://www.youtube.com/embed/nSO-KsbIfQQ" frameborder="0" allowfullscreen></iframe>
 
 				<section>
 
-					<p class="movieTitle"> #65 CoderDojo Kashiwa</p>
+					<p class="movieTitle"> CoderDojo Kashiwa Special Presentation Day 2016 -Reflection</p>
 
-					<p class="date">2016年8月28日</p>
+					<p class="date">2016年12月24日</p>
 
 
-					<p class="text">第65回CoderDojo Kashiwaが開催されました。</p>
+					<p class="text">子供たちの年に一度の最も大きい発表の場。</p>
 
 				</section>
 
