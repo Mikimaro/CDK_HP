@@ -41,16 +41,16 @@
 
 			<article>
 
-				<iframe width="736" height="414" src="https://www.youtube.com/embed/Ct8EKh8xXWQ" frameborder="0" allowfullscreen></iframe>
+				<iframe width="736" height="414" src="https://www.youtube.com/embed/nSO-KsbIfQQ" frameborder="0" allowfullscreen></iframe>
 
 				<section>
 
-					<p class="movieTitle"> #65 CoderDojo Kashiwa</p>
+					<p class="movieTitle"> CoderDojo Kashiwa Special Presentation Day 2016 -Reflection</p>
 
-					<p class="date">2016年8月28日</p>
+					<p class="date">2016年12月24日</p>
 
 
-					<p class="text">第65回CoderDojo Kashiwaが開催されました。</p>
+					<p class="text">子供たちの年に一度の最も大きい発表の場。</p>
 
 				</section>
 
@@ -64,31 +64,31 @@
 			<?php
 
 					$URL = array(
+						'https://www.youtube.com/embed/f--DQWnmeSY',
 						'https://www.youtube.com/embed/XyOeJ7Uo9zA',
 						'https://www.youtube.com/embed/gUJqUK6oTwY',
 						'https://www.youtube.com/embed/ScEu7O4y6cY',
-						'https://www.youtube.com/embed/Eoh7vvCJORc',
 						);
 
 					$title = array(
+						'あなたがDojoに来る理由は何ですか？',
 						'Happy birthday CoderDojo! from CoderDojo Kashiwa',
 						'ScratchDay in Kashiwa 2016',
 						'Special Presentation Day 2015',
-						'柏の葉で学ぼう。',
 						);
 
 					$date = array(
+						'2016年12月24日',
 						'2016年9月18日',
 						'2016年5月14日',
 						'2015年12月20日',
-						'2016年10月',
 						);
 
 					$text = array(
+						'CoderDojoに参加する理由を聞きました。',
 						'CoderDojoの誕生を祝いました。',
 						'千葉県で初のScratchDay in Kashiwaが開催されました。',
 						'年に1度の子供たちによる、作品発表会が開催されました。',
-						'CoderDojo Kashiwa-no-haのPR映像が公開されました。',
 						);
 
 

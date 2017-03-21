@@ -44,9 +44,12 @@
 								
 							</div>
 
+<<<<<<< HEAD
 							<div class='slideInnerPlus'>
 								<a href='http://www.code-for-nagareyama.org/?p=695'>
 							</div>
+=======
+>>>>>>> 1a29b212566584fac051fe49ca031086c910b19a
 
 							");
 

@@ -159,7 +159,7 @@
 
 			<div id="copyright">
 
-				<p>Copyright © 2016 CoderDojo Kashiwa All right reserved.<br>
+				<p>Copyright © 2016-2017 CoderDojo Kashiwa All right reserved.<br>
 				Created by Mikimaro Yonekura & Kirie Miyajima
 				</p>
 
