@@ -9,14 +9,12 @@
     <div id="progressCheck">
         <?php
 
-            $userId = "CDKS0015";
-
             $progressManager = new TrainingSheetManager();
             $data = $progressManager->getProgressData($userId);
             
         ?>
 
-        <table border="1">
+        <table border="1" class="table">
             <?php
                 for ($i=1; $i < 31; $i++) { 
                     print("<tr><td>");
@@ -27,6 +25,5 @@
                 } 
             ?>
         </table>
-
     </div>
 </div>

@@ -5,10 +5,7 @@
      */
     class TrainingSheetManager{
 
-        public function AddUserId($userId){        
-            
-            require_once "function.php";
-            $dbh = dbCon();
+        public function AddUserId($userId, $dbh){        
 
             $sql = "INSERT INTO training_sheet(user_id) VALUES (?)";
 		    $stmt = $dbh->prepare($sql);

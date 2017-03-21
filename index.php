@@ -38,21 +38,14 @@
 
 								<a href='event/spd/2016'>
 
-									<img src='./image/text/black/spd2016.png'>
-									<img src='./image/text/black/spd2016c.png'>
+									<img src='./image/text/white/iodd_text.png'>
 								</a>
 
 								
 							</div>
 
 							<div class='slideInnerPlus'>
-
-								<a href='event/spd/2016/#join'>
-
-								<img src='./image/text/black/invite.png'>
-
-								</a>
-
+								<a href='http://www.code-for-nagareyama.org/?p=695'>
 							</div>
 
 							");

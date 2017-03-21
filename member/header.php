@@ -8,9 +8,7 @@
 
 <body>
 	<div id="header">
-		<img src="./image/logo.png" class="headerImage">
-
-		<p class="headerTitle">OnlineDojo 2.0</p>
+		<p class="headerTitle"><img src="./image/logo.png" class="headerImg">OnlineDojo 2.0</p>
 		
 			<?php
 
@@ -28,15 +26,8 @@
 
 					//echo("<p class='dateText'>次回のDojo：{$date}( #{$times} )</p>");
 
-				}else{
-					echo("<p class='headerSubTitle'>【{$pageTitle}】</p>");
-
 				}
 
 			?>
-
-			<p class="headerText"><?php echo($pageDescription); ?></p>
-
-			
-
+		
 	</div>	

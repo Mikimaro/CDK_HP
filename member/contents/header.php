@@ -11,6 +11,17 @@
 
 		$userId = $_SESSION["userId"];
 		$userName = $_SESSION['userName'];
+		
+		//planを確認
+		require_once "../LoginStatusClass.php";
+		$loginStatusManager = new LoginStatus();
+		$plan = $loginStatusManager->getPlan($userId);
+
+		var_dump($plan);
+
+		if($plan == "CDKM"){
+			require_once "../logout.php";
+		}
 
 	}
 
@@ -27,24 +38,12 @@
 
 <body>
 	<div id="header">
-		<img src="../image/logo.png" class="headerImage">
+		<a href="./"><p class="headerTitle"><img src="../image/logo.png" class="headerImg">OnlineDojo 2.0</p></a>
+			<p class="userDescription"><?php echo($userId); ?> <?php echo($userName); ?> さん</p>
+			<p class="userDescription"><a href="../logout.php">ログアウトする</a></p>
+	</div>
 
-		<p class="headerTitle">OnlineDojo 2.0</p>
-	
-			<?php
-
-				if ($dateFlag) {
-
-				}else{
-					echo("<p class='headerSubTitle'>【{$pageTitle}】</p>");
-
-				}
-
-			?>
-
-			<p class="headerText"><?php echo($pageDescription); ?></p>
-
-			
-
+	<div id="userDescription">
+		<p class="headerText"><?php echo($pageDescription); ?></p>
 	</div>	
 	

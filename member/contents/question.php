@@ -7,8 +7,10 @@
 ?>
 
 <div id="main">
-    <p>//ここに問題を書く</p>
-    <p>//GitHubからもってきたいね</p>
+
+    <div id="question">
+         <iframe src="https://cdn.rawgit.com/CoderDojoKashiwa/scratch_trainingsheet/master/index.html" noresize frameborder="0" class="iframe"></iframe> 
+    </div>
+
 </div>
-    
     

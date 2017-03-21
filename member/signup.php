@@ -1,9 +1,7 @@
 <?php
+
 	$pageTitle = " 新規ユーザ登録 ";
 	$pageDescription = "新しくユーザ登録をしてください。";
-
-	//各種ファイル読み込み
-	require_once 'UserDataClass.php';
 
 	$flag = $_POST['flag'];
 
@@ -18,7 +16,6 @@
 		$userMail = $_POST['userMail'];
 		$userBirthday = $_POST['userBirthday'];
 
-
 		//入力チェックはrequired属性にて行う
 		//パスワードのチェック
 		$error = array();
@@ -27,25 +24,6 @@
 			$error['notMatchUserEnterPassword'] = "入力されたパスワードが一致しません";
 		}
 
-		//latestNumberを取得
-
-		$userData = new UserData();
-		$number = $userData->getLatestNumber($userDojoName);
-
-		$numberLength = strlen($number);
-
-		//0を追加する処理
-		if($numberLength == 1){
-			$userId = $userDojoName."000".$number;
-		}elseif($numberLength ==2){
-			$userId = $userDojoName."00".$number;
-		}elseif($numberLength == 3){
-			$userId = $userDojoName."0".$number;
-		}elseif($numberLength == 4){
-			$userId = $userDojoName.$number;
-		}
-
-
 		//エラーがすべて消えた時の処理
 
 		if(count($error) == 0){
@@ -53,7 +31,6 @@
 			session_start();
 
 			$_SESSION['userName'] = $userName;
-			$_SESSION['userId'] = $userId;
 			$_SESSION['userPassword'] = $userPassword;
 			$_SESSION['userDojoName'] = $userDojoName;
 			$_SESSION['userMail'] = $userMail;
@@ -61,15 +38,12 @@
 			$_SESSION['flag'] = 1;
 			
 			header('Location: check.php');
-
-
 		}
 
-
 	}
-
+	
 	require_once 'header.php';
-
+	
 ?>
 
 <div id="main">

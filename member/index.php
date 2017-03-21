@@ -6,12 +6,31 @@
 	$dateFlag = true;
 	$flag = $_POST['flag'];
 
+	require_once "LoginStatusClass.php";
+
+	//loginStatusを確認する。
+	$loginStatusManager = new LoginStatus();
+	$loginStatus = $loginStatusManager->isLogined();
+
+	//既にログインしているときにアクセスされたら、各ページに遷移させる。
+	if($loginStatus){
+
+		$userId = $_SESSION['userId'];
+		$plan = $loginStatusManager->getPlan($userId);
+
+		if($plan == "CDKM"){
+			header("Location: ./mentor/index.php");
+		}else{
+			header("Location: ./contents/index.php");
+		}
+		
+	}
+
 	if($flag == 1){
 
 		//ログイン処理
-
-		require "LoginClass.php";
 		require "function.php";
+		require "LoginClass.php";
 
 		$dbh = dbCon();		
 
@@ -19,15 +38,20 @@
 		$userPassword = sha1($_POST['userPassword']);
 
 		$loginManager = new Login();
-		$loginStatusFlag = $loginManager->getUser($userId, $userPassword, $dbh);
-
-		if($loginStatusFlag){
+		$authFlag = $loginManager->auth($userId, $userPassword, $dbh);
+				
+		if($authFlag){
 			//ログイン処理の成功
-			
+
+			require "UserDataClass.php";
+			$userDataManager = new UserData();
+
+			$userData = $userDataManager->getUser($userId, $userPassword, $dbh);
+
 			session_start();
 			$_SESSION['loginStatus'] = true;
-			$_SESSION['userId'] = $userId;
-
+			$_SESSION['userId'] = $userData['userId'];
+			$_SESSION['userName'] = $userData['userName'];
 			
 			if(substr($userId, 0, 4) == "CDKM"){
 				header("Location: ./mentor/index.php");
@@ -35,15 +59,11 @@
 				header("Location: ./contents/index.php");
 			}
 
-			
-
 		}else{
 			//失敗
-
+			$error = array();
 			$error['notmatch'] = "ユーザ名とパスワードの組み合わせが違います。";
-
 		}
-
 
 	}
 
@@ -54,6 +74,8 @@
 ?>
 
 	<div id="main">
+
+		<img src="./image/logo.png" class="mainImg"><br>
 
 		<p class="center">ログイン</p>
 

@@ -1,7 +1,7 @@
 <?php
     $pageTitle = "進捗を追加する";
-    require_once "header.php";
     require_once "../function.php";
+    require_once "ProgressManagerClass.php";
 
 
     $flag = $_POST['flag'];
@@ -10,27 +10,32 @@
         $progressManager = new ProgressManager();
 
         $userId = $_POST['userId'];
-        $quesionId = $_POST['questionNumber'];
+        $questionId = $_POST['questionNumber'];
 
         $dbh = dbCon();
 
-        $successFlag = $progressManager->addProgress($userId, $quesionId, $dbh);
+        $successFlag = $progressManager->addProgress($userId, $questionId, $dbh);
 
         if($successFlag){
-            $message = array();
-            $message['success'] = "新規進捗を追加しました。";
+            header("Location: ./index.php");
         }
 
     }
+
+    require_once "header.php";
+
 
 ?>
 
 <div id="main">
     <div id="addProgress">
+
+        <img src="./images/add.png" class="topLogo">
+
         <p class="message"><?php echo($message["success"]); ?></p>
         <form action="" method="POST">
-            <p class="center">生徒のID</p>
-            <input type="text" name="userId" class="textbox" placeholder="生徒のId">
+            <p class="center">進捗を追加する</p>
+            <input type="text" name="userId" class="textbox" placeholder="生徒のId" required>
             <br>
             <select name="questionNumber">
                 <?php
@@ -39,9 +44,9 @@
                     }
                 ?>
             </select>
-            <br>
+            <br><br>
             <input type="hidden" name="flag" value="1">
-            <input type="submit" value="登録">
+            <input type="submit" value="登録" class="submit">
         </form>
     </div>
 </div>

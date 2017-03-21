@@ -7,28 +7,40 @@
 class UserData {
     
     function getUser($userID, $password, $dbh){
-    	
-        require_once "function.php";
-        $dbh = dbCon();
-        
-        $sql = "SELECT * from userData where user_id = :userID and user_password = :password limit 1";
-		$stmt = $dbh -> prepare($sql);
-		$stmt->execute(array(":userID"=>$userID, ":password" => $password));
-		$user = $stmt->fetch();
-		return $user ? $user : false;
+			$sql = "SELECT * from userData where user_id = :userID and user_password = :password limit 1";
+			$stmt = $dbh -> prepare($sql);
+			$stmt->execute(array(":userID"=>$userID, ":password" => $password));
+			$user = $stmt->fetchAll();
+
+            $userData = array();
+
+            $userData['loginStatus'] = true;
+            $userData['userId'] = $user[0]['user_id'];
+            $userData['userName'] = $user[0]['user_name'];
+
+			return $userData;
 	}
 
-    function getLatestNumber($dojoName) {
+    function getLatestNumber($dojoName, $dbh) {
         
-        require_once "function.php";
-        $dbh = dbCon();
+        print("GetLatestNumber was on.<br>");
 
-        $sql = "SELECT {$dojoName} from latestNumber";
-		$stmt = $dbh->query($sql);
-    	$result = $stmt->fetch(PDO::FETCH_ASSOC);
+        $sql = "SELECT * from latestNumber";
+		$stmt = $dbh -> prepare($sql);
+		$stmt->execute();
+		$result = $stmt->fetch();
 
         return $result[$dojoName];
-       
+
+   }
+
+   function updateLatestNumber($dojoName, $newNumber, $dbh){
+
+        print("UpdateLatestNumber was on.<br>");
+
+        $sql = "UPDATE latestNumber SET {$dojoName} = ?";
+  		$stmt = $dbh->prepare($sql);		
+		$result = $stmt->execute(array($newNumber));
    }
    
 }

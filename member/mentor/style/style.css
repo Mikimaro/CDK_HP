@@ -1,9 +1,19 @@
+#mentor{
+	top: 80px;
+	background-color: red;
+
+}
+
+.topLogo{
+	width: 100px;
+}
+
 #addProgress{
     text-align: center;
     width: 80%;
+	margin-top: 200px;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
 #removeProgress{
@@ -28,4 +38,8 @@
 .message{
 	color: blue;
 	text-align: center;
+}
+
+.headerMenu{
+	text-align: right;
 }
