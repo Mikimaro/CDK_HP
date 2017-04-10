@@ -68,11 +68,6 @@ nav{
 	color: white;
 }
 
-.small-text{
-	font-size: 10px;
-	color: white;
-}
-
 .date{
 	text-align: center;
 	font-size: 26px;
@@ -130,6 +125,16 @@ nav{
 	margin: 10% 0;
 	background-color: rgba(200,100,0,0.5);
 	border-radius: 20px;
+}
+
+.event{
+	margin: 5%
+}
+
+.event-text{
+	margin-left: 2%;
+	font-size: 16px;
+	color: white;
 }
 
 .details{
