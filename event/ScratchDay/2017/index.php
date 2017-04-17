@@ -1,60 +1,6 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-	<title>ScratchDay in Kashiwa</title>
-	<meta charset="UTF-8">
-	<link rel="icon" href="image/favicon.ico">
-	<meta name="description" content="Scratch Day 2017 in Kashiwa 開催概要 日時：2017年5月14日 日曜日 10:00-17:00 場所：柏市立柏中学校体育館 参加費：無料 内容（予定）※一部イベントは事前の参加登録が必要です • Touch ＆Try （体験コーナー） • プログラミングバトル • Show ＆Tell （作品発表） • ワークショップ •... Scratch Day in Kashiwa(スクラッチディイン柏)では、Scratchを用いた、プログラミング教育、プログラミング隔週の現状を、鼎談、座談会、ワークショップ、デモ展示など参加者の皆様の様々な体験を通して構築し、ご理解、ご共有いただくための場所作りを目指しています。">
-	<meta name="keyword" content="Scratch,Scratch day,スクラッチ,スクラッチデー,スクラッチディ,プログラミング学習,プログラミング教育,Scratch Day in Kashiwa">
-	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-
-</head>
-
-<body>
-	<div id="header">
-
-		<img src="image/scratch-day-logo-alpha.png" class="headerImg">
-
-	</div>
-
-	<div id="main">
-
-		<p class="title">
-
-			ScratchDay 2017 in Kashiwa<br>
-
-		</p>
-
-		<p class="Msubtitle">
-
-			@柏市立柏中学校体育館
-
-		</p>
-
-		<div class="date">
-
-			<p>
-
-			2017年5月14日（日曜日）<br>
-
-			10:00 〜 17:00
-
-			</p>
-			
-		</div>
-
-		<div class="Msponsor">
-
-			<p class="MsponsorTitle"> 
-				【主催】<br>
-				ScratchDay in Kashiwa 実行委員会
-			</p>
-		
-		</div>
-
-	</div>
+<?php
+	require_once "header.php";
+?>
 
 	<div id="contents">
 		<div id="done">
@@ -101,6 +47,7 @@
 							初めてのプログラミングを体験しよう。<br>
 							（※予約可能。当日枠もあります。）
 						</p>
+						<a href="workshop-student.php" class="event-link">詳細を見る</a>
 					</div>
 					<div class="event">
 						<p class="subtitle">
@@ -109,6 +56,7 @@
 						<p class="event-text">
 							１日を通して１つのテーマに沿った作品を作ってみよう。
 						</p>
+						<a href="#" class="event-link">詳細を見る</a>
 					</div>
 					<div class="event">
 						<p class="subtitle">
@@ -117,6 +65,7 @@
 						<p class="event-text">
 							自分の体を使って、プログラミングをしてみよう。
 						</p>
+						<a href="#" class="event-link">詳細を見る</a>
 					</div>
 					<div class="event">
 						<p class="subtitle">
@@ -125,6 +74,7 @@
 						<p class="event-text">
 							作品発表とゲストとのトークセッションを開催。
 						</p>
+						<a href="#" class="event-link">詳細を見る</a>
 					</div>
 					<div class="event">
 						<p class="subtitle">
@@ -134,6 +84,17 @@
 							Scratchは子供だけが楽しめるツールではありません。<br>
 							大人も楽しめるScratchの可能性を体験してみませんか。
 						</p>
+						<a href="#" class="event-link">詳細を見る</a>
+					</div>
+
+					<div class="event">
+						<p class="subtitle">
+							Touch&Try
+						</p>
+						<p class="event-text">
+							Scratchと他の機器を使った、他とは違う体験をすることができます。
+						</p>
+						<a href="#" class="event-link">詳細を見る</a>
 					</div>
 
 				</section>
@@ -162,12 +123,5 @@
 	</div>
 
 
-	<div id="footer">
-
-		<p class="footerTxt">Copyright(c) ScratchDay 2017 in Kashiwa</p>
-			
-	</div>
-
-	
-</body>
-</html>
+<?php
+	require_once "footer.php";

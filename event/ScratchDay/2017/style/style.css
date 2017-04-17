@@ -147,6 +147,10 @@ padding: 3%;
 	color: white;
 }
 
+.event-link{
+	text-align: center;
+}
+
 .details{
 	padding: 2% 1%;
 }
@@ -218,6 +222,24 @@ padding: 3%;
 }
 
 .footerTxt{
-	font-size: 8px;
+	font-size: 10px;
 	color: gray;
 }
+
+.footerLink{
+	color: gray;
+	text-decoration: none;
+}
+
+
+/*== events page style ==*/
+
+#eventTitle{
+	width: 100%;
+}
+
+.eventTitle{
+	text-align: center;
+	color: white;
+}
+
