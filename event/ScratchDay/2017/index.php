@@ -39,62 +39,87 @@
 
 				<section class="programs">
 
-					<div class="event">
+					<div class="event" id="childws">
 						<p class="subtitle">
-							子供向けプログラミング体験ワークショップ
+							子供向けプログラミング<br>体験ワークショップ
 						</p>
+
 						<p class="event-text">
 							初めてのプログラミングを体験しよう。<br>
 							（※予約可能。当日枠もあります。）
 						</p>
+
 						<a href="workshop-student.php" class="event-link">詳細を見る</a>
+
 					</div>
-					<div class="event">
+
+					<div class="event" id="hackathon">
+
 						<p class="subtitle">
 							Scratchハッカソン
 						</p>
+
 						<p class="event-text">
 							１日を通して１つのテーマに沿った作品を作ってみよう。
 						</p>
+
 						<a href="#" class="event-link">詳細を見る</a>
+
 					</div>
-					<div class="event">
+
+					<div class="event" id="activity">
+
 						<p class="subtitle">
 							体育館アクティビティ
 						</p>
+
 						<p class="event-text">
 							自分の体を使って、プログラミングをしてみよう。
 						</p>
+
 						<a href="#" class="event-link">詳細を見る</a>
+
 					</div>
-					<div class="event">
+
+					<div class="event" id="st">
 						<p class="subtitle">
 							Show & Tell
 						</p>
+
 						<p class="event-text">
 							作品発表とゲストとのトークセッションを開催。
 						</p>
-						<a href="#" class="event-link">詳細を見る</a>
+
+						<a href="showandtell.php" class="event-link">詳細を見る</a>
+
 					</div>
-					<div class="event">
+
+					<div class="event" id="adultws">
 						<p class="subtitle">
-							大人向けプログラミング体験ワークショップ
+							大人向けプログラミング<br>体験ワークショップ
 						</p>
+
 						<p class="event-text">
 							Scratchは子供だけが楽しめるツールではありません。<br>
 							大人も楽しめるScratchの可能性を体験してみませんか。
 						</p>
+
 						<a href="#" class="event-link">詳細を見る</a>
+
 					</div>
 
-					<div class="event">
+					<div class="event" id="tt">
+
 						<p class="subtitle">
-							Touch&Try
+							Touch & Try
 						</p>
+
 						<p class="event-text">
 							Scratchと他の機器を使った、他とは違う体験をすることができます。
 						</p>
+
 						<a href="#" class="event-link">詳細を見る</a>
+
 					</div>
 
 				</section>

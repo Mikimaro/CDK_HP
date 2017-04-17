@@ -75,20 +75,61 @@ nav{
 }
 
 #menu{
-	margin: 5% 0;
-	display: flex;
-	justify-content: center;
+	margin: 0 5%;
+	background-color: #66cc33;
+	z-index: 999;
+	border-radius: 20px;
 }
 
-#menu div{
-	margin: 0 0.5%;
+#menu ul{
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+
+#menu li{
 	padding: 1%;
-	font-size: 1.2em;
-	background-color: #66cc33;
+	width: 155px;
+	text-align: center;
 }
 
 #menu a{
+	font-size: 22px;
+	font-weight: 100px;
+	color: white;
 	text-decoration: none;
+}
+
+@media screen and (max-width: 1190px){
+	#menu ul{
+		padding: 0;
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+
+	}
+
+
+	#menu li{
+		padding: 1%;
+		width: 245px;
+		text-align: center;
+	}
+
+	#menu a{
+		font-size: 22px;
+		font-weight: 100px;
+		color: white;
+		text-decoration: none;
+	}
+
 }
 
 #contents{
@@ -97,19 +138,7 @@ nav{
 
 }
 
-#child{
-
-}
-
-#adult{
-
-}
-
-#tt{
-
-}
-
-#st{
+#childws{
 
 }
 
@@ -117,9 +146,22 @@ nav{
 
 }
 
-#maps{
+#activity{
 
 }
+
+#st{
+
+}
+
+#adultws{
+
+}
+
+#tt{
+
+}
+
 
 .eventContents{
 	margin: 5% 0;
@@ -141,10 +183,40 @@ padding: 3%;
 	border-radius: 20px;
 }
 
+.event-title{
+	margin: 0;
+	margin-top:2%;
+	font-size: 25px;
+	color: white;
+}
+
 .event-text{
 	margin-left: 2%;
 	font-size: 16px;
 	color: white;
+}
+
+@media screen and (max-width: 1190px){
+	.event{
+	margin: 5% auto;
+	padding: 2%;
+	width: 400px;
+	background-color: RGB(247, 175, 39);
+	border-radius: 20px;
+	}
+
+	.event-title{
+	margin: 0;
+	margin-top:2%;
+	font-size: 27px;
+	color: white;
+}
+
+	.event-text{
+	margin-left: 2%;
+	font-size: 18px;
+	color: white;
+	}
 }
 
 .event-link{

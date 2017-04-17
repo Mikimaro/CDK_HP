@@ -11,9 +11,9 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="./script/jquery.flexslider.js"></script>
 	<script>
-	$(function(){
-    // 「.modal-open」をクリック
-    $('.modal-open').click(function(){
+	     $(function(){
+        // 「.modal-open」をクリック
+        $('.modal-open').click(function(){
         // オーバーレイ用の要素を追加
         $('body').append('<div class="modal-overlay"></div>');
         // オーバーレイをフェードイン
