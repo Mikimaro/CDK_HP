@@ -10,25 +10,21 @@
 				<div class="details">
 
 					<p class="title">
-						子どもむけワークショップ
+						大人向けワークショップ
 					</p>
 
 					<p class = "text">
-						//ここに子どもむけワークショップの説明を記入
+						//ここに大人向けワークショップの説明を記入
 					</p> 
 
 				</div>
 
 			</section>
 
-			<?php
-				require_once "eventsMenu.php";
-			?>
-
-		
 		</div>
 
 	</div>
 
 <?php
 	require_once "footer.php";
+?>

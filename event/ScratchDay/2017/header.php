@@ -32,7 +32,7 @@
 <body>
 	<div id="header">
 
-		<img src="image/scratch-day-logo-alpha.png" class="headerImg">
+		<a href="index.php"><img src="image/scratch-day-logo-alpha.png" class="headerImg"></a>
 
 	</div>
 
@@ -51,7 +51,3 @@
 		</p>
 
 	</div>
-
-	<?php
-	require_once "eventsMenu.php";
-	?>

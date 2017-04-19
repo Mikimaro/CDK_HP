@@ -1,5 +1,6 @@
 <?php
 	require_once "header.php";
+	require_once "eventsMenu.php";
 ?>
 
 	<div id="contents">
@@ -49,7 +50,7 @@
 							（※予約可能。当日枠もあります。）
 						</p>
 
-						<a href="workshop-student.php" class="event-link">詳細を見る</a>
+						<a href="workshop-students.php" class="event-link">詳細を見る</a>
 
 					</div>
 
@@ -63,7 +64,7 @@
 							１日を通して１つのテーマに沿った作品を作ってみよう。
 						</p>
 
-						<a href="#" class="event-link">詳細を見る</a>
+						<a href="hackathon.php" class="event-link">詳細を見る</a>
 
 					</div>
 
@@ -77,7 +78,7 @@
 							自分の体を使って、プログラミングをしてみよう。
 						</p>
 
-						<a href="#" class="event-link">詳細を見る</a>
+						<a href="activity.php" class="event-link">詳細を見る</a>
 
 					</div>
 
@@ -104,13 +105,13 @@
 							大人も楽しめるScratchの可能性を体験してみませんか。
 						</p>
 
-						<a href="#" class="event-link">詳細を見る</a>
+						<a href="workshop-adults.php" class="event-link">詳細を見る</a>
 
 					</div>
 
 					<div class="event" id="tt">
 
-						<p class="subtitle">
+						<p class="event-title">
 							Touch & Try
 						</p>
 
@@ -118,7 +119,7 @@
 							Scratchと他の機器を使った、他とは違う体験をすることができます。
 						</p>
 
-						<a href="#" class="event-link">詳細を見る</a>
+						<a href="touchandtry.php" class="event-link">詳細を見る</a>
 
 					</div>
 

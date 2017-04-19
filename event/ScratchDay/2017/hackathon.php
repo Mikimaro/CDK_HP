@@ -10,17 +10,17 @@
 				<div class="details">
 
 					<p class="title">
-						Show & Tell
+						Scratch ハッカソン
 					</p>
 
 					<p class = "text">
-						Show＆Tellとは、作品発表のことです。すでに自分の作品を作っている方は、ぜひ体育館のステージで自慢してください。
+						//ここに説明を記入
 					</p> 
 
 				</div>
 
 			</section>
-		
+
 		</div>
 
 	</div>
