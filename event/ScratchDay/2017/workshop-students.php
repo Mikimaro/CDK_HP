@@ -10,7 +10,7 @@
 				<div class="details">
 
 					<p class="title">
-						子どもむけワークショップ
+						子ども向けワークショップ
 					</p>
 
 					<p class = "text">
