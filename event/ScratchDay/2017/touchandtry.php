@@ -13,9 +13,13 @@
 						Touch & Try
 					</p>
 
-					<p class = "text">
-						現在コンテンツを準備中です。
-					</p> 
+					<div id="eventDetail">
+
+						<img src="./image/wildcard.JPG" width="100%">
+
+						<p class="contentsTitle">【内容】</p>
+						<p class="contentsText">//ここに内容がはいる</p>
+					</div>
 
 				</div>
 
