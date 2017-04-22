@@ -36,7 +36,7 @@
 
 							<div class='slideInnerLow'>
 
-								<a href='kashiwanoha'>
+								<a href='./event/ScratchDay/2017'>
 
 										<img src='./image/text/white/scratchday2017.png'>
 
@@ -51,13 +51,7 @@
 						}else if ($i == 3) {
 							print("
 
-							<div class='slideInnerLow'>
-
-								<a href='kashiwanoha'>
-
-										<img src='./image/text/white/scratchday2017.png'>
-
-									</a>
+							<div class='slideInner'>
 
 								<a href='kashiwanoha'>
 

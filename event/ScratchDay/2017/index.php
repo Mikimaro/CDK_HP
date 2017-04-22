@@ -144,38 +144,6 @@
 
 		</div>
 
-		<div class="mapContents">
-
-			<p class="title">
-				会場案内
-			</p>
-
-			<div class="egmap">
-
-				<script type="text/javascript">
-egmap_width = "500px";
-egmap_height = "500px";
-egmap_lat = 35.8649078;
-egmap_lng = 139.96325449999995;
-egmap_zoom = 17;
-egmap_open_info_window_type = 1;
-egmap_wheel_zoom_type = 1;
-egmap_address = "";
-egmap_name = "ScratchDay 2017 in Kashiwa";
-egmap_tel = "";
-egmap_url = "";
-egmap_email = "";
-egmap_image_url = "";
-egmap_image_layout_type = 1;
-</script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="http://www.egmap.jp/amc.js" charset="utf-8"></script>
-<p class="egmap_copyright" style="width: 500px;">powered by <a href="http://www.egmap.jp/" target="_blank">egmap.jp</a></p>
-
-
-
-			</div>
-
 		<div id="maps">
 			<section class="eventContents">
 				<p class="title">map</p><br>

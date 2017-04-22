@@ -13,9 +13,6 @@
 						大人向けワークショップ
 					</p>
 
-					<p class = "text">
-						現在コンテンツを準備中です。
-					</p> 
 					<div id="eventDetail">
 
 						<img src="./image/workshop.JPG" width="100%">

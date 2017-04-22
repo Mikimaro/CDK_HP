@@ -13,12 +13,6 @@
 						Scratch ハッカソン
 					</p>
 
-<<<<<<< HEAD
-					<p class = "text">
-						現在コンテンツを準備中です。
-					</p> 
-
-=======
 					<div id="eventDetail">
 
 						<img src="./image/hackathon.JPG" width="100%">
@@ -52,7 +46,7 @@
 							事前申し込み不要。
 						</p>
 					</div>
->>>>>>> f369960fce23c3e127fdfdc6200becb4f6fb112e
+
 				</div>
 
 			</section>
