@@ -1,5 +1,6 @@
 <?php
 							$class = array(
+								'sdk2017',
 								'spd2016',
 								'sdk2016',
 								'spd2015',
