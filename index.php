@@ -34,13 +34,7 @@
 						}else if ($i == 1) {
 							print("
 
-							<div class='slideInnerLow'>
-
-								<a href='kashiwanoha'>
-
-										<img src='./image/text/white/scratchday2017.png'>
-
-									</a>
+							<div class='slideInner'>
 
 								
 							</div>

@@ -165,16 +165,6 @@ a{
 	position: absolute;
 }
 
-.slideInnerLow{
-	width: 50%;
-	margin: auto;
-	padding-top: 28%; 
-	top: 30px;
-	left: 0;
-	right: 0;
-	position: absolute;
-}
-
 .slideInnerPlus{
 	width: 20%;
 	margin: auto;
@@ -649,13 +639,8 @@ table.nextDojoTable th:after {
 	text-align: center;
 }
 
-.sdk2017{
-	margin: 0 auto;
-	width: 80%;
-}
-
 .spd2016{
-	height: 250px;
+	height: 400px;
 }
 
 .sdk2016{
