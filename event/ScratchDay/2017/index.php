@@ -20,6 +20,8 @@
 						この機会に『Scratch』に一足先に触れてみませんか。<br>
 						もちろん参加費はかかりません。
 
+						<br><br>※当日参加される方は必ずスリッパ等をご用意ください。
+
 					</p> 
 
 				</div>
@@ -123,6 +125,20 @@
 
 					</div>
 
+					<div class="event" id="ts">
+
+						<p class="event-title">
+							トークセッション
+						</p>
+
+						<p class="event-text">
+							ゲストとのトークセッションをお届けします。
+						</p>
+
+						<a href="talksession.php" class="event-link">詳細を見る</a>
+
+					</div>
+
 				</section>
 			</section>
 
@@ -160,19 +176,34 @@ egmap_image_layout_type = 1;
 
 			</div>
 
+		<div id="maps">
+			<section class="eventContents">
+				<p class="title">map</p><br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.351976944899!2d139.96254639466366!3d35.86489039083916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189cee138493eb%3A0x85b1dbc28d09394b!2z5p-P5biC56uL5p-P5Lit5a2m5qCh!5e0!3m2!1sja!2sus!4v1492674434363" width="80%" height="450" frameborder="0" style="border:0; margin-left:10%; margin-right:10%;" allowfullscreen></iframe>
+				<br><br>
+				<p class="text" class="center">
+					住所：千葉県柏市明原４丁目１−１<br>
+					当日はなるべく公共交通機関をご利用ください。
+				</p>
+				<br>
+			</section>
 		</div>
 
 		<div class="sponsorContents">
 
 			<p class="sponsorName">
+				【主催】<br>
+				ScratchDay in Kashiwa 実行委員会（<a href="member.php">メンバーを見る</a>)
+			</p>
+
+			<p class="sponsorName">
 				【共催】<br>
-				CoderDojo Kashiwa<br>
-				柏市教育委員会
+				<a href="http://coderdojo-kashiwa.com" target="_blank">CoderDojo Kashiwa</a>　/　<a href="http://www.city.kashiwa.lg.jp/kashiwa_boe/" target="_blank">柏市教育委員会</a>
 			</p>
 			<p class="sponsorName">
 				【後援】<br>
-				柏市PTA連絡協議会<br>
-				（株）InnovationPower
+				<a href="http://www.kashiwa-pta.com/" target="_blank">柏市PTA連絡協議会</a>　/　
+				<a href="http://innovation-power.xyz" target="_blank">InnovationPower Co.,Ltd</a>
 			</p>
 
 			<p class="random">順不同・敬称省略</p>
