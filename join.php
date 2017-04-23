@@ -33,6 +33,11 @@
 		<div class="individual">
 
 			<table class="nextDojoTable">
+
+				<br>
+				<p class="notification">※5月14日（日）はScratchDayを開催するためDojoはありません！</p>
+				<a href="http://scratchday-kashiwa.org">ScratchDay in Kashiwaに参加する</a>
+
 				<tr>
 					<th>次回</th>
 					<td class="biggerTd"><?php echo("{$date}（#{$times} ）");?></td>
