@@ -38,7 +38,7 @@
                         <ul class="contentsText">
                             <li>竹内 遥斗</li>
                             <li>大山 哲志郎</li>
-                            <li>髙木 彰吾</li>
+                            <li>髙城 楊平</li>
                             <li>杉尾 達也</li>
                             <li>西村 匠</li>
                         </ul>
@@ -64,10 +64,20 @@
                             <li>福田 敏史</li>
                         </ul>
 
-                        <p class="contentsTitle">Scratchハッカソン</p>
+                        <p class="contentsTitle">大人向けワークショップ</p>
                         <ul class="contentsText">
                             <li>坂田 健一</li>
                             <li>西村 三千代</li>
+                        </ul>
+
+                        <p class="contentsTitle">Touch&Try</p>
+                        <ul class="contentsText">
+                            <li>成澤 巧徒</li>
+                        </ul>
+
+                        <p class="contentsTitle">トークセッション</p>
+                        <ul class="contentsText">
+                            <li>宮島 衣瑛</li>
                         </ul>
 
                         <p class="contentsTitle">音響担当</p>

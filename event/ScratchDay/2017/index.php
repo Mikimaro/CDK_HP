@@ -44,7 +44,7 @@
 
 					<div class="event" id="childws">
 						<p class="subtitle">
-							子供向けプログラミング<br>体験ワークショップ
+							子ども向けプログラミング<br>体験ワークショップ
 						</p>
 
 						<p class="event-text">

@@ -15,7 +15,7 @@
 
 					<div id="eventDetail">
 
-						<img src="./image/workshop.JPG" width="100%">
+						<img src="./image/workshop.jpg" width="100%">
 
 						<p class="contentsTitle">【内容】</p>
 						<p class="contentsText">

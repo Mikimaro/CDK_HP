@@ -15,7 +15,7 @@
 
 					<div id="eventDetail">
 
-						<img src="./image/talksession.JPG" width="100%">
+						<img src="./image/talksession.jpg" width="100%">
 
 
 						<p class="contentsTitle">【内容】</p>

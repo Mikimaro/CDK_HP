@@ -15,7 +15,7 @@
 
 					<div id="eventDetail">
 
-						<img src="./image/workshop.JPG" width="100%">
+						<img src="./image/workshop.jpg" width="100%">
 
 						<p class="contentsTitle">【内容】</p>
 						<p class="contentsText">
@@ -49,7 +49,7 @@
 						</p>
 
 						<p class="contentsTitle">【申込みフォーム】</p>
-						<p class="contentsText"></p>
+						<p class="contentsText"><a href="https://goo.gl/forms/P6rHMDWlEFOMAjDh1" target="_blank">申し込みフォームを開く</a></p>
 
 					</div>
 					

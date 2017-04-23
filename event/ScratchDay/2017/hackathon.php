@@ -15,7 +15,7 @@
 
 					<div id="eventDetail">
 
-						<img src="./image/hackathon.JPG" width="100%">
+						<img src="./image/hackathon.jpg" width="100%">
 
 						<p class="contentsTitle">【内容】
 						<p class="contentsText">
