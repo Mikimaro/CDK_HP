@@ -361,3 +361,39 @@ tr{
 	margin-right: 0;
 }
 
+.joinButton {
+	display: inline-block;
+	width: 40%;
+	height: 54px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 54px;
+	outline: none;
+	background-color: RGB(72, 193, 38);
+	margin-top: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 30px;
+	border-width: 3px;
+	border-color: black;
+}
+.joinButton::before,
+.joinButton::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.joinButton,
+.joinButton::before,
+.joinButton::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.joinButton:hover{
+	background-color: #59b1eb;
+}

@@ -54,7 +54,7 @@
 								);
 
 							$URL = array(
-								'event/ScratchDay/2017',
+								'http://scratchday-kashiwa.org',
 								'event/spd/2016',
 								'event/ScratchDay/2016',
 								'event/spd/2015',

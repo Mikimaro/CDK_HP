@@ -36,11 +36,10 @@
 						<p class="contentsTitle">【参加方法】</p>
 						<p class="contentsText">事前申し込み枠と当日飛び込み枠を用意しています。</p>
 
-						<p class="contentsTitle">【申込方法】</p>
-						<p class="contentsText">
-							以下の申し込みフォームから申し込みをしてください。<br>
-							<a href="https://goo.gl/forms/dyBc2soslQC6BxdG3" target="_blank">申し込みフォームを開く</a>
-						</p>
+
+							
+						<a href="https://goo.gl/forms/dyBc2soslQC6BxdG3" target="_blank" class="joinButton">申し込む</a>
+					
 
 					</div>
 

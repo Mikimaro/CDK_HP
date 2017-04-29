@@ -48,8 +48,7 @@
 							事前申し込みが必要となりますが、当日枠も多少ご用意しております。
 						</p>
 
-						<p class="contentsTitle">【申込みフォーム】</p>
-						<p class="contentsText"><a href="https://goo.gl/forms/P6rHMDWlEFOMAjDh1" target="_blank">申し込みフォームを開く</a></p>
+						<a href="https://goo.gl/forms/P6rHMDWlEFOMAjDh1" class="joinButton" target="_blank">申し込む</a></p>
 
 					</div>
 					

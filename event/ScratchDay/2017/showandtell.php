@@ -30,9 +30,8 @@
 
 						<p class="contentsTitle">【申込み】</p>
 						<p class="contentsText">事前申し込み</p>
-
-						<p class="contentsTitle">【申込方法】</p>
-						<p class="contentsText"><a href="https://goo.gl/forms/1uUfyTga9Y2WtJcl1">ここをクリックして申し込みフォームを開く</a></p>
+						
+						<a href="https://goo.gl/forms/1uUfyTga9Y2WtJcl1" class="joinButton">申し込む</a>
 
 					</div>
 					
