@@ -35,7 +35,14 @@ $sponsorDataConpany = array(
 		"url" => "",
 		"type" => array("活動サポート"),
 		"dojo" => array("Kashiwa")
-		)
+		),
+
+	5 => array(
+		"name" => "日本フローラルアート 様",
+		"url" =>"http://www.nfa.co.jp/",
+		"type" => array("活動サポート"),
+		"dojo" => array("Kashiwa")
+	)
 );
 
 $sponsorDataPerson = array(
@@ -74,6 +81,8 @@ $sponsorDataPerson = array(
 
 							if ($i == 2) {
 								print("<a href='{$sponsorDataConpany[$i]['url']}'><img src='image/sponsorImage/s{$imgNum}.gif' class='sponsorImg'></a>");
+							}elseif($i == 5){
+								print("<a href='{$sponsorDataConpany[$i]['url']}'><img src='image/sponsorImage/s{$imgNum}.jpg' class='sponsorImg'></a>");
 							}else{
 								print("<a href='{$sponsorDataConpany[$i]['url']}'><img src='image/sponsorImage/s{$imgNum}.png' class='sponsorImg'></a>");
 							}
