@@ -274,8 +274,23 @@ padding: 3%;
 #timetable{
 	text-align: center;
 }
+
+.timetable{
+	border: 1px rgba(200,100,0,0.5) solid;
+	border-collapse: collapse;
+}
+
 tr{
 	height: 22px;
+}
+
+.timetable td{
+	padding: 1%;
+	border: 1px rgba(200,100,0,0.5) solid;
+}
+
+.eventTT{
+background-color: #66cc33;
 }
 
 .sponsorContents{
