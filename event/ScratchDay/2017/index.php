@@ -157,6 +157,11 @@
 			</section>
 		</div>
 
+
+		<!--
+		ここに、当日のタイムテーブルを表示する。
+			-->
+
 		<div class="advertiseContents">
 			<section class="eventContents">
 				<p class="title">広報物</p><br>
@@ -164,6 +169,7 @@
 				<a href="advertise.php"><img src="./image/download.png" class="imageCenter"></a>
 			</section>
 		</div>
+
 
 		<div class="sponsorContents">
 
