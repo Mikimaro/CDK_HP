@@ -157,10 +157,105 @@
 			</section>
 		</div>
 
-
-		<!--
-		ここに、当日のタイムテーブルを表示する。
-			-->
+		<div id="timetable">
+			<table border="1">
+				<thead>
+					<th>時間</th>
+					<th>ステージ</th>
+					<th colspan="4">WSブース</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>10:00</td>
+						<td>オープニング</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>10:30</td>
+						<td>Show & Tell ①</td>
+						<td rowspan="4">子供向け<br>ワークショップ</td>
+						<td rowspan="6">大人向け<br>ワークショップ</td>
+						<td rowspan="27">Scratchハッカソン</td>
+						<td rowspan="27">Touch & Try</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>11:00</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>11:30</td>
+						<td>Show & Tell ②</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>12:00</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>12:30</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>13:00</td>
+						<td rowspan="4">体育館アクティビティ</td>
+						<td></td>
+						<td rowspan="6">大人向けワークショップ</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>13:30</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>14:00</td>
+						<td rowspan="4">トークセッション</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>14:30</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>15:00</td>
+						<td>Show & Tell ③</td>
+						<td rowspan="4">子供向け<br>ワークショップ</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>15:30</td>
+						<td>Show & Tell ④</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>16:00</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>16:30</td>
+						<td rowspan="3">クロージング</td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td>17:00</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
 		<div class="advertiseContents">
 			<section class="eventContents">
