@@ -22,6 +22,8 @@ nav{
 
 .center{
 	text-align: center;
+	color: white;
+	font-size: 15px;
 }
 
 .headerImg{
@@ -396,4 +398,12 @@ tr{
 
 .joinButton:hover{
 	background-color: #59b1eb;
+}
+
+.imageCenter{
+	display: block;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+	text-align: center;
 }

@@ -31,7 +31,7 @@
 			<section class="eventContents">
 				<div class="details">
 					<p class="title">
-						Event
+						プログラム
 					</p>
 
 					<p class="text">
@@ -146,7 +146,7 @@
 
 		<div id="maps">
 			<section class="eventContents">
-				<p class="title">map</p><br>
+				<p class="title">会場までの地図</p><br>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.351976944899!2d139.96254639466366!3d35.86489039083916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189cee138493eb%3A0x85b1dbc28d09394b!2z5p-P5biC56uL5p-P5Lit5a2m5qCh!5e0!3m2!1sja!2sus!4v1492674434363" width="80%" height="450" frameborder="0" style="border:0; margin-left:10%; margin-right:10%;" allowfullscreen></iframe>
 				<br><br>
 				<p class="text" class="center">
@@ -154,6 +154,14 @@
 					当日はなるべく公共交通機関をご利用ください。
 				</p>
 				<br>
+			</section>
+		</div>
+
+		<div class="advertiseContents">
+			<section class="eventContents">
+				<p class="title">広報物</p><br>
+				<p class="center">フライヤー、当日パンフレットなどをダウンロードできます。</p>
+				<a href="advertise.php"><img src="./image/download.png" class="imageCenter"></a>
 			</section>
 		</div>
 
@@ -177,7 +185,6 @@
 			<p class="random">順不同・敬称省略</p>
 			
 		</div>
-
 
 	</div>
 
