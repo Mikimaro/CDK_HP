@@ -160,147 +160,90 @@
 		<div id="timetable">
 			<section class="eventContents">
 				<p class="title">当日のタイムテーブル</p><br>
-					<table class="timetable" border="0" cellspacing="0" cellpadding="0" align="center">
-						<thead>
-							<th>時間</th>
-							<th>ステージ</th>
-							<th colspan="4">ワークショップブース</th>
-						</thead>
-						<tbody>
-							<tr>
-								<td rowspan="4">10:00-11:00</td>
-								<td rowspan="2" class="eventTT">オープニング</td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td rowspan="2" class="eventTT">Show & Tell ①</td>
-								<td rowspan="4" class="eventTT">子供向け<br>ワークショップ</td>
-								<td rowspan="6" class="eventTT">大人向け<br>ワークショップ</td>
-								<td rowspan="27" class="eventTT">Scratchハッカソン</td>
-								<td rowspan="27" class="eventTT">Touch & Try</td>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<td rowspan="4">11:00-12:00</td>
+					<div class="subBG">
+						<table class="timetable" border="0" cellspacing="0" cellpadding="0" align="center">
+							<thead>
+								<th>時間</th>
+								<th>ステージ</th>
+								<th colspan="4">ワークショップブース</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="2">10:00-11:00</td>
+									<td rowspan="1" class="eventTT">オープニング</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td rowspan="1" class="eventTT">Show & Tell ①</td>
+									<td rowspan="2" class="eventTT">子供向け<br>ワークショップ</td>
+									<td rowspan="3" class="eventTT">大人向け<br>ワークショップ</td>
+									<td rowspan="14" class="eventTT">Scratchハッカソン</td>
+									<td rowspan="14" class="eventTT">Touch & Try</td>
+								</tr>
+								<tr>
+									<td rowspan="2">11:00-12:00</td>
 
-							</tr>
-							<tr>
-								<td></td>
-
-							</tr>
-							<tr>
-								<td rowspan="2" class="eventTT">Show & Tell ②</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td rowspan="4">12:00-13:00</td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td rowspan="4">13:00-14:00</td>
-								<td rowspan="4" class="eventTT">体育館アクティビティ</td>
-								<td></td>
-								<td rowspan="6" class="eventTT">大人向け<br>ワークショップ</td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td rowspan="4">14:00-15:00</td>
-								<td rowspan="4" class="eventTT">トークセッション</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td rowspan="4">15:00-16:00</td>
-								<td rowspan="2" class="eventTT">Show & Tell ③</td>
-								<td rowspan="4" class="eventTT">子供向け<br>ワークショップ</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td rowspan="2" class="eventTT">Show & Tell ④</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-							</tr>
-							<tr>
-								<td rowspan="4">16:00-17:00</td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td rowspan="2" class="eventTT">クロージング</td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td>17:00</td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
+								</tr>
+								<tr>
+									<td rowspan="1" class="eventTT">Show & Tell ②</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td rowspan="2">12:00-13:00</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td rowspan="2">13:00-14:00</td>
+									<td rowspan="2" class="eventTT">体育館アクティビティ</td>
+									<td></td>
+									<td rowspan="3" class="eventTT">大人向け<br>ワークショップ</td>
+								</tr>
+								<tr>
+									<td></td>
+								</tr>
+								<tr>
+									<td rowspan="2">14:00-15:00</td>
+									<td rowspan="2" class="eventTT">トークセッション</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td rowspan="2">15:00-16:00</td>
+									<td rowspan="1" class="eventTT">Show & Tell ③</td>
+									<td rowspan="2" class="eventTT">子供向け<br>ワークショップ</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td rowspan="1" class="eventTT">Show & Tell ④</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td rowspan="2">16:00-17:00</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td rowspan="1" class="eventTT">クロージング</td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>	
 					<br>
 			</section>
 		</div>
