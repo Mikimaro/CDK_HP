@@ -1,5 +1,6 @@
 <?php
 	require_once "header.php";
+	require_once "eventsMenu.php";
 ?>
 
 	<div id="contents">
@@ -14,33 +15,17 @@
 					</p>
 
 					<p class = "text">
+						柏市では今年から 『<a href="https://scratch.mit.edu/about">Scratch</a>』を用いたプログラミンの授業がスタートします。<br>
+						ScratchDayでは『Scratch』を使ったゲームを作るワークショップやCoderDojo Kashiwaに来ている子どもたち、教えている大人（メンター）による作品発表の場があります。<br>
+						この機会に『Scratch』に一足先に触れてみませんか。<br>
+						もちろん参加費はかかりません。
 
-						今年もScratchDayを柏市で開催できたことに感謝いたします。<br>
-						柏市はプログラミング教育を今年度からスタートしています。<br>
-						今回のイベントがみなさんと『Scratch』とを繋ぐ架け橋になれていれば幸いです。<br>
-						イベントの様子を収めたムービーを公開しています。是非とも御覧ください。
+						<br><br>※当日参加される方は必ずスリッパ等をご用意ください。
 
 					</p> 
 
 				</div>
 				
-			</section>
-
-			<section class="eventContents">
-				<div class="details">
-
-					<p class="title">リフレクションムービー</p>
-
-					<p class="text">
-						当日の様子をまとめたムービーです<br>
-						今年もたくさんの人達が参加してくれました。
-
-
-					</p>
-					
-					<iframe width="100%" height="580" src="https://www.youtube.com/embed/LO7fXO1vp1c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video"></iframe>
-
-				</div>
 			</section>
 
 			<section class="eventContents">
@@ -64,6 +49,7 @@
 
 						<p class="event-text">
 							初めてのプログラミングを体験しよう。<br>
+							（※予約可能。当日枠もあります。）
 						</p>
 
 						<a href="workshop-students.php" class="event-link">詳細を見る</a>

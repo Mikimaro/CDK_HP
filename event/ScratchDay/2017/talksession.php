@@ -35,6 +35,17 @@
                             <tr class="eventTr"><td class="tdLeft"><image src="./image/miyajima.jpg" class="tsProfileImage"><br><p class="profileName">宮島 衣瑛</p></td><td class="tdRight">1997年5月13日生まれ。高校1年生の春から地元である千葉県柏市で小・中学生むけのプログラミングDojo、CoderDojo Kashiwaを主催・運営。それ以外でもワークショップの講師・講演・教材開発などに携わっている。柏市のプログラミング教育事業にも参画中。</td></tr>
                         </table>
 
+						<p class="contentsTitle">【持ち物】</p>
+						<p class="contentsText">
+							なし
+						</p>
+
+
+						<p class="contentsTitle">【参加方法】</p>
+
+						<p class="contentsText">
+							事前申し込み不要。当日お越しください。
+						</p>
 					</div>
 				</div>
 
