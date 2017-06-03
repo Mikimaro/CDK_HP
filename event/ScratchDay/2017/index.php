@@ -67,7 +67,6 @@
 
 						<p class="event-text">
 							初めてのプログラミングを体験しよう。<br>
-							（※予約可能。当日枠もあります。）
 						</p>
 
 						<a href="workshop-students.php" class="event-link">詳細を見る</a>
