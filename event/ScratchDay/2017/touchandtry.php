@@ -14,7 +14,6 @@
 					</p>
 
 					<div id="eventDetail">
-
 						<img src="./image/wildcard.jpg" width="100%">
 
 						<p class="contentsTitle">【内容】</p>

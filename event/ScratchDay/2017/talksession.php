@@ -17,7 +17,6 @@
 
 						<img src="./image/talksession.jpg" width="100%">
 
-
 						<p class="contentsTitle">【内容】</p>
 						<p class="contentsText">
                             ゲストをお迎えしてプログラミング教育についてのトークセッションを行います。<br>

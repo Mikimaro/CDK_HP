@@ -16,7 +16,6 @@
 					<div id="eventDetail">
 
 						<img src="./image/workshop.jpg" width="100%">
-
 						<p class="contentsTitle">【内容】</p>
 						<p class="contentsText">
 						わくわく！作って！改造して！遊び合おう！<br>
