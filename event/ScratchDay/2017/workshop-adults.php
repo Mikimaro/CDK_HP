@@ -36,19 +36,6 @@
 							Scratchに関する情報の集め方などもお伝えします。<br>
 						</p>
 
-						<p class="contentsTitle">【持ち物】</p>
-						<p class="contentsText">
-							特になし。<br>
-							ノートパソコンはこちらでご用意致します。もしご自分のデバイスで受けたい方は、事前にScratch1.4をダウンロードしておいてください。
-						</p>
-
-						<p class="contentsTitle">【参加方法】</p>
-						<p class="contentsText">
-							事前申し込みが必要となりますが、当日枠も多少ご用意しております。
-						</p>
-
-						<a href="https://goo.gl/forms/P6rHMDWlEFOMAjDh1" class="joinButton" target="_blank">申し込む</a></p>
-
 					</div>
 					
 				</div>
