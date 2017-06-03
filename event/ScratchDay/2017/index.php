@@ -1,6 +1,5 @@
 <?php
 	require_once "header.php";
-	require_once "eventsMenu.php";
 ?>
 
 	<div id="contents">
