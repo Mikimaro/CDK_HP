@@ -36,6 +36,7 @@
 						今年もたくさんの人達が参加してくれました。
 
 
+
 					</p>
 					
 					<iframe width="100%" height="580" src="https://www.youtube.com/embed/LO7fXO1vp1c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="video"></iframe>
