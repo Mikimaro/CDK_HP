@@ -23,6 +23,23 @@
 						経験者は世界に1つだけのオリジナルシューティングゲームを作って遊び合います。初心者、経験者関係なく楽しめる内容になっています！是非ご参加ください！
 						</p> 
 
+						<p class="contentsTitle">【持ち物】</p>
+						<p class="contentsText">
+							<ul class="contentsText">
+								<li>ノートパソコン（マウスがあると便利）</li>	
+								<li>筆記用具</li>
+								<li>上履き</li>
+							</ul>
+						</p>
+
+						<p class="contentsTitle">【参加方法】</p>
+						<p class="contentsText">事前申し込み枠と当日飛び込み枠を用意しています。</p>
+
+
+							
+						<a href="https://goo.gl/forms/dyBc2soslQC6BxdG3" target="_blank" class="joinButton">申し込む</a>
+					
+
 					</div>
 
 				</div>
