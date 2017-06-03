@@ -8,6 +8,7 @@
 	<meta name="keyword" content="Scratch,Scratch day,スクラッチ,スクラッチデー,スクラッチディ,プログラミング学習,プログラミング教育,Scratch Day in Kashiwa">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--
 	<script>
 	$(function(){
 		// #で始まるアンカーをクリックした場合に処理
@@ -26,6 +27,7 @@
    		});
 	});
 	</script>
+	-->
 
 </head>
 

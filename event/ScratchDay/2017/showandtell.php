@@ -20,19 +20,6 @@
 						子どもたちやメンター達が日頃からCoderDojoや自宅等で作っているScratchの作品発表を行います。アクションゲーム・RPG・パズルゲームなどのゲームに限らずアニメーションなど様々な作品があります。<br>また、質疑応答の時間があるのでわからない点や気になる点もその場で気軽に質問できます。誰でも発表を聞くことができるので、今後の作品作りの良い刺激になります。
 						</p>
 
-						<p class="contentsTitle">【持ち物】</p>
-						<p class="contentsText">
-							<ul class="contentsText">
-								<li>自分の作品（事前に回収します）</li>
-								<li>上履き</li>
-							</ul>
-						</p>
-
-						<p class="contentsTitle">【申込み】</p>
-						<p class="contentsText">事前申し込み</p>
-						
-						<a href="https://goo.gl/forms/1uUfyTga9Y2WtJcl1" class="joinButton">申し込む</a>
-
 					</div>
 					
 				</div>
