@@ -175,10 +175,17 @@ nav{
 	border-radius: 20px;
 }
 
+.subBG{
+	margin: 1%;
+	padding: 2.5% 0;
+	background-color: #66cc33;
+	border-radius: 20px;
+}
+
 .programs{
-display: flex;
-flex-wrap: wrap;
-padding: 3%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3%;
 }
 
 .event{
@@ -268,6 +275,37 @@ padding: 3%;
 
 .video{
 	margin: 1% 0;
+}
+
+/*== TimeTable ==*/
+#timetable{
+	width: 100%;
+	text-align: center;
+}
+
+.timetable{
+	width: 95%;
+	border: 1px white solid;
+	border-collapse: separate;
+	background-color: RGB(247, 175, 39);
+
+}
+
+tr{
+	height: 50px;
+}
+
+.timetable td{
+	padding:;
+	border: 1px white solid;
+}
+
+.timetable th{
+	border: 1px white solid;
+}
+
+.eventTT{
+	background-color: rgba(200,100,0,0.5);
 }
 
 .sponsorContents{
