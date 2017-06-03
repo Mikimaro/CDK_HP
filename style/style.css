@@ -1086,6 +1086,12 @@ table{
 
 }
 /* dojo */
+#dojo-map{
+	margin-top: 3%;
+	width: 100%;
+	height: 500px;
+	background-color: gray;
+}
 
 .Kdojo-list{
 	margin: 5% 0;
@@ -1126,6 +1132,16 @@ table{
 
 .kashiwanohadojo{
 	height: 250px;
+}
+
+.nankashidojo{
+	margin-top: 50px;
+	height: 200px; 
+}
+
+.shounandojo{
+	margin-top: 50px;
+	height: 200px; 
 }
 
 .nagareyamadojo{
