@@ -53,7 +53,7 @@
 <div id="container">
 
 		<div class="pageTitle">
-			<img src="../image/dojoLogo.png" class="headerLogo">
+			<!-- <img src="../image/dojoLogo.png" class="headerLogo"> -->
 			<h1 class="headline">近くのCoderDojo</h1>
 
 			<p class="headline">

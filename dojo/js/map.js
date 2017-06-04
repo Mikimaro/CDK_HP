@@ -1,5 +1,7 @@
 var map;
+var dojoName;
 var marker = [];
+var icon;
 var data = [
   {
     name: 'CoderDojo Kashiwa',
@@ -29,13 +31,19 @@ function initMap() {
         center: {lat: 35.867840, lng: 139.975904} ,
         zoom: 13,
         gestureHandling: 'cooperative'
-	});
+	  });
+
+    icon = new google.maps.MarkerImage('image/dojoIcon.png',
+         
+          
+    );
  
     for (var i = 0; i < data.length; i++) {
         dojoName = data[i]['name'],
         markerLatLng = {lat: data[i]['lat'], lng: data[i]['lng']}, 
         marker[i] = new google.maps.Marker({
           title: dojoName,
+          icon: icon,
           position: markerLatLng, 
           map: map
         });
