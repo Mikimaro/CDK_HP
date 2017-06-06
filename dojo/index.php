@@ -52,8 +52,8 @@
 
 <div id="container">
 
-		<div class="pageTitle">
-			<!-- <img src="../image/dojoLogo.png" class="headerLogo"> -->
+		<div class="pageTitle_nonTxt">
+
 			<h1 class="headline">近くのCoderDojo</h1>
 
 			<p class="headline">

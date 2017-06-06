@@ -102,6 +102,10 @@ a{
 	padding-top: 75px;
 }
 
+.pageTitle_nonTxt{
+	padding-top: 2%;
+}
+
 .headerLogo{
 	top: 100px;
 	width: 10%;
