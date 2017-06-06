@@ -1,6 +1,6 @@
 <?php
     $pageTitle = "Shounan-machi";
-    require_once "header.php";
+    require_once "../common/header.php";
 ?>
 
 <div id="container">
@@ -8,7 +8,7 @@
 		<h1 class="headline">CoderDojo Shounan-machi</h1>
 
 		<p class="headline">
-			旧沼南町エリアに初登場。柏市内3つ目のCoderDojoです。
+			旧沼南町エリアでこの夏スタート。
 		</p>
 
 	</div>
@@ -17,12 +17,45 @@
 
     <div id="dojoDetail">
         <div id="dojoDetailDescriptionTextArea">
-            <p><b>住所：</b><br>千葉県柏市</p>
+
+            <img src="./images/logo.png" class="dojoDetailLogo">
+
+            <ul class="dojoDetailUl">
+                <li>名称：CoderDojo Shounan-machi</li>
+                <li>場所：<a href="#" target="_blank">調整中</a></li>
+                <li>住所：調整中</li>
+                <li>開催日：調整中</li>
+                <li>対象：柏市近辺に住んでいるすべての小学3年生〜中学3年生</li>
+                <li>定員：調整中</li>
+                
+                <li>学べること：</li>
+            </ul>
+
+            <ul class="dojoDetailSkill">
+                <li class="dojoDetailSkillScratch">Scratch</li>
+                
+            </ul>
+
+            <a href="#" class="joinButton">参加する</a>
+
         </div>
 
         <div id="dojoDetailImageArea">
-            <img src="./images/bg01.jpg" width="100%" class="dojoDetailImage">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li><img src="./images/bg01.JPG" class="dojoDetailImage"></li>
+                    <!-- li要素を追加すれば勝手にスライドしてくれる -->
+                </ul>
+            </div>
         </div>
+
+       
+
     </div>
 
 </div>
+
+
+
+<?php
+    require_once "footer.php";
