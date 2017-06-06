@@ -1,31 +1,103 @@
 #dojoDetail{
     margin: 0 auto;
-	width: 70%;
-    height: 450px;
+	width: 80%;
+    height: 500px;
     background-color: RGB(244, 244, 244);
-    border-radius: 20px;
-
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 #dojoDetailDescriptionTextArea{
-    width: 40%;
+    width: 35%;
     float: left;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .dojoDetailLogo{
     width: 30%;
     margin-top: 10px;
     display: block;
-    text-align: center;
-    margin-left: auto;
+    text-align: center; 
+    margin-left: 35%;
     margin-right: auto;
 }
 
 #dojoDetailImageArea{
     width: 60%;
+    height: 400px;
     float: left;
 }
 
-#dojoDetailImage{
+.dojoDetailImage{
+    width: 100%;
+}
+
+.dojoDetailUl{
+    line-height: 1.7em;
+}
+
+.dojoDetailSkill{
+    text-decoration: none;
+    list-style-type: none;
     
+}
+
+.dojoDetailSkillScratch{
+    background-color: RGB(239, 159, 40);
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;
+
+}
+
+.dojoDetailSkillWeb{
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    background-color: RGB(53, 152, 219);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.dojoDetailSkillDesign{
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    background-color: RGB(154, 89, 181);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.dojoDetailSkillRaspi{
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    background-color: RGB(199, 5, 61);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.joinButton{
+    width:50%;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    background-color: white;
+    transition: .4s;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.joinButton:hover{
+     background: #67c5ff;
+    color: white;
 }
