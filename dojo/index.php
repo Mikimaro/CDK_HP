@@ -40,10 +40,10 @@
 								);
 
 							$URL = array(
-								'../index.php',
-								'../kashiwanoha/',
-								'',
-								'',
+								'./kashiwa',
+								'./kashiwanoha/',
+								'./nankashi',
+								'./shounan-machi',
 								'http://www.code-for-nagareyama.org/?cat=11',
 							);
 

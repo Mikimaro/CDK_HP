@@ -49,6 +49,12 @@
 				</tr>
 
 				<tr>
+					<th>対象</th>
+					<td class="plainTd">
+						柏近辺に住んでいる小学校3年生〜中学3年生までのすべての子どもたち。
+					</td>
+
+				<tr>
 					<th>持ち物</th>
 					<td class="plainTd">
 						<ul>

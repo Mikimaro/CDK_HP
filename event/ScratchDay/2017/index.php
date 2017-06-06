@@ -288,7 +288,8 @@
 			<p class="sponsorName">
 				【後援】<br>
 				<a href="http://www.kashiwa-pta.com/" target="_blank">柏市PTA連絡協議会</a>　/　
-				<a href="http://innovation-power.xyz" target="_blank">InnovationPower Co.,Ltd</a>
+				<a href="http://innovation-power.xyz" target="_blank">InnovationPower Co.,Ltd</a>　/　
+				<a href="http://www.artec-kk.co.jp/" target="_blank">株式会社アーテック</a>
 			</p>
 
 			<p class="random">順不同・敬称省略</p>
