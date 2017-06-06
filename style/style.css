@@ -99,11 +99,12 @@ a{
 
 /*== 共通要素 ==*/
 .pageTitle{
-	padding-top: 75px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .headerLogo{
-	top: 100px;
+	top: 10px;
 	width: 10%;
 	display: block;
 	text-align: center;

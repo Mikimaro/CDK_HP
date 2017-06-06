@@ -1,0 +1,31 @@
+#dojoDetail{
+    margin: 0 auto;
+	width: 70%;
+    height: 450px;
+    background-color: RGB(244, 244, 244);
+    border-radius: 20px;
+
+}
+
+#dojoDetailDescriptionTextArea{
+    width: 40%;
+    float: left;
+}
+
+.dojoDetailLogo{
+    width: 30%;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dojoDetailImageArea{
+    width: 60%;
+    float: left;
+}
+
+#dojoDetailImage{
+    
+}

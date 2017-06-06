@@ -51,7 +51,7 @@
 
 								$RTDName = array("公式サイト","公式YouTube");
 
-								$RTDURL = array("../rtd","http://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA/videos");
+								$RTDURL = array("../../rtd","http://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA/videos");
 
 								for ($i= 0; $i < count($RTDName); $i++) { 
 									print("<li><a href='{$RTDURL[$i]}'>{$RTDName[$i]}</a></li>");
@@ -70,7 +70,7 @@
 
 							$Text = array("メンターについて","メンター募集");
 
-							$URL = array("../mentor.php","../adopt.php");
+							$URL = array("../../mentor.php","../../adopt.php");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 							print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -93,7 +93,7 @@
 
 							$Text = array("プレスリリース", "メディア掲載情報");
 
-							$URL = array("../pressRelease.php", "../media.php");
+							$URL = array("../../pressRelease.php", "../media.php");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -113,7 +113,7 @@
 
 							$Text = array("最新の情報","イベント一覧");
 
-							$URL = array("../event/spd/2016","../event.php");
+							$URL = array("../../event/spd/2016","../../event.php");
 							
 							for ($i= 0; $i < count($Text); $i++) { 
 								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -170,7 +170,7 @@
 					$Name = array('プライバシーポリシー','スポンサー','代表紹介','連絡先');
 
 
-					$URL = array('../privacy','../sponsor.php','../founder.php','../contact.php');
+					$URL = array('../../privacy','../../sponsor.php','../../founder.php','../../contact.php');
 
 					for ($i= 0; $i < count($Name); $i++) { 
 						print("<a href='{$URL[$i]}' class='aux-contents'>$Name[$i]</a>");
