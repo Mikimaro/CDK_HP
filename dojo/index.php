@@ -17,9 +17,9 @@
 
 							$title = array(
 								'CoderDojo Kashiwa',
-								'CoderDojo Kashiwa-no-ha',
-								'CoderDojo Minami-Kashiwa',
-								'CoderDojo Shounan-machi',
+								'CoderDojo <br> Kashiwa-no-ha',
+								'CoderDojo <br> Minami-Kashiwa',
+								'CoderDojo <br> Shounan-machi',
 								'CoderDojo Nagareyama',
 								);
 
@@ -62,7 +62,7 @@
 
 		</div>
 
-		<div id="event">
+		<div id="dojo">
 
 			<div id="dojo-map"></div>
 

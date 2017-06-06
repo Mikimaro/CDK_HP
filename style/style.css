@@ -1086,6 +1086,11 @@ table{
 
 }
 /* dojo */
+#dojo{
+	margin: 0 auto;
+	width: 80%;
+}
+
 #dojo-map{
 	margin-top: 3%;
 	width: 100%;
@@ -1103,11 +1108,15 @@ table{
 
 .Kdojo-list article{
 	margin: 1.5% auto;
-	padding: 1.0%;
-	width: 45%;
+	padding: 0.5% 0;
+	width: 22.5%;
 	border: 3px solid #EEEEEE;
 	border-radius: 15px;
 	text-align: center;
+}
+
+.Kdojo-list article:hover{
+	background-color: rgba(30,144,255,0.4);
 }
 
 .Ndojo-list{
@@ -1118,35 +1127,40 @@ table{
 
 .Ndojo-list article{
 	margin: 1.5% auto;
-	padding: 1.0%;
-	width: 45%;
+	padding: 0.5% 0;
+	width: 22.5%;
 	border: 3px solid #EEEEEE;
 	border-radius: 15px;
 	text-align: center;
 }
 
+.Ndojo-list article:hover{
+	background-color: rgba(30,144,255,0.4);
+}
+
 .kashiwadojo{
 	margin-top: 50px;
-	height: 200px; 
+	height: 150px; 
 }
 
 .kashiwanohadojo{
-	height: 250px;
+	margin-top: 50px;
+	height: 150px; 
 }
 
 .nankashidojo{
 	margin-top: 50px;
-	height: 200px; 
+	height: 150px;  
 }
 
 .shounandojo{
 	margin-top: 50px;
-	height: 200px; 
+	height: 150px; 
 }
 
 .nagareyamadojo{
 	margin-top: 50px;
-	height: 200px;
+	height: 150px; 
 }
 
 
