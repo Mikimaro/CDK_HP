@@ -2,6 +2,8 @@
 							$class = array(
 								'kashiwadojo',
 								'kashiwanohadojo',
+								'nankashidojo',
+								'shounandojo',
 								'nagareyamadojo',
 
 								);
@@ -9,29 +11,39 @@
 								'../image/dojoLogo.png',
 								'../image/kashiwanohalogo.png',
 								'../image/dojoLogo.png',
+								'../image/dojoLogo.png',
+								'../image/dojoLogo.png',
 								);
 
 							$title = array(
 								'CoderDojo Kashiwa',
-								'CoderDojo Kashiwa-no-ha',
+								'CoderDojo <br> Kashiwa-no-ha',
+								'CoderDojo <br> Minami-Kashiwa',
+								'CoderDojo <br> Shounan-machi',
 								'CoderDojo Nagareyama',
 								);
 
 							$site = array(
 								'@NoblesseOblige',
 								'@KOILスタジオ',
+								'',
+								'',
 								'@江戸川大学',
 								);
 
 							$comments = array(
 								'毎月第2,4日曜日に開催',
 								'毎月第3日曜日に開催',
+								'',
+								'',
 								'毎月1回土曜日に開催',
 								);
 
 							$URL = array(
 								'../index.php',
 								'../kashiwanoha/',
+								'',
+								'',
 								'http://www.code-for-nagareyama.org/?cat=11',
 							);
 
@@ -40,22 +52,27 @@
 
 <div id="container">
 
-		
 		<div class="pageTitle">
-			<img src="../image/dojoLogo.png" class="headerLogo">
+			<!-- <img src="../image/dojoLogo.png" class="headerLogo"> -->
 			<h1 class="headline">近くのCoderDojo</h1>
 
 			<p class="headline">
-
 				お近くにあるCoderDojoを紹介します。
-
 			</p>
 
 		</div>
 
-		<div id="event">
+		<div id="dojo">
 
-		<div class="events">
+			<div id="dojo-map"></div>
+
+				<script type="text/javascript" src="js/map.js"></script>
+
+				<script async defer 
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_pwPgrHb82AbAAJR9_wkmrpcw2FvaPrc&callback=initMap">
+				</script>
+
+			<div class="events">
 
 			<h2 class="headline">柏市</h2>
 
@@ -64,7 +81,7 @@
 
 			<?php
 
-				for ($i=0; $i < 2; $i++) { 
+				for ($i=0; $i < 4; $i++) { 
 						print("
 
 				<article>
@@ -102,7 +119,7 @@
 
 			<?php
 
-				for ($i=2; $i < 3; $i++) { 
+				for ($i=4; $i < 5; $i++) { 
 						print("
 
 				<article>
