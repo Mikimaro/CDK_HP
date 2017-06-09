@@ -1,16 +1,16 @@
 #dojoDetail{
     margin: 0 auto;
+    padding: 1%;
 	width: 80%;
-    height: 500px;
     background-color: RGB(244, 244, 244);
     border-radius: 10px;
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #dojoDetailDescriptionTextArea{
     width: 35%;
-    float: left;
-    height: 400px;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -25,9 +25,8 @@
 }
 
 #dojoDetailImageArea{
+    margin: auto;
     width: 60%;
-    height: 400px;
-    float: left;
 }
 
 .dojoDetailImage{
@@ -45,37 +44,41 @@
 }
 
 .dojoDetailSkillScratch{
-    background-color: RGB(239, 159, 40);
+    margin: 1px;
     width: 100px;
     height: 25px;
     text-align: center;
+    background-color: RGB(239, 159, 40);
     border-radius: 8px;
     display: inline-block;
 
 }
 
 .dojoDetailSkillWeb{
+    margin: 1px;
     width: 100px;
-    text-align: center;
     height: 25px;
+    text-align: center;
     background-color: RGB(53, 152, 219);
     border-radius: 8px;
     display: inline-block;
 }
 
 .dojoDetailSkillDesign{
+    margin: 1px;
     width: 100px;
-    text-align: center;
     height: 25px;
+    text-align: center;
     background-color: RGB(154, 89, 181);
     border-radius: 8px;
     display: inline-block;
 }
 
 .dojoDetailSkillRaspi{
+    margin: 1px;
     width: 100px;
-    text-align: center;
     height: 25px;
+    text-align: center;
     background-color: RGB(199, 5, 61);
     border-radius: 8px;
     display: inline-block;

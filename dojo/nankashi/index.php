@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = "Kashiwa";
+    $pageTitle = "Minami-Kashiwa";
     require_once "header.php";
 ?>
 
@@ -23,17 +23,16 @@
             <ul class="dojoDetailUl">
                 <li>名称：CoderDojo Minami-Kashwia</li>
                 <li>場所：<a href="http://nbob.jp/" target="_blank"></a></li>
-                <li>住所：千葉県柏市</li>
-                <li>開催日：</li>
+                <li>住所：調整中</li>
+                <li>開催日：調整中</li>
                 <li>対象：柏市近辺に住んでいるすべての小学3年生〜中学3年生</li>
-                <li>定員：</li>
+                <li>定員：調整中</li>
                 
                 <li>学べること：</li>
             </ul>
 
             <ul class="dojoDetailSkill">
                 <li class="dojoDetailSkillScratch">Scratch</li>
-                <li class="dojoDetailSkillWeb">web</li>
             </ul>
 
             <a href="#" class="joinButton">参加する</a>
