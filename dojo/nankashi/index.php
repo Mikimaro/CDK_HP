@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = "Kashiwa";
+    $pageTitle = "Minami-Kashiwa";
     require_once "header.php";
 ?>
 
