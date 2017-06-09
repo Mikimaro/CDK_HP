@@ -29,6 +29,12 @@
                 <li>定員：調整中</li>
                 
                 <li>学べること：</li>
+                 <li>名称：CoderDojo Minami-Kashiwa</li>
+                 <li>場所：<a href="#" target="_blank">調整中</a></li>
+                 <li>住所：調整中</li>
+                 <li>開催日：調整中</li>
+                 <li>対象：柏市近辺に住んでいるすべての小学3年生〜中学3年生</li>
+                 <li>定員：調整中</li>
             </ul>
 
             <ul class="dojoDetailSkill">
@@ -53,3 +59,4 @@
 
 <?php
     require_once "footer.php";
+?>
