@@ -5,7 +5,7 @@
 
 <div id="container">
     <div class="pageTitle">
-		<h1 class="headline">CoderDojo Shounan-machi</h1>
+		<h1 class="headline">CoderDojo Minami-Kashiwa</h1>
 
 		<p class="headline">
 			旧沼南町エリアでこの夏スタート。
@@ -33,7 +33,6 @@
 
             <ul class="dojoDetailSkill">
                 <li class="dojoDetailSkillScratch">Scratch</li>
-                
             </ul>
 
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhhB7CxDHw7bGdShH0UI4kUQCrQls235YPjpunVc7r0xV82Q/viewform" target="_blank" class="joinButton">参加する</a>

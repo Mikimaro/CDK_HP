@@ -33,7 +33,6 @@
 
             <ul class="dojoDetailSkill">
                 <li class="dojoDetailSkillScratch">Scratch</li>
-                
             </ul>
 
             <a href="#" class="joinButton">参加する</a>
@@ -59,3 +58,4 @@
 
 <?php
     require_once "footer.php";
+?>
