@@ -50,7 +50,6 @@
                     <li><img src="./images/bg04.jpg" class="dojoDetailImage"></li>
                 </ul>
             </div>
-
         </div>
 
        
@@ -62,4 +61,4 @@
 
 
 <?php
-    require_once "footer.php";
+    require_once "../footer.php";

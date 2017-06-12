@@ -36,7 +36,7 @@
                 
             </ul>
 
-            <a href="#" class="joinButton">参加する</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdhhB7CxDHw7bGdShH0UI4kUQCrQls235YPjpunVc7r0xV82Q/viewform" target="_blank" class="joinButton">参加する</a>
 
         </div>
 
@@ -58,4 +58,4 @@
 
 
 <?php
-    require_once "footer.php";
+    require_once "../footer.php";
