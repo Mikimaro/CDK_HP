@@ -6,11 +6,7 @@
     border-radius: 10px;
     margin-bottom: 20px;
     display: flex;
-<<<<<<< HEAD
     flex-wrap: wrap;
-=======
-	flex-wrap: wrap;
->>>>>>> d1f172742d0cd1f12b657783cafc1f481ae7c570
 }
 
 #dojoDetailDescriptionTextArea{
