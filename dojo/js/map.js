@@ -25,8 +25,8 @@ var data = [
     url: '../image/mapdojoLogo.png'
   },{
     name: 'CoderDojo Shounan-machi',
-    lat: 0,
-    lng: 0,
+    lat: 35.845026,
+    lng: 140.006910,
     url: '../image/mapdojoLogo.png'
   }
 ];
