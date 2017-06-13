@@ -38,55 +38,39 @@
 }
 
 .dojoDetailSkill{
+    font-size: 0;
     text-decoration: none;
     list-style-type: none;
-    
+}
+
+.dojoDetailSkill li{
+    margin: 1px;
+    padding: 0.5%;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
 }
 
 .dojoDetailSkillScratch{
-    margin: 1px;
-    width: 100px;
-    height: 25px;
     background-color: RGB(239, 159, 40);
-    text-align: center;
-    background-color: RGB(239, 159, 40);
-    border-radius: 8px;
-    display: inline-block;
-
 }
 
 .dojoDetailSkillWeb{
-    margin: 1px;
-    width: 100px;
-    height: 25px;
-    text-align: center;
     background-color: RGB(53, 152, 219);
-    border-radius: 8px;
-    display: inline-block;
 }
 
 .dojoDetailSkillDesign{
-    margin: 1px;
-    width: 100px;
-    height: 25px;
-    text-align: center;
     background-color: RGB(154, 89, 181);
-    border-radius: 8px;
-    display: inline-block;
 }
 
 .dojoDetailSkillRaspi{
-    margin: 1px;
-    width: 100px;
-    height: 25px;
-    text-align: center;
     background-color: RGB(199, 5, 61);
-    border-radius: 8px;
-    display: inline-block;
 }
 
 .joinButton{
-    width:50%;
+    width: 50%;
     display: inline-block;
     padding: 0.3em 1em;
     text-decoration: none;
@@ -96,7 +80,7 @@
     background-color: white;
     transition: .4s;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10%;
     margin-left: 25%;
     margin-right: 25%;
 }
