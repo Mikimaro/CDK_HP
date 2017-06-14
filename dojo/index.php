@@ -34,8 +34,8 @@
 							$comments = array(
 								'毎月第2,4日曜日に開催',
 								'毎月第3日曜日に開催',
-								'この夏スタートします。',
-								'この夏スタートします。',
+								'この夏スタート',
+								'この夏スタート',
 								'毎月1回土曜日に開催',
 								);
 
@@ -82,32 +82,35 @@
 			<?php
 
 				for ($i=0; $i < 4; $i++) { 
+
+					if($i !== 2){
 						print("
 
-				<article>
+							<article>
 
-					<a href='{$URL[$i]}' class='black'>
+								<a href='{$URL[$i]}' class='black'>
 
-					<div>
+								<div>
 
-						<img src='{$img[$i]}' class='{$class[$i]}'>
+									<img src='{$img[$i]}' class='{$class[$i]}'>
 
-					</div>
+								</div>
 
-					<section class='eventText'>
+								<section class='eventText'>
 
-						<h2>{$title[$i]}</h2>
-						<h3>{$day[$i]}</h3>
-						<h4>{$site[$i]}</h4>
-						<h5>{$comments[$i]}</h5>
+									<h2>{$title[$i]}</h2>
+									<h3>{$day[$i]}</h3>
+									<h4>{$site[$i]}</h4>
+									<h5>{$comments[$i]}</h5>
 
-					</section>
+								</section>
 
-					</a>
+								</a>
 
-				</article>
+							</article>
 						");
 					}
+				}
 
 			?>
 
