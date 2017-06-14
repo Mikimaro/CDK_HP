@@ -2,8 +2,6 @@
 	require_once 'header.php';
 ?>
 
-
-
 <div id="container">
 
 	<div id="contents">
