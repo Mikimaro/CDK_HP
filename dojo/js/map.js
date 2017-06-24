@@ -33,6 +33,9 @@ var data = [
   }
 ];
 
+var infoWindow = [];
+var markers = [];
+
 function initMap() {
 
     map = new google.maps.Map(document.getElementById('dojo-map'), {
@@ -41,44 +44,37 @@ function initMap() {
         gestureHandling: 'cooperative'
 	  });
 
-    data.forEach(function(val){
-      var marker = new google.maps.Marker({
-        position: {lat: val.lat, lng: val.lng},
-        icon: icon = new google.maps.MarkerImage(val.url),
-        map: map,
-      });
-
-      google.maps.event.addListener(marker, 'click', function(){
-        var infoWindows = new google.maps.InfoWindow({
-          content: '<p>' + val.name + '</p>'
-        })
-        if(infoWindows)infoWindows.close();
-        infoWindows.open(marker.getMap(), marker);
-      });
-      
-    });
- 
-    /*
-    for (var i = 0; i < data.length; i++) {
-        dojoName = data[i]['name'],
-
-        markerLatLng = {lat: data[i]['lat'], lng: data[i]['lng']}, 
-
-        infowindow[i] = new google.maps.InfoWindow({
-          content: data[i]['contents'],
-        });
-
-        marker[i] = new google.maps.Marker({
-          title: dojoName,
-          icon: icon = new google.maps.MarkerImage(data[i]['url']),
-          position: markerLatLng, 
-          map: map
-        });
-
-        marker[i].addListener('click', function() { 
-          infowindow[i].open(map);
-        });
+    for(var i=0; i<4; i++){
+      makeMarker(i);
+      makeWindow(i);
     }
-    */
 
-};
+}
+
+function makeMarker(num){
+  markers[num] = new google.maps.Marker({
+    position: {lat: data[num]['lat'], lng: data[num]['lng']},
+    icon: icon = new google.maps.MarkerImage(data[num]['url']),
+    map: map,
+  });
+  
+  infoWindow[num] = new google.maps.InfoWindow({
+    content: '<p>' + data[num]['name'] + '</p>'
+  });
+
+  console.log(infoWindow);
+  
+}
+
+function makeWindow(num){
+  markers[num].addListener('click', function(){
+    closeWindow();
+    infoWindow[num].open(markers[num].getMap(), markers[num]);
+  });
+}
+
+function closeWindow(){
+  for(var i=0; i<4; i++){
+    infoWindow[i].close();
+  }
+}
