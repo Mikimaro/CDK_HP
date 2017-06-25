@@ -89,3 +89,13 @@
      background: #67c5ff;
     color: white;
 }
+
+#dojomap{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.googlemap{
+    width: 100%;
+}
