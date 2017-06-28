@@ -1173,3 +1173,69 @@ table{
 	color: red;
 	font-size: 20px;
 }
+
+/*== mission ==*/
+#missionImageArea{
+	top: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: relative;
+
+}
+
+.titleUp {
+	position: absolute;
+  	top: 20%;
+  	text-align: center;
+  	margin:0;
+  	padding:0;
+	width: 100%;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.titleMiddle{
+	position: absolute;
+  	top: 50%;
+  	text-align: center;
+  	margin:0;
+  	padding:0;
+	width: 100%;
+	color: white;
+	font-size: 30px;
+	font-weight: 200;	
+}
+
+#mission{
+	width: 100%;
+}
+
+.missionImage{
+	width: 100%;
+}
+
+#missionMenu{
+	width: 100%;
+	margin-top: 30px;
+}
+
+#missionMenu ul{
+	width: 100%;
+	margin: 8px 0;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+}
+
+#missionMenu li{
+	display: inline-block;
+  	font-size: 18px;
+	width: 20%;
+}
+
+#missionMenu a{
+	color: black;
+	text-decoration: none;
+}
