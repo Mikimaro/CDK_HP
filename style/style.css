@@ -232,7 +232,7 @@ a{
 #about{
 	margin: 0 auto;
 	width: 80%;
-	border-radius: 20px;
+	border-radius: 10px;
 	background-color: #EEEEEE;
 }
 
@@ -579,7 +579,8 @@ table.nextDojoTable th:after {
 
 .btn{
 	margin: 5% 0;
-	font-size: 1.5em;
+	width: 200px;
+	font-size: 18px;
 	background-color: rgb(30,144,255);
 	border-radius: 5px;
 	border-style: none;
@@ -1172,4 +1173,200 @@ table{
 .notification{
 	color: red;
 	font-size: 20px;
+}
+
+/*== mission ==*/
+#missionImageArea{
+	top: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: relative;
+
+}
+
+.titleUp {
+	position: absolute;
+  	top: 20%;
+  	text-align: center;
+  	margin:0;
+  	padding:0;
+	width: 100%;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.titleMiddle{
+	position: absolute;
+  	top: 50%;
+  	text-align: center;
+  	margin:0;
+  	padding:0;
+	width: 100%;
+	color: white;
+	font-size: 30px;
+	font-weight: 200;	
+}
+
+#mission{
+	width: 100%;
+}
+
+.missionImage{
+	width: 100%;
+}
+
+#missionMenu{
+	width: 100%;
+	margin-top: 30px;
+}
+
+#missionMenu ul{
+	width: 100%;
+	margin: 8px 0;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+}
+
+#missionMenu li{
+	display: inline-block;
+  	font-size: 18px;
+	width: 20%;
+}
+
+#missionMenu a{
+	color: black;
+	text-decoration: none;
+}
+
+#coderdojo{
+	width: 100%;
+}
+
+.missionTitle{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.leftContents{
+	width: 30%;
+	float: left;
+}
+
+.rightContents{
+	width: 60%;
+	margin-left: 30%;
+}
+
+.left70Contents{
+
+	width: 60%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.right30Contents{
+	width: 60%;
+	margin-left: 30%;
+}
+
+.missionLogo{
+	width: 50%;
+	margin-left: 15%;
+	margin-right: 25%;
+}
+
+.missionLogoSpd{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.missionText{
+	font-size: 18px;
+}
+
+.missionVideoArea{
+	margin-top: 120px;
+}
+
+.missionVideo{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.missionSubTitle{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#history{
+	margin-top: 120px;
+}
+
+#project{
+	margin-top: 150px;
+}
+
+.scratchday{
+	margin-top:50px;
+}
+
+.kashiwacity{
+	margin-top: 50px;
+}
+
+.missionTable{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.missionTdL{
+	width: 30%;
+}
+
+.missionTdR{
+	width: 70%;
+	text-align: left
+}
+
+/*== mentor ==*/
+
+#mentor{
+	width: 80%;
+	margin-top: 35px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: RGB(238, 238, 238);
+	border-radius: 15px;
+	
+}
+
+#mentorImageArea{
+	top: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: relative;
+}
+
+#aboutMentor{
+	width: 90%;
+	top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.mentorTitle{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.mentorText{
+	font-size: 18px;
 }

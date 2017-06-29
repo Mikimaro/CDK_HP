@@ -70,6 +70,19 @@
 		});
 	</script>
 
+    <script>
+        $(function(){
+            $('a[href^="#"]').on('click', function(){
+                var speed = 400;
+                var href= $(this).attr('href');
+                var target = $(href == '#' || href == '' ? 'html' : href);
+                var position = target.offset().top;
+                $('body,html').animate({scrollTop:position}, speed, 'swing');
+                return false;
+            });
+        });
+    </script>
+
 
 	<script language="javascript" type="text/javascript">
 
@@ -112,7 +125,7 @@
 	<div id="menu">
 		<ul>
 			<li><a href="./index.php"><img src="./image/dojoLogo.png" class="homeLogo"></a></li>
-			<li><a href="./about.php">CoderDojoとは</a></li>
+			<li><a href="./about.php">ミッション</a></li>
 			<li><a href="./dojo/index.php">近くのDojo</a></li>
 			<li><a href="./join.php">参加する</a></li>
 			<li><a href="./rtd.php">RTDとは</a></li>	
