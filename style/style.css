@@ -232,7 +232,7 @@ a{
 #about{
 	margin: 0 auto;
 	width: 80%;
-	border-radius: 20px;
+	border-radius: 10px;
 	background-color: #EEEEEE;
 }
 
@@ -1192,7 +1192,7 @@ table{
   	padding:0;
 	width: 100%;
 	color: white;
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: bold;
 }
 
@@ -1238,4 +1238,98 @@ table{
 #missionMenu a{
 	color: black;
 	text-decoration: none;
+}
+
+#coderdojo{
+	width: 100%;
+}
+
+.missionTitle{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.leftContents{
+	width: 30%;
+	float: left;
+}
+
+.rightContents{
+	width: 60%;
+	margin-left: 30%;
+}
+
+.left70Contents{
+
+	width: 60%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.right30Contents{
+	width: 60%;
+	margin-left: 30%;
+}
+
+.missionLogo{
+	width: 50%;
+	margin-left: 15%;
+	margin-right: 25%;
+}
+
+.missionLogoSpd{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.missionText{
+	font-size: 18px;
+}
+
+.missionVideoArea{
+	margin-top: 120px;
+}
+
+.missionVideo{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.missionSubTitle{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#history{
+	margin-top: 120px;
+}
+
+#project{
+	margin-top: 150px;
+}
+
+.scratchday{
+	margin-top:50px;
+}
+
+.kashiwacity{
+	margin-top: 50px;
+}
+
+.missionTable{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.missionTdL{
+	width: 30%;
+}
+
+.missionTdR{
+	width: 70%;
+	text-align: left
 }
