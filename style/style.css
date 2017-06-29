@@ -579,7 +579,8 @@ table.nextDojoTable th:after {
 
 .btn{
 	margin: 5% 0;
-	font-size: 1.5em;
+	width: 200px;
+	font-size: 18px;
 	background-color: rgb(30,144,255);
 	border-radius: 5px;
 	border-style: none;
@@ -1332,4 +1333,40 @@ table{
 .missionTdR{
 	width: 70%;
 	text-align: left
+}
+
+/*== mentor ==*/
+
+#mentor{
+	width: 80%;
+	margin-top: 35px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: RGB(238, 238, 238);
+	border-radius: 15px;
+	
+}
+
+#mentorImageArea{
+	top: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: relative;
+}
+
+#aboutMentor{
+	width: 90%;
+	top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.mentorTitle{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.mentorText{
+	font-size: 18px;
 }
