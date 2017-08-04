@@ -1,0 +1,57 @@
+body{
+    
+}
+
+#kashiwaprogram{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.kpHeaderImaegView {
+    margin-top: 40px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.kpHeaderTitleLabel{
+    font-weight: 600;
+    text-align: center;
+    font-size: 38px;
+}
+
+.kpHeaderTextLabel{
+    font-size: 18px;
+}
+
+#kpMenu{
+	width: 100%;
+	margin-top: 30px;
+}
+
+#kpMenu ul{
+	width: 100%;
+	margin: 8px 0;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+}
+
+#kpMenu li{
+	display: inline-block;
+  	font-size: 18px;
+	width: 20%;
+}
+
+#kpMenu a{
+	color: black;
+	text-decoration: none;
+}
+
+#main{
+    margin: 0 auto;
+	width: 100%;
+	border-radius: 10px;
+	background-color: #EEEEEE;
+}
