@@ -25,9 +25,13 @@
 		<div id="missionMenu">
 			<ul>
 				<li><a href="#coderdojo">CoderDojoとは</a></li>
-				<li><a href="#history">私たちの歴史</a></li>
 				<li><a href="#project">プロジェクト</a></li>
+				<!--
+				<li><a href="#history">私たちの歴史</a></li>
+
 				<li><a href="#champion">チャンピオン</a></li>
+				-->
+				
 			</ul>
 		</div>
 
@@ -58,7 +62,7 @@
 				</div>
 				-->
 			</div>
-
+			<!--
 			<div id="history">
 				<p class="missionTitle">私たちの歴史</p>
 
@@ -73,6 +77,7 @@
 				</div>
 
 			</div>
+			-->
 
 			<div id="project">
 				<p class="missionTitle">プロジェクト</p>
@@ -153,12 +158,19 @@
 
 			</div>
 
+			<!--
+
 			<div id="champion">
 				<p class="missionTitle">チャンピオン</p>
 			</div>
+			-->
 
 		</div>
 	</div>
+
+<br>
+
+
 </div>
 
 <?php

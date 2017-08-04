@@ -53,7 +53,7 @@
 				<br><br>
 				<p>※応募用フォームはGogleフォームにリンクしています。</p>
 
-				<button class="btn"><a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" target="_blank" style="color: #fff;">応募する</a></button>
+				<a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" target="_blank" style="color: #fff;"><button class="btn">応募する</button></a>
 
 		</div>
 
