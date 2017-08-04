@@ -21,14 +21,14 @@ var data = [
     lng: 139.938837,
     url: '../image/mapdojoLogo.png',
   },{
-    name: 'CoderDojo Minami-Kashiwa',
-    lat: 0,
-    lng: 0,
-    url: '../image/mapdojoLogo.png',
-  },{
     name: 'CoderDojo Shounan-machi',
     lat: 35.845026,
     lng: 140.006910,
+    url: '../image/mapdojoLogo.png',
+  },{
+    name: 'CoderDojo Minami-Kashiwa',
+    lat: 35.831266,
+    lng: 139.955996,
     url: '../image/mapdojoLogo.png',
   }
 ];
@@ -44,7 +44,7 @@ function initMap() {
         gestureHandling: 'cooperative'
 	  });
 
-    for(var i=0; i<4; i++){
+    for(var i=0; i<data.length; i++){
       makeMarker(i);
       makeWindow(i);
     }
@@ -74,7 +74,7 @@ function makeWindow(num){
 }
 
 function closeWindow(){
-  for(var i=0; i<4; i++){
+  for(var i=0; i<data.length; i++){
     infoWindow[i].close();
   }
 }
