@@ -74,13 +74,13 @@
 									スケジュール",
 								 "CoderDojo Kashiwaからの<br>
 								 おしらせ",
-								 "CoderDojo Kashiwa-no-ha<br>
+								 "CoderDojo Kashiwa-Shounan<br>
 									公式サイト"
 					);
 
 				$imgSrc = array("image/sub/schedule.png",
 								"image/sub/news.png",
-								"image/kashiwanohalogo.png"
+								"dojo/kaashiwa-shounan/images/logo.png"
 					);
 
 
