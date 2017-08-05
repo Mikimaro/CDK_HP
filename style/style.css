@@ -1370,3 +1370,13 @@ table{
 .mentorText{
 	font-size: 18px;
 }
+
+#media{
+	width: 100%;
+}
+
+.mediaLogo{
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+}
