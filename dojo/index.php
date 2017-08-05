@@ -19,7 +19,7 @@
 								'CoderDojo Kashiwa',
 								'CoderDojo <br> Kashiwa-no-ha',
 								'CoderDojo <br> Minami-Kashiwa',
-								'CoderDojo <br> Shounan-machi',
+								'CoderDojo <br> kashiwa-shounan',
 								'CoderDojo Nagareyama',
 								);
 
@@ -27,7 +27,7 @@
 								'@NoblesseOblige',
 								'@KOILスタジオ',
 								'',
-								'',
+								'@訪問介護ステーション<br>ひまわり',
 								'@江戸川大学',
 								);
 
@@ -43,7 +43,7 @@
 								'./kashiwa',
 								'./kashiwanoha/',
 								'./nankashi',
-								'./shounan-machi',
+								'./kashiwa-shounan',
 								'http://www.code-for-nagareyama.org/?cat=11',
 							);
 
