@@ -19,7 +19,7 @@
 								'CoderDojo Kashiwa',
 								'CoderDojo <br> Kashiwa-no-ha',
 								'CoderDojo <br> Minami-Kashiwa',
-								'CoderDojo <br> Shounan-machi',
+								'CoderDojo <br> Kashiwa-Shounan',
 								'CoderDojo Nagareyama',
 								);
 
@@ -27,7 +27,7 @@
 								'@NoblesseOblige',
 								'@KOILスタジオ',
 								'',
-								'',
+								'@訪問介護ステーション<br>ひまわり',
 								'@江戸川大学',
 								);
 
@@ -35,7 +35,7 @@
 								'毎月第2,4日曜日に開催',
 								'毎月第3日曜日に開催',
 								'この夏スタート',
-								'この夏スタート',
+								'不定期開催',
 								'毎月1回土曜日に開催',
 								);
 
@@ -43,7 +43,7 @@
 								'./kashiwa',
 								'./kashiwanoha/',
 								'./nankashi',
-								'./shounan-machi',
+								'./kashiwa-shounan',
 								'http://www.code-for-nagareyama.org/?cat=11',
 							);
 
