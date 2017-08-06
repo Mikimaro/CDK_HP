@@ -75,12 +75,12 @@
 								 "CoderDojo Kashiwaからの<br>
 								 おしらせ",
 								 "CoderDojo Kashiwa-Shounan<br>
-									公式サイト"
+									旧沼南町エリアでスタートします"
 					);
 
 				$imgSrc = array("image/sub/schedule.png",
 								"image/sub/news.png",
-								"dojo/kaashiwa-shounan/images/logo.png"
+								"dojo/kashiwa-shounan/images/logo.png"
 					);
 
 
