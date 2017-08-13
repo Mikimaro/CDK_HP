@@ -26,6 +26,7 @@
 			<ul>
 				<li><a href="#coderdojo">CoderDojoとは</a></li>
 				<li><a href="#project">プロジェクト</a></li>
+				<li><a href="#media">メディア掲載</a></li>
 				<!--
 				<li><a href="#history">私たちの歴史</a></li>
 
@@ -52,6 +53,7 @@
 
 					<ul>
 						<li><a href="http://coderdojo.jp" target="_blank">CoderDojo Japanについて</a></li>
+						<li><a href="http://coderdojo.chiba.jp" target="_blank">千葉県のCoderDojoについて</a></li>
 						<li><a href="http://coderdojo.com" target="_blank">CoderDojo Foundationについて</a></li>
 					</ul>
 
@@ -138,24 +140,25 @@
 								<p class="missionText">
 									柏市では2017年4月から市内にある42校すべての小学校でプログラミング教育をスタートしました。私たちはカリキュラム提供とアドバイザーという役目で協力しています。<br>
 									学校で体験するのはあくまでも入門です。プログラミングを体験して、さらに深めたいと思った子どもたちをCoderDojo Kashiwaは全力でサポートします。
-								</p>	
+								</p>
+
+								<a href="./project/kashiwaprogram">柏市とCoderDojo Kashiwaの取り組みについて更に詳しく</a>
+
+								<br>
 								
 							</td>
 						</tr>
 						
 					</table>
 
-
-					<div class="leftContents">
-					</div>
-
-					<div class="rightContents">
-						
-
-					</div>
-
 				</div>
 
+
+			</div>
+
+			<div id="media">
+				<p class="missionTitle">メディア掲載</p>
+				<img src="./image/media.png" class="mediaLogo">
 			</div>
 
 			<!--

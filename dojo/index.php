@@ -19,7 +19,11 @@
 								'CoderDojo Kashiwa',
 								'CoderDojo <br> Kashiwa-no-ha',
 								'CoderDojo <br> Minami-Kashiwa',
+<<<<<<< HEAD
 								'CoderDojo <br> kashiwa-shounan',
+=======
+								'CoderDojo <br> Kashiwa-Shounan',
+>>>>>>> 6a895bfa459517b8952dd5cca95eac6cbb2ec19d
 								'CoderDojo Nagareyama',
 								);
 
@@ -27,7 +31,11 @@
 								'@NoblesseOblige',
 								'@KOILスタジオ',
 								'',
+<<<<<<< HEAD
 								'@訪問看護ステーションひまわり',
+=======
+								'@訪問介護ステーション<br>ひまわり',
+>>>>>>> 6a895bfa459517b8952dd5cca95eac6cbb2ec19d
 								'@江戸川大学',
 								);
 
