@@ -19,23 +19,15 @@
 								'CoderDojo Kashiwa',
 								'CoderDojo <br> Kashiwa-no-ha',
 								'CoderDojo <br> Minami-Kashiwa',
-<<<<<<< HEAD
-								'CoderDojo <br> kashiwa-shounan',
-=======
 								'CoderDojo <br> Kashiwa-Shounan',
->>>>>>> 6a895bfa459517b8952dd5cca95eac6cbb2ec19d
 								'CoderDojo Nagareyama',
 								);
 
 							$site = array(
 								'@NoblesseOblige',
 								'@KOILスタジオ',
-								'',
-<<<<<<< HEAD
+								'@麗澤大学',
 								'@訪問看護ステーションひまわり',
-=======
-								'@訪問介護ステーション<br>ひまわり',
->>>>>>> 6a895bfa459517b8952dd5cca95eac6cbb2ec19d
 								'@江戸川大学',
 								);
 
@@ -50,7 +42,7 @@
 							$URL = array(
 								'./kashiwa',
 								'./kashiwanoha/',
-								'./nankashi',
+								'./minamikashiwa',
 								'./kashiwa-shounan',
 								'http://www.code-for-nagareyama.org/?cat=11',
 							);
@@ -90,8 +82,6 @@
 			<?php
 
 				for ($i=0; $i < 4; $i++) { 
-
-					if($i !== 2){
 						print("
 
 							<article>
@@ -117,7 +107,7 @@
 
 							</article>
 						");
-					}
+					
 				}
 
 			?>

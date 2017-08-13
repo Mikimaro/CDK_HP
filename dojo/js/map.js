@@ -44,7 +44,7 @@ function initMap() {
         gestureHandling: 'cooperative'
 	  });
 
-    for(var i=0; i<data.length - 1; i++){
+    for(var i=0; i<data.length; i++){
       makeMarker(i);
       makeWindow(i);
     }
@@ -74,7 +74,7 @@ function makeWindow(num){
 }
 
 function closeWindow(){
-  for(var i=0; i<data.length - 1; i++){
+  for(var i=0; i<data.length; i++){
     infoWindow[i].close();
   }
 }
