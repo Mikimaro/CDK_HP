@@ -68,7 +68,7 @@
 
 				<?php
 
-				$href = array("schedule","news","kashiwanoha");
+				$href = array("schedule","news","dojo/kashiwa-shounan");
 
 				$comment = array("Kashiwa / Kashiwa-no-ha<br>
 									スケジュール",
