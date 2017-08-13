@@ -68,18 +68,17 @@
 
 				<?php
 
-				$href = array("schedule","news","dojo/kashiwa-shounan");
+				$href = array("schedule","dojo/minamikashiwa","dojo/kashiwa-shounan");
 
 				$comment = array("Kashiwa / Kashiwa-no-ha<br>
 									スケジュール",
-								 "CoderDojo Kashiwaからの<br>
-								 おしらせ",
+								 "CoderDojo MinamiKashiwa<br>南柏でこの夏スタート",
 								 "CoderDojo Kashiwa-Shounan<br>
 									旧沼南町エリアでスタートします"
 					);
 
 				$imgSrc = array("image/sub/schedule.png",
-								"image/sub/news.png",
+								"dojo/minamikashiwa/images/logo.png",
 								"dojo/kashiwa-shounan/images/logo.png"
 					);
 
