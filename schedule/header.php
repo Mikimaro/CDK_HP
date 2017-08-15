@@ -29,7 +29,7 @@
 		<ul>
 			<li><a href="../index.php"><img src="../image/dojoLogo.png" class="homeLogo"></a></li>
 			<li><a href="../about.php">ミッション</a></li>
-			<li><a href="./index.php">近くのDojo</a></li>
+			<li><a href="../dojo/">近くのDojo</a></li>
 			<li><a href="../join.php">参加する</a></li>
 			<li><a href="../rtd.php">RTDとは</a></li>	
 			<li><a href="../mentor.php">メンター</a></li>

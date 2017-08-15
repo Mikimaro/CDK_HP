@@ -46,12 +46,6 @@ $sponsorDataConpany = array(
 );
 
 $sponsorDataPerson = array(
-	0 => array(
-		"name" => "辻雄一郎様",
-		"en" => "Tsuji Yuichirou",
-		"type" => array("活動サポート"),
-		"dojo" => array("Kashiwa")
-		)
 );
 	require_once 'header.php';
 ?>
