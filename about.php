@@ -27,12 +27,6 @@
 				<li><a href="#coderdojo">CoderDojoとは</a></li>
 				<li><a href="#project">プロジェクト</a></li>
 				<li><a href="#media">メディア掲載</a></li>
-				<!--
-				<li><a href="#history">私たちの歴史</a></li>
-
-				<li><a href="#champion">チャンピオン</a></li>
-				-->
-				
 			</ul>
 		</div>
 
@@ -49,6 +43,8 @@
 					<p class="missionText">
 						CoderDojo は7〜17歳の子どもを対象にしたプログラミング道場です。2011年にアイルランドで始まり、世界では69カ国・1,200の道場、日本では全国に88以上の道場があります。<br>
 						CoderDojoはプログラミング教室ではありません。子どもたちは自分のプロジェクトを完成させるためにDojoに来ます。<br>
+						また、すべてのCoderDojoにおいて子どもたちの参加費は無料です。これはCoderDojo憲章にも書かれているとおり、CoderDojoは人種や性別、貧富の差によって学ぶ機会を制限することはないからです。<br>
+						私たちの活動はすべて寄付によって成り立っています。
 					</p>
 
 					<ul>
@@ -64,7 +60,7 @@
 				</div>
 				-->
 			</div>
-			<!--
+			
 			<div id="history">
 				<p class="missionTitle">私たちの歴史</p>
 
@@ -75,11 +71,10 @@
 				</div>
 
 				<div class="right30Contents">
-					<p>ここにイメージ</p>
+					<p><img src="./image/about/about01.jpg" width="100%"></p>
 				</div>
 
 			</div>
-			-->
 
 			<div id="project">
 				<p class="missionTitle">プロジェクト</p>
