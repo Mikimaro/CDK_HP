@@ -15,7 +15,7 @@
 
         <div id="kpMenu">
             <ul>
-                <a href="#kpProject"><li>柏市の仕組み</li></a>
+                <a href="#kpProject"><li>柏市の取り組み</li></a>
                 <a href="#kpCurriculum"><li>カリキュラム</li></a>
                 <a href="#kpEvent"><li>イベント</li></a>
                 <a href="#kpNews"><li>ニュース</li></a>
@@ -25,6 +25,9 @@
         <div id="main">
             <div id="kpProject">
                 <h1 class="kpTitle">柏市の取り組み</h1>
+                <p class="text">
+                    千葉県柏市は2017年度より市内にある42校すべての公立小学校で、Scratchを使ったプログラミング教育をスタートしました。
+                </p>
             </div>
 
             <div id="kpCurriculum">
