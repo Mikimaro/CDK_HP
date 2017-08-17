@@ -37,7 +37,7 @@
                 <li class="dojoDetailSkillDesign">デザイン</li>
             </ul>
 
-            <a href="#" class="joinButton">参加する</a>
+            <a href="../../join.php" class="joinButton">参加する</a>
 
         </div>
 
