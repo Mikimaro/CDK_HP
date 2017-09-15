@@ -26,7 +26,7 @@ var data = [
     lng: 140.006910,
     url: '../image/mapdojoLogo.png',
   },{
-    name: '<a href="./minamikashiwa">CoderDojo Minami-Kashiwa</a>',
+    name: '<a href="./minamikashiwa">CoderDojo Minami-Kashiwa</a>  ',
     lat: 35.831266,
     lng: 139.955996,
     url: '../image/mapdojoLogo.png',
