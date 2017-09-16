@@ -5,7 +5,7 @@
 
 <div id="container">
     <div class="pageTitle">
-		<h1 class="headline">CoderDojo Shounan-machi</h1>
+		<h1 class="headline">CoderDojo Kashiwa-Shounan</h1>
 
 		<p class="headline">
 			旧沼南町エリアでこの夏スタート。
@@ -21,7 +21,7 @@
             <img src="./images/logo.png" class="dojoDetailLogo">
 
             <ul class="dojoDetailUl">
-                <li>名称：CoderDojo Shounan-machi</li>
+                <li>名称：CoderDojo Kashiwa-Shounan</li>
                 <li>場所：<a href="#dojomap">訪問看護ステーションひまわり</a></li>
                 <li>住所：柏市大井1849-14</li>
                 <li>開催日：不定期開催</li>

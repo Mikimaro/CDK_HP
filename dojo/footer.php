@@ -25,12 +25,10 @@
 
 								$CoderDojoName = array(
 									"柏の葉の公式サイト",
-									"OnlineDojoの公式サイト",
 									"Japanの公式サイト");
 
 								$CoderDojoURL = array(
 									"../kashiwanoha",
-									"../onlinedojo",
 									"http://www.coderdojo.jp/");
 
 								for ($i= 0; $i < count($CoderDojoName); $i++) { 
