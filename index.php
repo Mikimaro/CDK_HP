@@ -74,7 +74,7 @@
 									スケジュール",
 								 "CoderDojo MinamiKashiwa<br>南柏でこの夏スタート",
 								 "CoderDojo Kashiwa-Shounan<br>
-									旧沼南町エリアでスタートします"
+									旧沼南町エリアで。"
 					);
 
 				$imgSrc = array("image/sub/schedule.png",

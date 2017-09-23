@@ -1395,3 +1395,33 @@ table{
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+#notFound{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 500px;
+	margin-top: 0;
+
+}
+
+.nfMessage{
+	text-align: center;
+}
+
+.nfImage{
+	margin-top: 60px;
+	width: 10%;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+.nfTitle{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+}
+
+.nfLink{
+	text-align: center;
+}
