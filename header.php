@@ -7,8 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="style/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="style/formStyle.css">
 	<link rel="stylesheet" type="text/css" href="style/modal.css">
-  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="./script/jquery.flexslider.js"></script>
 	<script>
 	     $(function(){
@@ -103,6 +103,21 @@
 	 }
 
 	 </script>
+
+     <!-- OGP settings -->
+    <meta property="og:title" content="CoderDojo Kashiwa">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://coderdojo-kashiwa.com">
+    <meta property="og:image" content="http://coderdojo-kashiwa.com/image/ogp.png">
+    <meta property="og:site_name"  content="CoderDojo Kashiwa">
+    <meta property="og:description" content="小中学生向けのプログラミング道場、CoderDojo Kashiwaの公式サイトです。">
+        
+    <meta property="fb:app_id" content="947779285308203">
+    <meta property="article:publisher" content="https://www.facebook.com/CoderDojokashiwa/">
+        
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@C_D_Kashiwa" />
+
 
 
 	<title>CoderDojo Kashiwa</title>
