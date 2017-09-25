@@ -37,7 +37,7 @@
                 <li class="dojoDetailSkillDesign">デザイン</li>
             </ul>
 
-            <a href="#" class="joinButton">参加する</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSej6OUo8lOSI1lrQhOtKWLdpXV8XRohIEqtVGhuoXLYlA_G0g/viewform" target="_blank" class="joinButton">参加する</a>
 
         </div>
 

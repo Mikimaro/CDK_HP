@@ -6,27 +6,27 @@ var infowindow = [];
 var icon;
 var data = [
   {
-    name: 'CoderDojo Kashiwa',
+    name: '<a href="./kashiwa/">CoderDojo Kashiwa</a>',
     lat: 35.858800,
     lng: 139.975661,
     url: '../image/mapdojoLogo.png',
   },{
-    name: 'CoderDojo Kashiwa-no-ha',
+    name: '<a href="./kashiwanoha">CoderDojo Kashiwa-no-ha</a>',
     lat: 35.894852,
     lng: 139.951670,
     url: '../image/mapdojohaLogo.png',
   },{
-    name: 'CoderDojo Nagareyama',
+    name: '<a href="http://www.code-for-nagareyama.org/?cat=11">CoderDojo Nagareyama</a>',
     lat: 35.876213,
     lng: 139.938837,
     url: '../image/mapdojoLogo.png',
   },{
-    name: 'CoderDojo Shounan-machi',
+    name: '<a href="./kashiwa-shounan">CoderDojo Kashiwa-Shounan</a>',
     lat: 35.845026,
     lng: 140.006910,
     url: '../image/mapdojoLogo.png',
   },{
-    name: 'CoderDojo Minami-Kashiwa',
+    name: '<a href="./minamikashiwa">CoderDojo Minami-Kashiwa</a>  ',
     lat: 35.831266,
     lng: 139.955996,
     url: '../image/mapdojoLogo.png',

@@ -35,7 +35,7 @@
                 <li class="dojoDetailSkillScratch">Scratch</li>
             </ul>
 
-            <a href="#" class="joinButton">参加する</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScVURsntGO_qAk1KstgvBxpFn_RcQDbDy7vFPQgX5TpWf_xXQ/viewform" target="_blank" class="joinButton">参加する</a>
 
         </div>
 

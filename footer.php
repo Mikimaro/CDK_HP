@@ -25,13 +25,22 @@
 							<?php
 
 								$CoderDojoName = array(
-									"柏の葉の公式サイト",
-									"OnlineDojoの公式サイト",
-									"Japanの公式サイト");
+									"近くのCoderDojo",
+									"CoderDojo Kashiwa",
+									"CoderDojo Kashiwa-no-ha",
+									"CoderDojo Minami-Kashiwa",
+									"CoderDojo Kashiwa-Shounan",
+									"CoderDojo Nagareyama",
+									"CoderDojo Japan公式サイト"
+								);
 
 								$CoderDojoURL = array(
-									"kashiwanoha",
-									"onlinedojo",
+									"dojo",
+									"dojo/kashiwa",
+									"dojo/kashiwanoha",
+									"dojo/minamikashiwa",
+									"dojo/kashiwashounan",
+									"http://www.code-for-nagareyama.org/?cat=11",
 									"http://www.coderdojo.jp/");
 
 								for ($i= 0; $i < count($CoderDojoName); $i++) { 
@@ -69,9 +78,9 @@
 
 						<?php
 
-							$Text = array("メンターについて","メンター募集");
+							$Text = array("メンターについて");
 
-							$URL = array("mentor.php","adopt.php");
+							$URL = array("mentor.php");
 
 							for ($i= 0; $i < count($Text); $i++) { 
 							print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");

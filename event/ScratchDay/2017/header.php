@@ -27,6 +27,20 @@
 	});
 	</script>
 
+	 <!-- OGP settings -->
+	 <meta property="og:title" content="ScratchDay in Kashiwa">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://scratchday-kashiwa.org">
+    <meta property="og:image" content="http://scratchday-kashiwa.org/image/sdk_ogp.png">
+    <meta property="og:site_name"  content="ScratchDay 2017 in Kashiwa">
+    <meta property="og:description" content="プログラミングツールScratchの誕生日を祝うイベントです。Scratchを使ったプログラミングワークショップや体験コーナーなど多数のアクティビティを体験することができます。">
+        
+    <meta property="fb:app_id" content="177394799496182">
+    <meta property="article:publisher" content="https://www.facebook.com/sdkashiwa/">
+        
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@C_D_Kashiwa" />
+
 </head>
 
 <body>

@@ -8,6 +8,10 @@ body{
     margin-right: 10%;
 }
 
+.kpTitle{
+	font-weight:400;
+}
+
 .kpHeaderImaegView {
     margin-top: 40px;
     width: 70%;
@@ -54,4 +58,20 @@ body{
 	width: 100%;
 	border-radius: 10px;
 	background-color: #EEEEEE;
+}
+
+#kpMain{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.kpNewsTitle{
+	line-height: 0.5em;
+	font-size: 20px;
+}
+
+.kpNewsDate{
+	font-size: 15px;
+	color: gray;
 }

@@ -2,17 +2,7 @@
 	require_once 'header.php';
 ?>
 
-
 <div id="container">
-
-<!--
-	<div class="pageTitle">
-
-		<img src="./image/dojoLogo.png" class="headerLogo">
-		<h1 class="headline">ミッション</h1>
-		<p class="headline">市内のどこに住んでいても、プログラミングを学べる場所を提供する。</p>
-	</div>
--->
 
 	<div id="mission">
 
@@ -25,8 +15,8 @@
 		<div id="missionMenu">
 			<ul>
 				<li><a href="#coderdojo">CoderDojoとは</a></li>
+				<li><a href="#history">私たちの歴史</a></li>
 				<li><a href="#project">プロジェクト</a></li>
-				<li><a href="#media">メディア掲載</a></li>
 			</ul>
 		</div>
 
@@ -64,15 +54,24 @@
 			<div id="history">
 				<p class="missionTitle">私たちの歴史</p>
 
-				<div class="left70Contents">
-					<p class="missionText">
-						CoderDojo Kashiwaは2013年5月にスタートしました。第1回のDojoは4名の参加者でしたが、回数を重ねていくにつれて徐々に人数が増え始め、現在では1時間以内に定員に達してしまうほどになりました。
-					</p>
-				</div>
+				<!--<img src="./image/about/about01.jpg" class="aboutImage">-->
 
-				<div class="right30Contents">
-					<p><img src="./image/about/about01.jpg" width="100%"></p>
+				<div id="aboutImageArea">
+					<div class="flexslider">
+						<ul class="slides">
+							<li><img src="./image/about/about01.jpg" class="dojoDetailImage"></li>
+							<li><img src="./image/about/about02.jpg" class="dojoDetailImage"></li>
+							<li><img src="./image/about/about03.jpg" class="dojoDetailImage"></li>
+							<li><img src="./image/about/about04.JPG" class="dojoDetailImage"></li>
+							<li><img src="./image/about/about05.jpg" class="dojoDetailImage"></li>
+							<li><img src="./image/about/about06.jpg" class="dojoDetailImage"></li>
+							<li><img src="./image/about/about07.JPG" class="dojoDetailImage"></li>
+						</ul>
+					</div>
 				</div>
+				
+				<p class="aboutText">#1から現在に至るまで、CoderDojo Kashiwaは日々成長し続けています。参加人数ははじめこそ4,５人だったものの、現在では毎回多くの子どもたちが参加してくれるようになりました。<br>また、この東葛地域にもDojoは増え続けています。皆CoderDojo Kashiwaから派生していったDojoです。</p>
+
 
 			</div>
 
@@ -137,7 +136,7 @@
 									学校で体験するのはあくまでも入門です。プログラミングを体験して、さらに深めたいと思った子どもたちをCoderDojo Kashiwaは全力でサポートします。
 								</p>
 
-								<a href="./project/kashiwaprogram">柏市とCoderDojo Kashiwaの取り組みについて更に詳しく</a>
+								<!--<a href="./project/kashiwaprogram">柏市とCoderDojo Kashiwaの取り組みについて更に詳しく</a>-->
 
 								<br>
 								
@@ -150,18 +149,6 @@
 
 
 			</div>
-
-			<div id="media">
-				<p class="missionTitle">メディア掲載</p>
-				<img src="./image/media.png" class="mediaLogo">
-			</div>
-
-			<!--
-
-			<div id="champion">
-				<p class="missionTitle">チャンピオン</p>
-			</div>
-			-->
 
 		</div>
 	</div>
