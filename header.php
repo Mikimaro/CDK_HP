@@ -66,7 +66,8 @@
 			$('.flexslider').flexslider({
         animation: "fade",
 				slideshowSpeed: 5000,
-				animationSpeed: 1500,
+				animationSpeed: 2000,
+                smoothHeight: true,
 				});
 		});
 	</script>
