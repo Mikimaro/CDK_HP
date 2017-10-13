@@ -1,0 +1,40 @@
+ @import url('https://fonts.googleapis.com/css?family=Bangers');
+ @import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+ @import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+ @import url('https://fonts.googleapis.com/css?family=Yantramanav:100,400');
+
+body{
+    width: 100%;
+
+}
+
+#main{
+    width: 100%;
+}
+
+.mainSubTitle{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+    text-align: center;
+    color: black;
+}
+
+.mainTitle{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+     font-size: 100px;
+     text-align: center;
+     color: black;
+}
+
+#siri-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
