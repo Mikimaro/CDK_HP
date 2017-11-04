@@ -16,7 +16,7 @@
     </div>
 
     <div id="main">
-        <p class="mainSubTitle">Special Presentation Day 2017</p>
+        <p class="mainSubTitle">CoderDojo Kashiwa presents<br>Special Presentation Day 2017</p>
         <p class="mainTitle">Surf this wave.</p>
         
         <div id="siri-container"></div>
@@ -35,6 +35,9 @@
                     
                 });
             </script>
+
+            <p class="middleText">2017.12.23 (Sat) 13:00-17:00<br>@Reitaku University</p>
+            <p class="text">More infomation is comming soon...</p>
         
     </div>
 

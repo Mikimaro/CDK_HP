@@ -3,9 +3,10 @@
  @import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
  @import url('https://fonts.googleapis.com/css?family=Yantramanav:100,400');
 
-body{
-    width: 100%;
 
+body{
+    background: linear-gradient(RGB(1, 1, 1), RGB(112, 114, 132)) fixed;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 #main{
@@ -15,26 +16,40 @@ body{
 .mainSubTitle{
     font-family: 'Yantramanav', sans-serif;
     font-weight: 100;
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .mainTitle{
     font-family: 'Yantramanav', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
      font-size: 100px;
      text-align: center;
-     color: black;
+     color: white;
 }
 
 #siri-container{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     height: 100px;
     display: block;
     margin: 0 auto;
     margin-top: 100px;
 }
 
+.middleText{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+    color: white;  
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
