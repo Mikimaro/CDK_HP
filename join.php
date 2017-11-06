@@ -10,12 +10,39 @@
 	$stmt = $dbh -> prepare($sql);
 	$stmt->execute(array(":id = $id"));
 	$result = $stmt->fetchAll();
+	$times = $result[0]["nextDojoNumber"];
+
+	//残り人数を取得
+	$sql = "SELECT * from setData where times = ? AND deleteFlag = 0";
+	$stmt = $dbh -> prepare($sql);
+	$stmt->execute(array($times));
+	$user = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+	$registerdPeople = count($user);
+	$nop = 23 - $registerdPeople;
+
+	//閉じる処理
+	if($nop == 0){
+		$firstJoinFormStatus = 2;
+		$repeaterFormStatus = 2;
+		$sql = "UPDATE webControll SET firstFormStatus = ?, repeaterFormStatus = ? where id = 1";
+		$stmt = $dbh->prepare($sql);		
+		$result = $stmt->execute(array($firstJoinFormStatus, $repeaterFormStatus));
+	}
+
+	$sql = "SELECT * from webControll where id = 1";
+	$stmt = $dbh -> prepare($sql);
+	$stmt->execute(array(":id = $id"));
+	$result = $stmt->fetchAll();
 
 	$date = $result[0]["nextDojoDate"];
 	$times = $result[0]["nextDojoNumber"];
 
 	$firstStatus = $result[0]["firstFormStatus"];
 	$repeatorStatus = $result[0]["repeaterFormStatus"];
+
+
+
 ?>
 
 <div id="container">
@@ -33,10 +60,6 @@
 		<div class="individual">
 
 			<table class="nextDojoTable">
-
-				<br>
-				<p class="notification">※5月14日（日）はScratchDayを開催するためDojoはありません！</p>
-				<a href="http://scratchday-kashiwa.org">ScratchDay in Kashiwaに参加する</a>
 
 				<tr>
 					<th>次回</th>
@@ -74,7 +97,7 @@
 			<table class="nextDojoTable">
 
 				<p class="formTitle">【お申し込み】</p>
-
+				<p class="formSubTitle">残り<?php print($nop);?>人</p>
 				<tr>
 					<th>はじめてのかた</th>
 					<td class="biggerTd">

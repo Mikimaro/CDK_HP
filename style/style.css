@@ -141,6 +141,12 @@ a{
 	font-size: 20px;
 }
 
+.formSubTitle{
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+
 .space{
 	margin-bottom: 1%;
 	padding-bottom: 1%;

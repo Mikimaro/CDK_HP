@@ -30,6 +30,14 @@
 
 		if(count($user) == 0){
 
+			$joined = "yes";
+			
+			if ($pcRent == "希望する") {
+				$pcRent = "yes";
+			}else{
+				$pcRent = "no";
+			}
+
 			//データベース登録処理
 			$sql = "INSERT INTO setData(setDate, childName, kana, age, schoolName, parentName, mail, bygone, pc, place, comment, times) values (now(), ?,?,?,?,?,?,?,?,?,?,?)";
 			$stmt = $dbh->prepare($sql);
@@ -66,13 +74,7 @@
 			//DojoGmailへのリマインドメール
 			mail(DOJO_GMAIL, "【新規申し込みがあります】", $sendMessageForDojo, "From:".DOJO_MAIL);
 
-			$joined = "yes";
-
-			if ($pcRent == "希望する") {
-				$pcRent = "yes";
-			}else{
-				$pcRent = "no";
-			}
+			
 
 			$isPosted = false;
 
