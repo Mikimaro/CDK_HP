@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="../../style/flexslider.css"> 
 	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="../../image/favicon.ico">
+
 	<script src="../../script/jquery.flexslider.js"></script>
 	
 	<title>柏市プログラミング教育</title>

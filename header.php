@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="style/modal.css">
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico">
 	<script src="./script/jquery.flexslider.js"></script>
 	<script>
 	     $(function(){
@@ -65,7 +66,8 @@
 			$('.flexslider').flexslider({
         animation: "fade",
 				slideshowSpeed: 5000,
-				animationSpeed: 1500,
+				animationSpeed: 2000,
+                smoothHeight: true,
 				});
 		});
 	</script>
