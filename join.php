@@ -16,6 +16,16 @@
 
 	$firstStatus = $result[0]["firstFormStatus"];
 	$repeatorStatus = $result[0]["repeaterFormStatus"];
+
+	//残り人数を取得
+	$sql = "SELECT * from setData where times = ? AND deleteFlag = false";
+	$stmt = $dbh -> prepare($sql);
+	$stmt->execute(array($times));
+	$user = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+	$registerdPeople = count($user);
+	$nop = 23 - $registerdPeople;
+
 ?>
 
 <div id="container">
@@ -33,10 +43,6 @@
 		<div class="individual">
 
 			<table class="nextDojoTable">
-
-				<br>
-				<p class="notification">※5月14日（日）はScratchDayを開催するためDojoはありません！</p>
-				<a href="http://scratchday-kashiwa.org">ScratchDay in Kashiwaに参加する</a>
 
 				<tr>
 					<th>次回</th>
@@ -74,7 +80,7 @@
 			<table class="nextDojoTable">
 
 				<p class="formTitle">【お申し込み】</p>
-
+				<p class="formSubTitle">残り<?php print($nop);?>人</p>
 				<tr>
 					<th>はじめてのかた</th>
 					<td class="biggerTd">
