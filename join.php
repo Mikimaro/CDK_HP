@@ -10,6 +10,30 @@
 	$stmt = $dbh -> prepare($sql);
 	$stmt->execute(array(":id = $id"));
 	$result = $stmt->fetchAll();
+	$times = $result[0]["nextDojoNumber"];
+
+	//残り人数を取得
+	$sql = "SELECT * from setData where times = ? AND deleteFlag = 0";
+	$stmt = $dbh -> prepare($sql);
+	$stmt->execute(array($times));
+	$user = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+	$registerdPeople = count($user);
+	$nop = 23 - $registerdPeople;
+
+	//閉じる処理
+	if($nop == 0){
+		$firstJoinFormStatus = 2;
+		$repeaterFormStatus = 2;
+		$sql = "UPDATE webControll SET firstFormStatus = ?, repeaterFormStatus = ? where id = 1";
+		$stmt = $dbh->prepare($sql);		
+		$result = $stmt->execute(array($firstJoinFormStatus, $repeaterFormStatus));
+	}
+
+	$sql = "SELECT * from webControll where id = 1";
+	$stmt = $dbh -> prepare($sql);
+	$stmt->execute(array(":id = $id"));
+	$result = $stmt->fetchAll();
 
 	$date = $result[0]["nextDojoDate"];
 	$times = $result[0]["nextDojoNumber"];
@@ -17,14 +41,7 @@
 	$firstStatus = $result[0]["firstFormStatus"];
 	$repeatorStatus = $result[0]["repeaterFormStatus"];
 
-	//残り人数を取得
-	$sql = "SELECT * from setData where times = ? AND deleteFlag = false";
-	$stmt = $dbh -> prepare($sql);
-	$stmt->execute(array($times));
-	$user = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-	$registerdPeople = count($user);
-	$nop = 23 - $registerdPeople;
 
 ?>
 
