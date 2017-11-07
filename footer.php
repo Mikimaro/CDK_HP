@@ -73,9 +73,9 @@
 
 							<?php
 
-								$Text = array("プレスリリース", "メディア掲載情報");
+								$Text = array("プレスリリース");
 
-								$URL = array("pressRelease.php", "media.php");
+								$URL = array("pressRelease.php");
 
 								for ($i= 0; $i < count($Text); $i++) { 
 									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -93,7 +93,7 @@
 
 								$Text = array("最新の情報","イベント一覧");
 
-								$URL = array("event/ScratchDay/2017","event.php");
+								$URL = array("http://sd.coderdojo-kashiwa.com/","event.php");
 								
 								for ($i= 0; $i < count($Text); $i++) { 
 									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
