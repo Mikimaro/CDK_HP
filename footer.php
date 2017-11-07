@@ -55,113 +55,76 @@
 
 						<ul>
 
-							<h1>・RTD</h1>
+							<h1>・メンター</h1>
 
 							<?php
 
-								$RTDName = array("公式サイト","公式YouTube");
+								$Text = array("メンターについて");
 
-								$RTDURL = array("rtd","http://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA/videos");
+								$URL = array("mentor.php");
 
-								for ($i= 0; $i < count($RTDName); $i++) { 
-									print("<li><a href='{$RTDURL[$i]}'>{$RTDName[$i]}</a></li>");
+								for ($i= 0; $i < count($Text); $i++) { 
+								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
 								}
-						?>
-					</ul>
+							?>
+
+						</ul>
+					</div>
 				</div>
 
-				<div>
+				<div class="linksRight">
+					<div>
+						<ul>
+							<h1>・ニュース</h1>
+							<?php
 
-					<ul>
+								$Text = array("プレスリリース");
 
-						<h1>・メンター</h1>
+								$URL = array("pressRelease.php");
 
-						<?php
+								for ($i= 0; $i < count($Text); $i++) { 
+									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
+								}
+							?>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<h1>・イベント</h1>
+							<?php
 
-							$Text = array("メンターについて");
+								$Text = array("最新の情報","イベント一覧");
 
-							$URL = array("mentor.php");
+								$URL = array("http://scratchday-kashiwa.org/","event.php");
+								
+								for ($i= 0; $i < count($Text); $i++) { 
+									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
+								}
+							?>
+						</ul>
+					</div>
 
-							for ($i= 0; $i < count($Text); $i++) { 
-							print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
-							}
-						?>
+					<div>
+						<ul>
+							<h1>・リンク</h1>
+							<?php
 
-					</ul>
+								$Text = array("Facebook", "Twitter", "YouTube", "GitHub");
+
+								$URL = array(
+									"https://www.facebook.com/CoderDojokashiwa/",
+									"https://twitter.com/C_D_Kashiwa",
+									"https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA",
+									"https://github.com/CoderDojoKashiwa");
+								
+								for ($i= 0; $i < count($Text); $i++) { 
+									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
+								}
+							?>
+						</ul>
+					</div>
 				</div>
 			</div>
-
-			<div class="linksRight">
-
-				<div>
-				
-					<ul>
-					
-						<h1>・ニュース</h1>
-
-						<?php
-
-							$Text = array("プレスリリース", "メディア掲載情報");
-
-							$URL = array("pressRelease.php", "media.php");
-
-							for ($i= 0; $i < count($Text); $i++) { 
-								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
-							}
-
-						?>
-					</ul>
-				</div>
-
-				<div>
-
-					<ul>
-
-						<h1>・イベント</h1>
-					
-						<?php
-
-							$Text = array("最新の情報","イベント一覧");
-
-							$URL = array("event/spd/2016","event.php");
-							
-							for ($i= 0; $i < count($Text); $i++) { 
-								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
-							}
-						?>
-
-					</ul>
-				</div>
-
-				<div>
-
-					<ul>
-
-						<h1>・リンク</h1>
-					
-						<?php
-
-							$Text = array("Facebook", "Twitter", "YouTube", "GitHub");
-
-							$URL = array(
-								"https://www.facebook.com/CoderDojokashiwa/",
-								"https://twitter.com/C_D_Kashiwa",
-								"https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA",
-								"https://github.com/CoderDojoKashiwa");
-							
-							for ($i= 0; $i < count($Text); $i++) { 
-								print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
-							}
-						?>
-
-					</ul>
-				</div>
-
-
-			</div>
-
-			</div>
-
 		</div>
 
 		<div id="mere" class="clearfix">
