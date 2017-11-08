@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="../style/style.css">
 	<link rel="stylesheet" type="text/css" href="./style/style.css">
 	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="./script/jquery.flexslider.js"></script>
 
 

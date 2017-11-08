@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../style/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="../style/formStyle.css">
 	<link rel="stylesheet" type="text/css" href="s../tyle/modal.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="../script/jquery.flexslider.js"></script>
 	<script>
 	$(function(){
