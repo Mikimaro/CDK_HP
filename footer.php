@@ -25,7 +25,7 @@
 									"CoderDojo Minami-Kashiwa",
 									"CoderDojo Kashiwa-Shounan",
 									"CoderDojo Nagareyama",
-									"CoderDojo Japan公式サイト"
+									"CoderDojo Japan"
 								);
 
 								$CoderDojoURL = array(
@@ -73,9 +73,9 @@
 
 							<?php
 
-								$Text = array("プレスリリース", "メディア掲載情報");
+								$Text = array("メディア掲載情報","プレスリリース");
 
-								$URL = array("pressRelease.php", "media.php");
+								$URL = array("media.php","pressRelease.php");
 
 								for ($i= 0; $i < count($Text); $i++) { 
 									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -93,7 +93,7 @@
 
 								$Text = array("最新の情報","イベント一覧");
 
-								$URL = array("event/spd/2016","event.php");
+								$URL = array("http://sd.coderdojo-kashiwa.com/","event.php");
 								
 								for ($i= 0; $i < count($Text); $i++) { 
 									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");

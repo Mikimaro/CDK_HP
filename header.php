@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
+    <meta name="description" content="CoderDojo Kashiwaは子どものためのプログラミング道場です。千葉県柏市で4つの道場を開いています。">
 	<meta name="keywords" content="CoderDojo,CoderDojo Kashiwa,こーだーどーじょー,千葉,柏,プログラミング教室,小学生,中学生,プログラミング">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/flexslider.css">
