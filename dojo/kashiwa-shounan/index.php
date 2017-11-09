@@ -8,7 +8,7 @@
 		<h1 class="headline">CoderDojo Kashiwa-Shounan</h1>
 
 		<p class="headline">
-			旧沼南町エリアでこの夏スタート。
+			旧沼南町エリアでスタートしたDojoです。
 		</p>
 
 	</div>
@@ -42,7 +42,7 @@
         <div id="dojoDetailImageArea">
             <div class="flexslider">
                 <ul class="slides">
-                    <li><img src="./images/bg01.JPG" class="dojoDetailImage"></li>
+                    <li><img src="./images/bg01.jpg" class="dojoDetailImage"></li>
                     <!-- li要素を追加すれば勝手にスライドしてくれる -->
                 </ul>
             </div>
