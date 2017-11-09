@@ -33,7 +33,7 @@
 									"dojo/kashiwa",
 									"dojo/kashiwanoha",
 									"dojo/minamikashiwa",
-									"dojo/kashiwashounan",
+									"dojo/kashiwa-shounan",
 									"http://www.code-for-nagareyama.org/?cat=11",
 									"http://www.coderdojo.jp/"
 								);
