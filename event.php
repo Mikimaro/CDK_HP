@@ -1,5 +1,6 @@
 <?php
 							$class = array(
+								'spd2017',
 								'sdk2017',
 								'spd2016',
 								'sdk2016',
@@ -9,6 +10,7 @@
 
 								);
 							$img = array(
+								'./image/eventLogos/spd2017.png',
 								'./image/eventLogos/sdk.png',
 								'./image/eventLogos/spd2016.png',
 								'./image/eventLogos/sdk.png',
@@ -18,6 +20,7 @@
 								);
 
 							$title = array(
+								'Special Presentation Day 2017',
 								'ScratchDay 2017 in Kashiwa',
 								'Special Presentation Day 2016',
 								'ScratchDay 2016 in Kashiwa',
@@ -27,6 +30,7 @@
 								);
 
 							$day = array(
+								'2017.12.23',
 								'2017.05.14',
 								'2016.12.24',
 								'2016.05.14',
@@ -36,6 +40,7 @@
 								);
 
 							$site = array(
+								'@麗澤大学生涯教育プラザ プラザホール',
 								'@柏市立柏中学校体育館',
 								'@KOILスタジオ',
 								'@東京大学柏の葉キャンパス',
@@ -45,6 +50,7 @@
 								);
 
 							$comments = array(
+								'4回目となる成果発表会',
 								'昨年、好評を頂いたScratchのお祭りを今年も開催',
 								'作品発表会',
 								'MITメディアラボが開発したScratchのお祭りを柏で初めて開催',
@@ -54,6 +60,7 @@
 								);
 
 							$URL = array(
+								'event/spd/2017',
 								'http://scratchday-kashiwa.org',
 								'event/spd/2016',
 								'event/ScratchDay/2016',
