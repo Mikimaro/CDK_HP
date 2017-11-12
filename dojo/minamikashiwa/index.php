@@ -8,7 +8,7 @@
 		<h1 class="headline">CoderDojo Minami-Kashiwa</h1>
 
 		<p class="headline">
-			この夏スタート。麗澤大学ではじまります。
+			南柏エリアでスタートしたDojoです。
 		</p>
 
 	</div>

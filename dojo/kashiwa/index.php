@@ -44,7 +44,7 @@
         <div id="dojoDetailImageArea">
             <div class="flexslider">
                 <ul class="slides">
-                    <li><img src="./images/bg01.JPG" class="dojoDetailImage"></li>
+                    <li><img src="./images/bg01.jpg" class="dojoDetailImage"></li>
                     <li><img src="./images/bg02.jpg" class="dojoDetailImage"></li>
                     <li><img src="./images/bg03.jpg" class="dojoDetailImage"></li>
                     <li><img src="./images/bg04.jpg" class="dojoDetailImage"></li>

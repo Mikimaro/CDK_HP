@@ -1,1 +1,3 @@
-ErrorDocument 404 /404.php
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://coderdojo-kashiwa.com/$1 [R=301,L]

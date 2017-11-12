@@ -141,6 +141,12 @@ a{
 	font-size: 20px;
 }
 
+.formSubTitle{
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+
 .space{
 	margin-bottom: 1%;
 	padding-bottom: 1%;
@@ -1119,7 +1125,7 @@ table{
 .Kdojo-list article{
 	margin: 1.5% auto;
 	padding: 0.5% 0;
-	width: 25.5%;
+	width: 21%;
 	border: 3px solid #EEEEEE;
 	border-radius: 15px;
 	text-align: center;
@@ -1149,29 +1155,23 @@ table{
 }
 
 .kashiwadojo{
-	margin-top: 50px;
-	margin-bottom: 14%;
-	height: 150px; 
+	height: 150px;
 }
 
 .kashiwanohadojo{
-	margin-top: 50px;
-	height: 150px; 
+	height: 150px;
 }
 
 .nankashidojo{
-	margin-top: 50px;
-	height: 150px;  
+ 	height: 150px;
 }
 
 .shounandojo{
-	margin-top: 50px;
-	height: 150px; 
+	height: 150px;
 }
 
 .nagareyamadojo{
-	margin-top: 50px;
-	height: 150px; 
+	height: 150px;
 }
 
 
@@ -1428,4 +1428,21 @@ table{
 
 .nfLink{
 	text-align: center;
+}
+
+.button{
+	display: block;
+	width: 20%;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+	transition: .4s;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#formCheck{
+	margin-bottom: 100px;
 }

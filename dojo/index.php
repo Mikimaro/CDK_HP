@@ -16,27 +16,19 @@
 								);
 
 							$title = array(
-								'CoderDojo Kashiwa',
-								'CoderDojo <br> Kashiwa-no-ha',
-								'CoderDojo <br> Minami-Kashiwa',
-								'CoderDojo <br> Kashiwa-Shounan',
-								'CoderDojo Nagareyama',
+								'Kashiwa',
+								'Kashiwa-no-ha',
+								'Minami-Kashiwa',
+								'Kashiwa-Shounan',
+								'Nagareyama',
 								);
 
 							$site = array(
 								'@NoblesseOblige',
 								'@KOILスタジオ',
 								'@麗澤大学',
-								'@訪問看護ステーションひまわり',
+								'@訪問看護ステーション<br>ひまわり',
 								'@江戸川大学',
-								);
-
-							$comments = array(
-								'毎月第2,4日曜日に開催',
-								'毎月第3日曜日に開催',
-								'この夏スタート',
-								'不定期開催',
-								'毎月1回土曜日に開催',
 								);
 
 							$URL = array(
@@ -97,9 +89,7 @@
 								<section class='eventText'>
 
 									<h2>{$title[$i]}</h2>
-									<h3>{$day[$i]}</h3>
 									<h4>{$site[$i]}</h4>
-									<h5>{$comments[$i]}</h5>
 
 								</section>
 
@@ -159,5 +149,5 @@
 </div>
 
 <?php
-	require_once 'footer.php';
+	require_once '../footer.php';
 ?>

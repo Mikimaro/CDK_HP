@@ -12,6 +12,11 @@ body{
 	font-weight:400;
 }
 
+.kpSubTitle{
+	font-size: 24px;
+	font-weight: bold;
+}
+
 .kpHeaderImaegView {
     margin-top: 40px;
     width: 70%;
