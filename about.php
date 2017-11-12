@@ -62,10 +62,10 @@
 							<li><img src="./image/about/about01.jpg" class="dojoDetailImage"></li>
 							<li><img src="./image/about/about02.jpg" class="dojoDetailImage"></li>
 							<li><img src="./image/about/about03.jpg" class="dojoDetailImage"></li>
-							<li><img src="./image/about/about04.JPG" class="dojoDetailImage"></li>
+							<li><img src="./image/about/about04.jpg" class="dojoDetailImage"></li>
 							<li><img src="./image/about/about05.jpg" class="dojoDetailImage"></li>
 							<li><img src="./image/about/about06.jpg" class="dojoDetailImage"></li>
-							<li><img src="./image/about/about07.JPG" class="dojoDetailImage"></li>
+							<li><img src="./image/about/about07.jpg" class="dojoDetailImage"></li>
 						</ul>
 					</div>
 				</div>

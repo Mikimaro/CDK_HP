@@ -1,0 +1,182 @@
+ @import url('https://fonts.googleapis.com/css?family=Bangers');
+ @import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+ @import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+ @import url('https://fonts.googleapis.com/css?family=Yantramanav:100, 400');
+ @import url('http://fonts.googleapis.com/earlyaccess/notosansjp.css');
+
+
+body{
+    background: linear-gradient(#84d7f3, #ef4b85) fixed;
+    font-family: 'Yantramanav', sans-serif, 'Noto Sans JP';
+    font-weight: 100;
+    color: white;
+}
+
+ul{
+    color: white;
+}
+
+li{
+    color: white;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#main{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+.mainLogo{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mainSubTitle{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.mainTitle{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
+     font-size: 100px;
+     text-align: center;
+     color: white;
+}
+
+#siri-container{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.middleText{
+    font-family: 'Noto Sans JP';
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: white;  
+}
+
+.title{
+    font-size: 30px;
+    color: white;
+
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.mainText{
+    color: white;
+    text-align: left;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#about, #eventDetail, #sponsored{
+    width: 100%;
+    border-top: 2px solid white;
+    margin-top: 50px;
+}
+
+.image{
+    width: 100%;
+    
+}
+
+.button{
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    padding: 0.1em 1em;
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    background-color: white;
+    opacity: 1;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#footer{
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.footerImg{
+    width: 50px;
+    display: block;
+    margin: 0 auto;    
+}
+
+.footerText{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.footerA{
+    color: white;
+    text-decoration: none;
+}
+
+.sponcerImage{
+    width: 50%;
+}
+
+.sponcerdText{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+.sponcerTable{
+    width: 100%;
+}
+
+.tdLeft{
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.tdRight{
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sponcerLink{
+    color: white;
+    text-decoration: none;
+}

@@ -670,6 +670,10 @@ table.nextDojoTable th:after {
 	height: 250px;
 }
 
+.spd2017{
+	height: 250px;
+}
+
 .sdk2016{
 	margin: 80px 0;
 	height: 90px;
@@ -1121,7 +1125,7 @@ table{
 .Kdojo-list article{
 	margin: 1.5% auto;
 	padding: 0.5% 0;
-	width: 25.5%;
+	width: 21%;
 	border: 3px solid #EEEEEE;
 	border-radius: 15px;
 	text-align: center;
@@ -1151,29 +1155,23 @@ table{
 }
 
 .kashiwadojo{
-	margin-top: 50px;
-	margin-bottom: 14%;
-	height: 150px; 
+	height: 150px;
 }
 
 .kashiwanohadojo{
-	margin-top: 50px;
-	height: 150px; 
+	height: 150px;
 }
 
 .nankashidojo{
-	margin-top: 50px;
-	height: 150px;  
+ 	height: 150px;
 }
 
 .shounandojo{
-	margin-top: 50px;
-	height: 150px; 
+	height: 150px;
 }
 
 .nagareyamadojo{
-	margin-top: 50px;
-	height: 150px; 
+	height: 150px;
 }
 
 
