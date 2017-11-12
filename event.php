@@ -1,9 +1,9 @@
 <?php
 							$class = array(
 								'spd2017',
-								'sdk2017',
+								'sdk',
 								'spd2016',
-								'sdk2016',
+								'sdk',
 								'spd2015',
 								'jc2015',
 								'spd2014'
