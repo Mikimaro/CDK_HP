@@ -661,11 +661,6 @@ table.nextDojoTable th:after {
 	text-align: center;
 }
 
-.sdk2017{
-	margin: 0 auto;
-	width: 80%;
-}
-
 .spd2016{
 	height: 250px;
 }
@@ -674,7 +669,7 @@ table.nextDojoTable th:after {
 	height: 250px;
 }
 
-.sdk2016{
+.sdk{
 	margin: 80px 0;
 	height: 90px;
 }
