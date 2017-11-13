@@ -103,7 +103,8 @@
                     <div id="aboutImageArea">
                         <div class="flexslider">
                             <ul class="slides">
-                                <li><img src="./image/fes01.jpg" class="dojoDetailImage"></li>
+                                <li><img src="./image/fes01.JPG" class="dojoDetailImage"></li>
+                                <li><img src="./image/fes02.JPG" class="dojoDetailImage"></li>
                             </ul>
                         </div>
                     </div>
