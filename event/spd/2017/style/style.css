@@ -56,6 +56,14 @@ a{
      color: white;
 }
 
+.mainH3Title{
+    font-family: 'Noto Sans JP';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
 #siri-container{
     width: 50%;
     margin-left: 25%;
@@ -87,6 +95,12 @@ a{
     font-size: 20px;
 }
 
+.textCenter{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
 .mainText{
     color: white;
     text-align: left;
@@ -94,7 +108,7 @@ a{
     font-size: 20px;
 }
 
-#about, #eventDetail, #sponsored{
+#about, #eventDetail, #sponsored, #detail{
     width: 100%;
     border-top: 2px solid white;
     margin-top: 50px;
@@ -118,7 +132,8 @@ a{
     opacity: 1;
     border: solid 2px white;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #footer{
