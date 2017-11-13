@@ -39,11 +39,11 @@
     <meta property="og:description" content="Special Presentation Day 2017は、CoderDojo Kashiwaによる子どもたちのための成果発表会です。">
 
     <meta property="fb:app_id" content="130507987666059">
-    <meta name="twitter:card" content="summarylargeimage">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:player" content="@CDKashiwa">
 
+    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico">
 
-    
 </head>
 
 <body>
