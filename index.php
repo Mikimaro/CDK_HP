@@ -29,29 +29,54 @@
 							 	<img src='./image/text/white/catchKashiwa.png'>
 							</div>
 
+							<img src='./image/slides/s1.jpg'>
+
 							");
 
+						}else if ($i == 1) {
+							print("
+
+							<a href='event/spd/2017'>
+
+								<img src='./image/slides/s2.jpg'>
+
+							</a>
+							");
+
+						}else if ($i == 2) {
+							print("
+
+							<a href='event/spd/2017'>
+
+								<img src='./image/slides/s3.jpg'>
+
+							</a>
+							");
 
 						}else if ($i == 3) {
 							print("
 
-							<div class='slideInner'>
-
-								<a href='kashiwanoha'>
-
+							<a href='kashiwanoha'>
+							
+								<div class='slideInner'>
 									<img src='./image/text/black/nameKashiwanoha.png'>
-
 									<img src='./image/text/black/catchKashiwanoha.png'>
+								</div>
 
-								</a>
+								<img src='./image/slides/s4.jpg'>
 
-							</div>
+							</a>
+							");
+						}else if ($i == 4) {
+							print("
 
+							<a href='event/spd/2017'>
+
+								<img src='./image/slides/s5.jpg'>
+
+							</a>
 							");
 						}
-
-					
-					print("<img src='./image/slides/s{$imgNum}.jpg'>");
 
 					print("</li>");
 				}
