@@ -46,11 +46,8 @@
 						}else if ($i == 2) {
 							print("
 
-							<a href='event/spd/2017'>
-
 								<img src='./image/slides/s3.jpg'>
 
-							</a>
 							");
 
 						}else if ($i == 3) {
@@ -69,12 +66,9 @@
 							");
 						}else if ($i == 4) {
 							print("
-
-							<a href='event/spd/2017'>
-
+							
 								<img src='./image/slides/s5.jpg'>
 
-							</a>
 							");
 						}
 
