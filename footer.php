@@ -93,7 +93,7 @@
 
 								$Text = array("最新の情報","イベント一覧");
 
-								$URL = array("http://sd.coderdojo-kashiwa.com/","event.php");
+								$URL = array("http://sd.coderdojo-kashiwa.com/","events");
 								
 								for ($i= 0; $i < count($Text); $i++) { 
 									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
