@@ -83,7 +83,7 @@
 					<table border="0" class="missionTable">
 						<tr>
 							<td class="missionTdL">
-								<img src="./image/eventLogos/spd2016.png" class="missionLogoSpd">
+								<img src="./image/eventLogos/spd2017.png" class="missionLogoSpd">
 							</td>
 
 							<td class="missionTdR">
@@ -91,7 +91,7 @@
 								<p class="missionText">
 									年に一度の発表会です。子どもたちが作った作品を自分自身で発表します。
 								</p>
-								<a href="event/spd" target="_blank">Special Presentation Day について更に詳しく</a>
+								<a href="event/spd/" target="_blank">Special Presentation Day について更に詳しく</a>
 							</td>
 						</tr>
 					</table>
