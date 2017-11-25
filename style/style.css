@@ -236,6 +236,10 @@ a{
 	background: linear-gradient(#84d7f3, #ef4b85);
 }
 
+#spd p{
+	color: white;
+}
+
 /*== about ==*/
 #about{
 	margin: 0 auto;
