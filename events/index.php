@@ -10,13 +10,13 @@
 
 								);
 							$img = array(
-								'./image/eventLogos/spd2017.png',
-								'./image/eventLogos/sdk.png',
-								'./image/eventLogos/spd2016.png',
-								'./image/eventLogos/sdk.png',
-								'./image/eventLogos/spd2015.png',
-								'./image/eventLogos/jc2015.png',
-								'./image/eventLogos/spd2014.png'
+								'../image/eventLogos/spd2017.png',
+								'../image/eventLogos/sdk.png',
+								'../image/eventLogos/spd2016.png',
+								'../image/eventLogos/sdk.png',
+								'../image/eventLogos/spd2015.png',
+								'../image/eventLogos/jc2015.png',
+								'../image/eventLogos/spd2014.png'
 								);
 
 							$title = array(
@@ -60,13 +60,13 @@
 								);
 
 							$URL = array(
-								'event/spd/2017',
+								'spd/2017',
 								'http://scratchday-kashiwa.org',
-								'event/spd/2016',
-								'event/ScratchDay/2016',
-								'event/spd/2015',
-								'event/jc/2015',
-								'event/spd/2014'
+								'spd/2016',
+								'ScratchDay/2016',
+								'spd/2015',
+								'jc/2015',
+								'spd/2014'
 							);
 	require_once 'header.php';
 ?>

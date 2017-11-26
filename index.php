@@ -84,50 +84,42 @@
 
 			<div class="subContents">
 
+				<section class="inner" id="schedule">
+					<a href="schedule">
+						<div>
+							<p>
+								Kashiwa / Kashiwa-no-ha<br>
+								スケジュール	
+							</p>
+							<img src='image/sub/schedule.png'>
+						</div>
+					</a>
+				</section>
 
-				<?php
+				<section class="inner" id="nearDojo">
+					<a href="dojo">
+						<div>
+							<p>
+								お近くのDojo<br>
+								柏市内で4つのDojoが開催中。	
+							</p>
+							<img src='image/dojoLogo.png'>
+						</div>
+					</a>
+				</section>
 
-				$href = array("schedule","dojo/minamikashiwa","dojo/kashiwa-shounan");
-
-				$comment = array("Kashiwa / Kashiwa-no-ha<br>
-									スケジュール",
-								 "CoderDojo MinamiKashiwa<br>
-								 	麗澤大学で。",
-								 "CoderDojo Kashiwa-Shounan<br>
-									旧沼南町エリアで。"
-					);
-
-				$imgSrc = array("image/sub/schedule.png",
-								"dojo/minamikashiwa/images/logo.png",
-								"dojo/kashiwa-shounan/images/logo.png"
-					);
-
-
-
-				for ($i=0; $i < count($href); $i++) { 
-					print("
-						<div class='inner'>
-
-							<a href='{$href[$i]}'>
-
-								<div>
-
-									<p>
-										{$comment[$i]}	
-									</p>
-
-
-									<img src='$imgSrc[$i]'>
-
-								</div>
-
-							</a>
-
-						</div>");
-				}
-
-				?>
-
+				<section class="inner" id="spd">
+					<a href="events/spd/2017">
+						<div>
+							<p>
+								Special Presentation Day 2017<br>
+								発表者募集中。
+							</p>
+							<img src='image/eventLogos/spd2017.png'>
+						</div>
+					</a>
+				</section>
+				
 			</div>
 
 		</div>
