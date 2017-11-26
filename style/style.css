@@ -741,6 +741,11 @@ table.nextDojoTable th:after {
 	margin-left: 10%;
 }
 
+.footerSNS{
+	font-size: 30px;
+	float: left;
+}
+
 .linksLeft{
 	width: 50%;
 	padding-right: 5%;
