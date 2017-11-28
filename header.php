@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<script src="./script/jquery.flexslider.js"></script>
 	<script>
 	     $(function(){
@@ -116,9 +115,10 @@
     <meta property="og:site_name"  content="CoderDojo Kashiwa">
     <meta property="og:description" content="小中学生向けのプログラミング道場、CoderDojo Kashiwaの公式サイトです。">
         
+    <!-- SNSicon -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <meta property="fb:app_id" content="947779285308203">
     <meta property="article:publisher" content="https://www.facebook.com/CoderDojokashiwa/">
-        
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@C_D_Kashiwa" />
 
@@ -156,7 +156,7 @@
 		<ul>
 			<li><a href="./index.php"><img src="./image/dojoLogo.png" class="homeLogo"></a></li>
 			<li><a href="./about.php">ミッション</a></li>
-			<li><a href="./dojo/index.php">近くのDojo</a></li>
+			<li><a href="./dojo/">近くのDojo</a></li>
 			<li><a href="./join.php">参加する</a></li>
 			<li><a href="./rtd.php">RTDとは</a></li>	
 			<li><a href="./mentor.php">メンター</a></li>
