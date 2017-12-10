@@ -21,7 +21,7 @@
             <img src="./images/logo.png" class="dojoDetailLogo">
 
             <ul class="dojoDetailUl">
-                <li>名称：CoderDojo Kashiwa-no-ha</li>
+                <li>名称：<a href="../../kashiwanoha/">CoderDojo Kashiwa-no-ha</a></li>
                 <li>場所：<a href="http://www.31ventures.jp/ventureoffice/koil/" target="_blank">KOILスタジオ</a></li>
                 <li>住所：千葉県柏市若柴178 番地4柏の葉キャンパス148 街区2 ショップ＆オフィス棟６階</li>
                 <li>開催日：毎月第3日曜日 10:00-12:00</li>
