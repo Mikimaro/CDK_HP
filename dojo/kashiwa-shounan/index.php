@@ -42,7 +42,7 @@
         <div id="dojoDetailImageArea">
             <div class="flexslider">
                 <ul class="slides">
-                    <li><img src="./images/bg01.jpg" class="dojoDetailImage"></li>
+                    <li><img src="./images/bg01.png" class="dojoDetailImage"></li>
                     <!-- li要素を追加すれば勝手にスライドしてくれる -->
                 </ul>
             </div>

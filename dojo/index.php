@@ -11,7 +11,7 @@
 								'../image/dojoLogo.png',
 								'../image/kashiwanohalogo.png',
 								'../image/dojoLogo.png',
-								'../image/dojoLogo.png',
+								'./kashiwa-shounan/images/logo.png',
 								'../image/dojoLogo.png',
 								);
 
