@@ -26,6 +26,10 @@ a{
     text-decoration: none;
 }
 
+th{
+    text-align: center !important;
+}
+
 #main{
     width: 90%;
     margin-left: 5%;
@@ -108,7 +112,7 @@ a{
     font-size: 20px;
 }
 
-#about, #eventDetail, #sponsored, #detail{
+#about, #eventDetail, #schedule, #sponsored, #detail{
     width: 100%;
     border-top: 2px solid white;
     margin-top: 50px;

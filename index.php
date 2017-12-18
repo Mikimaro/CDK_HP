@@ -109,11 +109,11 @@
 				</section>
 
 				<section class="inner" id="spd">
-					<a href="events/spd/2017">
+					<a href="event/spd/2017">
 						<div>
 							<p>
 								Special Presentation Day 2017<br>
-								発表者募集中。
+								2017.12.23 (Sat)
 							</p>
 							<img src='image/eventLogos/spd2017.png'>
 						</div>
