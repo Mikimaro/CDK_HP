@@ -2,6 +2,7 @@
 	require_once 'header.php';
 
 	$title = array(
+		"プログラミング教育の導入ポイント",
 		"子どものための無料プログラミング道場「CoderDojo」をはじめてみませんか",
 		"柏市教職員夏季情報活用研修講座　取材レポート",
 		"「自由」というルールを共有し、プログラミングの学習機会を提供する
@@ -12,6 +13,7 @@ CoderDojo Japan",
 	);
 
 	$date = array(
+		"2017.11.20",
 		"2016.10.27",
 		"2016.10.18",
 		"2016.9.30",
@@ -21,6 +23,7 @@ CoderDojo Japan",
 	);
 
 	$description = array(
+		"柏市のプログラミング教育事業についての紹介記事です。CoderDojo Kashiwa の名前も掲載されています。",
 		"ICT教育ニュースにCoderDojo Japan及びCoderDojo Kashiwa, Kodairaが掲載されました。",
 		"ベネッセ教育総合研究所の「まなびのかたち」にて、柏市のプログラミング教育事業に関する取材記事が掲載され、CoderDoj o Kashiwaについてもご紹介頂きました。",
 		"ベネッセ教育総合研究所の「まなびのかたち」にて、CoderDojo JapanとCoderDojo Kashiwaの取り組みが紹介されました。",
@@ -30,6 +33,7 @@ CoderDojo Japan",
 	);
 
 	$links = array(
+		"https://www.kyobun.co.jp/feature1/pf20171120_09/",
 		"http://ict-enews.net/zoomin/17coderdojo/",
 		"http://berd.benesse.jp/special/manabi/manabi_11.php",
 		"http://berd.benesse.jp/special/manabi/manabi_10.php",

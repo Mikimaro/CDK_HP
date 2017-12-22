@@ -150,7 +150,7 @@
 					$Name = array('プライバシーポリシー','スポンサー','代表紹介','連絡先');
 
 
-					$URL = array('./privacy','sponsor.php','founder.php','contact.php');
+					$URL = array('./privacy','sponsor.php','champion.php','contact.php');
 
 					for ($i= 0; $i < count($Name); $i++) { 
 						print("<a href='{$URL[$i]}' class='aux-contents'>$Name[$i]</a>");

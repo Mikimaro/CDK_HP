@@ -109,11 +109,12 @@
 						
 							<?php
 
+
 								$Text = array(
-									"Facebook",
-									"Twitter",
-									"YouTube",
-									"GitHub"
+									"<i class='fa fa-facebook' aria-hidden='true'></i>",
+									"<i class='fa fa-twitter' aria-hidden='true'></i>",
+									"<i class='fa fa-youtube-play' aria-hidden='true'></i>",
+									"<i class='fa fa-github' aria-hidden='true'></i>"
 								);
 
 								$URL = array(
@@ -124,7 +125,7 @@
 								);
 								
 								for ($i= 0; $i < count($Text); $i++) { 
-									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
+									print("<li class='footerSNS'><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
 								}
 
 							?>
@@ -148,7 +149,7 @@
 					$Name = array('プライバシーポリシー','スポンサー','代表紹介','連絡先');
 
 
-					$URL = array('../privacy','../sponsor.php','../founder.php','../contact.php');
+					$URL = array('../privacy','../sponsor.php','../champion.php','../contact.php');
 
 					for ($i= 0; $i < count($Name); $i++) { 
 						print("<a href='{$URL[$i]}' class='aux-contents'>$Name[$i]</a>");

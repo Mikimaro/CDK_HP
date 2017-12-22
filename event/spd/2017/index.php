@@ -87,7 +87,8 @@
             
 
         </div>
-    
+
+        <!--
         <div id="detail">
 
             <p class="title">発表者募集</p>
@@ -119,6 +120,76 @@
 
             
             <a href="https://goo.gl/forms/8z2iFIMYQtsxvRfg1" target="_blank" class="button">発表を申し込む</a>
+
+        </div>
+        -->
+
+        <div id="schedule">
+
+            <p class="title">当日スケジュール</p>
+
+            <div class="table-responsive">
+                <table class="table table-md table-hover text">
+                    <thead>
+                        <tr>
+                            <th scope="col">時間</th>
+                            <th scope="col">内容</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12:30</td>
+                            <td>開場</td>
+                        </tr>
+                        <tr>
+                            <td>13:00</td>
+                            <td><a data-toggle="collapse" data-parent="#accordion" href="#Opening" aria-expanded="true" aria-controls="collapseOne">オープニングセッション ∨</a></td>
+                        </tr>
+                        <tr id="Opening" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <td colspan="2" class="card-block">
+                                CoderDojo Kashiwa のチャンピオンである 宮島衣瑛 からの挨拶。
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>13:20</td>
+                            <td>発表①</td>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td>休憩（10分）</td>
+                        </tr>
+                        <tr>
+                            <td>14:10</td>
+                            <td>発表②</td>
+                        </tr>
+                        <tr>
+                            <td>15:00</td>
+                            <td>休憩（10分）</td>
+                        </tr>
+                        <tr>
+                            <td>15:10</td>
+                            <td>発表③</td>
+                        </tr>
+                        <tr>
+                            <td>16:00</td>
+                            <td>休憩（10分）</td>
+                        </tr>
+                        <tr>
+                            <td>16:10</td>
+                            <td><a data-toggle="collapse" data-parent="#accordion" href="#Closing" aria-expanded="true" aria-controls="collapseOne">クロージングセッション ∨</a></td>
+                        </tr>
+                        <tr id="Closing" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <td colspan="2" class="card-block">
+                                CoderDojo Kashiwa の2017年度の活動報告。
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>17:00</td>
+                            <td>閉場</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
         </div>
 

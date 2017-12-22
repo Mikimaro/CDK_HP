@@ -21,10 +21,10 @@
             <img src="./images/logo.png" class="dojoDetailLogo">
 
             <ul class="dojoDetailUl">
-                <li>名称：CoderDojo Kashiwa-Shounan</li>
+                <li>名称：<a href="https://www.facebook.com/CoderDojo-Kashiwa-Shounan-231578703997335/">CoderDojo Kashiwa-Shounan</a></li>
                 <li>場所：<a href="#dojomap">訪問看護ステーションひまわり</a></li>
                 <li>住所：柏市大井1849-14</li>
-                <li>開催日：不定期開催</li>
+                <li>開催日：毎月第2土曜日 15:30~17:30</li>
                 <li>対象：柏市近辺に住んでいるすべての小学3年生〜中学3年生</li>
                 <li>定員：10名</li>
                 
@@ -54,9 +54,3 @@
     </div>
 
 </div>
-
-
-
-<?php
-    require_once "../footer.php";
-?>
