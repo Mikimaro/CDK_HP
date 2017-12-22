@@ -197,15 +197,12 @@
             <p class="title">ライブ配信</p>
             <p class="mainText">
                 当日はYouTube Liveによるライブ配信を予定しております。遠方の方はこちらからご観覧ください。
-
-                <section class="youtubeLive">
-
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCB2CuGWflVkNSP0FD3E0fEA&autoplay=0" frameborder="0" allowfullscreen></iframe>
-                    </div>
-
-                </section>
             </p>
+            <section class="youtubeLive">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCB2CuGWflVkNSP0FD3E0fEA&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
         </div>
         
         <div id="sponsored">
