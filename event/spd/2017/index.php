@@ -147,7 +147,7 @@
                         </tr>
                         <tr id="Opening" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                             <td colspan="2" class="card-block">
-                                CoderDojo Kashiwa のチャンピオンである 宮島衣瑛 からの挨拶。
+                                CoderDojo Kashiwa のチャンピオンである 宮島衣瑛 からの挨拶
                             </td>
                         </tr>
                         <tr>
@@ -180,7 +180,7 @@
                         </tr>
                         <tr id="Closing" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                             <td colspan="2" class="card-block">
-                                CoderDojo Kashiwa の2017年度の活動報告。
+                                CoderDojo Kashiwa の2017年度の活動報告
                             </td>
                         </tr>
                         <tr>
@@ -196,8 +196,15 @@
         <div id="eventDetail">
             <p class="title">ライブ配信</p>
             <p class="mainText">
-                当日はYouTube Liveによるライブ配信を予定しております。遠方の方はこちらからご観覧ください。<br>
-                ※準備中
+                当日はYouTube Liveによるライブ配信を予定しております。遠方の方はこちらからご観覧ください。
+
+                <section class="youtubeLive">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/live_stream?channel=UCB2CuGWflVkNSP0FD3E0fEA&autoplay=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                </section>
             </p>
         </div>
         
