@@ -113,7 +113,7 @@
 						<div>
 							<p>
 								Special Presentation Day 2017<br>
-								2017.12.23 (Sat)
+								イベントの詳細を公開中。
 							</p>
 							<img src='image/eventLogos/spd2017.png'>
 						</div>
