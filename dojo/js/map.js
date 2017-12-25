@@ -24,7 +24,7 @@ var data = [
     name: '<a href="./kashiwa-shounan">CoderDojo Kashiwa-Shounan</a>',
     lat: 35.845026,
     lng: 140.006910,
-    url: '../image/mapdojoLogo.png',
+    url: './kashiwa-shounan/images/mapLogo.png',
   },{
     name: '<a href="./minamikashiwa">CoderDojo Minami-Kashiwa</a>  ',
     lat: 35.831266,
