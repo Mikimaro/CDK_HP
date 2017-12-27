@@ -7,7 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="style/formStyle.css">
-	<link rel="stylesheet" type="text/css" href="style/modal.css">
+    <link rel="stylesheet" type="text/css" href="style/modal.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico">
