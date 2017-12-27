@@ -457,90 +457,20 @@ table.nextDojoTable th:after {
 	width: 80%;
 }
 
+#mentor a.btn{
+	padding: 1%;
+}
+
+#mentor a.btn-primary{
+	color: white;
+}
+
 .aboutMentor{
 	margin: 0 auto;
 	margin-top: 5%;
 	width: 75%;
 	border-radius: 20px;
 	background-color: #EEEEEE;
-}
-
-#segment{
-	margin: 1% 0;
-	text-align: center;
-}
-
-.choose{
-	margin: 0 1%;
-	display: inline;
-}
-
-#mentorList{
-	width: 80%;
-	margin: 0 auto;
-}
-
-#studentMentor-list{
-
-}
-
-#adultMentor-list{
-	display: none;
-}
-
-.mentorListUL{
-	margin: 0 5%;
-	padding: 0;
-	list-style: none;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-
-}
-
-.mentorListLI{
-	margin: 10px;
-	width: 350px;
-	margin-bottom: 5%;
-	border-radius: 15px;
-	background-color: rgba(230,230,230,0.6);
-	text-align: center;
-
-}
-
-.mentorImg{
-	margin: 1% 0;
-	padding: 0;
-	width: 150px;
-	border-radius: 50%;
-
-}
-
-.mentorProfile{
-	margin: 1% 0;
-}
-
-.name{
-	margin: 0;
-	padding: 0;
-	font-size: 22px;
-	/*background-color: red;*/
-}
-
-.en{
-	margin: 0;
-	padding: 0;
-	font-size: 14px;
-	/*background-color: blue;*/
-}
-
-.skil{
-	margin-right: 5px;
-	padding: 1px 5px;
-	font-size: 12px;
-	background-color: rgba(30,144,255,0.4);
-	border-radius: 5px;
-	display: inline-block;
 }
 
 .Scratch{
@@ -566,40 +496,6 @@ table.nextDojoTable th:after {
 	margin: 0;
 	padding: 0;
 	/*background-color: yellow;*/
-}
-
-
-/*== adopt ==*/
-#adopt{
-	margin: 0 auto;
-	width: 80%;
-	border-radius: 20px;
-	background-color: #EEEEEE;
-
-}
-
-.mentorRequirement{
-	width: 100%;
-	border-radius: 20px;
-	background-color: #EEEEEE;
-}
-
-.mentorContine{
-	background-color: white;
-	text-align: center;
-}
-
-.btn{
-	margin: 5% 0;
-	width: 200px;
-	font-size: 18px;
-	background-color: rgb(30,144,255);
-	border-radius: 5px;
-	border-style: none;
-}
-
-.btn:hover{
-	background-color: rgba(30,144,255,0.8);
 }
 /*== event ==*/
 
@@ -1122,7 +1018,6 @@ table{
 .Kdojo-list{
 	margin: 5% 0;
 	width: 100%;
-	border-radius: 20px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -1130,7 +1025,7 @@ table{
 .Kdojo-list article{
 	margin: 1.5% auto;
 	padding: 0.5% 0;
-	width: 21%;
+	width: 22.5%;
 	border: 3px solid #EEEEEE;
 	border-radius: 15px;
 	text-align: center;

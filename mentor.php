@@ -67,9 +67,12 @@
 					<li>事前研修：有り。適宜実施致します。</li>
 				</ul>
 
+				<br><br>
 
-				<a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" target="_blank" style="color: #fff;"><button class="btn">応募する</button></a>
-				<p>※応募用フォームはGogleフォームにリンクしています。</p>
+				<div class="text-justify">
+					<a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" class="btn btn-primary btn-lg btn-block" role="button">応募する</a>
+					<p>※応募用フォームはGoogleフォームにリンクしています。</p>
+				</div>
 
 				<br>
 				

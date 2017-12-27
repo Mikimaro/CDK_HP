@@ -39,7 +39,7 @@ var markers = [];
 function initMap() {
 
     map = new google.maps.Map(document.getElementById('dojo-map'), {
-        center: {lat: 35.872980, lng: 139.969545} ,
+        center: {lat: 35.868825, lng: 139.973801} ,
         zoom: 13,
         gestureHandling: 'cooperative'
 	  });
