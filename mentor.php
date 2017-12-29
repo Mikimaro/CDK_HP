@@ -54,7 +54,7 @@
 				<p class="text">【Kashiwa-Shounan】</p>
 				<ul>
 					<li>活動日時：毎月第3土曜日 16:00-18:00</li>
-					<li>活動場所：<a href="./dojo/kashiwa-shounan/">訪問看護ステーションひまわり</a></li>
+					<li>活動場所：<a href="http://himawari.chiba.jp/">訪問看護ステーションひまわり</a></li>
 					<li>活動内容：CoderDojo Kashiwaの内容に同様</li>
 					<li>事前研修：有り。適宜実施致します。</li>
 				</ul>
@@ -62,7 +62,7 @@
 				<p class="text">【Minami-Kashiwa】</p>
 				<ul>
 					<li>活動日時：毎月第3土曜日 10:00-12:00</li>
-					<li>活動場所：<a href="./dojo/minami-kashiwa">麗澤大学</a></li>
+					<li>活動場所：<a href="http://www.reitaku-u.ac.jp/">麗澤大学</a></li>
 					<li>活動内容：CoderDojo Kashiwaの内容に同様</li>
 					<li>事前研修：有り。適宜実施致します。</li>
 				</ul>
@@ -70,7 +70,8 @@
 				<br><br>
 
 				<div class="text-justify">
-					<a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" class="btn btn-primary btn-lg btn-block" role="button">応募する</a>
+					<a href="https://docs.google.com/forms/d/1VibGdKO6q8x7rvTS1Q0tA-50U4odzd_4UCfSfAQd5jA/viewform#responses" class="btn btn-lg btn-block" role="button">応募する</a>
+					<br>
 					<p>※応募用フォームはGoogleフォームにリンクしています。</p>
 				</div>
 

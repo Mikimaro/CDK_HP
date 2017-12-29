@@ -26,7 +26,7 @@
 
 					<div class="info">
 
-						<a href="mailto:coderdojo-kashiwa@gmail.com" class="mail">coderdojo-kashiwa (at) gmail.com</a>
+						<a href="mailto:coderdojo.kashiwa@gmail.com" class="mail">coderdojo.kashiwa (at) gmail.com</a>
 
 						<p class="mailAttention">メールアドレスをクリックしていただくか"(at)"の部分を"＠"に変えて送信してください。</p>
 

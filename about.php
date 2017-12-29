@@ -136,7 +136,7 @@
 									学校で体験するのはあくまでも入門です。プログラミングを体験して、さらに深めたいと思った子どもたちをCoderDojo Kashiwaは全力でサポートします。
 								</p>
 
-								<a href="./project/kashiwaprogram">CoderDojo Kashiwa と柏市教育委員会の取り組みについて更に詳しく</a>
+								<a href="./project/kashiwaprogram/">CoderDojo Kashiwa と柏市教育委員会の取り組みについて更に詳しく</a>
 
 								<br>
 								

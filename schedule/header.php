@@ -41,6 +41,6 @@
 			<li><a href="../join.php">参加する</a></li>
 			<li><a href="../rtd.php">RTDとは</a></li>	
 			<li><a href="../mentor.php">メンター</a></li>
-			<li><a href="../events/">イベント</a></li>
+			<li><a href="../event/">イベント</a></li>
 		</ul>
 	</div>

@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="keywords" content="CoderDojo,CoderDojo Kashiwa,こーだーどーじょー,千葉,柏,プログラミング教室,小学生,中学生,プログラミング">
 	<link rel="stylesheet" type="text/css" href="../style/style.css">
-  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="../image/favicon.ico">
 
 	<script src="./script/jquery.flexslider.js"></script>
@@ -36,10 +36,10 @@
 		<ul>
 			<li><a href="../index.php"><img src="../image/dojoLogo.png" class="homeLogo"></a></li>
 			<li><a href="../about.php">ミッション</a></li>
-			<li><a href="../dojo">近くのDojo</a></li>
+			<li><a href="../dojo/">近くのDojo</a></li>
 			<li><a href="../join.php">参加する</a></li>
 			<li><a href="../rtd.php">RTDとは</a></li>	
 			<li><a href="../mentor.php">メンター</a></li>
-			<li><a href="../events/">イベント</a></li>
+			<li><a href="../event/">イベント</a></li>
 		</ul>
 	</div>

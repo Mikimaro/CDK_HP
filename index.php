@@ -36,7 +36,7 @@
 						}else if ($i == 1) {
 							print("
 
-							<a href='event/spd/2017'>
+							<a href='event/spd/2017/'>
 
 								<img src='./image/slides/s2.jpg'>
 
@@ -53,7 +53,7 @@
 						}else if ($i == 3) {
 							print("
 
-							<a href='kashiwanoha'>
+							<a href='kashiwanoha/'>
 							
 								<div class='slideInner'>
 									<img src='./image/text/black/nameKashiwanoha.png'>
@@ -85,7 +85,7 @@
 			<div class="subContents">
 
 				<section class="inner" id="schedule">
-					<a href="schedule">
+					<a href="schedule/">
 						<div>
 							<p>
 								Kashiwa / Kashiwa-no-ha<br>
@@ -97,7 +97,7 @@
 				</section>
 
 				<section class="inner" id="nearDojo">
-					<a href="dojo">
+					<a href="dojo/">
 						<div>
 							<p>
 								お近くのDojo<br>
@@ -109,7 +109,7 @@
 				</section>
 
 				<section class="inner" id="spd">
-					<a href="event/spd/2017">
+					<a href="event/spd/2017/">
 						<div>
 							<p>
 								Special Presentation Day 2017<br>
