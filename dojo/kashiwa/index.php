@@ -1,6 +1,6 @@
 <?php
     $pageTitle = "Kashiwa";
-    require_once "../common/header.php";
+    require_once "header.php";
 ?>
 
 <div id="container">
@@ -59,3 +59,7 @@
     </div>
     
 </div>
+
+<?php
+    require_once "footer.php";
+?>

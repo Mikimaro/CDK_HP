@@ -1,6 +1,6 @@
 <?php
     $pageTitle = "Minami-Kashiwa";
-    require_once "../common/header.php";
+    require_once "../kashiwa/header.php";
 ?>
 
 <div id="container">
@@ -54,3 +54,7 @@
     </div>
 
 </div>
+
+<?php
+    require_once "../kashiwa/footer.php";
+?>
