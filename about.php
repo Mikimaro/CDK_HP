@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				
-				<p class="aboutText">#1から現在に至るまで、CoderDojo Kashiwaは日々成長し続けています。参加人数ははじめこそ4,５人だったものの、現在では毎回多くの子どもたちが参加してくれるようになりました。<br>また、この東葛地域にもDojoは増え続けています。皆CoderDojo Kashiwaから派生していったDojoです。</p>
+				<p class="aboutText">#1から現在に至るまで、CoderDojo Kashiwaは日々成長し続けています。参加人数ははじめこそ4,5人だったものの、現在では毎回多くの子どもたちが参加してくれるようになりました。<br>また、この東葛地域にもDojoは増え続けています。皆CoderDojo Kashiwaから派生していったDojoです。</p>
 
 
 			</div>
