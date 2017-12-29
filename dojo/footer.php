@@ -137,9 +137,8 @@
 
 		<div id="mere" class="clearfix">
 			<div id="copyright">
-				<p>Copyright © 2016-2017 CoderDojo Kashiwa All right reserved.<br>
+				Copyright © 2016-2017 CoderDojo Kashiwa All right reserved.<br>
 				Created by Mikimaro Yonekura & Kirie Miyajima
-				</p>
 			</div>
 
 			<div id="aux">

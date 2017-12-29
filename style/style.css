@@ -1,8 +1,7 @@
-
-
 body{
-	font-family: "Noto Sans Japanese";
+	font-family: 'Noto Sans Japanese';
 	font-weight: 200;
+	line-height: 180% !important;
 	letter-spacing: 0.05em;
 	margin: 0 auto;
 	width: 100%;
@@ -14,7 +13,11 @@ body{
 
 a{
 	color: #1E90FF;
-	text-decoration: none;
+	text-decoration: none !important;
+}
+
+p{
+	text-align: justify;
 }
 
 .black{
@@ -31,6 +34,7 @@ a{
 	height: 50px;
 	background-color: #1E90FF;
 	z-index: 999;
+	line-height:  !important;
 }
 
 #menu ul{
@@ -60,6 +64,7 @@ a{
 
 /*== pタグ周り ==*/
 .title{
+	margin-top: 5%;
 	font-size: 30px;
 	font-weight: 300;
 	line-height: 1.5em;
@@ -216,9 +221,10 @@ a{
 
 
 .inner p{
-	margin: 0;
+	margin: 1.5% 0;
 	margin-top: 5%;
 	font-size: 1.4em;
+	text-align: center;
 }
 
 .inner img{
@@ -452,6 +458,10 @@ table.nextDojoTable th:after {
 	color: white;
 }
 
+#mentor li{
+	font-size: 1.2em;
+}
+
 .aboutMentor{
 	margin: 0 auto;
 	margin-top: 5%;
@@ -585,6 +595,10 @@ table.nextDojoTable th:after {
 	margin: 0 auto;
 	background-color: #1E90FF;
 	color: white;
+}
+
+#footer h1{
+	padding: 2.5% 0;
 }
 
 #footer a{
@@ -1140,9 +1154,11 @@ table{
 }
 
 .missionTitle{
+	margin-bottom: 5%;
 	font-size: 40px;
 	text-align: center;
 	font-weight: 500;
+
 }
 
 .leftContents{
@@ -1262,6 +1278,7 @@ table{
 }
 
 .mentorTitle{
+	margin-bottom: 5%;
 	font-size: 24px;
 	font-weight: bold;
 }

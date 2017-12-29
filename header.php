@@ -4,12 +4,12 @@
 	<meta charset="UTF-8">
     <meta name="description" content="CoderDojo Kashiwaは子どものためのプログラミング道場です。千葉県柏市で4つの道場を開いています。">
 	<meta name="keywords" content="CoderDojo,CoderDojo Kashiwa,こーだーどーじょー,千葉,柏,プログラミング教室,小学生,中学生,プログラミング">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="style/formStyle.css">
     <link rel="stylesheet" type="text/css" href="style/modal.css">
     <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico">
 	<script src="./script/jquery.flexslider.js"></script>
@@ -51,7 +51,7 @@
     <meta property="fb:app_id" content="947779285308203">
     <meta property="article:publisher" content="https://www.facebook.com/CoderDojokashiwa/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@C_D_Kashiwa" />
+    <meta name="twitter:site" content="@CDKashiwa" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108397197-1"></script>
