@@ -32,10 +32,10 @@
 								);
 
 							$URL = array(
-								'./kashiwa',
+								'./kashiwa/',
 								'./kashiwanoha/',
-								'./minamikashiwa',
-								'./kashiwa-shounan',
+								'./minamikashiwa/',
+								'./kashiwa-shounan/',
 								'http://www.code-for-nagareyama.org/?cat=11',
 							);
 

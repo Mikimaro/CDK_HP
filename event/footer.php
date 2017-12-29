@@ -29,13 +29,13 @@
 								);
 
 								$CoderDojoURL = array(
-									"../dojo",
-									"../dojo/kashiwa",
-									"../dojo/kashiwanoha",
-									"../dojo/minamikashiwa",
-									"../dojo/kashiwa-shounan",
-									"http://www.code-for-nagareyama.org/?cat=11",
-									"http://www.coderdojo.jp/"
+									"../dojo/",
+									"../dojo/kashiwa/",
+									"../dojo/kashiwanoha/",
+									"../dojo/minamikashiwa/",
+									"../dojo/kashiwa-shounan/",
+									"http://code-for-nagareyama.org/?cat=11",
+									"https://coderdojo.jp/"
 								);
 
 								for ($i= 0; $i < count($CoderDojoName); $i++) { 
@@ -91,9 +91,9 @@
 
 							<?php
 
-								$Text = array("最新の情報","イベント一覧");
+								$Text = array("イベント一覧");
 
-								$URL = array("http://sd.coderdojo-kashiwa.com/","../events/");
+								$URL = array("../event/");
 								
 								for ($i= 0; $i < count($Text); $i++) { 
 									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -119,7 +119,7 @@
 
 								$URL = array(
 									"https://www.facebook.com/CoderDojokashiwa/",
-									"https://twitter.com/C_D_Kashiwa",
+									"https://twitter.com/CDKashiwa",
 									"https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA",
 									"https://github.com/CoderDojoKashiwa"
 								);
@@ -146,7 +146,7 @@
 			<div id="aux">
 
 				<?php
-					$Name = array('プライバシーポリシー','スポンサー','代表紹介','連絡先');
+					$Name = array('プライバシーポリシー','スポンサー','代表紹介','お問い合わせ');
 
 
 					$URL = array('../privacy','../sponsor.php','../champion.php','../contact.php');

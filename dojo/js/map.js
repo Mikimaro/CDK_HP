@@ -11,7 +11,7 @@ var data = [
     lng: 139.975661,
     url: '../image/mapdojoLogo.png',
   },{
-    name: '<a href="./kashiwanoha">CoderDojo Kashiwa-no-ha</a>',
+    name: '<a href="./kashiwanoha/">CoderDojo Kashiwa-no-ha</a>',
     lat: 35.894852,
     lng: 139.951670,
     url: '../image/mapdojohaLogo.png',
@@ -21,12 +21,12 @@ var data = [
     lng: 139.938837,
     url: '../image/mapdojoLogo.png',
   },{
-    name: '<a href="./kashiwa-shounan">CoderDojo Kashiwa-Shounan</a>',
+    name: '<a href="./kashiwa-shounan/">CoderDojo Kashiwa-Shounan</a>',
     lat: 35.845026,
     lng: 140.006910,
     url: './kashiwa-shounan/images/mapLogo.png',
   },{
-    name: '<a href="./minamikashiwa">CoderDojo Minami-Kashiwa</a>  ',
+    name: '<a href="./minamikashiwa/">CoderDojo Minami-Kashiwa</a>  ',
     lat: 35.831266,
     lng: 139.955996,
     url: '../image/mapdojoLogo.png',

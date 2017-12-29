@@ -60,13 +60,13 @@
 								);
 
 							$URL = array(
-								'spd/2017',
+								'spd/2017/',
 								'http://scratchday-kashiwa.org',
-								'spd/2016',
-								'ScratchDay/2016',
-								'spd/2015',
-								'jc/2015',
-								'spd/2014'
+								'spd/2016/',
+								'ScratchDay/2016/',
+								'spd/2015/',
+								'jc/2015/',
+								'spd/2014/'
 							);
 	require_once 'header.php';
 ?>
@@ -74,7 +74,7 @@
 <div id="container">
 		
 		<div class="pageTitle">
-			<img src="./image/dojoLogo.png" class="headerLogo">
+			<img src="../image/dojoLogo.png" class="headerLogo">
 			<h1 class="headline">Special Events</h1>
 
 			<p class="headline">CoderDojo Kashiwaのイベントを紹介します</p>
