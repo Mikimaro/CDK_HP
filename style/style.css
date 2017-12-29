@@ -250,24 +250,9 @@ a{
 	background-color: #EEEEEE;
 }
 
-.aboutCoderDojo{
+#about a{
+	font-size: 1.2em;
 }
-
-.aboutCoderDojoJapan{
-}
-
-.aboutCDK{
-}
-
-.imageFloatLeft{
-	float: left;
-	padding-right: 10px;
-}
-
-.aboutOnlinedojo{
-
-}
-
 /*== join ==*/
 #join{
 	margin: 0 auto;
