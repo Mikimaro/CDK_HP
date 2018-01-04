@@ -48,8 +48,6 @@
 <div id="container">
 
 	<div class="pageTitle">
-
-		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">CoderDojo Kashiwaに参加する</h1>
 		<p class="headline">あたらしい世界への扉を開きましょう</p>
 

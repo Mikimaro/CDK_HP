@@ -47,7 +47,7 @@
     <meta property="og:description" content="小中学生向けのプログラミング道場、CoderDojo Kashiwaの公式サイトです。">
         
     <!-- SNSicon -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta property="fb:app_id" content="947779285308203">
     <meta property="article:publisher" content="https://www.facebook.com/CoderDojokashiwa/">
     <meta name="twitter:card" content="summary">
