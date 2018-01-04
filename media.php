@@ -47,7 +47,6 @@
 <div id="container">
 
 	<div class="pageTitle">
-		<img src="./image/dojoLogo.png" class="headerLogo">
 		<h1 class="headline">メディア掲載情報</h1>
 		<p class="headline">Dojoに関連した内容でメディアに掲載されたものをご紹介します</p>
 	</div>

@@ -260,6 +260,42 @@ p{
 #about a{
 	font-size: 1.2em;
 }
+
+#dojoInfo{
+	margin-top: 100px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.dojoInfoTitle{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.dojoInfoNum{
+	text-align: center;
+	font-size: 42px;
+}
+
+.dojoInfoIcon{
+	font-size: 80px;
+	text-align: center;
+	color: RGB(62, 145, 247);
+	
+}
+
+.dojoInfoMain{
+	background-color: RGB(238, 238, 238);
+}
+
+.dojoInfoDateLabel{
+	margin-bottom: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
 /*== join ==*/
 #join{
 	margin: 0 auto;
@@ -905,9 +941,8 @@ table{
 
 #media{
 	width: 70%;
-	margin: 5% auto;
+	margin-left: 15%;
 }
-
 
 
 .mContents{
@@ -963,6 +998,7 @@ table{
 	padding: 0;
 	text-align: center;
 }
+
 
 .aboutCDKH iframe{
 	width: 100%;
@@ -1313,10 +1349,6 @@ table{
 	font-size: 18px;
 }
 
-#media{
-	width: 100%;
-}
-
 .mediaLogo{
 	width: 20%;
 	margin-left: 40%;
@@ -1324,6 +1356,12 @@ table{
 }
 
 /* about */
+
+#about{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
 #aboutImageArea{
 	width: 80%;
