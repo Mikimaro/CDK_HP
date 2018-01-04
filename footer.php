@@ -115,14 +115,16 @@
 									"<i class='fa fa-facebook' aria-hidden='true'></i>",
 									"<i class='fa fa-twitter' aria-hidden='true'></i>",
 									"<i class='fa fa-youtube-play' aria-hidden='true'></i>",
-									"<i class='fa fa-github' aria-hidden='true'></i>"
+									"<i class='fa fa-github' aria-hidden='true'></i>",
+									"<i class='fa fa-files-o' aria-hidden='true'></i>"
 								);
 
 								$URL = array(
 									"https://www.facebook.com/CoderDojokashiwa/",
 									"https://twitter.com/CDKashiwa",
 									"https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA",
-									"https://github.com/CoderDojoKashiwa/"
+									"https://github.com/CoderDojoKashiwa",
+									"./docs/"
 								);
 								
 								for ($i= 0; $i < count($Text); $i++) { 

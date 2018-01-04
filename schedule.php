@@ -17,7 +17,14 @@
 		<div id="schedule">
 			<iframe src="https://calendar.google.com/calendar/embed?src=3eru999dtr0rveh9d9bo4p9vmk%40group.calendar.google.com&ctz=Asia/Tokyo" style="border: 0" width="80%" height="600" frameborder="0" scrolling="no" class="calendar"></iframe>
 		</div>
+
+		<div class="row">
+
+			<div class="col-xs-8 col-xs-offset-2">
+				<p>PDFとして一覧をダウンロードされる方は<a href="#">コチラ</a>からダウンロードできます。</p>
+			</div>
 		
+		</div>
 </div>
 
 <?php

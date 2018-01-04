@@ -85,7 +85,7 @@
 			<div class="subContents">
 
 				<section class="inner" id="schedule">
-					<a href="schedule/">
+					<a href="schedule.php">
 						<div>
 							<p>
 								Kashiwa / Kashiwa-no-ha<br>

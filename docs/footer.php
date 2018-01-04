@@ -9,7 +9,6 @@
 					</blockquote>
 				</div>
 			</div>
-			
 			<div class="footerNav">
 
 				<div class="linksLeft">
@@ -35,8 +34,8 @@
 									"../dojo/kashiwanoha/",
 									"../dojo/minamikashiwa/",
 									"../dojo/kashiwa-shounan/",
-									"http://www.code-for-nagareyama.org/?cat=11",
-									"http://coderdojo.jp/"
+									"http://code-for-nagareyama.org/?cat=11",
+									"https://coderdojo.jp/"
 								);
 
 								for ($i= 0; $i < count($CoderDojoName); $i++) { 
@@ -115,14 +114,16 @@
 									"<i class='fa fa-facebook' aria-hidden='true'></i>",
 									"<i class='fa fa-twitter' aria-hidden='true'></i>",
 									"<i class='fa fa-youtube-play' aria-hidden='true'></i>",
-									"<i class='fa fa-github' aria-hidden='true'></i>"
+									"<i class='fa fa-github' aria-hidden='true'></i>",
+									"<i class='fa fa-files-o' aria-hidden='true'></i>"
 								);
 
 								$URL = array(
 									"https://www.facebook.com/CoderDojokashiwa/",
-									"https://twitter.com/C_D_Kashiwa",
+									"https://twitter.com/CDKashiwa",
 									"https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA",
-									"https://github.com/CoderDojoKashiwa/"
+									"https://github.com/CoderDojoKashiwa",
+									"./"
 								);
 								
 								for ($i= 0; $i < count($Text); $i++) { 
@@ -139,18 +140,17 @@
 
 		<div id="mere" class="clearfix">
 			<div id="copyright">
-				<p>Copyright © 2016-2017 CoderDojo Kashiwa All right reserved.<br>
+				Copyright © 2016-2017 CoderDojo Kashiwa All right reserved.<br>
 				Created by Mikimaro Yonekura & Kirie Miyajima
-				</p>
 			</div>
 
 			<div id="aux">
 
 				<?php
-					$Name = array('プライバシーポリシー','スポンサー','代表紹介','連絡先');
+					$Name = array('プライバシーポリシー','スポンサー','代表紹介','お問い合わせ');
 
 
-					$URL = array('../privacy/','../sponsor.php','../champion.php','../contact.php');
+					$URL = array('../privacy','../sponsor.php','../champion.php','../contact.php');
 
 					for ($i= 0; $i < count($Name); $i++) { 
 						print("<a href='{$URL[$i]}' class='aux-contents'>$Name[$i]</a>");

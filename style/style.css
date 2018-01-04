@@ -231,8 +231,9 @@ p{
 	height: 170px;
 }
 
-#schedule{
-	
+#schedule iframe{
+	margin: 0 10%;
+	width: 80%;
 }
 
 #nearDojo{
@@ -1005,6 +1006,25 @@ table{
 	margin-top: 100px;
 
 }
+
+
+/*== docs ==*/
+#docs{
+	margin: 2.5% auto 10%;
+	width: 80%;
+}
+
+#docs .row .col-lg-6{
+	margin: 5% 0;
+}
+
+#docs .row article{
+	padding: 5%;
+	border: 3px solid #EEEEEE;
+	border-radius: 10px;
+	text-align: center;
+}
+
 /* dojo */
 #dojo{
 	margin: 0 auto;
