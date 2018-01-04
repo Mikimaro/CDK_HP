@@ -14,7 +14,7 @@
 				<div class="linksLeft">
 					<div>
 						<ul>
-							<h1>・CoderDojo</h1>
+							<h1>CoderDojo</h1>
 
 							<?php
 
@@ -48,7 +48,7 @@
 					</div>
 					<div>
 						<ul>
-							<h1>・メンター</h1>
+							<h1>メンター</h1>
 
 							<?php
 
@@ -69,13 +69,13 @@
 				<div class="linksRight">
 					<div>
 						<ul>
-							<h1>・ニュース</h1>
+							<h1>お知らせ</h1>
 
 							<?php
 
-								$Text = array("メディア掲載情報","プレスリリース");
+								$Text = array("メディア掲載情報","プレスリリース","ドキュメント");
 
-								$URL = array("../media.php","../pressRelease.php");
+								$URL = array("../media.php","../pressRelease.php","../docs/");
 
 								for ($i= 0; $i < count($Text); $i++) { 
 									print("<li><a href='{$URL[$i]}'>{$Text[$i]}</a></li>");
@@ -87,7 +87,7 @@
 					</div>
 					<div>
 						<ul>
-							<h1>・イベント</h1>
+							<h1>イベント</h1>
 
 							<?php
 
@@ -105,7 +105,7 @@
 					</div>
 					<div>
 						<ul>
-							<h1>・リンク</h1>
+							<h1>リンク</h1>
 						
 							<?php
 
@@ -114,16 +114,14 @@
 									"<i class='fa fa-facebook' aria-hidden='true'></i>",
 									"<i class='fa fa-twitter' aria-hidden='true'></i>",
 									"<i class='fa fa-youtube-play' aria-hidden='true'></i>",
-									"<i class='fa fa-github' aria-hidden='true'></i>",
-									"<i class='fa fa-files-o' aria-hidden='true'></i>"
+									"<i class='fa fa-github' aria-hidden='true'></i>"
 								);
 
 								$URL = array(
 									"https://www.facebook.com/CoderDojokashiwa/",
 									"https://twitter.com/CDKashiwa",
 									"https://www.youtube.com/channel/UCB2CuGWflVkNSP0FD3E0fEA",
-									"https://github.com/CoderDojoKashiwa",
-									"../docs/"
+									"https://github.com/CoderDojoKashiwa"
 								);
 								
 								for ($i= 0; $i < count($Text); $i++) { 

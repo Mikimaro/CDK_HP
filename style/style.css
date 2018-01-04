@@ -443,6 +443,7 @@ table.nextDojoTable th:after {
 .movieTitle{
 	font-size: 1.5em;
 	font-weight: normal;
+	text-align: left;
 }
 /*== mentor ==*/
 
@@ -712,6 +713,10 @@ table.nextDojoTable th:after {
 
 }
 
+#sponsor p{
+	text-align: center;
+}
+
 .sponsor-list{
 	margin: 2% 10%;
 }
@@ -787,6 +792,7 @@ table.nextDojoTable th:after {
 .mailAttention{
 	font-size: 10px;
 	color: red;
+	text-align: center;
 }
 
 /*== sns 
