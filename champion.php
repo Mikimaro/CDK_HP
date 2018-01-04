@@ -43,8 +43,6 @@
 
 			<div class="pageTitle">
 
-				<img src="./image/dojoLogo.png" class="headerLogo">
-
 				<h1 class="headline">CoderDojo Kashiwaの運営について</h1>
 
 				<p class="headline">
