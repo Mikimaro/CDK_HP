@@ -54,27 +54,27 @@
 			<div id="dojoInfo">
 				<p class="missionTitle">数字で見る CoderDojo Kashiwa</p>
 				<br>
-					<div id="container">
+					<div id="container dojoInfoMain">
 						<div class="row">
-							<div class="col-md-3 dojoInfoMain">
+							<div class="col-md-3 col-xs-6">
 								<p class="dojoInfoTitle">述べ参加者数</p>
 								<div class="dojoInfoIcon"><i class="fa fa-child" aria-hidden="true"></i></div>
 								<p class="dojoInfoNum">2800+</p>
 							</div>
 
-							<div class="col-md-3 dojoInfoMain">
+							<div class="col-md-3 col-xs-6">
 								<p class="dojoInfoTitle">開催回数</p>
 								<div class="dojoInfoIcon"><i class="fa fa-hashtag" aria-hidden="true"></i></div>					
 								<p class="dojoInfoNum">#96</p>
 							</div>
 
-							<div class="col-md-3 dojoInfoMain">
+							<div class="col-md-3 col-xs-6">
 								<p class="dojoInfoTitle">メンターの数</p>
 								<div class="dojoInfoIcon"><i class="fa fa-users" aria-hidden="true"></i></div>
 								<p class="dojoInfoNum">30+</p>
 							</div>
 
-							<div class="col-md-3 dojoInfoMain">
+							<div class="col-md-3 col-xs-6">
 								<p class="dojoInfoTitle">市内にあるDojoの数</p>
 								<div class="dojoInfoIcon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
 								<p class="dojoInfoNum">#4</p>
