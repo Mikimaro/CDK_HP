@@ -21,7 +21,7 @@
 		<div class="row">
 
 			<div class="col-xs-8 col-xs-offset-2">
-				<p>PDFとして一覧をダウンロードされる方は<a href="#">コチラ</a>からダウンロードできます。</p>
+				<p>PDFとして一覧をダウンロードされる方は<a href="./docs/">コチラ</a>からダウンロードできます。</p>
 			</div>
 		
 		</div>
