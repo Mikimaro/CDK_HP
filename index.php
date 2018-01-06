@@ -84,7 +84,7 @@
 
 			<div class="subContents">
 
-				<section class="inner" id="schedule">
+				<section class="inner py-2" id="schedule">
 					<a href="schedule.php">
 						<div>
 							<p>
@@ -96,7 +96,7 @@
 					</a>
 				</section>
 
-				<section class="inner" id="nearDojo">
+				<section class="inner py-2" id="nearDojo">
 					<a href="dojo/">
 						<div>
 							<p>
@@ -108,7 +108,7 @@
 					</a>
 				</section>
 
-				<section class="inner" id="spd">
+				<section class="inner py-2" id="spd">
 					<a href="event/spd/2017/">
 						<div>
 							<p>
