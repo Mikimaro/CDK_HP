@@ -266,6 +266,7 @@ p{
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
+	
 }
 
 .dojoInfoTitle{
@@ -275,6 +276,8 @@ p{
 }
 
 .dojoInfoNum{
+	margin: 0;
+	padding: 5% 0;
 	text-align: center;
 	font-size: 42px;
 }
