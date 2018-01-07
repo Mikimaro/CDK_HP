@@ -95,7 +95,7 @@
 
 				<article>
 
-					<img src='{$img[$i]}' class='{$class[$i]}'>
+					<img src='{$img[$i]}' class='{$class[$i]} img-fluid'>
 
 					<section class='latest-eventText'>
 
@@ -128,7 +128,7 @@
 
 					<div>
 
-						<img src='{$img[$i]}' class='{$class[$i]}'>
+						<img src='{$img[$i]}' class='{$class[$i]} img-fluid'>
 
 					</div>
 
