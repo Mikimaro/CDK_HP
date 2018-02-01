@@ -1,14 +1,4 @@
 <?php
-							$class = array(
-								'spd2017',
-								'sdk',
-								'spd2016',
-								'sdk',
-								'spd2015',
-								'jc2015',
-								'spd2014'
-
-								);
 							$img = array(
 								'../image/eventLogos/spd2017.png',
 								'../image/eventLogos/sdk.png',
@@ -116,7 +106,7 @@
 
 			<h2 class="headline">過去のイベント</h2>
 
-			<section class="event-list">
+			<section class="row">
 
 
 			<?php
@@ -124,25 +114,21 @@
 				for ($i=1; $i < count($title); $i++) { 
 						print("
 
-				<article>
+				<div class='card col-md-6'>
+				
+						<img src='{$img[$i]}' class='card-img-top'>
 
-					<div>
+						<section class='card-body'>
 
-						<img src='{$img[$i]}' class='{$class[$i]} img-fluid'>
+							<h2 class='card-title'>{$title[$i]}</h2>
+							<h3 class='card-subtitle mb-2 text-muted'>{$day[$i]}</h3>
+							<h4 class='card-subtitle mb-2 text-muted'>{$site[$i]}</h4>
+							<h5 class='card-text'>{$comments[$i]}</h5>
+							<a href='{$URL[$i]}' class='readMore card-link'>さらに詳しく</a>
 
-					</div>
+						</section>
 
-					<section class='eventText'>
-
-						<h2>{$title[$i]}</h2>
-						<h3>{$day[$i]}</h3>
-						<h4>{$site[$i]}</h4>
-						<h5>{$comments[$i]}</h5>
-						<a href='{$URL[$i]}' class='readMore'>さらに詳しく</a>
-
-					</section>
-
-				</article>
+				</div>
 						");
 					}
 

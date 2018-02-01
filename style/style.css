@@ -564,55 +564,11 @@ table.nextDojoTable th:after {
 	width: 80%;
 }
 
-.event-list{
-	margin: 5% 0;
-	width: 100%;
-	border-radius: 20px;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.event-list article{
-	margin: 1.5% auto;
-	padding: 1.0%;
-	width: 45%;
-	border: 3px solid #EEEEEE;
-	border-radius: 15px;
-	text-align: center;
-}
-
-.spd2016{
-	height: 250px;
-}
-
-.spd2017{
-	height: 250px;
-}
-
-.sdk{
-	margin: 80px 0;
-	height: 90px;
-}
-
-.spd2015{
-	height: 250px; 
-}
-
-.jc2015{
-	
-	height: 250px; 
-
-}
-
-.spd2014{
-	margin: 70px 0;
-	height: 110px; 
-	
-}
 
 /*== footer ==*/
 #footer{
 	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	background-color: #1E90FF;
 	color: white;
@@ -629,18 +585,7 @@ table.nextDojoTable th:after {
 }
 
 #footer-contents{
-	width: 100%;
-}
-
-#footerLinks{
-	margin-left: 12%;
-	padding: 1%;
-	display: flex;
-}
-
-#footerLinks h1{
-	margin: 0;
-	font-size: 1.5em;
+	width: 100%
 }
 
 .fb-page{
@@ -653,56 +598,49 @@ table.nextDojoTable th:after {
 
 
 .footerNav{
-	width: 70%;
-	display: flex;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.footerNav nav{
+	padding-top: 5%;
+}
+
+.footerNav nav div{
+	margin-bottom: 5%;
+}
+
+.footerNav nav div.footerMainContainer{
+}
+
+.footerNav nav div.footerMainContainer h1{
+	padding: 0 !important;
+	font-size: 1.25em;
 }
 
 .footerNav ul{
+	margin: 0;
 	list-style: none;
 
 }
 
 .footerNav li{
-	margin-left: 10%;
+	margin-left: 1%;
+}
+
+.footerNav a{
+	font-size: 1.0em !important;
 }
 
 .footerSNS{
+	padding: 0 2%;
 	font-size: 30px;
 	float: left;
 }
 
-.linksLeft{
-	width: 50%;
-	padding-right: 5%;
-}
-
-.linksLeft div{
-	margin: 5% 0;
-}
-
-.linksLeft div:first-child{
-	margin: 0;
-	margin-bottom: 5%;
-}
-
-.linksRight{
-	width: 50%;
-}
-
-.linksRight div{
-	margin: 5% 0;
-}
-
-.linksRight div:first-child{
-	margin: 0;
-	margin-bottom: 5%;
-}
-
 #mere{
-	margin-top: 1%;
-	margin-right: 1%;
-	height: 110px;
-	text-align: right;
+	margin: 0 auto;
+	padding-bottom: 2.5%;
 }
 
 #copyright{
